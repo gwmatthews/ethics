@@ -1,0 +1,29 @@
+--- 
+title: "Philosophical Ethics: A Guidebook for Beginners"
+author: "George Matthews"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    includes:
+      before_body: hypothesis.html
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: gwmatthews/ethics
+description: "An open textbook"
+---
+
+# Preface {-}
+
+This is a an open source textbook in development.
+
+**License CC BY-SA 4.0 license**
+
+The book is released under a creative commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license - CC BY-SA 4.0.
+
+My remix is based on the work of Matthew J. C. Crump (2018). Open tools for writing open interactive textbooks (and more). https://crumplab.github.io/programmingforpsych/
+
+
+

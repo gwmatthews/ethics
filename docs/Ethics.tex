@@ -1,0 +1,220 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Philosophical Ethics: A Guidebook for Beginners},
+            pdfauthor={George Matthews},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx}
+% grffile has become a legacy package: https://ctan.org/pkg/grffile
+\IfFileExists{grffile.sty}{%
+\usepackage{grffile}
+}{}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Philosophical Ethics: A Guidebook for Beginners}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{George Matthews}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2019-11-20}
+
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
+
+This is a an open source textbook in development.
+
+\textbf{License CC BY-SA 4.0 license}
+
+The book is released under a creative commons \href{https://creativecommons.org/licenses/by-sa/4.0/}{CC BY-SA 4.0} license. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license - CC BY-SA 4.0.
+
+My remix is based on the work of Matthew J. C. Crump (2018). Open tools for writing open interactive textbooks (and more). \url{https://crumplab.github.io/programmingforpsych/}
+
+\hypertarget{introduction}{%
+\chapter{Introduction: what is philosophical ethics?}\label{introduction}}
+
+\hypertarget{a-little-bit-of-logic}{%
+\chapter{A Little bit of logic}\label{a-little-bit-of-logic}}
+
+\hypertarget{arguments}{%
+\section{Arguments}\label{arguments}}
+
+\hypertarget{validity-and-soundness}{%
+\section{Validity and soundness}\label{validity-and-soundness}}
+
+\hypertarget{its-a-matter-of-form}{%
+\section{Its a matter of form}\label{its-a-matter-of-form}}
+
+\hypertarget{fallacies}{%
+\section{Fallacies}\label{fallacies}}
+
+\hypertarget{relativism}{%
+\chapter{Relativism}\label{relativism}}
+
+\hypertarget{the-claims-of-relativismclaims-and-consequences}{%
+\section{The claims of relativismClaims and consequences}\label{the-claims-of-relativismclaims-and-consequences}}
+
+\hypertarget{defending-relativism}{%
+\section{Defending relativism}\label{defending-relativism}}
+
+\hypertarget{moving-on}{%
+\section{Moving on}\label{moving-on}}
+
+\hypertarget{religion-and-ethics}{%
+\chapter{Religion and Ethics}\label{religion-and-ethics}}
+
+\hypertarget{divine-command-theory}{%
+\section{Divine Command Theory}\label{divine-command-theory}}
+
+\hypertarget{a-nasty-dilemma}{%
+\section{A Nasty Dilemma}\label{a-nasty-dilemma}}
+
+\hypertarget{natural-law-theory}{%
+\section{Natural Law Theory}\label{natural-law-theory}}
+
+\hypertarget{human-nature}{%
+\section{Human Nature?}\label{human-nature}}
+
+\hypertarget{egoism}{%
+\chapter{Egoism}\label{egoism}}
+
+\hypertarget{whats-in-it-for-me}{%
+\section{What's in it for me?}\label{whats-in-it-for-me}}
+
+\hypertarget{psychological-egoism}{%
+\section{Psychological Egoism}\label{psychological-egoism}}
+
+\hypertarget{ethical-egoism}{%
+\section{Ethical Egoism}\label{ethical-egoism}}
+
+\hypertarget{capitalism-and-the-common-good}{%
+\section{Capitalism and the common good}\label{capitalism-and-the-common-good}}
+
+\hypertarget{the-social-contract}{%
+\chapter{The Social Contract}\label{the-social-contract}}
+
+\hypertarget{hobbes-and-the-invention-of-society}{%
+\section{Hobbes and the invention of society}\label{hobbes-and-the-invention-of-society}}
+
+\hypertarget{the-prisoners-dilemma}{%
+\section{The Prisoners Dilemma}\label{the-prisoners-dilemma}}
+
+\hypertarget{why-should-we-follow-the-rules}{%
+\section{Why should we follow the rules?}\label{why-should-we-follow-the-rules}}
+
+\hypertarget{utilitarianism}{%
+\chapter{Utilitarianism}\label{utilitarianism}}
+
+\hypertarget{the-highest-good}{%
+\section{The highest good}\label{the-highest-good}}
+
+\hypertarget{why-should-i-care}{%
+\section{Why should I care?}\label{why-should-i-care}}
+
+\hypertarget{problems-problems}{%
+\section{Problems, problems}\label{problems-problems}}
+
+\hypertarget{kant-and-the-ethics-of-duty}{%
+\chapter{Kant and the ethics of duty}\label{kant-and-the-ethics-of-duty}}
+
+\hypertarget{what-do-we-owe-one-another}{%
+\section{What do we owe one another?}\label{what-do-we-owe-one-another}}
+
+\hypertarget{the-categorical-imperative}{%
+\section{The Categorical Imperative}\label{the-categorical-imperative}}
+
+\hypertarget{rights-and-duties}{%
+\section{Rights and duties}\label{rights-and-duties}}
+
+\bibliography{book.bib,packages.bib}
+
+
+\end{document}
