@@ -1,16 +1,15 @@
 # A Little bit of logic
 
-<a class="embedly-card" href="https://www.theguardian.com/us-news/2019/nov/20/trump-impeachment-hearings-gordon-sondland-testimony">Impeachment inquiry: Sondland's bombshell testimony blows holes in Trump's Ukraine defence</a><script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
-## Arguments
+## Arguments, Rationality and Rhetoric
 
 testing
 
-## Validity and soundness
+## Validity and Soundness
 
-## Its a matter of form
+## Proof and Counterexamples
 
-## Fallacies
+
 
 
 
