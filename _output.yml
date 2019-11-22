@@ -1,13 +1,21 @@
 bookdown::gitbook:
-  css: style.css
+  includes:
+      before_body: hypothesis.html
+  css: css/style.css
+  split_by: section
   config:
     toc:
+      collapse: none
       before: |
         <li><a href="./">Ethics</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
-    download: ["pdf", "epub"]
+        <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+    download: [pdf]
+    edit: https://github.com/gwmatthews/ethics/edit/master/%s
+    sharing:
+      github: yes
+      facebook: no
+
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

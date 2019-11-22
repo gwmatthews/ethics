@@ -3,11 +3,7 @@ title: "Philosophical Ethics: A Guidebook for Beginners"
 author: "George Matthews"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: 
-  bookdown::gitbook:
-    includes:
-      before_body: hypothesis.html
-documentclass: book
+documentclass: memoir
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes

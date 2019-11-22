@@ -1,5 +1,9 @@
-book_filename: "Ethics"
+book_filename: Ethics
+repo: https://github.com/gwmatthews/ethics/
 output_dir: "docs"
 language:
+  label:
+    fig: "FIGURE "
+    tab: "TABLE "
   ui:
     chapter_name: "Chapter "
