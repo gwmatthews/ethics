@@ -1,19 +1,44 @@
 --- 
-title: "Philosophical Ethics: A Guidebook for Beginners"
+title: "Philosophical Ethics"
+subtitle: "A Guidebook for Beginners"
 author: "George Matthews"
-date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
-documentclass: memoir
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
-link-citations: yes
-github-repo: gwmatthews/ethics
 description: "An open textbook"
+github-repo: gwmatthews/ethics
+classoption: justified
+site: bookdown::bookdown_site
 ---
 
 # Preface {-}
 
-This is a an open source textbook in development.
+```{r setup, echo=FALSE, include=FALSE, cache=FALSE}
+knitr::opts_chunk$set(
+  cache = TRUE,
+  dev.args = list(bg = "transparent")
+)
+if (knitr:::is_latex_output()) {
+  options(knitr.table.format = 'pandoc')
+  knitr::opts_chunk$set(dpi = 300)
+}
+
+library(tufte)
+library(dplyr)
+library(ggplot2)
+library(ggforce)
+library(png)
+library(grid)
+library(emoGG)
+library(ptree)
+
+theme_set(theme_minimal())
+
+bookred <- rgb(228, 6, 19, maxColorValue = 255)
+bookblue <- rgb(0, 92, 169, maxColorValue = 255)
+bookpurple <- rgb(114, 49, 94, maxColorValue = 255)
+bookgreen <- rgb(26, 179, 22, maxColorValue = 255)
+```
+
+
+`r newthought("This")` is a an open source textbook in development.
 
 **License CC BY-SA 4.0 license**
 

@@ -1,6 +1,11 @@
-# (PART) Some Preliminaries {-}
+# (PART\*) Some Preliminaries {-}
 
 # The Examined Life
+
+```{block, type="epigraph"}
+...the unexamined life is not worth living.\
+---Socrates
+```
 
 We humans are endowed with a unique capacity, the ability to reflect on what we believe and do. Unlike other animals, we are capable of taking a distance from the evidence of our senses and asking ourselves, "Should I trust what I see or not?" Likewise in the realm of desire and action:  we can examine our own desires, intentions and plans and ask ourselves, "Should I act on these or not?" In both cases we are capable of stepping back from the immediate demands of our situation and seeking orientation from another source - we seek *reasons* to believe or doubt what we see and reasons to follow or resist our urges. This is worth dwelling on for a little while since it doesn't seem to me to be too much of an exaggeration to say that much of our knowledge of and power over the natural world as well as many of the dilemmas we face in acting in the world are made possible by the fact of our reflective capacity to respond to reasons.
 

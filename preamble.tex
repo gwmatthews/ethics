@@ -1,8 +1,103 @@
-\usepackage{booktabs}
-\usepackage{amsthm}
+%\usepackage{MinionPro}
+%\usepackage{fontspec}
+%\newfontfamily\DejaSans{DejaVu Sans}
+
+\newcommand{\given}{\mid}
+\renewcommand{\neg}{\mathbin{\sim}}
+\renewcommand{\wedge}{\mathbin{\&}}
+\renewcommand{\u}{U}
+\newcommand{\gt}{>}
+\newcommand{\p}{Pr}
+\newcommand{\E}{E}
+\newcommand{\EU}{EU}
+\newcommand{\pr}{Pr}
+\newcommand{\po}{Pr^*}
+\definecolor{bookred}{RGB}{228,6,19}
+\definecolor{bookblue}{RGB}{0,92,169}
+\definecolor{bookpurple}{RGB}{114,49,94}
+
+\newenvironment{epigraph}%
+{
+\begin{flushright}    
+\begin{minipage}{20em}
+\begin{flushright}
+\itshape
+}%
+{
+\end{flushright}
+\end{minipage}
+\end{flushright}
+}
+\newenvironment{problem}{\begin{quote}\normalsize}{\end{quote}}
+\newenvironment{puzzle}{\begin{quote}\normalsize}{\end{quote}}
+\newenvironment{argument}{\begin{quote}\normalsize}{\end{quote}}
+\usepackage{fontawesome}
+\newenvironment{warning}{\begin{itemize}\item[\faBan]}{\end{itemize}}
+\usepackage{marvosym}
+\newenvironment{info}{\begin{itemize}\item[\Info]}{\end{itemize}}
+
+%%%% Kevin Godny's code for title page and contents from https://groups.google.com/forum/#!topic/tufte-latex/ujdzrktC1BQ
 \makeatletter
-\def\thm@space@setup{%
-  \thm@preskip=8pt plus 2pt minus 4pt
-  \thm@postskip=\thm@preskip
+\renewcommand{\maketitlepage}{%
+\begingroup%
+\setlength{\parindent}{0pt}
+{\fontsize{18}{18}\selectfont\textit{\@author}\par}
+\vspace{1.75in}{\fontsize{36}{14}\selectfont\@title\par}
+\vspace{0.5in}{\fontsize{20}{14}\selectfont Introducing Probability \& Decision with a Visual Emphasis\par}
+\vspace{0.5in}{\fontsize{14}{14}\selectfont\textsf{\smallcaps{v0.1 beta}}\par}
+\vfill{\fontsize{14}{14}\selectfont\textit{An Open Access Publication}\par}
+\thispagestyle{empty}
+\endgroup
 }
 \makeatother
+
+% Change shape from [display] to [block] to keep chapter numbers and titles on the same line
+\titleformat{\chapter}%
+  [block]% shape
+  {\relax\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+  {\itshape\huge\thechapter}% label
+  {3em}% horizontal separation between label and title body
+  {\huge\rmfamily\itshape}% before the title body
+  [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
+
+
+\usepackage{etoolbox}
+% Jesse Rosenthal's code from https://groups.google.com/forum/#!topic/pandoc-discuss/wCF78X6SvwY
+% Avoid new pagraph/indent after lists, quotes, etc.
+\makeatletter
+\newcommand{\gobblepars}{% 
+    \@ifnextchar\par% 
+        {\expandafter\gobblepars\@gobble}% 
+        {}}
+\newcommand{\eatpar}{\@ifnextchar\par{\@gobble}{}}
+\newcommand{\forcepar}{\par}
+\makeatother
+\AfterEndEnvironment{quote}{\expandafter\gobblepars}
+\AfterEndEnvironment{enumerate}{\expandafter\gobblepars}
+\AfterEndEnvironment{itemize}{\expandafter\gobblepars}
+\AfterEndEnvironment{description}{\expandafter\gobblepars}
+\AfterEndEnvironment{example}{\expandafter\gobblepars}
+\AfterEndEnvironment{argument}{\expandafter\gobblepars}
+\AfterEndEnvironment{problem}{\expandafter\gobblepars}
+\AfterEndEnvironment{info}{\expandafter\gobblepars}
+\AfterEndEnvironment{warning}{\expandafter\gobblepars}
+\AfterEndEnvironment{longtable}{\expandafter\gobblepars} % not working, why?
+
+
+% prevent extra space when \newthought follows \section
+% see: https://tex.stackexchange.com/questions/291746/tufte-latex-newthought-after-section
+\makeatletter
+\def\tuftebreak{%
+  \if@nobreak\else
+    \par
+    \ifdim\lastskip<\tufteskipamount
+      \removelastskip \penalty -100
+      \tufteskip
+    \fi
+  \fi
+}
+\makeatother
+
+% indent lists a bit
+\usepackage{enumitem}
+\setlist[1]{leftmargin=24pt}
