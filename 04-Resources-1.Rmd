@@ -1,7 +1,10 @@
-# More
+# More {-}
 
 ## Your Fallacy Is
 
+Here are some more examples of common fallacies.
+
+<iframe src="https://yourlogicalfallacyis.com/" width="95%" height=700px"></iframe>
 
 
 ## Your Bias Is
