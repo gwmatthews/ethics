@@ -38,13 +38,15 @@ bookgreen <- rgb(26, 179, 22, maxColorValue = 255)
 ```
 
 
-`r newthought("This")` is a an open source textbook in development.
+`r newthought("This")` text is my attempt to scratch two itches. The first is wanting a presentation of the major philosophical approaches to ethics that I can actually agree with. Teaching ethics over the years has been a process of active exploration for me as I have come to a more nuanced and richer appreciation of what ethical thinking and theorizing is all about, as well as some ideas about how I think the main strands of argument should play out. Yes this is a partisan effort, but it’s all subject to revision and refinement based on, I hope at least, the better argument. That’s what I am trying to get across here. The second itch I am trying to scratch here has to do with initiatives in open education, and I’d like this text to contribute in its own small way to the much larger and more influential open source movement and philosophy of which I consider it a part. Knowledge is only ours to share. Yes of course writers, developers and publishers do hard work that deserves compensation. But intellectual property is a false idol that deserves to be smashed. So here is my effort to chip away at it — knowledge should free us and and not sink us into both literal and figurative debt.
+
+## Acknowledgements {-}
+
+`r newthought("This")` book would not be possible without the work of numerous people who make and share amazing work in the open source software community. It is based in particular on the work of [Yi Hui](https://github.com/yihui) and the other developers of [bookdown](https://github.com/rstudio/bookdown) and [Rstudio](https://rstudio.com/products/rstudio/), as well as [Jonathan Weisberg](https://github.com/jweisber) whose restyling of the Tufte theme for bookdown books is both stylish and functional. 
 
 **License CC BY-SA 4.0 license**
 
 The book is released under a creative commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license - CC BY-SA 4.0.
-
-My remix is based on the work of Matthew J. C. Crump (2018). Open tools for writing open interactive textbooks (and more). https://crumplab.github.io/programmingforpsych/
 
 
 
