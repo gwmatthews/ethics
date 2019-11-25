@@ -97,6 +97,7 @@
 \end{minipage}
 \end{flushright}
 }
+\newenvironment{example}{\begin{quote}\normalsize}{\end{quote}}
 \newenvironment{problem}{\begin{quote}\normalsize}{\end{quote}}
 \newenvironment{puzzle}{\begin{quote}\normalsize}{\end{quote}}
 \newenvironment{argument}{\begin{quote}\normalsize}{\end{quote}}
@@ -468,7 +469,7 @@ So Socrates fears death.
 \subsection*{Key Concepts}\label{key-concepts}}
 \addcontentsline{toc}{subsection}{Key Concepts}
 
-The information in the premises is enough information, as we can easily see, to establish our conclusion. Since Socrates is human he must be mortal, and he must fear death, since all mortals fear death. This argument seems like a pretty solid piece of reasoning. But how can we tell in general whether an argument is a good argument? It turns out that there are two questions we will need to ask about an argument in order to determine whether or not it is a good argument: \marginnote{VALIDITY: in a valid argument IF the premises are true the conclusion MUST also be true.}
+The information in the premises is enough information, as we can easily see, to establish our conclusion. Since Socrates is human he must be mortal, and he must fear death, since all mortals fear death. This argument seems like a pretty solid piece of reasoning. But how can we tell in general whether an argument is a good argument? It turns out that there are two questions we will need to ask about an argument in order to determine whether or not it is a good argument:
 
 \begin{itemize}
 \item
@@ -477,11 +478,17 @@ The information in the premises is enough information, as we can easily see, to 
   Are the claims that we started from, our premises, really true? In philosophical terminology: \textbf{is it sound}?
 \end{itemize}
 
-\marginnote{SOUNDNESS: A sound argument is a valid argument that also has TRUE premises.}
-
 How do we answer these questions for the example above? It seems that there is a clear and solid connection between what the premises are saying and what the conclusion is saying. In fact we already showed this when showed that the conclusion necessarily follows from the premises. Technically this is a short and informal proof of its strength as an argument, that is, of its validity. So the answer to the first question is, yes, it is valid.
 
 As far as the second question goes, however, we may have our doubts. Are all of the premises really true? Socrates is (or was) a human being -- he was one of the first philosophers. And all human beings are in fact mortal. But do we really know whether all mortals, past, present and future fear death? So here is the one small weakness of the argument. If we could be assured that this premise was true the argument would be completely convincing and would provide adequate backup for the conclusion. But it rests, unfortunately, on a weak premise, so it is not a sound argument.
+
+\begin{marginfigure}
+\textbf{VALIDITY}: in a valid argument IF the premises are true the
+conclusion MUST also be true.\\
+~\\
+\textbf{SOUNDNESS}: A sound argument is a valid argument that also has
+TRUE premises.
+\end{marginfigure}
 
 One thing to notice here is that the test for validity is entirely independent of the test for soundness. It is a little misleading, as we can now see, to ask whether arguments are either good or bad. More precisely, they can be:
 
@@ -548,6 +555,38 @@ This argument seems similar to the previous one, but it has one important differ
 \hypertarget{proof-and-counterexamples}{%
 \section{Proof and Counterexamples}\label{proof-and-counterexamples}}
 
+\begin{marginfigure}
+\includegraphics{img/tenniel-father-william.png} John Tenniel, ``Father
+William''
+\end{marginfigure}
+
+\newthought{Another} way to look at the difference between valid and invalid arguments is in terms of the concept of a counterexample. A counterexample is simply a situation in which the premises of an argument are true and the conclusion is false. Such a situation is used to show that an argument is invalid, since if it were valid it would be \textbf{\emph{impossible}} for the premises to be true and the conclusion false. Consider the following argument:
+
+\begin{argument}
+Fred is older than Wilma but younger than Betty.\\
+Barney is younger than Betty and older than Wilma.\\
+
+So Fred is older than Barney.
+\end{argument}
+
+Even though we have no idea what these peoples' ages are (or even if they exist outside of a 1970's TV cartoon series) we can tell that the conclusion does not have to be true, even if the premises were true. This argument is invalid and we can show this with a counterexample.
+
+\begin{example}
+\begin{longtable}[]{@{}cc@{}}
+\toprule
+person & age\tabularnewline
+\midrule
+\endhead
+Barney & 36\tabularnewline
+Betty & 40\tabularnewline
+Fred & 35\tabularnewline
+Wilma & 32\tabularnewline
+\bottomrule
+\end{longtable}
+\end{example}
+
+Notice that if these people had these ages, this would make all of the premises true and the conclusion false. If Fred is 35, Wilma is 32, Betty is 40 and Barney is 36, then it is true that Fred is older than Wilma, but younger than Betty -- which is what the first premise claims. It is also true that, given these ages, Barney is younger than Betty and older than Wilma -- which is what the second premise claims. But Fred is not older than Barney. In other words, what these ages show that it is possible for the premises to be true and for the conclusion to be false and thus that the reasoning involved in getting to the conclusion is invalid. Even if we had true premises, this would not be enough to guarantee the truth of the conclusion. That is what terrible reasoning is all about.
+
 \hypertarget{find-out-more}{%
 \section*{Find out more}\label{find-out-more}}
 \addcontentsline{toc}{section}{Find out more}
@@ -574,7 +613,7 @@ This argument seems similar to the previous one, but it has one important differ
 \begin{itemize}
 \tightlist
 \item
-  \href{https://yourlogicalfallacyis.com/}{Your Fallacy Is} is a nicely designed website with more examples of common fallacies.
+  \emph{Your Fallacy Is} is a nicely designed website with more examples of common fallacies.
 
   \begin{itemize}
   \tightlist
@@ -582,7 +621,7 @@ This argument seems similar to the previous one, but it has one important differ
     \url{https://yourlogicalfallacyis.com/}
   \end{itemize}
 \item
-  \href{https://yourbias.is/}{Your Bias Is}: is the sister site to Your Fallacy Is and focuses on common cognitive biases.
+  \emph{Your Bias Is}: is the sister site to Your Fallacy Is and focuses on common cognitive biases.
 
   \begin{itemize}
   \tightlist

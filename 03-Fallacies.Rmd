@@ -10,10 +10,10 @@
 
 ## Find out more {-}
 
-- [Your Fallacy Is](https://yourlogicalfallacyis.com/) is a nicely designed website with more examples of common fallacies.
+- *Your Fallacy Is* is a nicely designed website with more examples of common fallacies.
   - https://yourlogicalfallacyis.com/
 
 
-- [Your Bias Is](https://yourbias.is/): is the sister site to Your Fallacy Is and focuses on common cognitive biases. 
+- *Your Bias Is*: is the sister site to Your Fallacy Is and focuses on common cognitive biases. 
    - https://yourbias.is/
    

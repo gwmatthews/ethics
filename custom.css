@@ -17,7 +17,7 @@ h1 > .header-section-number {
    padding-right: 1em;
 }
 
-div.epigraph {
+.epigraph {
   font-style: italic;
   text-align: right;
   width: 75%;
@@ -25,32 +25,32 @@ div.epigraph {
   margin-right: auto;
 }
 
-div.example {
-  border-left: 3px double teal;
-  padding-left: 1rem;
+.example {
+  border: none;
+  padding: 1rem 2rem;
 }
 
-div.problem {
+.problem {
   border-left: 3px double maroon;
   padding-left: 1rem;
 }
 
-div.puzzle {
+.puzzle {
   border-left: 3px double teal;
   padding-left: 1rem;
 }
 
-div.info {
+.info {
   border-left: 3px double teal;
   padding-left: 1rem;
 }
 
-div.warning {
+.warning {
   border-left: 3px double red;
   padding-left: 1rem;
 }
 
-div.argument {
+.argument {
   border-left: 3px solid #d3d3d3;
   padding-left: 1rem;
   margin: 1rem;
@@ -72,6 +72,10 @@ a:nth-last-child(even) > .btn.btn-default:before{
 a:nth-last-child(odd) > .btn.btn-default:after{
   content: " ☞";
   line-height: 60%;
+}
+
+a:hover {
+  background-color: #eee;
 }
 
 .title {
@@ -104,4 +108,8 @@ h3 {
   font-size: 150%;
   font-weight: normal;
   font-style: italic;
+}
+
+a {
+  text-decoration: none;
 }
