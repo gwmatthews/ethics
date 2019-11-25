@@ -97,3 +97,9 @@ div.proof:after {
   font-size: 1.4rem;
   content: "∎";
 }
+
+h3 {
+  font-size: 180%;
+  font-weight: normal;
+  font-style: italic;
+}

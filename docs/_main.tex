@@ -87,7 +87,7 @@
 
 \newenvironment{epigraph}%
 {
-\begin{flushright}    
+\begin{flushright}
 \begin{minipage}{20em}
 \begin{flushright}
 \itshape
@@ -112,9 +112,9 @@
 \setlength{\parindent}{0pt}
 {\fontsize{18}{18}\selectfont\textit{\@author}\par}
 \vspace{1.75in}{\fontsize{36}{14}\selectfont\@title\par}
-\vspace{0.5in}{\fontsize{20}{14}\selectfont Introducing Probability \& Decision with a Visual Emphasis\par}
+\vspace{0.5in}{\fontsize{20}{14}\selectfont A Guidebook for Beginners\par}
 \vspace{0.5in}{\fontsize{14}{14}\selectfont\textsf{\smallcaps{v0.1 beta}}\par}
-\vfill{\fontsize{14}{14}\selectfont\textit{An Open Access Publication}\par}
+\vfill{\fontsize{12}{12}\selectfont\textit{A Creative Commons publication: License CC BY-SA 4.0}\par}
 \thispagestyle{empty}
 \endgroup
 }
@@ -134,9 +134,9 @@
 % Jesse Rosenthal's code from https://groups.google.com/forum/#!topic/pandoc-discuss/wCF78X6SvwY
 % Avoid new pagraph/indent after lists, quotes, etc.
 \makeatletter
-\newcommand{\gobblepars}{% 
-    \@ifnextchar\par% 
-        {\expandafter\gobblepars\@gobble}% 
+\newcommand{\gobblepars}{%
+    \@ifnextchar\par%
+        {\expandafter\gobblepars\@gobble}%
         {}}
 \newcommand{\eatpar}{\@ifnextchar\par{\@gobble}{}}
 \newcommand{\forcepar}{\par}
@@ -188,13 +188,15 @@
 
 \newthought{This} text is my attempt to scratch two itches. The first is wanting a presentation of the major philosophical approaches to ethics that I can actually agree with. Teaching ethics over the years has been a process of active exploration for me as I have come to a more nuanced and richer appreciation of what ethical thinking and theorizing is all about, as well as some ideas about how I think the main strands of argument should play out. Yes this is a partisan effort, but it's all subject to revision and refinement based on, I hope at least, the better argument. That's what I am trying to get across here. The second itch I am trying to scratch here has to do with initiatives in open education, and I'd like this text to contribute in its own small way to the much larger and more influential open source movement and philosophy of which I consider it a part. Knowledge is only ours to share. Yes of course writers, developers and publishers do hard work that deserves compensation. But intellectual property is a false idol that deserves to be smashed. So here is my effort to chip away at it --- knowledge should free us and and not sink us into both literal and figurative debt.
 
+\href{_main.pdf}{Printable pdf edition available here}.
+
 \hypertarget{acknowledgements}{%
 \section*{Acknowledgements}\label{acknowledgements}}
 \addcontentsline{toc}{section}{Acknowledgements}
 
 \newthought{This} book would not be possible without the work of numerous people who make and share amazing work in the open source software community. It is based in particular on the work of \href{https://github.com/yihui}{Yi Hui} and the other developers of \href{https://github.com/rstudio/bookdown}{bookdown} and \href{https://rstudio.com/products/rstudio/}{Rstudio}, as well as \href{https://github.com/jweisber}{Jonathan Weisberg} whose restyling of the Tufte theme for bookdown books is both stylish and functional.
 
-\textbf{License CC BY-SA 4.0 license}
+\textbf{License CC BY-SA 4.0}
 
 The book is released under a creative commons \href{https://creativecommons.org/licenses/by-sa/4.0/}{CC BY-SA 4.0} license. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license - CC BY-SA 4.0.
 
@@ -430,17 +432,33 @@ These indicate the general logic form of argument being followed. Is it a matter
 \hypertarget{cognitive-biases}{%
 \section{Cognitive Biases}\label{cognitive-biases}}
 
-\hypertarget{more}{%
-\chapter*{More}\label{more}}
-\addcontentsline{toc}{chapter}{More}
+\hypertarget{find-out-more}{%
+\section*{Find out more}\label{find-out-more}}
+\addcontentsline{toc}{section}{Find out more}
 
-\hypertarget{your-fallacy-is}{%
-\section{Your Fallacy Is}\label{your-fallacy-is}}
+\begin{itemize}
+\tightlist
+\item
+  \href{https://yourlogicalfallacyis.com/}{Your Fallacy Is} is a nicely designed website with more examples of common fallacies.
 
-Here are some more examples of common fallacies.
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{https://yourlogicalfallacyis.com/}
+  \end{itemize}
+\end{itemize}
 
-\hypertarget{your-bias-is}{%
-\section{Your Bias Is}\label{your-bias-is}}
+\begin{itemize}
+\tightlist
+\item
+  \href{https://yourbias.is/}{Your Bias Is}: is the sister site to Your Fallacy Is and focuses on common cognitive biases.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{https://yourbias.is/}
+  \end{itemize}
+\end{itemize}
 
 \hypertarget{part-thinking-about-ethics}{%
 \part{Thinking About Ethics}\label{part-thinking-about-ethics}}
@@ -487,10 +505,6 @@ Here are some more examples of common fallacies.
 \hypertarget{capitalism-and-the-common-good}{%
 \section{Capitalism and the common good}\label{capitalism-and-the-common-good}}
 
-\hypertarget{even-more}{%
-\chapter*{Even More}\label{even-more}}
-\addcontentsline{toc}{chapter}{Even More}
-
 \hypertarget{the-social-contract}{%
 \chapter{The Social Contract}\label{the-social-contract}}
 
@@ -526,10 +540,6 @@ Here are some more examples of common fallacies.
 
 \hypertarget{rights-and-duties}{%
 \section{Rights and duties}\label{rights-and-duties}}
-
-\hypertarget{and-still-more}{%
-\chapter*{And Still More}\label{and-still-more}}
-\addcontentsline{toc}{chapter}{And Still More}
 
 
 

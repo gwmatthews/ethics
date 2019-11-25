@@ -7,3 +7,16 @@
 ## Fallacies of Presumption
 
 ## Cognitive Biases
+
+## Find out more {-}
+
+- [Your Fallacy Is](https://yourlogicalfallacyis.com/) is a nicely designed website with more examples of common fallacies.
+  - https://yourlogicalfallacyis.com/
+
+<frame src="https://yourlogicalfallacyis.com/" width="75%" height=700px"></iframe>
+
+
+- [Your Bias Is](https://yourbias.is/): is the sister site to Your Fallacy Is and focuses on common cognitive biases. 
+   - https://yourbias.is/
+   
+<iframe src="https://yourbias.is/" width="75%" height=700px"></iframe>
