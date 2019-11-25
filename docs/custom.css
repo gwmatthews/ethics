@@ -51,8 +51,9 @@ div.warning {
 }
 
 div.argument {
-  border-left: 3px double silver;
-  padding-left: 2rem;
+  border-left: 3px solid #d3d3d3;
+  padding-left: 1rem;
+  margin: 1rem;
 }
 
 button {
@@ -99,7 +100,8 @@ div.proof:after {
 }
 
 h3 {
-  font-size: 180%;
+  padding-top: 2rem;
+  font-size: 150%;
   font-weight: normal;
   font-style: italic;
 }
