@@ -77,6 +77,7 @@ Here the grammatical form is a little misleading. This is an argument in spite o
 ```{block, type="argument", echo=TRUE}
 Anyone who kills people, kidnaps other people and steals their valuables is a criminal.\
 Christopher Columbus did all of these things.\
+<hr> 
 So Christopher Columbus was a criminal.
 ```
 
@@ -124,9 +125,25 @@ These indicate the general logic form of argument being followed. Is it a matter
 
 ## Validity and Soundness
 
+`r newthought ("Not all")` arguments are equal. Just because we have an arbitrary set of premises supporting some random conclusion doesn’t mean that we should feel ourselves compelled to buy this conclusion. Instead, as we will see, there are some arguments that really are better than others. Really good arguments are compelling on their own, and we should, as long as we are being rational, have no choice but to accept them. For the skeptics out there who doubt that we will ever be able to create such an argument, I should also point out that the clearest and best arguments really don’t end up saying anything very controversial or extraordinary. This is one of the limitations that logic imposes on us: if we are really being logical and using only reliable arguments we may have to refrain from claiming to be able to establish very much. Understanding the logic of arguments, if nothing else, should encourage us to be a little more modest in our claims to knowledge.
+
+When we are arguing what we are doing is trying to establish the truth of something that we don’t know on the basis of other things that we already know or accept. What we are interested in is establishing the truth of the conclusion, yet for some reason it’s truth is not obviously apparent to us so we need to establish it on the basis of other claims the truth of which we can already accept. Arguments move us from the known to the unknown.
+
+To take a simple example, suppose we would like to establish that Socrates fears death. We don’t have any direct reason for thinking that this is true. But we do know some other things that may be of use in establishing this. First we know that Socrates is a human being. Second we know that all human beings are mortal. Third, we know that all mortals fear death. In standard form this would be arranged like so:
+
+```{block, type="argument", echo=TRUE}
+Socrates is a human being.\
+All human beings are mortal.\
+All mortals fear death.\
+<hr>
+So Socrates fears death.
+```
+
+
+
 ## Proof and Counterexamples
 
 
-
+## Find out more {-}
 
 
