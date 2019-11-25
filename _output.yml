@@ -1,6 +1,6 @@
 bookdown::tufte_html_book:
   toc: yes
-  toc_Bdepth: 2
+  toc_depth: 2
   css:
     - toc.css
     - custom.css
