@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  28 NOV 2019 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  29 NOV 2019 08:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,80 +1162,80 @@ LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
 
 [5] [6
 
-]
+] [7]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 196.
+(hyperref)                be the same. Added a new anchor on input line 200.
 
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 208
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 212
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 208
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 212
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 208
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 212
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 208
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 212
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 208
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 212
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 208.
+(Font)              scaled to size 10.42007pt on input line 212.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 208.
+(Font)              scaled to size 7.91925pt on input line 212.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 208.
+(Font)              scaled to size 6.25204pt on input line 212.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 208.
+(Font)              scaled to size 10.42007pt on input line 212.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 208.
+(Font)              scaled to size 7.91925pt on input line 212.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 208.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[7]
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 216.
+(Font)              scaled to size 6.25204pt on input line 212.
 [8]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 221.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 227.
 [9
 
 ] [10]
 Chapter 1.
 [11
 
-] [12] [13] [14]
+] [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[13] [14]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 276.
-LaTeX Font Info:    Try loading font information for TS1+pplj on input line 283
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 280.
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 287
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [15] [16]
+)
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 287.
+[15] [16]
 Chapter 2.
 <img/tenniel-tweedle-dee-dum.jpg, id=377, 619.31375pt x 481.8pt>
 File: img/tenniel-tweedle-dee-dum.jpg Graphic file (type jpg)
 <use img/tenniel-tweedle-dee-dum.jpg>
 Package pdftex.def Info: img/tenniel-tweedle-dee-dum.jpg  used on input line 32
-5.
+9.
 (pdftex.def)             Requested size: 143.9984pt x 112.02469pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--327
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
 []
  []
 
@@ -1244,26 +1244,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--327
  <./img/tenniel-tweedle-dee-dum.jpg>]
 File: img/tenniel-tweedle-dee-dum.jpg Graphic file (type jpg)
 <use img/tenniel-tweedle-dee-dum.jpg>
-Package pdftex.def Info: img/tenniel-tweedle-dee-dum.jpg  used on input line 34
-6.
+Package pdftex.def Info: img/tenniel-tweedle-dee-dum.jpg  used on input line 35
+0.
 (pdftex.def)             Requested size: 143.9984pt x 112.02469pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--348
+Underfull \hbox (badness 10000) in paragraph at lines 350--352
 []
  []
 
 <img/tenniel-alice-queens.jpg, id=382, 513.92pt x 360.34625pt>
 File: img/tenniel-alice-queens.jpg Graphic file (type jpg)
 <use img/tenniel-alice-queens.jpg>
-Package pdftex.def Info: img/tenniel-alice-queens.jpg  used on input line 372.
+Package pdftex.def Info: img/tenniel-alice-queens.jpg  used on input line 376.
 (pdftex.def)             Requested size: 143.99855pt x 100.96773pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--374
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
 []
  []
 
 [18 <./img/tenniel-alice-queens.jpg>] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 410--413
+Underfull \hbox (badness 10000) in paragraph at lines 414--417
 
  []
 
@@ -1271,51 +1271,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 410--413
 <img/tenniel-alice-humpty.jpg, id=400, 513.92pt x 611.28375pt>
 File: img/tenniel-alice-humpty.jpg Graphic file (type jpg)
 <use img/tenniel-alice-humpty.jpg>
-Package pdftex.def Info: img/tenniel-alice-humpty.jpg  used on input line 485.
+Package pdftex.def Info: img/tenniel-alice-humpty.jpg  used on input line 491.
 (pdftex.def)             Requested size: 143.99855pt x 171.27954pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--487
+Underfull \hbox (badness 10000) in paragraph at lines 491--493
 []
  []
 
 [21 <./img/tenniel-alice-humpty.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 496--499
+Underfull \hbox (badness 10000) in paragraph at lines 502--505
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 521--526
+Underfull \hbox (badness 10000) in paragraph at lines 527--532
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--526
+Underfull \hbox (badness 10000) in paragraph at lines 527--532
 \T1/pplj/b/n/8 SOUNDNESS\T1/pplj/m/n/8 : A sound ar-gu-ment
  []
 
 
-Overfull \hbox (5.0598pt too wide) in paragraph at lines 532--534
+Overfull \hbox (5.0598pt too wide) in paragraph at lines 538--540
 []\T1/pplj/m/it/10 Valid and sound\T1/pplj/m/n/10 : these are the best ar-gu-me
 nts, be-cause the premises
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--549
+Underfull \hbox (badness 10000) in paragraph at lines 552--555
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 560--562
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--571
+Underfull \hbox (badness 10000) in paragraph at lines 566--568
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 582--584
+Underfull \hbox (badness 10000) in paragraph at lines 575--577
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--590
 
  []
 
@@ -1323,57 +1323,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 582--584
 <img/tenniel-father-william.png, id=426, 77.41924pt x 58.5387pt>
 File: img/tenniel-father-william.png Graphic file (type png)
 <use img/tenniel-father-william.png>
-Package pdftex.def Info: img/tenniel-father-william.png  used on input line 594
+Package pdftex.def Info: img/tenniel-father-william.png  used on input line 600
 .
 (pdftex.def)             Requested size: 144.02307pt x 108.89958pt.
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 598.
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 604.
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--603
+Underfull \hbox (badness 10000) in paragraph at lines 607--609
 
  []
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 610.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 616.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 610.
+(Font)              scaled to size 9.37807pt on input line 616.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 610.
+(Font)              scaled to size 7.29405pt on input line 616.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 610.
+(Font)              scaled to size 5.21004pt on input line 616.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 610.
+(Font)              scaled to size 9.37807pt on input line 616.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 610.
+(Font)              scaled to size 7.29405pt on input line 616.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 610.
+(Font)              scaled to size 5.21004pt on input line 616.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 610.
+(Font)              scaled to size 8.33606pt on input line 616.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 610.
-
-LaTeX Warning: Marginpar on page 26 moved.
-
+(Font)              scaled to size 8.33606pt on input line 616.
 [26 <./img/tenniel-father-william.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 618--620
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--626
 
  []
 
 [27] [28]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 673.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 679.
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 673.
+(Font)              scaled to size 8.50006pt on input line 679.
 [29
 
 ] [30
 
 ]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 686.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 692.
 [31] [32]
 Chapter 4.
 [33
@@ -1403,37 +1404,36 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 772.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 778.
 [43]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 772.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 778.
 (./_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 772.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 772.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 778.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 778.
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 2F68FE10CDA3E6DCD8843B4F0433D276;7421.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 772.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 778.
  ) 
 Here is how much of TeX's memory you used:
- 16615 strings out of 492982
- 228877 string characters out of 6134895
- 329472 words of memory out of 5000000
- 19647 multiletter control sequences out of 15000+600000
+ 16617 strings out of 492982
+ 228919 string characters out of 6134895
+ 329495 words of memory out of 5000000
+ 19648 multiletter control sequences out of 15000+600000
  122709 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,12n,58p,1944b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,58p,1944b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/f
-vmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/palatino/uplri8a.pfb>
-Output written on _main.pdf (43 pages, 575480 bytes).
+e/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
+uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on _main.pdf (43 pages, 575271 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
+ 609 PDF objects out of 1000 (max. 8388607)
  499 compressed objects within 5 object streams
- 144 named destinations out of 1000 (max. 500000)
+ 145 named destinations out of 1000 (max. 500000)
  2445 words of extra memory for PDF output out of 10000 (max. 10000000)
 
