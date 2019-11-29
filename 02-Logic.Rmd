@@ -1,17 +1,16 @@
 # A Little bit of logic
 
-```{block, type="epigraph"}
-‘Contrariwise,’ continued Tweedledee, ‘if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.’\
----Lewis Carroll, Through the Looking Glass
-```
-
-
 ```{marginfigure}
 ![](img/tenniel-tweedle-dee-dum.jpg)
 John Tenniel, "Alice meets Tweedle Dee and Tweedle Dum"
 ```
 
-`r newthought("Logic")` is the formal study of one aspect of our use of language – the attempt to justify or provide evidence for claims or beliefs as expressed in arguments. In this chapter we will look at the basic concepts and techniques for the logical analysis of arguments. As we will be seeing these will be very useful in our discussions of ethics since much of what we will be doing will involve careful consideration of the justification of claims we make about ethics in general as well as particular topics in ethics.
+```{block, type="epigraph"}
+‘Contrariwise,’ continued Tweedledee, ‘if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.’\
+---Lewis Carroll, Through the Looking Glass[@carrollLookingGlass1999]
+```
+
+`r newthought("Logic")` is the formal study of reasoning – the attempt to justify or provide evidence for claims or beliefs. In this chapter we will look at the basic concepts and techniques for the logical analysis of arguments. As we will be seeing this will be useful in our discussions of ethics since much of what we will be doing will involve careful consideration of the justification of claims we make about ethics in general as well as particular topics in ethics.
 
 Before we get started though we need to clarify some terminology – especially our use of the word "argument." Too often this word conjures up a pointless verbal fight between people with opposed views. They argue rather than discuss because their differences of opinion are fixed in place and neither will budge. It is typically a good idea to stay away from arguments in this sense. The word argument as we are using it here, however, has quite a different meaning. For us arguments do not require differences of opinion because arguments are just attempts to explicitly provide back-up or justification for some claim that we might make. We offer arguments in this sense whenever we make the grounds for our belief explicit whether we are doing this within the confines of our own heads, in written form or spoken out loud whether or not anyone disagrees with us. Of course oftentimes arguments in this sense of the term might be given by people claiming to justify different views about some topic or other. But as we will be seeing arguments are best looked at one at a time and not necessarily in comparison with other arguments.
 
@@ -26,7 +25,7 @@ John Tenniel, "The Mad Hatter"
 
 `r newthought ("Arguments")` are attempts to persuade other people that they should accept the claims that we are making. Because argumentation is a method of persuasion it may seem at first glance to be similar to rhetoric, also known as “the art of persuasion.” People who study and practice rhetoric often claim that rational argument is just one among many different methods of persuasion, appropriate at specific times, but not fundamentally different than other methods. That is, they claim that argument is a form of rhetoric. Philosophers, on the other hand, would like to insist on the basic difference between the two. Philosophers call attention to the fact that in rhetoric:
 
-- Appeal is made to our emotions, prejudices, fears, hopes, etc. That is, who we are and what we feel about things matters. This is its strength (advertisers use such appeals all the time) and its weakness (you will have a hard time persuading someone with lung cancer to take up smoking, because they have concerns that cigarette advertisers assume that we don’t have when they try to sell us cigarettes).
+- Appeal is made to our emotions, prejudices, fears, hopes, etc. That is, who we are and what we feel about things matters. This is both its strength and its weakness. 
 
 - Because of this, the persuasion that rhetoric produces doesn’t last, once our feelings change, we are no longer convinced, and our feelings are constantly changing.
 
@@ -34,7 +33,7 @@ In rational argument, on the other hand:
 
 - Appeal is made not to our emotions but to our ability to reason.
 
-- Since everyone is equally capable of reasoning, this means that arguments do not appeal to us personally. It doesn’t matter who you are, a good argument will convince you.
+- Since everyone is equally capable of reasoning, this means that arguments do not appeal to us personally. It doesn’t matter who you are, a good argument should convince you.
 
 ## The Structure of Arguments
 
@@ -43,9 +42,7 @@ In rational argument, on the other hand:
 John Tenniel, "Alice and the Red and White Queens"
 ```
 
-`r newthought ("To see")` all of this more clearly, we need to take a look at how arguments work. But first we should define what we mean by an argument. An argument is a series of statements including at least one premise and a conclusion. The premises are where we start, the conclusion is where we end up. In a good argument the premises must lead us necessarily to the conclusion. More on this shortly.
-
-Arguments are sets of statements: this means that when we are concerned with arguments we are not paying attention to many other uses of language, such as asking questions, making commands, expressing feelings. When we are offering an argument we are simply making a series of claims in which some are supposed to provide support for others. The statements that are doing the supporting, which contain the information that is the basis of our argument are known as premises. The statement that is being supported, the point of our argument is called the conclusion.
+`r newthought ("To see")` all of this more clearly, we need to take a look at how arguments work. But first we should define what we mean by an argument. An argument is a simply series of statements including at least one premise and a conclusion. Since arguments are sets of statements: this means that when we are concerned with arguments we are not paying attention to many other uses of language, such as asking questions, making commands, expressing feelings. When we are offering an argument we are making a series of claims in which some are supposed to provide support for others. The statements that are doing the supporting, which contain the information that is the basis of our argument are known as premises. The statement that is being supported, the point of our argument is called the conclusion.
 
 It is sometimes difficult to tell whether a set of sentences is an argument or not. Let us consider a few examples:
 

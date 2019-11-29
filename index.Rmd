@@ -6,6 +6,8 @@ description: "An open textbook"
 github-repo: gwmatthews/ethics
 classoption: justified
 site: bookdown::bookdown_site
+bibliography: ethics.bib
+citation-style: modern-language-association.csl
 ---
 
 # Preface {-}
@@ -38,13 +40,22 @@ bookgreen <- rgb(26, 179, 22, maxColorValue = 255)
 ```
 
 
-`r newthought("This")` text is my attempt to scratch two itches. The first is wanting a presentation of the major philosophical approaches to ethics that I can actually agree with. Teaching ethics over the years has been a process of active exploration for me as I have come to a more nuanced and richer appreciation of what ethical thinking and theorizing is all about, as well as some ideas about how I think the main strands of argument should play out. Yes this is a partisan effort, but it’s all subject to revision and refinement based on, I hope at least, the better argument. That’s what I am trying to get across here. The second itch I am trying to scratch here has to do with initiatives in open education, and I’d like this text to contribute in its own small way to the much larger and more influential open source movement and philosophy of which I consider it a part. Knowledge is only ours to share. Yes of course writers, developers and publishers do hard work that deserves compensation. But intellectual property is a false idol that deserves to be smashed. So here is my effort to chip away at it — knowledge should free us and and not sink us into both literal and figurative debt.
+`r newthought("This")` book is an introduction to philosophical ethics. It grew out of lecture notes as a supplement to other readings I used in online classes I have taught at the Pennsylvania College of Technology for almost 20 years. This version of the text is my attempt to scratch two itches. The first is my wanting a presentation of the major philosophical approaches to ethics that I can actually agree with. Teaching ethics over the years has been a process of active exploration and constant revision of my approach as I have come to a more nuanced and richer appreciation of what ethical thinking and theorizing is all about, as well as some ideas about how I think the main strands of argument should play out. Yes this is a partisan effort, but it’s all subject to revision and refinement based on, I hope at least, the better argument. That’s what I am trying to get across here. The second itch I am trying to scratch here has to do with initiatives in open education, and I’d like this text to contribute in its own small way to the much larger and more influential open source movement and philosophy of which I consider it a part. Knowledge is only ours to share. Yes of course writers, developers and publishers do hard work that deserves compensation. But intellectual property, it seems to me, is a false idol that deserves to be smashed. So here is my effort to chip away at it — knowledge should free us and and not sink us into both literal and figurative debt.
 
 [Printable pdf edition available here](https://github.com/gwmatthews/ethics/raw/master/docs/_main.pdf).
 
+## Dedication {-}
+
+```{block, type="epigraph"}
+Receive correctly this monk’s word-stream, neither frozen nor trickling away, neither transparent nor muddy. When you wring it dry, take advantage of the opportunity; when you enter the bustle, perceive with your whole eye. Thorough understanding and the changing world fulfill each other totally without obstacle. The moon accompanies the current, the wind bends the grass. . . . Find your seat, wear your robe, and go forward and see for yourself.\
+\
+---Hongzhi, *Cultivating the Empty Field* \
+```
+
+
 ## Acknowledgements {-}
 
-`r newthought("This")` book would not be possible without the work of numerous people who make and share amazing work in the open source software community. It is based in particular on the work of [Yi Hui](https://github.com/yihui) and the other developers of [bookdown](https://github.com/rstudio/bookdown) and [Rstudio](https://rstudio.com/products/rstudio/), as well as [Jonathan Weisberg](https://github.com/jweisber) whose restyling of the Tufte theme for bookdown books is both stylish and functional. 
+`r newthought("This")` book would not be possible without the work of numerous people who make and share their amazing work in the open source software community. It is based in particular on the work of [Yi Hui](https://github.com/yihui) and the other developers of [bookdown](https://github.com/rstudio/bookdown) and [Rstudio](https://rstudio.com/products/rstudio/), as well as [Jonathan Weisberg](https://github.com/jweisber) whose restyling of the Tufte theme for bookdown books is both stylish and functional. 
 
 **License CC BY-SA 4.0**
 

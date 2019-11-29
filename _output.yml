@@ -4,10 +4,15 @@ bookdown::tufte_html_book:
   css:
     - toc.css
     - custom.css
-  split_by: section
   includes:
     in_header: header.html
     before_body: preamble.html
+  split_by: section
+  split_bib: true
+  number_sections: true
+  pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
+
+
 bookdown::pdf_book:
   base_format: tufte::tufte_book
   fig_width: 7
@@ -16,5 +21,6 @@ bookdown::pdf_book:
   keep_tex: yes
   includes:
     in_header: preamble.tex
-# latex_engine: xelatex
-# compile from the command line with: Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::pdf_book')"
+    latex_engine: xelatex
+    citation_package: none
+    pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
