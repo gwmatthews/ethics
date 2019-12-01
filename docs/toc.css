@@ -1,7 +1,7 @@
 @-webkit-keyframes fadeIn {
   from { opacity: 0; }
     to { opacity: 1; }
-}  
+}
 @keyframes fadeIn {
   from { opacity: 0; }
     to { opacity: 1; }
@@ -19,7 +19,7 @@
   display: inline-block;
   padding-left: 10px;
   width: calc(20rem - 10px);
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
   border-bottom: 2px double #fefefe;
 }
 
@@ -28,7 +28,7 @@
 }
 
 #TOC:hover:before {
-  background: #2c2c2c;
+  background: #2c2c2c;  /* background of contents */
   border-bottom: 2px double #4f4f4f;
   -webkit-animation: fadeIn .5s;
   animation: fadeIn .5s;
@@ -79,7 +79,7 @@
 }
 
 #TOC a, .part, .appendix {
-  background: #2c2c2c; /*linear-gradient(to bottom, #2c2c2c 0%, #141414 100%);*/
+  background: #2c2c2c; /* main background   linear-gradient(to bottom, #2c2c2c 0%, #141414 100%);*/
   color: #ffffff;
   display: block;
   padding: 10px;
@@ -88,18 +88,18 @@
 }
 
 #TOC .part, .appendix {
-  background: #0fa1e0;
+  background: #777;  /* part */
   text-align: center;
   font-size: 1.2rem;
 }
 
 #TOC > ul > li > a:hover{
-  background: #1e1e1e;
+  background: #555;  /* hover chapter */
 }
 
 #TOC .has-sub ul li a {
-  background: #0fa1e0;
-  border-bottom: 1px dotted #31b7f1;
+  background: #333;  /* non hover section */
+  border-bottom: 1px solid #ccc;
   filter: none;
   display: block;
   line-height: 120%;
@@ -108,15 +108,15 @@
 }
 
 #TOC .has-sub ul li:first-child a {
-  border-radius: 0 5px 0 0;
+  border-radius: 0 10px 0 0;
 }
 
 #TOC .has-sub ul li:last-child a {
-  border-radius: 0 0 5px 0;
+  border-radius: 0 0 10px 0;
 }
 
 #TOC .has-sub ul li:hover a {
-  background: #0c7fb0;
+  background: #555;  /*  hover section */
 }
 
 #TOC ul ul li:hover > a {

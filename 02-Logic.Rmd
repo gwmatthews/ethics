@@ -19,7 +19,7 @@ John Tenniel, "Alice meets Tweedle Dee and Tweedle Dum"
 ## Arguments, Rationality and Rhetoric
 
 ```{marginfigure}
-![](img/tenniel-tweedle-dee-dum.jpg)
+![](img/tenniel-hatter.png)
 John Tenniel, "The Mad Hatter"
 ```
 
@@ -259,5 +259,6 @@ Even though we have no idea what these peoples' ages are (or even if they exist 
 Notice that if these people had these ages, this would make all of the premises true and the conclusion false. If Fred is 35, Wilma is 32, Betty is 40 and Barney is 36, then it is true that Fred is older than Wilma, but younger than Betty – which is what the first premise claims. It is also true that, given these ages, Barney is younger than Betty and older than Wilma – which is what the second premise claims. But Fred is not older than Barney. In other words, what these ages show that it is possible for the premises to be true and for the conclusion to be false and thus that the reasoning involved in getting to the conclusion is invalid. Even if we had true premises, this would not be enough to guarantee the truth of the conclusion. That is what terrible reasoning is all about.
 
 ## Exercises and further reading {-}
+
 
 

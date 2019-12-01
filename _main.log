@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  29 NOV 2019 08:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  1 DEC 2019 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1242,17 +1242,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 329--331
 [17
 
  <./img/tenniel-tweedle-dee-dum.jpg>]
-File: img/tenniel-tweedle-dee-dum.jpg Graphic file (type jpg)
-<use img/tenniel-tweedle-dee-dum.jpg>
-Package pdftex.def Info: img/tenniel-tweedle-dee-dum.jpg  used on input line 35
-0.
-(pdftex.def)             Requested size: 143.9984pt x 112.02469pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--352
-[]
- []
-
-<img/tenniel-alice-queens.jpg, id=382, 513.92pt x 360.34625pt>
+<img/tenniel-hatter.png, id=382, 42.6393pt x 48.69191pt>
+File: img/tenniel-hatter.png Graphic file (type png)
+<use img/tenniel-hatter.png>
+Package pdftex.def Info: img/tenniel-hatter.png  used on input line 350.
+(pdftex.def)             Requested size: 144.04774pt x 164.49521pt.
+<img/tenniel-alice-queens.jpg, id=383, 513.92pt x 360.34625pt>
 File: img/tenniel-alice-queens.jpg Graphic file (type jpg)
 <use img/tenniel-alice-queens.jpg>
 Package pdftex.def Info: img/tenniel-alice-queens.jpg  used on input line 376.
@@ -1262,13 +1257,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 376--378
 []
  []
 
-[18 <./img/tenniel-alice-queens.jpg>] [19]
+[18 <./img/tenniel-hatter.png> <./img/tenniel-alice-queens.jpg>] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 414--417
 
  []
 
 [20]
-<img/tenniel-alice-humpty.jpg, id=400, 513.92pt x 611.28375pt>
+<img/tenniel-alice-humpty.jpg, id=402, 513.92pt x 611.28375pt>
 File: img/tenniel-alice-humpty.jpg Graphic file (type jpg)
 <use img/tenniel-alice-humpty.jpg>
 Package pdftex.def Info: img/tenniel-alice-humpty.jpg  used on input line 491.
@@ -1320,7 +1315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 588--590
  []
 
 [25]
-<img/tenniel-father-william.png, id=426, 77.41924pt x 58.5387pt>
+<img/tenniel-father-william.png, id=428, 77.41924pt x 58.5387pt>
 File: img/tenniel-father-william.png Graphic file (type png)
 <use img/tenniel-father-william.png>
 Package pdftex.def Info: img/tenniel-father-william.png  used on input line 600
@@ -1362,40 +1357,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 624--626
 
 [27] [28]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 679.
+[29
+
+] [30] [31] [32] [33] [34] [35] [36] [37] [38]
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 960.
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 679.
-[29
-
-] [30
-
-]
+(Font)              scaled to size 8.50006pt on input line 960.
+[39] [40]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 692.
-[31] [32]
-Chapter 4.
-[33
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 973.
+[41
 
-] [34
+] [42]
+Chapter 4.
+[43
+
+] [44
 
 ]
 Chapter 5.
-[35] [36
+[45] [46
 
 ]
 Chapter 6.
-[37] [38
+[47] [48
 
 ]
 Chapter 7.
-[39] [40
+[49] [50
 
 ]
 Chapter 8.
-[41] [42
+[51] [52
 
 ]
 Chapter 9.
@@ -1404,21 +1400,22 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 778.
-[43]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 778.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1059.
+[53]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1059.
 (./_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 778.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 778.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1059.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1059.
+
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 2F68FE10CDA3E6DCD8843B4F0433D276;7421.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 778.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1059.
  ) 
 Here is how much of TeX's memory you used:
- 16617 strings out of 492982
- 228919 string characters out of 6134895
- 329495 words of memory out of 5000000
- 19648 multiletter control sequences out of 15000+600000
+ 16670 strings out of 492982
+ 229822 string characters out of 6134895
+ 330027 words of memory out of 5000000
+ 19671 multiletter control sequences out of 15000+600000
  122709 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,58p,1944b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1430,10 +1427,10 @@ uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on _main.pdf (43 pages, 575271 bytes).
+Output written on _main.pdf (53 pages, 647882 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
- 499 compressed objects within 5 object streams
- 145 named destinations out of 1000 (max. 500000)
- 2445 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 676 PDF objects out of 1000 (max. 8388607)
+ 553 compressed objects within 6 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 2450 words of extra memory for PDF output out of 10000 (max. 10000000)
 

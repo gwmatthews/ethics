@@ -113,3 +113,8 @@ h3 {
 a {
   text-decoration: none;
 }
+
+hr {
+  text-align: left;
+  width: 30%;
+}
