@@ -1,4 +1,4 @@
-# A Little bit of logic
+# A Little Bit of Logic
 
 ```{marginfigure}
 ![](img/tenniel-tweedle-dee-dum.jpg)
@@ -6,7 +6,7 @@ John Tenniel, "Alice meets Tweedle Dee and Tweedle Dum"
 ```
 
 ```{block, type="epigraph"}
-‘Contrariwise,’ continued Tweedledee, ‘if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.’\
+'Contrariwise,' continued Tweedledee, 'if it was so, it might be; and if it were so, it would be; but as it isn't, it ain't. That's logic.'\
 ---Lewis Carroll, Through the Looking Glass[@carrollLookingGlass1999]
 ```
 
@@ -23,17 +23,17 @@ John Tenniel, "Alice meets Tweedle Dee and Tweedle Dum"
 John Tenniel, "The Mad Hatter"
 ```
 
-`r newthought ("Arguments")` are attempts to persuade other people that they should accept the claims that we are making. Because argumentation is a method of persuasion it may seem at first glance to be similar to rhetoric, also known as “the art of persuasion.” People who study and practice rhetoric often claim that rational argument is just one among many different methods of persuasion, appropriate at specific times, but not fundamentally different than other methods. That is, they claim that argument is a form of rhetoric. Philosophers, on the other hand, would like to insist on the basic difference between the two. Philosophers call attention to the fact that in rhetoric:
+`r newthought ("Arguments")` are attempts to persuade other people that they should accept the claims that we are making. Because argumentation is a method of persuasion it may seem at first glance to be similar to rhetoric, also known as "the art of persuasion.” People who study and practice rhetoric often claim that rational argument is just one among many different methods of persuasion, appropriate at specific times, but not fundamentally different than other methods. That is, they claim that argument is a form of rhetoric. Philosophers, on the other hand, would like to insist on the basic difference between the two. Philosophers call attention to the fact that in rhetoric:
 
 - Appeal is made to our emotions, prejudices, fears, hopes, etc. That is, who we are and what we feel about things matters. This is both its strength and its weakness. 
 
-- Because of this, the persuasion that rhetoric produces doesn’t last, once our feelings change, we are no longer convinced, and our feelings are constantly changing.
+- Because of this, the persuasion that rhetoric produces doesn't last, once our feelings change, we are no longer convinced, and our feelings are constantly changing.
 
 In rational argument, on the other hand:
 
 - Appeal is made not to our emotions but to our ability to reason.
 
-- Since everyone is equally capable of reasoning, this means that arguments do not appeal to us personally. It doesn’t matter who you are, a good argument should convince you.
+- Since everyone is equally capable of reasoning, this means that arguments do not appeal to us personally. It doesn't matter who you are, a good argument should convince you.
 
 ## The Structure of Arguments
 
@@ -80,10 +80,10 @@ So Christopher Columbus was a criminal.
 
 Perhaps this is not yet a very convincing argument, but at least it is an argument unlike the first examples.
 
-`r newthought("It is not")` always so clear which statements in an argument are the premises and which statement is the conclusion. Often, but not always, these are signaled with one of a number of typical words or phrases that function as premise or conclusion indicators. Paying attention to these typical words and phrases can help you to disentangle the argument from the peculiarities of a writer’s style.
+`r newthought("It is not")` always so clear which statements in an argument are the premises and which statement is the conclusion. Often, but not always, these are signaled with one of a number of typical words or phrases that function as premise or conclusion indicators. Paying attention to these typical words and phrases can help you to disentangle the argument from the peculiarities of a writer's style.
 
 
-### premises {-}
+### Premises {-}
 
 `r newthought("To help")` guide us through an argument a writer or speaker who is presenting an argument might use the following expressions and phrases to show what the argument rests on.
 
@@ -94,7 +94,7 @@ Perhaps this is not yet a very convincing argument, but at least it is an argume
 
 This is not an exhaustive list. Basically, when reading an argument you can pick out the premises by asking yourself where the writer is starting from and where he or she is going. The first is the set of premises and the second is the conclusion.
 
-### conclusions {-}
+### Conclusions {-}
 
 `r newthought("It is often")` the case that arguments are presented with the conclusion first to emphasize to the audience where things are leading. The following common words are often used to indicate what is playing the logical role of conclusion.
 
@@ -105,7 +105,7 @@ This is not an exhaustive list. Basically, when reading an argument you can pick
 
 These words and phrases indicate that this is where the writer (or speaker) is going with the argument. Notice that in many actual arguments the conclusion is given first, as when a lawyer begins her argument in court with the claim, "Your honor, ladies and gentlemen of the jury, my client is not guilty," and then goes on to present the evidence. For the sake of analyzing an argument philosophers like to clarify its logical structure by writing it in standard form.
 
-### pattern of reasoning {-}
+### Pattern of reasoning {-}
 
 `r newthought("One other thing")` to watch for when looking at arguments is words and phrases that indicate the structure of the reasoning itself. These are ways of pointing out exactly how the premises are supposed to support the conclusion, indicators of the pattern or form of reasoning involved.
 
@@ -113,7 +113,7 @@ These words and phrases indicate that this is where the writer (or speaker) is g
 - if this then that, otherwise...
 - all of the above so...
 - this is the only option that works
-- if we assume that this is true we get a ridiculous result so it can’t be true
+- if we assume that this is true we get a ridiculous result so it can't be true
 
 These indicate the general logic form of argument being followed. Is it a matter of necessity, other conditions present or absent, summation of influences, or a process of elimination, or are we showing something indirectly by showing that denying it makes no sense? The more formal study of logic looks carefully at these and many other different patterns of reasoning.
 
@@ -124,11 +124,11 @@ These indicate the general logic form of argument being followed. Is it a matter
 John Tenniel, "Alice Meets Humpty"
 ```
 
-`r newthought ("Not all")` arguments are equal. Just because we have an arbitrary set of premises supporting some random conclusion doesn’t mean that we should feel ourselves compelled to buy this conclusion. Instead, as we will see, there are some arguments that really are better than others. Really good arguments are compelling on their own, and we should, as long as we are being rational, have no choice but to accept them. For the skeptics out there who doubt that we will ever be able to create such an argument, I should also point out that the clearest and best arguments really don’t end up saying anything very controversial or extraordinary. This is one of the limitations that logic imposes on us: if we are really being logical and using only reliable arguments we may have to refrain from claiming to be able to establish very much. Understanding the logic of arguments, if nothing else, should encourage us to be a little more modest in our claims to knowledge.
+`r newthought ("Not all")` arguments are equal. Just because we have an arbitrary set of premises supporting some random conclusion doesn't mean that we should feel ourselves compelled to buy this conclusion. Instead, as we will see, there are some arguments that really are better than others. Really good arguments are compelling on their own, and we should, as long as we are being rational, have no choice but to accept them. For the skeptics out there who doubt that we will ever be able to create such an argument, I should also point out that the clearest and best arguments really don't end up saying anything very controversial or extraordinary. This is one of the limitations that logic imposes on us: if we are really being logical and using only reliable arguments we may have to refrain from claiming to be able to establish very much. Understanding the logic of arguments, if nothing else, should encourage us to be a little more modest in our claims to knowledge.
 
-`r newthought("When")` we are arguing what we are doing is trying to establish the truth of something that we don’t know on the basis of other things that we already know or accept. What we are interested in is establishing the truth of the conclusion, yet for some reason it’s truth is not obviously apparent to us so we need to establish it on the basis of other claims the truth of which we can already accept. Arguments move us from the known to the unknown.
+`r newthought("When")` we are arguing what we are doing is trying to establish the truth of something that we don't know on the basis of other things that we already know or accept. What we are interested in is establishing the truth of the conclusion, yet for some reason it's truth is not obviously apparent to us so we need to establish it on the basis of other claims the truth of which we can already accept. Arguments move us from the known to the unknown.
 
-`r newthought("To take")` a simple example, suppose we would like to establish that Socrates fears death. We don’t have any direct reason for thinking that this is true. But we do know some other things that may be of use in establishing this. First we know that Socrates is a human being. Second we know that all human beings are mortal. Third, we know that all mortals fear death. In standard form this would be arranged like so:
+`r newthought("To take")` a simple example, suppose we would like to establish that Socrates fears death. We don't have any direct reason for thinking that this is true. But we do know some other things that may be of use in establishing this. First we know that Socrates is a human being. Second we know that all human beings are mortal. Third, we know that all mortals fear death. In standard form this would be arranged like so:
 
 ```{block, type="argument", echo=TRUE}
 Socrates is a human being.\
@@ -138,7 +138,7 @@ All mortals fear death.\
 So Socrates fears death.
 ```
 
-### Key Concepts {-}
+### Key concepts {-}
 
 `r newthought("The information")` in the premises is enough information, as we can easily see, to establish our conclusion. Since Socrates is human he must be mortal, and he must fear death, since all mortals fear death. This argument seems like a pretty solid piece of reasoning. But how can we tell in general whether an argument is a good argument? It turns out that there are two questions we will need to ask about an argument in order to determine whether or not it is a good argument: 
 
@@ -178,9 +178,9 @@ So we are all moving around the sun.
 
 Forget for a moment about whether or not you buy the conclusion on its own. In analyzing an argument we need to know whether the premises support the conclusion adequately, so we pretend that we are not sure about the truth of the conclusion. Our first test is the test of validity. We ask ourselves: if the premises were true, could the conclusion be otherwise? Is the truth of the conclusion guaranteed by the truth of the premises? In this case it seems clear that if we are in fact all on the surface of an object that is moving around the sun, then we would all also have to be moving around the sun. So the argument is valid.
 
-`r newthought("Notice")` that establishing an argument’s validity is not yet establishing that the conclusion is really true. It is only establishing that the conclusion would be true, if only we could show that the premises were true. In fact this argument was rejected until about 500 years ago because nobody was willing to accept the truth of the first premise. Establishing that this was true took quite a bit of effort by Copernicus, Kepler, Galileo and other early modern scientists. However, we now know that the premises are true. So this argument is not only valid, but also sound. And since it is sound we have proven beyond the shadow of a doubt that the conclusion is true. One more thing to point out here is that this argument has always been sound (or at least as long as the solar system has existed) even if many people denied the truth of the first premise. They were simply mistaken in this denial.
+`r newthought("Notice")` that establishing an argument's validity is not yet establishing that the conclusion is really true. It is only establishing that the conclusion would be true, if only we could show that the premises were true. In fact this argument was rejected until about 500 years ago because nobody was willing to accept the truth of the first premise. Establishing that this was true took quite a bit of effort by Copernicus, Kepler, Galileo and other early modern scientists. However, we now know that the premises are true. So this argument is not only valid, but also sound. And since it is sound we have proven beyond the shadow of a doubt that the conclusion is true. One more thing to point out here is that this argument has always been sound (or at least as long as the solar system has existed) even if many people denied the truth of the first premise. They were simply mistaken in this denial.
 
-Let’s look at another example:
+Let's look at another example:
 
 ```{block, type="argument", echo=TRUE}
 If you want to see the world, you should join the navy.\
@@ -189,7 +189,7 @@ Jane wants to see the world.\
 So Jane should join the navy.
 ```
 
-This argument is a little trickier because it contains an IF – THEN statement. IF – THEN statements, also known as conditionals, make indirect claims. They don't just tell us what is the case, they tell us what would be the case if, or on condition that, something else were true. With this in mind let us consider this second argument. First we check for validity, by assuming that the premises are true and seeing if the conclusion would have to be true as well. In other words we are not yet interested in whether or not they really are true, but whether the argument works as an argument, whether the conclusion logically follows from the premises. It seems pretty clear, or at least it should seem clear, that this argument is valid. This is because if, as the first premise claims, the navy really is the best way to see the world, and if as the second premise claims, a person named Jane wants to see the world, then she should clearly join the navy. Notice that this argument’s validity does not have anything to do with its content, with the particular claims being made. Instead, validity is a matter of form, so that we could substitute any other content for the content of this argument without affecting its validity. Essentially this argument has the following form:
+This argument is a little trickier because it contains an IF – THEN statement. IF – THEN statements, also known as conditionals, make indirect claims. They don't just tell us what is the case, they tell us what would be the case if, or on condition that, something else were true. With this in mind let us consider this second argument. First we check for validity, by assuming that the premises are true and seeing if the conclusion would have to be true as well. In other words we are not yet interested in whether or not they really are true, but whether the argument works as an argument, whether the conclusion logically follows from the premises. It seems pretty clear, or at least it should seem clear, that this argument is valid. This is because if, as the first premise claims, the navy really is the best way to see the world, and if as the second premise claims, a person named Jane wants to see the world, then she should clearly join the navy. Notice that this argument's validity does not have anything to do with its content, with the particular claims being made. Instead, validity is a matter of form, so that we could substitute any other content for the content of this argument without affecting its validity. Essentially this argument has the following form:
 
 ```{block, type="argument", echo=TRUE}
 If you want to do A, then you should do B.\
@@ -200,7 +200,7 @@ So person P should do B.
 
 `r newthought("Here")` A, B can be substituted by any statements we please, and P can be any person we please, as long as our substitution is consistent throughout the argument. In all cases the resulting argument will turn out to be valid. Try it and you will see that the resulting arguments all come out valid. This is because validity is a matter of logical form regardless of the content we are arguing about.
 
-`r newthought("The soundness")` of arguments, however, unlike validity, has everything to do with content, because an argument is sound when it is valid and it also has true premises. Back to the argument about Jane. Is it sound? First we note that it is valid, then we ask whether or not the premises are really true. Consider the first premise: "If you want to see the world you should join the navy." It may be true that joining the navy is one way to see the world (provided that you don’t end up on a submarine, or in the engine room of a ship), but is it the only way? Of course not, so the first premise is just false. The second premise is also questionable, but for a different reason – we simply do not know who Jane is since this is a fictional example. So in spite of its validity this argument is unsound and we need not accept the conclusion as a true statement. It may in fact be true, but this argument gives us no good reason for thinking so. As an exercise you might want to try coming up with a sound argument that follows the form of this one.
+`r newthought("The soundness")` of arguments, however, unlike validity, has everything to do with content, because an argument is sound when it is valid and it also has true premises. Back to the argument about Jane. Is it sound? First we note that it is valid, then we ask whether or not the premises are really true. Consider the first premise: "If you want to see the world you should join the navy." It may be true that joining the navy is one way to see the world (provided that you don't end up on a submarine, or in the engine room of a ship), but is it the only way? Of course not, so the first premise is just false. The second premise is also questionable, but for a different reason – we simply do not know who Jane is since this is a fictional example. So in spite of its validity this argument is unsound and we need not accept the conclusion as a true statement. It may in fact be true, but this argument gives us no good reason for thinking so. As an exercise you might want to try coming up with a sound argument that follows the form of this one.
 
 `r newthought("Now consider,")` as our next example, the following argument:
 
@@ -211,7 +211,7 @@ Jane joined the navy.\
 So Jane wants to see the world.
 ```
 
-This argument seems similar to the previous one, but it has one important difference. The conclusion of this argument was the second premise of the last argument, and the second premise of this argument was its conclusion. What happens to the validity of the argument when we make this simple change? Notice what this argument is saying. It is offering an explanation of why it is that Jane joined the navy – because she wanted to see the world. The question is, and this is the way we check for validity, are there any other possible explanations of why she joined the navy that are consistent with the premises? In other words, is it possible for the premises to both be true and the conclusion false? The answer is yes. It all hinges on what the first premise doesn’t say. It doesn’t say that the only possible reason to join the navy is the desire to see the world. It just says that if that’s what you happen to want then the navy is for you. So Jane could have joined the navy only because she wanted to learn all there is to know about marine diesel engines without caring whether she learned this in New Jersey or in the South Pacific ocean. To put this in yet another way: if it is at all possible, if there are no contradictions involved, for the premises of an argument to be true and the conclusion false, then the argument is invalid. This argument is invalid for precisely this reason. Furthermore, since it is invalid, this automatically makes it unsound, since in order for it to be sound it has to first be valid.
+This argument seems similar to the previous one, but it has one important difference. The conclusion of this argument was the second premise of the last argument, and the second premise of this argument was its conclusion. What happens to the validity of the argument when we make this simple change? Notice what this argument is saying. It is offering an explanation of why it is that Jane joined the navy – because she wanted to see the world. The question is, and this is the way we check for validity, are there any other possible explanations of why she joined the navy that are consistent with the premises? In other words, is it possible for the premises to both be true and the conclusion false? The answer is yes. It all hinges on what the first premise doesn't say. It doesn't say that the only possible reason to join the navy is the desire to see the world. It just says that if that's what you happen to want then the navy is for you. So Jane could have joined the navy only because she wanted to learn all there is to know about marine diesel engines without caring whether she learned this in New Jersey or in the South Pacific ocean. To put this in yet another way: if it is at all possible, if there are no contradictions involved, for the premises of an argument to be true and the conclusion false, then the argument is invalid. This argument is invalid for precisely this reason. Furthermore, since it is invalid, this automatically makes it unsound, since in order for it to be sound it has to first be valid.
 
 
 ## Proofs and Counterexamples

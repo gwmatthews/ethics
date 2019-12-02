@@ -116,5 +116,6 @@ a {
 
 hr {
   text-align: left;
+  border: 2px solid #eee;
   width: 30%;
 }

@@ -10,7 +10,7 @@
 
 ## Fallacies of Relevance
 
-`r newthought("As we turn")` to the fallacies of relevance, it is good to remember, that this set of fallacies rests on the use of information that may seem relevant to establishing the conclusion but isn’t really relevant at all. They often play on our emotional responses to certain situations and topics and they can be quite effective as means of persuading us. They work so well in getting us to buy into their conclusions in part because of the nature of the human mind – even though we are capable of thinking about things coolly and logically, we often jump to conclusions on emotional grounds and then enlist our cognitive abilities merely to rationalize decisions and conclusions we have already made. Philosophers would encourage us to resist such impulses and to stop and think before jumping to conclusions. This can of course be quite challenging just because of the way in which our brains are wired – the neural pathway between sensory input to motor and cognitive output is shorter in its trip through those parts of the brain that process emotions than it is through our higher cognitive powers. But still, whoever said leading an examined life was the easiest thing to do?
+`r newthought("As we turn")` to the fallacies of relevance, it is good to remember, that this set of fallacies rests on the use of information that may seem relevant to establishing the conclusion but isn't really relevant at all. They often play on our emotional responses to certain situations and topics and they can be quite effective as means of persuading us. They work so well in getting us to buy into their conclusions in part because of the nature of the human mind – even though we are capable of thinking about things coolly and logically, we often jump to conclusions on emotional grounds and then enlist our cognitive abilities merely to rationalize decisions and conclusions we have already made. Philosophers would encourage us to resist such impulses and to stop and think before jumping to conclusions. This can of course be quite challenging just because of the way in which our brains are wired – the neural pathway between sensory input to motor and cognitive output is shorter in its trip through those parts of the brain that process emotions than it is through our higher cognitive powers. But still, whoever said leading an examined life was the easiest thing to do?
 
 ***
 
@@ -20,7 +20,13 @@
 My friend who is a scientist insists that global warming is not cause for alarm, and for me that is a good enough reason to accept her conclusion.
 ```
 
-`r newthought("This fallacy")` is also known as “appeal to inappropriate authority.” Appealing to authority is a commonly used way of trying to convince people. But why do we find authorities believable in the first place? Because they are authorities? In this case we may wonder why they are considered authorities at all. On the other hand if they have something to back up their claims, why don’t we just see for ourselves whether they are right or not? 
+```{marginfigure}
+![](img/fallacies/authority.jpg)
+\
+Glen Welch, [fallacy ref](https://twitter.com/fallacy_ref?lang=en)
+```
+
+`r newthought("This fallacy")` is also known as “appeal to inappropriate authority.” Appealing to authority is a commonly used way of trying to convince people. But why do we find authorities believable in the first place? Because they are authorities? In this case we may wonder why they are considered authorities at all. On the other hand if they have something to back up their claims, why don't we just see for ourselves whether they are right or not? 
 
 ***
 
@@ -31,11 +37,17 @@ There is no need to take that animal rights activist seriously.\
 After all, she also benefits from the use of animals – notice her leather shoes and fur mittens.
 ```
 
-`r newthought("The name")` of this fallacy is a Latin expression meaning "against the person." It is also known as the "abusive fallacy," or "personal attack." This very popular fallacy focuses on the personal inconsistency of the person giving the argument in an attempt to discredit their argument. People who use this strategy don’t respond directly to their opponent’s argument but bring up external reasons not to believe anything he or she says. This is clearly wrong since it is the argument that someone gives and its validity and soundness that should be our concern not the person from whose mouth that argument happens to be coming.
+```{marginfigure}
+![](img/fallacies/ad-hominem.jpg)
+\
+Glen Welch, [fallacy ref](https://twitter.com/fallacy_ref?lang=en)
+```
+
+`r newthought("The name")` of this fallacy is a Latin expression meaning "against the person." It is also known as the "abusive fallacy," or "personal attack." This very popular fallacy focuses on the personal inconsistency of the person giving the argument in an attempt to discredit their argument. People who use this strategy don't respond directly to their opponent's argument but bring up external reasons not to believe anything he or she says. This is clearly wrong since it is the argument that someone gives and its validity and soundness that should be our concern not the person from whose mouth that argument happens to be coming.
 
 ***
 
-### popular appeal (bandwagon fallacy) {-}
+### Popular appeal (bandwagon fallacy) {-}
 
 ```{block, type="argument", echo=TRUE}
 The Romans were justified in slaughtering thousands of slaves.\
@@ -46,7 +58,7 @@ After all it was a part of their culture and not many people objected.
 
 ***
 
-### appeal to force {-}
+### Appeal to force {-}
 
 ```{block, type="argument", echo=TRUE}
 The reason that we are right is because we have the military might to get rid of any government that disagrees.
@@ -56,7 +68,7 @@ The reason that we are right is because we have the military might to get rid of
 
 ***
 
-### appeal to consequences {-}
+### Appeal to consequences {-}
 
 ```{block, type="argument", echo=TRUE}
 If astronomers are correct, the earth orbits a relatively insignificant star in a remote corner of one galaxy among billions.\
@@ -67,7 +79,7 @@ But this conclusion violates our sense of the significance of our own lives and 
 
 ***
 
-### the naturalistic fallacy {-}
+### The naturalistic fallacy {-}
 
 ```{block, type="argument", echo=TRUE}
 Women alone are capable of having babies.\
@@ -78,18 +90,24 @@ So the responsibility of raising and taking care of them is entirely theirs.
 
 ***
 
-### red herring {-}
+### Red herring {-}
 
 ```{block, type="argument", echo=TRUE}
-We shouldn’t worry that much about people dying of horrible diseases in Africa.\
+We shouldn't worry that much about people dying of horrible diseases in Africa.\
 After all we have problems of our own to deal with.
 ```
 
-`r newthought("The name")` of this fallacy comes from the British method of fox hunting. First a captive fox is released and then a pack of foxhounds follow its scent trail, followed in turn by the hunters. In order to make it a little more difficult for the hounds to follow the fox, a piece of smoked herring (a smelly fish that typically is red in color) is wiped on the ground across the fox’s path and thrown off to the side somewhere. This serves to distract and confuse the hounds and gives the fox a chance to get away. In an argument whenever you bring up something irrelevant in order to draw attention away from the topic at hand you are relying on the fallacy of red herring. The problem with the reasoning in this example, of course, is that there is no mention made of the possibility that both problems in Africa and problems here can be addressed. Besides mentioning something off the topic in no way undermines whatever claims are made about that topic.
+```{marginfigure}
+![](img/fallacies/red-herring.jpg)
+\
+Glen Welch, [fallacy ref](https://twitter.com/fallacy_ref?lang=en)
+```
+
+`r newthought("The name")` of this fallacy comes from the British method of fox hunting. First a captive fox is released and then a pack of foxhounds follow its scent trail, followed in turn by the hunters. In order to make it a little more difficult for the hounds to follow the fox, a piece of smoked herring (a smelly fish that typically is red in color) is wiped on the ground across the fox's path and thrown off to the side somewhere. This serves to distract and confuse the hounds and gives the fox a chance to get away. In an argument whenever you bring up something irrelevant in order to draw attention away from the topic at hand you are relying on the fallacy of red herring. The problem with the reasoning in this example, of course, is that there is no mention made of the possibility that both problems in Africa and problems here can be addressed. Besides mentioning something off the topic in no way undermines whatever claims are made about that topic.
 
 ***
 
-### weak analogy {-}
+### Weak analogy {-}
 
 ```{block, type="argument", echo=TRUE}
 Galileo was ridiculed because of his views, and these views later proved to be correct.\
@@ -97,7 +115,7 @@ I too am ridiculed for believing that the Pope is a reptilian alien in league wi
 Thus I too will have my day and my views will be accepted.
 ```
 
-`r newthought("Analogies are")` comparisons between different things. We reason analogically when we argue that because one object or concept has a certain feature, other objects or concepts that are similar in certain respects will also have that feature. This is an important way in which we make sense of the world. However, it has its drawbacks. If we are not careful we can end up making analogies when they are not really there. This argument is based on a weak analogy because it is just not the case that all views that are ridiculed end up prevailing in the end. Some do, like Galileo’s, but the reason was not inherent in their being ridiculed, but on their being based on good reasoning supported by evidence in the appropriate ways. And by the way, there really are people who believe that the Pope is a reptilian alien, just google it and see.
+`r newthought("Analogies are")` comparisons between different things. We reason analogically when we argue that because one object or concept has a certain feature, other objects or concepts that are similar in certain respects will also have that feature. This is an important way in which we make sense of the world. However, it has its drawbacks. If we are not careful we can end up making analogies when they are not really there. This argument is based on a weak analogy because it is just not the case that all views that are ridiculed end up prevailing in the end. Some do, like Galileo's, but the reason was not inherent in their being ridiculed, but on their being based on good reasoning supported by evidence in the appropriate ways. And by the way, there really are people who believe that the Pope is a reptilian alien, just google it and see.
 
 ## Fallacies of Ambiguity
 
@@ -105,36 +123,48 @@ Thus I too will have my day and my views will be accepted.
 
 ***
 
-### equivocation {-}
+### Equivocation {-}
 
 ```{block, type="argument", echo=TRUE}
 People in jail are really free.\
 This is because if you can think whatever you want, then you are free and people jail can certainly think whatever they want.
 ```
 
+```{marginfigure}
+![](img/fallacies/equivocation.jpg)
+\
+Glen Welch, [fallacy ref](https://twitter.com/fallacy_ref?lang=en)
+```
+
 `r newthought("Equivocation")` is using multiple meanings of a word as if they were the same. We start out with one meaning of a word like "freedom" and end up with another meaning, in the attempt to fool the person who is listening to us that our reasoning is valid. Used car dealers sometimes use a tactic known as "bait and switch" that is similar to this -– they advertise great deals in the paper and then when you show up to their lot they have something else similar but not quite as good a deal that they offer you instead.
 
 ***
 
-### straw person {-}
+### Straw person {-}
 
 ```{block, type="argument", echo=TRUE}
 The senator who suggested cutting funding for the new Air Force attack drone system really wants to leave us defenseless against our enemies.\
 Thus we should reject such cuts.
 ```
 
-`r newthought("This fallacy")` often appears in the context of a debate in which one person misrepresents his or her opponent’s view in order more easily, as with a person made of straw, to knock it down. This is a fallacy of ambiguity in that it relies on a superficially similar version of the view that is being attacked rather than the view itself. One can often “win” debates by using this strategy, but such victories are hollow in that they do not really engage with the real issues but only with caricature. If you really want to demonstrate that some view you are attacking is worthy of rejection, it is far better to rely on the “principle of charity” which involves presenting your opponent’s view in as favorable a light as possible. If it still fails to withstand scrutiny, then perhaps you are wrong to reject it. he drawback, however, is that if you represent your opponent’s views in a more fair and favorable light, your objections to them may themselves not hold up. But then again, that is only a drawback if you care more about winning debates rather than in figuring out what is really the case.
+`r newthought("This fallacy")` often appears in the context of a debate in which one person misrepresents his or her opponent's view in order more easily, as with a person made of straw, to knock it down. This is a fallacy of ambiguity in that it relies on a superficially similar version of the view that is being attacked rather than the view itself. One can often “win” debates by using this strategy, but such victories are hollow in that they do not really engage with the real issues but only with caricature. If you really want to demonstrate that some view you are attacking is worthy of rejection, it is far better to rely on the “principle of charity” which involves presenting your opponent's view in as favorable a light as possible. If it still fails to withstand scrutiny, then perhaps you are wrong to reject it. he drawback, however, is that if you represent your opponent's views in a more fair and favorable light, your objections to them may themselves not hold up. But then again, that is only a drawback if you care more about winning debates rather than in figuring out what is really the case.
 
 ***
 
-### cherry picking {-}
+### Cherry picking {-}
 
 ```{block, type="argument", echo=TRUE}
 This study of 12 children clearly shows a link between childhood vaccination and autism.\
 Thus vaccines cause autism.
 ```
 
-`r newthought("This one")` is really no joke – in fact the whole of the current scare about childhood vaccinations and autism was "established" by a single study of twelve children! The fact that the paper was retracted, and its author was barred from medical practice didn’t matter since its influence only grew since the date of its publication. The logical mistake here is that of selectively reading the evidence in favor of your own hypothesis, or “cherry picking” the data to get the juiciest bits while ignoring anything that contradicts it. The other name for this fallacy, "Texas sharpshooter" refers to the related practice of proving your worth as a target shooter by first shooting random holes in the side of a barn, and then afterwards drawing your target around a cluster of holes so that it looks like you are a great shot. Is this done in Texas? Probably not, but whoever named it must have had a low opinion of Texans – no offense intended and if you are from Texas, substitute your state of choice.
+```{marginfigure}
+![](img/fallacies/cherry-picking.jpg)
+\
+Glen Welch, [fallacy ref](https://twitter.com/fallacy_ref?lang=en)
+```
+
+`r newthought("This one")` is really no joke – in fact the whole of the current scare about childhood vaccinations and autism was "established" by a single study of twelve children! The fact that the paper was retracted, and its author was barred from medical practice didn't matter since its influence only grew since the date of its publication. The logical mistake here is that of selectively reading the evidence in favor of your own hypothesis, or “cherry picking” the data to get the juiciest bits while ignoring anything that contradicts it. The other name for this fallacy, "Texas sharpshooter" refers to the related practice of proving your worth as a target shooter by first shooting random holes in the side of a barn, and then afterwards drawing your target around a cluster of holes so that it looks like you are a great shot. Is this done in Texas? Probably not, but whoever named it must have had a low opinion of Texans – no offense intended and if you are from Texas, substitute your state of choice.
 
 
 
@@ -161,22 +191,34 @@ You should become a Christian.\
 This is because the Bible says that if you are not a Christian you will go to Hell.
 ```
 
+```{marginfigure}
+![](img/fallacies/begging-question.jpg)
+\
+Glen Welch, [fallacy ref](https://twitter.com/fallacy_ref?lang=en)
+```
+
 `r newthought("This strange sounding")` name really applies to a very simple technique. Someone who begs the question is guilty of assuming what they are claiming to establish in their argument. In other words they put a disguised version of their conclusion in the premises of their argument. That is, they are not really arguing for what they claim to be arguing for. This is an example of a fallacy that is nevertheless a valid form of reasoning. The problem here is that we cannot just assume that the conclusion is true, as someone who uses this way of argument is in fact doing. Begging the question is not, of course, always so obvious. We can see that this is a case of begging the question when we realize that the only people who will be convinced by this argument are Christians. Why? Simply because nobody else will take evidence from the Bible seriously, and people who consider the Bible as authoritative are already Christians. This example also shows why begging the question is also known as "preaching to those already converted."
 
 ***
 
-### appeal to ignorance {-}
+### Appeal to ignorance {-}
 
 ```{block, type="argument", echo=TRUE}
 The claim that the death penalty deters crime has not been established with any certainty.\
 Thus it is clear that it does not deter crime.
 ```
 
+```{marginfigure}
+![](img/fallacies/ignorance.jpg)
+\
+Glen Welch, [fallacy ref](https://twitter.com/fallacy_ref?lang=en)
+```
+
 `r newthought("The fact that")` something has not yet been proven to be true does not mean that it is false. It is just unknown! Yet this fallacy assumes that if we do not have proof of something then that thing must be false.
 
 ***
 
-### false dilemma (black or white fallacy) {-}
+### False dilemma (black or white fallacy) {-}
 
 ```{block, type="argument", echo=TRUE}
 Either living organisms are products of blind chance or they were deliberately designed.\
@@ -184,44 +226,56 @@ But it makes no sense that something as functionally complex as a living organis
 Hence they must have been designed.
 ```
 
+```{marginfigure}
+![](img/fallacies/dichotomy.jpg)
+\
+Glen Welch, [fallacy ref](https://twitter.com/fallacy_ref?lang=en)
+```
+
 `r newthought("The argument here")` rests entirely on an assumption that is not always so easy to see, the assumption that the alternatives stated are the only ones there are. If this were the case, then the argument would stand, but often other alternatives are simply not even mentioned. Hence the dilemma, or choice between two alternatives, is here a false one. In the example below, which is often used against the theory of biological evolution, the missing alternative is precisely what Darwin articulated in his book *On the Origin of Species*, a theory which contains an element of chance but which is not reducible to the blind chance that this argument presumes is the only alternative to deliberate design.
 
 ***
 
-### hasty generalization {-}
+### Hasty generalization {-}
 
 ```{block, type="argument", echo=TRUE}
 All three of my ex-wives always told me what to do.\
 This clearly shows that all women want to control us men all the time.
 ```
 
-`r newthought("We may be tempted")` to conclude a lot from a single case, or a relatively small sample, but this is often merely a way to confirm our prejudices. If we really want to make sweeping generalizations, we’ll have to gather a bit more evidence in less clearly biased ways than this.
+`r newthought("We may be tempted")` to conclude a lot from a single case, or a relatively small sample, but this is often merely a way to confirm our prejudices. If we really want to make sweeping generalizations, we'll have to gather a bit more evidence in less clearly biased ways than this.
 
 ***
 
-### slippery slope {-}
+### Slippery slope {-}
 
 ```{block, type="argument", echo=TRUE}
 If we legalize physician assisted suicide then everyone over sixty had better watch their backs.\
 This is because once doctors get used to helping people with terminal illnesses die comfortably, they will have less and less of a problem with getting rid of older people in general.
 ```
 
-`r newthought("Slippery slope arguments")` are often used as a way of warning us of the dangers of allowing people to do something that is now forbidden. They say, in effect, if we allow someone to do this, then they’ll have no reason not to do that, which is much worse. The name comes from the metaphor of an icy ski slope: if we are foolish enough to step onto the slope, without skis on of course, we’ll end up uncontrollably sliding down to the bottom. The problem with this argument is that it claims that we must end up where the arguer claims we will, but the argument gives us nothing but the assertion that we will in fact end up there.
+`r newthought("Slippery slope arguments")` are often used as a way of warning us of the dangers of allowing people to do something that is now forbidden. They say, in effect, if we allow someone to do this, then they'll have no reason not to do that, which is much worse. The name comes from the metaphor of an icy ski slope: if we are foolish enough to step onto the slope, without skis on of course, we'll end up uncontrollably sliding down to the bottom. The problem with this argument is that it claims that we must end up where the arguer claims we will, but the argument gives us nothing but the assertion that we will in fact end up there.
 
 ***
 
-### false cause {-}
+### False cause {-}
 
 ```{block, type="argument", echo=TRUE}
 The majority of heroin users smoked marijuana when they were younger.\
 So smoking marijuana must be one of the causes of heroin use.
 ```
 
+```{marginfigure}
+![](img/fallacies/false-cause.jpg)
+\
+Glen Welch, [fallacy ref](https://twitter.com/fallacy_ref?lang=en)
+```
+
 `r newthought("Us humans")` are very good at noticing patterns in the world around us. In fact science is based on this ability – we notice regularities and then come up with explanations for them. The most powerful of these explanations involve attributing a causal relationship between events that appear to be related to each other in a regular way. We have to be careful here, however, since we also have the tendency to overdo this. This may seem like a convincing argument until we recognize that the fact that something tends to happen before something else is not nearly enough to establish that the first thing causes the second to happen. For example, the fact that my alarm clock goes off every day shortly before sunrise does not mean that my alarm clock causes the sun to rise. The same goes for drug abuse. The fact that I abused marijuana first and then heroin later does not mean that the first caused the second. It is equally possible that I abuse whatever drugs I abuse for another reason – I have major problems I am trying to escape from.
 
 ***
 
-### circular reasoning {-}
+### Circular reasoning {-}
 
 ```{block, type="argument", echo=TRUE}
 He must be guilty, since he has a guilty look on his face.\
@@ -234,7 +288,82 @@ Furthermore, the look on his face indicates guilt, because he is the one who did
 
 ## Cognitive Biases
 
-## Find out more {-}
+`r newthought("Fallacies")`, as we have been seeing, are common mistakes that we make in reasoning especially when we are trying to support a conclusion that we have insufficient evidence to support, ways in which we claim more than we really know. In recent years cognitive psychologists have also explored the ways in which not only get our arguments wrong, but also tend to get things wrong in our own thinking, how as Thomas Gilovich puts it in the title of his book *How We Know What Isn't So*.[@gilovichHowWeKnow1991] That is, we have a tendency to fall prey to biases and mistakes in our own reasoning whatever it is that we may end up defending later in our arguments. In this section we'll look at some of the most important and relevant of these cognitive biases.
+
+`r newthought("In general")` we might classify these biases into two general types: "hot biases," or motivated irrationality where our interests, emotional responses or visceral reactions to things influences our thinking process; and "cold biases" or unmotivated irrationality which are a result of certain mental shortcuts and routines we rely on even in situations where they do not really apply. Let's look at some examples.
+
+### **Hot Biases**{-}
+
+`r newthought("Hot biases")` are also known as examples of "motivated irrationality" because they involve bending our reasoning to suit our wants and desires. Our motivations may not always be clear even to us, so we may not realize that we are caught up in such biases. Luckily, however, there are steps we can take to avoid falling prey to them.
+
+### Confirmation bias{-}
+
+`r newthought("Confirmation bias")` is our often unconscious tendency to give more weight to evidence supporting our pre-existing beliefs or hypotheses and our tendency to downplay the significance of evidence against them. The result is similar to cherry picking but it may not be a deliberate attempt to mislead, but more of a product of other unconscious tendencies.
+
+```{block, type="argument", echo=TRUE}
+I keep seeing more and more evidence in favor of my hypothesis! What about the evidence against it? Well that must be based on faulty data collection.
+```
+
+***
+
+Given that we have a strong tendency to fall prey to this bias, what steps might we take to avoid it? For one, we can use various "blind" methods of data collection and analysis to protect our reasoning from the errors involving confirmation bias. Hence when scientific studies are done the scientists doing the study, who know which hypothesis they are testing can turn over the data to a neutral third party who does not know the hypothesis to evaluate. This way the results can be assured of corresponding to the standards of statistical analysis rather than simply reflecting the desires of the researchers to be proven right.
+
+***
+
+### Group think{-}
+
+`r newthought("Just like")` our pre-existing beliefs can influence what we take the evidence to support, likewise with our connections to other people can do so. When someone in a group we identify with comes up with an idea we have tendency to give it more weight than in fact it deserves. A great example of this occurred during the Kennedy administration with the Bay of Pigs incident. The plan was to send a small group of armed anti-Castro Cuban soldiers to the Bay of Pigs in Cuba with the thought that that would be enough to incite a full-scale revolt against the Communist government by the rest of the Cuban population. Enough members of Kennedy's National Security Council which planned and approved the incursion were strongly in favor of it that they collectively ignored their own military intelligence which indicated that there was little popular support for revolting against the Cuban government. So when the invasion happened in January 1961 the initiative was quickly defeated and the Cuban exiles who landed in the beach were quickly arrested and imprisoned much to the embarrassment of the Kennedy Administration.
+
+***
+
+### Wishful thinking{-}
+
+`r newthought("These last two")` biases could be considered specific examples of a more general tendency we have towards wishful thinking, which is the tendency to project our own desires onto reality and fool ourselves into thinking that reality conforms to how we would like it to be.
+
+```{block, type="argument", echo=TRUE}
+I just know that the Yankees will win the World Series, they just can't let me down again!
+```
+
+All of these biases fail to make a distinction between what we would like to be the case and what really is in fact the case. We may end up lucky and happen to find out that reality conforms to how we would like it to be, but then again we may not. We can protect ourselves against these kinds of biases first by being aware of our own tendencies to fall prey to them and then by using particular strategies to separate our analysis of the evidence from our wishes.
+
+***
+
+### **Cold biases**{-}
+
+`r newthought("Cold biases")` differ from hot biases in that they are not such much results of our desires but of the ways in which our cognitive systems work. They are more like "bugs" in our mental operating systems than ways in which we twist our thoughts to conform to our desires.
+
+### Anchoring/framing effects{-}
+
+`r newthought("How much")` are you willing to pay for some given product or service? Well it turns out to depend not just on the features of that product or service itself but also by what is next to it on the shelf, what other options you are presented with and even the initial asking price. These are examples of the ways in which the context of our choices influences the content of our choices. Many examples of this can be found in the marketplace. Here is just one example:
+
+```{block, type="argument", echo=TRUE}
+Today only, you can get a new Toyota for 20% off the sticker price! So act now and drive your new car away today!
+```
+
+There are numerous ways in which advertisers and salespeople try to influence our choices. First the "sticker price" may or may not reflect anything about the reality of the product in question but may be intentionally inflated to anchor our minds to a price higher than we would actually pay. It turns out that doing so will make us more willing to pay a higher price than we would if the original non-discounted price were set closer to what we might actually pay, or what the manufacturer expects us to pay. Likewise, adding extra options that we may not actually be interested in independently can influence our willingness to buy a product, especially when it is compared to an otherwise equivalent product without those potions. In both cases our ability to compare what is offered with what we want is corrupted by the context within which the product is presented.
+
+***
+
+### The fundamental attribution error {-}
+
+`r newthought("When it comes to")` explaining human behavior, and trying to figure out the relative weights of internal factors such as needs, desires and the personality of the actor on the one hand, and external situational factors on the other hand it turns out that we come up with different weights when thinking about our own behavior and that of other people. our own and others. We tend, for example, to put more weight on things outside of our own control when accounting for our bad behavior than we do when accounting for the behavior of others.
+
+```{block, type="argument", echo=TRUE}
+The fact that I tripped when walking down the street was because the sidewalk was uneven. When you trip on the other hand, it's evidence that you are a klutz.
+```
+
+`r newthought("In other words")` we are more generous with ourselves in terms of getting ourselves off the hook — it's not my fault it's the situation I was in — than we are with others — clearly it is their fault! This is true that in many, many cases, if we looked at things in the more neutral terms of finding what factor most influence all of our behavior situational or external factors often play a much greater role than we think. So we are more accurate when we reflect on ourselves than when we look at the behavior of other people. Our attribution of causal influences tends to be skewed in the wrong direction when we look at why others do what they do especially when we compare it with our understanding of what influences us ourselves.
+
+***
+
+### The availability heuristic {-}
+
+`r newthought("Finally")` in this brief survey of some major cognitive biases we have the confusion we tend to make between how readily something comes to mind (its "salience") and the more objective probability of its occurrence (its "frequency"). Thus because terrorist attacks are so dramatic and stand out in our minds much more than the more common and mundane threats we are exposed to we tend to be more afraid of terrorism than, for example, driving to the airport. In the aftermath of the 9/11 attacks I remember listening to an interview with an expert on national security threats. The interviewer asked him what we could all do to be safer in international air travel and his response was "Drive very carefully to the airport." This effect, once you start to notice it, is everywhere. We focus on dramatic if also highly unlikely threats and events and ignore those that are far more likely and hence, paradoxically, not so obvious to us.
+
+`r newthought("In this")` and the last chapter we have taken a closer look at what is involved in the justification of any claim at all. We have seen that the best arguments are both valid and sound – they work logically in that their premises really provide adequate support for their conclusions and their premises are actually true. We have also examined some of the many mistakes in reasoning to which we are prone. These mistakes are not only used in a deliberately misleading way, since all of us have a tendency to make decisions and judgments first and then come up with reasons in support of them later. Thus we often rely on fallacious reasoning to rationalize our own beliefs or we tend to read the evidence is biased ways. As we will be seeing, as we turn now to start examining some of the many different theoretical approaches to ethics, the tools of logic and critical thinking will prove very useful in trying to come up with a reasonable answer to the general question, "what is the right thing to do?"
+
+
+## Find Out More {-}
 
 - *Your Fallacy Is* is a nicely designed website with more examples of common fallacies.
   - https://yourlogicalfallacyis.com/

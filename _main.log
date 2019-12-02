@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  1 DEC 2019 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.11)  1 DEC 2019 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,7 +1228,7 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 287.
 [15] [16]
 Chapter 2.
-<img/tenniel-tweedle-dee-dum.jpg, id=377, 619.31375pt x 481.8pt>
+<img/tenniel-tweedle-dee-dum.jpg, id=383, 619.31375pt x 481.8pt>
 File: img/tenniel-tweedle-dee-dum.jpg Graphic file (type jpg)
 <use img/tenniel-tweedle-dee-dum.jpg>
 Package pdftex.def Info: img/tenniel-tweedle-dee-dum.jpg  used on input line 32
@@ -1242,12 +1242,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 329--331
 [17
 
  <./img/tenniel-tweedle-dee-dum.jpg>]
-<img/tenniel-hatter.png, id=382, 42.6393pt x 48.69191pt>
+<img/tenniel-hatter.png, id=388, 42.6393pt x 48.69191pt>
 File: img/tenniel-hatter.png Graphic file (type png)
 <use img/tenniel-hatter.png>
 Package pdftex.def Info: img/tenniel-hatter.png  used on input line 350.
 (pdftex.def)             Requested size: 144.04774pt x 164.49521pt.
-<img/tenniel-alice-queens.jpg, id=383, 513.92pt x 360.34625pt>
+<img/tenniel-alice-queens.jpg, id=389, 513.92pt x 360.34625pt>
 File: img/tenniel-alice-queens.jpg Graphic file (type jpg)
 <use img/tenniel-alice-queens.jpg>
 Package pdftex.def Info: img/tenniel-alice-queens.jpg  used on input line 376.
@@ -1263,7 +1263,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--417
  []
 
 [20]
-<img/tenniel-alice-humpty.jpg, id=402, 513.92pt x 611.28375pt>
+<img/tenniel-alice-humpty.jpg, id=408, 513.92pt x 611.28375pt>
 File: img/tenniel-alice-humpty.jpg Graphic file (type jpg)
 <use img/tenniel-alice-humpty.jpg>
 Package pdftex.def Info: img/tenniel-alice-humpty.jpg  used on input line 491.
@@ -1315,7 +1315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 588--590
  []
 
 [25]
-<img/tenniel-father-william.png, id=428, 77.41924pt x 58.5387pt>
+<img/tenniel-father-william.png, id=434, 77.41924pt x 58.5387pt>
 File: img/tenniel-father-william.png Graphic file (type png)
 <use img/tenniel-father-william.png>
 Package pdftex.def Info: img/tenniel-father-william.png  used on input line 600
@@ -1359,39 +1359,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 624--626
 Chapter 3.
 [29
 
-] [30] [31] [32] [33] [34] [35] [36] [37] [38]
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 960.
+] [30]
+<img/fallacies/authority.jpg, id=461, 642.4pt x 427.5975pt>
+File: img/fallacies/authority.jpg Graphic file (type jpg)
+<use img/fallacies/authority.jpg>
+Package pdftex.def Info: img/fallacies/authority.jpg  used on input line 681.
+(pdftex.def)             Requested size: 143.99464pt x 95.84642pt.
+<img/fallacies/ad-hominem.jpg, id=463, 752.8125pt x 501.875pt>
+File: img/fallacies/ad-hominem.jpg Graphic file (type jpg)
+<use img/fallacies/ad-hominem.jpg>
+Package pdftex.def Info: img/fallacies/ad-hominem.jpg  used on input line 700.
+(pdftex.def)             Requested size: 144.00076pt x 96.0005pt.
+[31 <./img/fallacies/authority.jpg> <./img/fallacies/ad-hominem.jpg>] [32]
+<img/fallacies/red-herring.jpg, id=479, 891.33pt x 500.87125pt>
+File: img/fallacies/red-herring.jpg Graphic file (type jpg)
+<use img/fallacies/red-herring.jpg>
+Package pdftex.def Info: img/fallacies/red-herring.jpg  used on input line 774.
+
+(pdftex.def)             Requested size: 143.98936pt x 80.91293pt.
+[33 <./img/fallacies/red-herring.jpg>]
+Underfull \vbox (badness 1122) has occurred while \output is active []
+
+[34]
+<img/fallacies/equivocation.jpg, id=495, 891.33pt x 500.87125pt>
+File: img/fallacies/equivocation.jpg Graphic file (type jpg)
+<use img/fallacies/equivocation.jpg>
+Package pdftex.def Info: img/fallacies/equivocation.jpg  used on input line 814
+.
+(pdftex.def)             Requested size: 143.98936pt x 80.91293pt.
+[35 <./img/fallacies/equivocation.jpg>]
+<img/fallacies/cherry-picking.jpg, id=503, 299.1175pt x 361.35pt>
+File: img/fallacies/cherry-picking.jpg Graphic file (type jpg)
+<use img/fallacies/cherry-picking.jpg>
+Package pdftex.def Info: img/fallacies/cherry-picking.jpg  used on input line 8
+47.
+(pdftex.def)             Requested size: 143.99922pt x 173.9588pt.
+
+LaTeX Warning: Marginpar on page 36 moved.
+
+[36 <./img/fallacies/cherry-picking.jpg>]
+<img/fallacies/begging-question.jpg, id=512, 449.68pt x 252.945pt>
+File: img/fallacies/begging-question.jpg Graphic file (type jpg)
+<use img/fallacies/begging-question.jpg>
+Package pdftex.def Info: img/fallacies/begging-question.jpg  used on input line
+ 883.
+(pdftex.def)             Requested size: 143.9966pt x 80.99808pt.
+<img/fallacies/ignorance.jpg, id=514, 642.4pt x 427.5975pt>
+File: img/fallacies/ignorance.jpg Graphic file (type jpg)
+<use img/fallacies/ignorance.jpg>
+Package pdftex.def Info: img/fallacies/ignorance.jpg  used on input line 902.
+(pdftex.def)             Requested size: 143.99464pt x 95.84642pt.
+<img/fallacies/dichotomy.jpg, id=516, 602.25pt x 340.27126pt>
+File: img/fallacies/dichotomy.jpg Graphic file (type jpg)
+<use img/fallacies/dichotomy.jpg>
+Package pdftex.def Info: img/fallacies/dichotomy.jpg  used on input line 923.
+(pdftex.def)             Requested size: 144.00076pt x 81.36043pt.
+[37 <./img/fallacies/begging-question.jpg> <./img/fallacies/ignorance.jpg> <./i
+mg/fallacies/dichotomy.jpg>] [38]
+<img/fallacies/false-cause.jpg, id=532, 602.25pt x 330.23375pt>
+File: img/fallacies/false-cause.jpg Graphic file (type jpg)
+<use img/fallacies/false-cause.jpg>
+Package pdftex.def Info: img/fallacies/false-cause.jpg  used on input line 970.
+
+(pdftex.def)             Requested size: 144.00076pt x 78.9604pt.
+[39 <./img/fallacies/false-cause.jpg>]
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 998.
+[40] [41] [42] [43]
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 1101.
+
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 960.
-[39] [40]
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 973.
-[41
+(Font)              scaled to size 8.50006pt on input line 1101.
+[44] [45
 
-] [42]
+] [46]
 Chapter 4.
-[43
+[47
 
-] [44
+]
+Underfull \vbox (badness 1005) has occurred while \output is active []
+
+[48] [49] [50] [51] [52
 
 ]
 Chapter 5.
-[45] [46
+[53] [54
 
 ]
 Chapter 6.
-[47] [48
+[55] [56
 
-]
+] [57] [58]
 Chapter 7.
-[49] [50
+[59
+
+] [60
 
 ]
 Chapter 8.
-[51] [52
+[61] [62
 
 ]
 Chapter 9.
@@ -1400,23 +1469,23 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1059.
-[53]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1059.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1268.
+[63]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1268.
 (./_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1059.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1059.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1268.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1268.
 
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 2F68FE10CDA3E6DCD8843B4F0433D276;7421.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1059.
+(rerunfilecheck)             Checksum: F4F530DD6562D572AF5DE3522974BD6D;7670.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1268.
  ) 
 Here is how much of TeX's memory you used:
- 16670 strings out of 492982
- 229822 string characters out of 6134895
- 330027 words of memory out of 5000000
- 19671 multiletter control sequences out of 15000+600000
- 122709 words of font info for 172 fonts, out of 8000000 for 9000
+ 16748 strings out of 492982
+ 231771 string characters out of 6134895
+ 332377 words of memory out of 5000000
+ 19719 multiletter control sequences out of 15000+600000
+ 122574 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,12n,58p,1944b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1427,10 +1496,10 @@ uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on _main.pdf (53 pages, 647882 bytes).
+Output written on _main.pdf (63 pages, 1202966 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
- 553 compressed objects within 6 object streams
- 174 named destinations out of 1000 (max. 500000)
- 2450 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 760 PDF objects out of 1000 (max. 8388607)
+ 616 compressed objects within 7 object streams
+ 197 named destinations out of 1000 (max. 500000)
+ 2503 words of extra memory for PDF output out of 10000 (max. 10000000)
 
