@@ -7,11 +7,11 @@ bookdown::tufte_html_book:
   includes:
     in_header: header.html
     before_body: preamble.html
+    after_body: comments.html
   split_by: section
   split_bib: true
   number_sections: true
   pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
-
 
 bookdown::pdf_book:
   base_format: tufte::tufte_book
