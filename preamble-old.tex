@@ -1,0 +1,56 @@
+\usepackage[Bjornstrup]{fncychap}
+
+\newenvironment{epigraph}%
+{
+\begin{flushright}
+\begin{minipage}{20em}
+\begin{flushright}
+\itshape
+}%
+{
+\end{flushright}
+\end{minipage}
+\end{flushright}
+\vspace{1em}
+}
+
+
+\newenvironment{example}{\begin{quote}\normalsize}{\end{quote}}
+\newenvironment{problem}{\begin{quote}\normalsize}{\end{quote}}
+\newenvironment{puzzle}{\begin{quote}\normalsize}{\end{quote}}
+\newenvironment{argument}{\begin{quote}\normalsize}{\end{quote}}
+\usepackage{fontawesome}
+\newenvironment{warning}{\begin{itemize}\item[\faBan]}{\end{itemize}}
+\usepackage{marvosym}
+\newenvironment{info}{\begin{itemize}\item[\Info]}{\end{itemize}}
+
+
+\usepackage{etoolbox}
+
+
+% Jesse Rosenthal's code from https://groups.google.com/forum/#!topic/pandoc-discuss/wCF78X6SvwY
+% Avoid new pagraph/indent after lists, quotes, etc.
+\makeatletter
+\newcommand{\gobblepars}{%
+    \@ifnextchar\par%
+        {\expandafter\gobblepars\@gobble}%
+        {}}
+\newcommand{\eatpar}{\@ifnextchar\par{\@gobble}{}}
+\newcommand{\forcepar}{\par}
+\makeatother
+\AfterEndEnvironment{quote}{\expandafter\gobblepars}
+\AfterEndEnvironment{enumerate}{\expandafter\gobblepars}
+\AfterEndEnvironment{itemize}{\expandafter\gobblepars}
+\AfterEndEnvironment{description}{\expandafter\gobblepars}
+\AfterEndEnvironment{example}{\expandafter\gobblepars}
+\AfterEndEnvironment{argument}{\expandafter\gobblepars}
+\AfterEndEnvironment{problem}{\expandafter\gobblepars}
+\AfterEndEnvironment{info}{\expandafter\gobblepars}
+\AfterEndEnvironment{warning}{\expandafter\gobblepars}
+\AfterEndEnvironment{longtable}{\expandafter\gobblepars} % not working, why?
+
+
+
+% indent lists a bit
+\usepackage{enumitem}
+\setlist[1]{leftmargin=24pt}
