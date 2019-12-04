@@ -1,4 +1,6 @@
 bookdown::gitbook:
+  includes:
+     after_body: comments.html
   css: ethics.css
   split_by: section+number
   config:

@@ -33,7 +33,6 @@ if (knitr:::is_latex_output()) {
 
 **_In addition_** the decision to convert this text into a [GitHub repository](https://github.com/gwmatthews/ethics) should be considered as an invitation for others to participate in its future development. Anyone can fork the repository where it resides and use it as a template for their own book project; offer suggestions for revisions, or contribute in other ways as well. Please use the "issues" section of the repository for making any major suggestions.
 
-[Printable pdf edition available here](https://github.com/gwmatthews/ethics/raw/master/docs/_main.pdf).
 
 ## Dedication {-}
 
