@@ -1,6 +1,6 @@
 bookdown::gitbook:
   css: ethics.css
-  split_by: section
+  split_by: section+number
   config:
     toc:
       collapse: section

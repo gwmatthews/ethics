@@ -76,13 +76,10 @@ Christopher Columbus was a criminal, because anyone who kills innocent people, k
 
 ```
 
-
 Here the grammatical form is a little misleading. This is an argument in spite of the fact that there is only one sentence. Why? Because this one sentence expresses a few different claims and some of these claims are offered as supports for others. We can see this if we break it up into individual claims and change the order around like so:
 
-
 ```{block type='argument'}
-Anyone who kills people, kidnaps other people and steals their valuables is a criminal.
-
+Anyone who kills people, kidnaps other people and steals their valuables is a criminal.\
 Christopher Columbus did all of theose things.
 
 ***
@@ -90,7 +87,6 @@ Christopher Columbus did all of theose things.
 So Christopher Columbus was a criminal.
 
 ```
-
 
 Perhaps this is not yet a very convincing argument, but at least it is an argument unlike the first examples.
 
@@ -140,9 +136,6 @@ These indicate the general logic form of argument being followed. Is it a matter
 
 ## Validity and Soundness
 
-
-
-
 **Not all** arguments are equal. Just because we have an arbitrary set of premises supporting some random conclusion doesn't mean that we should feel ourselves compelled to buy this conclusion. Instead, as we will see, there are some arguments that really are better than others. Really good arguments are compelling on their own, and we should, as long as we are being rational, have no choice but to accept them. For the skeptics out there who doubt that we will ever be able to create such an argument, I should also point out that the clearest and best arguments really don't end up saying anything very controversial or extraordinary. This is one of the limitations that logic imposes on us: if we are really being logical and using only reliable arguments we may have to refrain from claiming to be able to establish very much. Understanding the logic of arguments, if nothing else, should encourage us to be a little more modest in our claims to knowledge.
 
 **When** we are arguing what we are doing is trying to establish the truth of something that we don't know on the basis of other things that we already know or accept. What we are interested in is establishing the truth of the conclusion, yet for some reason it's truth is not obviously apparent to us so we need to establish it on the basis of other claims the truth of which we can already accept. Arguments move us from the known to the unknown.
@@ -150,18 +143,15 @@ These indicate the general logic form of argument being followed. Is it a matter
 **To take** a simple example, suppose we would like to establish that Socrates fears death. We don't have any direct reason for thinking that this is true. But we do know some other things that may be of use in establishing this. First we know that Socrates is a human being. Second we know that all human beings are mortal. Third, we know that all mortals fear death. In standard form this would be arranged like so:
 
 ```{block type='argument'}
-Socrates is a human being.
-
-All human beings are mortal.
-
-All mortals fear death.
+Socrates is a human being.\
+All human beings are mortal.\
+All mortals fear death.\
 
 ***
 
 So Socrates fears death.
 
 ```
-
 
 ### Key concepts {-}
 
@@ -194,13 +184,16 @@ One thing to notice here is that the test for validity is entirely independent o
 
 **Learning how** to identify valid arguments is important for a course in philosophical ethics, since the philosophical approach to ethics consists largely of the examination of arguments about ethical issues. And the best way to learn this is by practicing. Consider the following argument, conveniently written in standard form:
 
-
-> The earth is a rotating sphere moving around the sun.\
+```{block type='argument'}
+The earth is a rotating sphere moving around the sun.\
 We are all on the surface of the earth.\
 Anything on the surface of a moving object moves with that object.\
-<hr>
+
+***
+
 So we are all moving around the sun.
 
+```
 
 Forget for a moment about whether or not you buy the conclusion on its own. In analyzing an argument we need to know whether the premises support the conclusion adequately, so we pretend that we are not sure about the truth of the conclusion. Our first test is the test of validity. We ask ourselves: if the premises were true, could the conclusion be otherwise? Is the truth of the conclusion guaranteed by the truth of the premises? In this case it seems clear that if we are in fact all on the surface of an object that is moving around the sun, then we would all also have to be moving around the sun. So the argument is valid.
 
@@ -208,21 +201,28 @@ Forget for a moment about whether or not you buy the conclusion on its own. In a
 
 Let's look at another example:
 
-
-> If you want to see the world, you should join the navy.\
+```{block type='argument'}
+If you want to see the world, you should join the navy.\
 Jane wants to see the world.\
-<hr>
+
+***
+
 So Jane should join the navy.
 
+```
 
 This argument is a little trickier because it contains an IF – THEN statement. IF – THEN statements, also known as conditionals, make indirect claims. They don't just tell us what is the case, they tell us what would be the case if, or on condition that, something else were true. With this in mind let us consider this second argument. First we check for validity, by assuming that the premises are true and seeing if the conclusion would have to be true as well. In other words we are not yet interested in whether or not they really are true, but whether the argument works as an argument, whether the conclusion logically follows from the premises. It seems pretty clear, or at least it should seem clear, that this argument is valid. This is because if, as the first premise claims, the navy really is the best way to see the world, and if as the second premise claims, a person named Jane wants to see the world, then she should clearly join the navy. Notice that this argument's validity does not have anything to do with its content, with the particular claims being made. Instead, validity is a matter of form, so that we could substitute any other content for the content of this argument without affecting its validity. Essentially this argument has the following form:
 
 
-> If you want to do A, then you should do B.\
+```{block type='argument'}
+If you want to do A, then you should do B.\
 Person P wants to do A.\
-<hr>
+
+***
+
 So person P should do B.
 
+```
 
 **Here** A, B can be substituted by any statements we please, and P can be any person we please, as long as our substitution is consistent throughout the argument. In all cases the resulting argument will turn out to be valid. Try it and you will see that the resulting arguments all come out valid. This is because validity is a matter of logical form regardless of the content we are arguing about.
 
@@ -230,12 +230,15 @@ So person P should do B.
 
 **Now consider,** as our next example, the following argument:
 
-
-> If you want to see the world, you should join the navy.\
+```{block type='argument'}
+If you want to see the world, you should join the navy.\
 Jane joined the navy.\
-<hr>
+
+***
+
 So Jane wants to see the world.
 
+```
 
 This argument seems similar to the previous one, but it has one important difference. The conclusion of this argument was the second premise of the last argument, and the second premise of this argument was its conclusion. What happens to the validity of the argument when we make this simple change? Notice what this argument is saying. It is offering an explanation of why it is that Jane joined the navy -- because she wanted to see the world. The question is, and this is the way we check for validity, are there any other possible explanations of why she joined the navy that are consistent with the premises? In other words, is it possible for the premises to both be true and the conclusion false? The answer is yes. It all hinges on what the first premise doesn't say. It doesn't say that the only possible reason to join the navy is the desire to see the world. It just says that if that's what you happen to want then the navy is for you. So Jane could have joined the navy only because she wanted to learn all there is to know about marine diesel engines without caring whether she learned this in New Jersey or in the South Pacific ocean. To put this in yet another way: if it is at all possible, if there are no contradictions involved, for the premises of an argument to be true and the conclusion false, then the argument is invalid. This argument is invalid for precisely this reason. Furthermore, since it is invalid, this automatically makes it unsound, since in order for it to be sound it has to first be valid.
 
@@ -245,26 +248,34 @@ This argument seems similar to the previous one, but it has one important differ
 
 **Another** way to look at the difference between valid and invalid arguments is in terms of the difference between a proof and a counterexample. A proof is a step by step demonstration that the conclusion is a **_necessary_** consequence of the premises. To prove that a conclusion validly follows from a set of premises we show in a detailed way how a series of obviously valid steps in reasoning lead us to the conclusion. Take the following argument for example.
 
+```{block type='argument'}
+Fred is older than Wilma but younger than Betty.\
+Barney is older than Betty.
 
-> Fred is older than Wilma but younger than Betty.
-> Barney is older than Betty.
-> ***
->So Barney is older than Fred.
+***
 
+So Barney is older than Fred.
+```
 
 Remember that a valid argument is one in which **_if_** the premises are true, the conclusion must also be true. So how would we prove that this is the case? Well we just *assume* that the premises are true and go from there. So here is what a proof might look like:
 
-> The first premise states that Fred is older than Wilma and he is younger than Betty. Wilma doesn't matter here since she isn't mentioned in the other premise or the conclusion, so let's just note that this premise clearly states that Fred is younger than Betty. Now this would mean that Betty is older than Fred, since "older" and "younger" are inverses. If I am younger than you then you are older than me no matter who we are since that's what "younger" and "older" mean.  Now since Barney is older than Betty, as the second premise states, he must be older than Fred too, since as we just saw, Betty is older than Fred. This follows from the fact that the relationship "older than" is a **transitive** relationship^[Not all relationships are transitive of course. Can you think of one that is not, where A having that relationship with B, and B having it with C does *not* mean that A has the relationship with C?] -- if A is older than B and B is older than C A has to be older than C since that's "just what "older than" means. So our conclusion that Barney is older than Fred is clearly a *logical consequence* of the premises. 
+```{block type='rmdtip'}
+The first premise states that Fred is older than Wilma and he is younger than Betty. Wilma doesn't matter here since she isn't mentioned in the other premise or the conclusion, so let's just note that this premise clearly states that Fred is younger than Betty. Now this would mean that Betty is older than Fred, since "older" and "younger" are inverses. If I am younger than you then you are older than me no matter who we are since that's what "younger" and "older" mean.  Now since Barney is older than Betty, as the second premise states, he must be older than Fred too, since as we just saw, Betty is older than Fred. This follows from the fact that the relationship "older than" is a **transitive** relationship -- if A is older than B and B is older than C A has to be older than C since that's "just what "older than" means. So our conclusion that Barney is older than Fred is clearly a *logical consequence* of the premises. 
+
+```
 
 **That's all** there really is to any proof. We have just unpacked the meaning of what the premises are saying in a way that establishes that they entail the conclusion. We don't, in other words, have to add any new information to what is already stated in the premises in order to get the conclusion. In more complicated cases it can take much more effort to show this but all proofs are nothing but such a process of showing that the conclusion is thus "contained" in the premises already, which is of course *why* the truth of the premises would guarantee the truth of the conclusion. In a simple case like this we can almost just see the obviousness of the connection between premises and conclusion, and so it might seem silly to spell things out in this much detail, but in more complicated cases there is more room for error so spelling things out like this is important.
 
 **Invalid arguments** in contrast are arguments where we would need something more than what is contained in the premises to get the conclusion. No matter how we attempt to prove our conclusion we will *always* come to some spot where we cannot get any closer to the conclusion. So how do we show *this*? We use a counterexample, which is nothing but a possible situation in which the premises would all be true and the conclusion would be false. This shows that the argument is invalid, since if it were valid it would be **_impossible_** for the premises to be true and the conclusion false at the same time as we just saw. Consider the following argument:
 
->
+```{block type='argument'}
 Fred is older than Wilma but younger than Betty.\
 Barney is younger than Betty and older than Wilma.\
-<hr>
+
+***
+
 So Fred is older than Barney.
+```
 
 
 Even though we have no idea what these peoples' ages are (or even if they exist outside of a 1970's TV cartoon series) we can tell that the conclusion does not have to be true, even if the premises were true. This argument is invalid and we can show this with a counterexample.

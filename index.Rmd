@@ -1,7 +1,8 @@
 --- 
 title: "Philosophical Ethics"
 subtitle: "A Guidebook for Beginners"
-author: "George Matthews"
+author: "**George W. Matthews**"
+date: "last revised: `r Sys.Date()`"
 description: "An open textbook"
 github-repo: "gwmatthews/ethics"
 site: bookdown::bookdown_site
@@ -26,28 +27,31 @@ if (knitr:::is_latex_output()) {
 
 
 
-**This** book is an introduction to philosophical ethics intended for use in introductory college or high school level courses. It has grown out of lecture notes used as supplementary reading in online classes I have taught at the Pennsylvania College of Technology for almost 20 years. It has seen various incarnations over the years -- starting out as a pdf document, and then evolving into a Wordpress driven website and finally now as a combination of a web version and pdf document hosted at GitHub. This text represents my attempt to scratch a few itches. The first is my wanting a presentation of the major philosophical approaches to ethics that I can actually agree with. There are many good quality ethics textbooks out there, and yet none has exactly matched my way of wanting to present the material. Teaching ethics over the years has been a process of active exploration and constant revision of my approach as I have come to a more nuanced and richer appreciation of what ethical thinking and theorizing is all about, as well as some ideas about how I think the main strands of argument relate to each other. Yes this is a partisan effort, but it's all subject to revision and refinement based on, I hope at least, the better argument. That's what I am trying to get across here. 
+**_This book_** is an introduction to philosophical ethics intended for use in introductory college or high school level courses. It has grown out of lecture notes used as supplementary reading in online classes I have taught at the Pennsylvania College of Technology for almost 20 years. It has seen various incarnations over the years -- starting out as a pdf document, and then evolving into a Wordpress driven website and finally now as a combination of a web version and pdf document hosted at GitHub. This text represents my attempt to scratch a few itches. The first is my wanting a presentation of the major philosophical approaches to ethics that I can actually agree with. There are many good quality ethics textbooks out there, and yet none has exactly matched my way of wanting to present the material. Teaching ethics over the years has been a process of active exploration and constant revision of my approach as I have come to a more nuanced and richer appreciation of what ethical thinking and theorizing is all about, as well as some ideas about how I think the main strands of argument relate to each other. Yes this is a partisan effort, but it's all subject to revision and refinement based on, I hope at least, the better argument. That's what I am trying to get across here. 
 
-**The second** itch I am trying to scratch here has to do with initiatives in open education, and I'd like this text to contribute in its own small way to the much larger and more influential open source movement and philosophy of which I consider it a part. Knowledge is only ours to share. Yes of course writers, developers and publishers do hard work that deserves compensation. But intellectual property, it seems to me, is a false idol that deserves to be smashed. So here is my effort to chip away at it -- knowledge should free us and and not sink us into both literal and figurative debt.
+**_The second itch_** I am trying to scratch here has to do with initiatives in open education, and I'd like this text to contribute in its own small way to the much larger and more influential open source movement and philosophy of which I consider it a part. Knowledge is only ours to share. Yes of course writers, developers and publishers do hard work that deserves compensation. But intellectual property, it seems to me, is a false idol that deserves to be smashed. So here is my effort to chip away at it -- knowledge should free us and and not sink us into both literal and figurative debt.
 
-**In addition** the decision to convert this text into a [GitHub repository](https://github.com/gwmatthews/ethics) should be considered as an invitation for others to participate in its future development. Anyone can fork the repository where it resides and use it as a template for their own book project; offer suggestions for revisions, or contribute in other ways as well. Please use the "issues" section of the repository for making any major suggestions.
+**_In addition_** the decision to convert this text into a [GitHub repository](https://github.com/gwmatthews/ethics) should be considered as an invitation for others to participate in its future development. Anyone can fork the repository where it resides and use it as a template for their own book project; offer suggestions for revisions, or contribute in other ways as well. Please use the "issues" section of the repository for making any major suggestions.
 
 [Printable pdf edition available here](https://github.com/gwmatthews/ethics/raw/master/docs/_main.pdf).
 
 ## Dedication {-}
 
-> Receive correctly this monk's word-stream, neither frozen nor trickling away, neither transparent nor muddy. When you wring it dry, take advantage of the opportunity; when you enter the bustle, perceive with your whole eye. Thorough understanding and the changing world fulfill each other totally without obstacle. The moon accompanies the current, the wind bends the grass. . . . Find your seat, wear your robe, and go forward and see for yourself.
- -Hongzhi, *Cultivating the Empty Field* 
+```{block type='epigraph'}
+Receive correctly this monk's word-stream, neither frozen nor trickling away, neither transparent nor muddy. When you wring it dry, take advantage of the opportunity; when you enter the bustle, perceive with your whole eye. Thorough understanding and the changing world fulfill each other totally without obstacle. The moon accompanies the current, the wind bends the grass...Find your seat, wear your robe, and go forward and see for yourself.
+
+---Hongzhi, *Cultivating the Empty Field* 
+```
 
 
 
 ## Acknowledgements {-}
 
-**The writing** and publication of this book would not be possible without the work of numerous people who make and share their amazing work in the open source software community. It is based in particular on the work of [Yi Hui](https://github.com/yihui) and the other developers of [bookdown](https://github.com/rstudio/bookdown) and [Rstudio](https://rstudio.com/products/rstudio/), as well as [Jonathan Weisberg](https://github.com/jweisber) whose restyling of the Tufte theme for bookdown books is both stylish and functional. 
+**_The writing_** and publication of this book would not have been possible without the work of numerous people who make and share their amazing work in the open source software community. It is based in particular on the work of [Yi Hui](https://github.com/yihui) and the other developers of [bookdown](https://github.com/rstudio/bookdown) and [Rstudio](https://rstudio.com/products/rstudio/) and related software. While it has been a bit of a steep learning curve figuring out how to use Rstudio and bookdown to write and style a book, it has been a lot of fun too! The end product, hopefully, speaks for itself and demonstrates that these tools are not just for people with highly technical backgrounds, but can be used by anyone with some computer skills and a bit of patience to create functional, cross-platform and pretty good looking web based books. 
 
 ### License CC BY-SA 4.0 {-}
 
-**This book** is released under a creative commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license.
+**_This book_** is released under a creative commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license.
 
 
 
