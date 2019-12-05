@@ -293,7 +293,7 @@ Notice that if these people had these ages, this would make all of the premises 
 
 ## Exercises and further reading {-}
 
-```{block type='rmdtip'}
+```{block type='rmdslides'}
 For the slideshow summarizing the main points of this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/02-logic.html).
 ```
 

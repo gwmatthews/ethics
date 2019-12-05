@@ -341,7 +341,7 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 
 ## Find Out More {-}
 
-```{block type='rmdtip'}
+```{block type='rmdslides'}
 Here is a [summary in slideshow form](https://gwmatthews.github.io/ethics-slideshows/03-fallacies.html) of the content of this chapter.
 ```
 

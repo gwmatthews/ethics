@@ -28,7 +28,7 @@ div.epigraph {
 }
 
 
-.rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning, .rmdquestion{
+.rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning, .rmdquestion, .rmdslides{
   padding: 1em 2em 1em 5em;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -60,6 +60,9 @@ div.epigraph {
   background-image: url("./img/question.png");
 }
 
+.rmdquestion {
+  background-image: url("./img/slides.png");
+}
 
 .book .book-body .page-wrapper .page-inner section.normal blockquote {
   width: 90%;
