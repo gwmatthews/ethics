@@ -19,9 +19,13 @@
 
 **_Cultural relativism_** is one particular variant of a broader position that we can call moral relativism. Another variant is "subjective relativism" which appeals to individual feelings as the basis of moral judgment. Cultural relativism boils down to a few simple and seemingly obvious claims:
 
-- Ethical or moral claims are not objective in the same way factual claims might be.
-- There is no such thing as an absolute value or standard that could provide a neutral way of determining whether a given practice is really right or really wrong.
-- Ethical or moral judgments are relative to our perspective, especially the perspective of the cultural group to which we belong.
+```{block type='rmdnote'}
+**According to relativism**
+
+- Ethical or moral claims are not objective in the way factual claims are.
+- There is no neutral standard for determining right or wrong.
+- All value judgments are relative to our personal or cultural perspective.
+```
 
 ### A first case for relativism{-}
 
@@ -130,8 +134,7 @@ knitr::include_graphics('img/further.png')
 
 **_Relativism is_** a challenging position to take about ethics. It challenges its defenders to come up with an argument in favor of it that doesn't either beg the question, or undermine itself. 
 
-```{block type='rmdwarning'}
-
+```{block type='rmdquestion'}
 Can a relativist ever lay claim to being correct about anything including the correctness of relativsm? In case she did, then anyone else could simply say, "well relativism may be true for you, but it's not true for me!
 
 ```

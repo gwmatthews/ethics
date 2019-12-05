@@ -157,6 +157,9 @@
 \newenvironment{rmdwarning}
   {\begin{rmdblock}{warning}}
   {\end{rmdblock}}
+\newenvironment{rmdquestion}
+  {\begin{rmdblock}{question}}
+  {\end{rmdblock}}
 
 \newenvironment{epigraph}%
 {
@@ -248,18 +251,20 @@ This should be self-explanatory, but be sure not to miss the icons on the top of
 \begin{itemize}
 \tightlist
 \item
-  open up and close the sidebar with the table of contents in it.
+  Open up and close the sidebar with the table of contents in it.
 \item
-  search within the text for a keyword.
+  Search within the text for a keyword.
 \item
-  change the color scheme or font to make it easier to read.
+  Change the color scheme or font to make it easier to read.
 \item
-  offer editorial suggestions (see below for how this works).
+  Offer editorial suggestions on GitHub (see below for how this works).
 \item
-  download a pdf version of the text for offline reading or printing.
+  Download a pdf version of the text for offline reading or printing.
+\item
+  Find out keyboard short cuts for navigation.
 \end{itemize}
 
-Also note the arrows on the side of the screen (or down at the bottom if you are reading on a small screen) that bring you to the next or previous page.
+Also note the arrows on the side of the screen (or down at the bottom if you are reading on a small screen) that bring you to the next or previous pages.
 
 \hypertarget{comment-on-it}{%
 \subsection*{Comment on it}\label{comment-on-it}}
@@ -278,9 +283,9 @@ If you are a current student in one of my Ethics classes you'll have to do some 
   It is an open source project that was created by someone as an alternative to other commenting systems like Disqus that DO track users and inundate them with ads.
 \end{enumerate}
 
-To use this system you will have to enter a valid email address and then click on a link in the email this system sends you and whatever comments you make will be stored on the Remarkbox servers. You can see exactly what they store by reading their \href{https://www.remarkbox.com/privacy-policy.html}{privacy policy}.
+To use this system you will have to enter a valid email address and then click on a link in the email this system sends you and then whatever comments you make will be stored on the Remarkbox servers. You can see exactly what they store by reading their \href{https://www.remarkbox.com/privacy-policy.html}{privacy policy}.
 
-When you first use the system you will get a random bunch of characters as your user name. If you are a student in my classes please change this to the format Your-first-nameLast-initial: Sp John Smith would be JohnS and I would be GeorgeM. That's just so I can keep track of who is commenting how much for grading purposes.
+When you first use the system you will get a random bunch of characters as your user name. If you are a student in my classes please change this to the format Your-first-nameLast-initial: So John Smith would be JohnS and I am GeorgeM. That's just so I can keep track of who is commenting how much for grading purposes.
 
 \begin{rmdimportant}
 \textbf{How to comment}
@@ -289,8 +294,10 @@ When you first use the system you will get a random bunch of characters as your 
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Type your comment in the window -- you can format it using markdown or
-  just write in plain text.
+  Type your comment in the box at the bottom of the page -- you can
+  format it using
+  \href{https://www.markdownguide.org/basic-syntax/}{markdown} or just
+  write in plain text.
 \item
   Enter a valid email address in the box below.
 \item
@@ -310,6 +317,10 @@ When you first use the system you will get a random bunch of characters as your 
 \item
   You can also log out, and either follow or unfollow any comment
   threads you like.
+\item
+  If you get stuck with your profile open, you can use the back button
+  or your browser or refresh the page. (Seems like a bug to me,
+  honestly, but this is software in active development.)
 \end{enumerate}
 \end{rmdimportant}
 
@@ -321,20 +332,23 @@ Others are also welcome to comment on the text. Please be respectful though or y
 
 If you find a mistake, don't think it's clear in some part, have an issue with any part of it, want something more added, etc. I encourage you to contribute. You can do this in a couple of ways.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
 \tightlist
 \item
   Leave a comment and we can discuss possible changes.
 \item
   Click on the ``edit'' button on the top menu bar -- this will take you to the GitHub repository where the source material lives. There you can either open up an ``issue'' and we can discuss it there, or you can ``fork'' the repository make whatever edits you want and then offer them in the form of a ``pull request.'' All of this assumes that you:
-\item
-  know what ``git'' even is -- it is a version control system that enables collaboration and it mostly intended for software development, but it can be used for working together on any kind of project that involves electronic files, from novels to operating systems. - Here is a great introduction to git (oriented towards users of Rstudio which is what this book was written with:\href{https://happygitwithr.com/}{Happy Git and GitHub for the useR} - and a very clear and well done interactive tutorial (this one is oriented towards Bitbucket not GitHub, but it's great for understanding how to use git)\href{https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud}{Learn git with Bitbucket Cloud}
-\item
-  have an account at GitHub -- which is free. And GitHub pages is a great way to get yourself a free website too!
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Know what ``git'' even is.\footnote{If you don't, it is a version control system that enables collaboration and it mostly intended for software development, but it can be used for working together on any kind of project that involves electronic files, from novels to operating systems. If you want to learn more, check out \href{https://happygitwithr.com/}{Happy Git and GitHub for the useR} or \href{https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud}{Learn git with Bitbucket Cloud}. I love reading documentation, don't you?}
+  \item
+    Have an account at GitHub -- which is free. And GitHub pages is a great way to get yourself a free website too!
+  \end{itemize}
 \item
   Send me an email if you know me in the real world.
-\end{enumerate}
+\end{itemize}
 
 \hypertarget{part-some-preliminaries}{%
 \part*{Some Preliminaries}\label{part-some-preliminaries}}
@@ -1255,15 +1269,21 @@ brought up in, to be the best.
 
 \textbf{\emph{Cultural relativism}} is one particular variant of a broader position that we can call moral relativism. Another variant is ``subjective relativism'' which appeals to individual feelings as the basis of moral judgment. Cultural relativism boils down to a few simple and seemingly obvious claims:
 
+\begin{rmdnote}
+\textbf{According to relativism}
+
 \begin{itemize}
 \tightlist
 \item
-  Ethical or moral claims are not objective in the same way factual claims might be.
+  Ethical or moral claims are not objective in the way factual claims
+  are.
 \item
-  There is no such thing as an absolute value or standard that could provide a neutral way of determining whether a given practice is really right or really wrong.
+  There is no neutral standard for determining right or wrong.
 \item
-  Ethical or moral judgments are relative to our perspective, especially the perspective of the cultural group to which we belong.
+  All value judgments are relative to our personal or cultural
+  perspective.
 \end{itemize}
+\end{rmdnote}
 
 \hypertarget{a-first-case-for-relativism}{%
 \subsection*{A first case for relativism}\label{a-first-case-for-relativism}}
@@ -1398,12 +1418,12 @@ can really be resolved.
 
 \textbf{\emph{Relativism is}} a challenging position to take about ethics. It challenges its defenders to come up with an argument in favor of it that doesn't either beg the question, or undermine itself.
 
-\begin{rmdwarning}
+\begin{rmdquestion}
 Can a relativist ever lay claim to being correct about anything
 including the correctness of relativsm? In case she did, then anyone
 else could simply say, "well relativism may be true for you, but it's
 not true for me!
-\end{rmdwarning}
+\end{rmdquestion}
 
 It is also challenging to its opponents since it seems to fit in well with the intractability of ethical stances. People \textbf{do} tend to dig in and refuse to either accept reasons against their own favored views or even the possibility of compromise.
 
