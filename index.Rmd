@@ -37,10 +37,16 @@ if (knitr:::is_latex_output()) {
 
 ## Dedication {-}
 
+
+
 ```{block type='epigraph'}
 Receive correctly this monk's word-stream, neither frozen nor trickling away, neither transparent nor muddy. When you wring it dry, take advantage of the opportunity; when you enter the bustle, perceive with your whole eye. Thorough understanding and the changing world fulfill each other totally without obstacle. The moon accompanies the current, the wind bends the grass...Find your seat, wear your robe, and go forward and see for yourself.
 
 ---Hongzhi, *Cultivating the Empty Field* 
+```
+
+```{r, fig.align = 'center', echo = FALSE, out.width = '50%'}
+knitr::include_graphics('img/hongzhi.jpg')
 ```
 
 ## Acknowledgements {-}
