@@ -11,12 +11,8 @@ bookdown::gitbook:
       after: |
         <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
     download: [pdf]
-    edit: https://github.com/rstudio/rmarkdown-book/edit/master/%s
-    sharing:
-      github: yes
-      facebook: no
-      twitter: no
-
+    edit: https://github.com/gwmatthews/ethics/%s
+    sharing: no
 
 bookdown::pdf_book:
   includes:
