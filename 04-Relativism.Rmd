@@ -123,14 +123,13 @@ distinguish between acceptable and wrongful killing of other human beings.
 
 **_Once we recognize_** that even Nazis are not living in a completely foreign moral universe, that they share with us the basic idea that there is an important moral distinction between justified and unjustified homicide, we can take a critical look at their way of making this distinction. And in fact it is quickly apparent that they made this distinction in a faulty way – based on pseudo-scientific theories of race, based on the political manipulation of people's fears and based on paranoia. Hence, even on their own terms, the way in which they made this important distinction fails to be satisfactory. It is the fact that we share this basic distinction with them that enables us to criticize their way of putting in into practice. We can always ask of a given cultural practice or value, whether it is based on claims that stand up to scrutiny and whether it performs as advertised. This sort of internal criticism is only possible on the basis of shared human concerns that transcend different cultures.
 
-
+Here is the slideshow summary covering the main points of this chapter.
 
 ## Further exploration {-}
 
 ```{r, fig.align = 'center', echo = FALSE }
 knitr::include_graphics('img/further.png')
 ```
-
 
 **_Relativism is_** a challenging position to take about ethics. It challenges its defenders to come up with an argument in favor of it that doesn't either beg the question, or undermine itself. 
 

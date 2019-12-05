@@ -80,7 +80,7 @@ Here the grammatical form is a little misleading. This is an argument in spite o
 
 ```{block type='argument'}
 Anyone who kills people, kidnaps other people and steals their valuables is a criminal.\
-Christopher Columbus did all of theose things.
+Christopher Columbus did all of those things.
 
 ***
 
@@ -293,5 +293,8 @@ Notice that if these people had these ages, this would make all of the premises 
 
 ## Exercises and further reading {-}
 
+```{block type='rmdtip'}
+For the slideshow summarizing the main points of this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/02-logic.html).
+```
 
 

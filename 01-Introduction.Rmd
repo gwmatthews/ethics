@@ -82,6 +82,11 @@ knitr::include_graphics('img/task.png')
 ```
 <center>end of chapter</center>
 
+### Further exploration {-}
+
+```{block type='rmdtip'}
+For a slideshow that summarizes the points covered in this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/01-introduction.html).
+```
 
 
 
