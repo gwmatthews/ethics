@@ -69,6 +69,8 @@ This should be self-explanatory, but be sure not to miss the icons on the top of
 - offer editorial suggestions (see below for how this works).
 - download a pdf version of the text for offline reading or printing.
 
+Also note the arrows on the side of the screen (or down at the bottom if you are reading on a small screen) that bring you to the next or previous page.
+
 ### Comment on it {-}
 
 If you are a current student in one of my Ethics classes you'll have to do some commenting. When I used WordPress to host this text that was a built in feature. Here I am relying on a third party commenting add-on to the online version of the book. There are many ways to do this, with Disqus being one of the most popular. I chose to use a system called [Remarkbox](https://www.remarkbox.com/) for the following reasons:
