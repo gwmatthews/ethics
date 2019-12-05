@@ -157,7 +157,7 @@ The senator who suggested cutting funding for the new Air Force attack drone sys
 Thus we should reject such cuts.
 ```
 
-**_This fallacy__** often appears in the context of a debate in which one person misrepresents his or her opponent's view in order more easily, as with a person made of straw, to knock it down. This is a fallacy of ambiguity in that it relies on a superficially similar version of the view that is being attacked rather than the view itself. One can often "win" debates by using this strategy, but such victories are hollow in that they do not really engage with the real issues but only with caricature. If you really want to demonstrate that some view you are attacking is worthy of rejection, it is far better to rely on the "principle of charity" which involves presenting your opponent's view in as favorable a light as possible. If it still fails to withstand scrutiny, then perhaps you are wrong to reject it. he drawback, however, is that if you represent your opponent's views in a more fair and favorable light, your objections to them may themselves not hold up. But then again, that is only a drawback if you care more about winning debates rather than in figuring out what is really the case.
+**_This fallacy_** often appears in the context of a debate in which one person misrepresents his or her opponent's view in order more easily, as with a person made of straw, to knock it down. This is a fallacy of ambiguity in that it relies on a superficially similar version of the view that is being attacked rather than the view itself. One can often "win" debates by using this strategy, but such victories are hollow in that they do not really engage with the real issues but only with caricature. If you really want to demonstrate that some view you are attacking is worthy of rejection, it is far better to rely on the "principle of charity" which involves presenting your opponent's view in as favorable a light as possible. If it still fails to withstand scrutiny, then perhaps you are wrong to reject it. he drawback, however, is that if you represent your opponent's views in a more fair and favorable light, your objections to them may themselves not hold up. But then again, that is only a drawback if you care more about winning debates rather than in figuring out what is really the case.
 
 ### Cherry picking {-}
 
@@ -355,7 +355,9 @@ knitr::include_graphics('img/fallacy-ref.jpg')
 - *Your Bias Is*: is the sister site to Your Fallacy Is and focuses on common cognitive biases. 
    - https://yourbias.is/
    
-- Dan Ariely is a behavioral economist who studies human irrationality and has written a number of very readable books documenting his findings. He also has a number of videos of talks he has given on his site, [danariely.com](http://danariely.com/).http://danariely.com/
+- Dan Ariely is a behavioral economist who studies human irrationality and has written a number of very readable books documenting his findings. He also has a number of videos of talks he has given on his site, [danariely.com](http://danariely.com/)
+  - http://danariely.com/
    
 - And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fallacy_ref?lang=en) on Twitter.
+  - https://twitter.com/fallacy_ref
    
