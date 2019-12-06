@@ -133,7 +133,7 @@ Soon there will be a link here to the slideshow summary covering the main points
 
 ```
 
-**_Relativism is_** a challenging position to take about ethics. It challenges its defenders to come up with an argument in favor of it that doesn't either beg the question, or undermine itself. 
+**_Relativism is_** a challenging position to take about ethics. It challenges its defenders to come up with an argument in favor of it that doesn't either [beg the question](#begging-the-question), or undermine itself. 
 
 ```{block type='rmdquestion'}
 Can a relativist ever lay claim to being correct about anything including the correctness of relativsm? In case she did, then anyone else could simply say, "well relativism may be true for you, but it's not true for me!

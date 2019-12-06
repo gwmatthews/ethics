@@ -16,9 +16,9 @@ Reality is, you know, the tip of an iceberg of irrationality that we've managed 
 
 **_As we turn to examine_** some important logical fallacies it is helpful to keep in mind that there are both many more particular fallacies than the ones we are going to look at and also many different ways of categorizing them. The thing to keep in mind here is that all stretch logical support beyond its breaking point, and how in particular this happens is not always so clear. On the other hand you can usually see the weakness of an argument that relies on a fallacy by asking yourself a simple question about it: What is being claimed here, and on the basis of what? This often reveals the basic weakness of the argument as it involves stepping back from the particular claims being made in order to see the broader pattern and strategy of reasoning involved. It is this pattern that is flawed, regardless of the content of the argument. As a result, we can often find instances of the same form of fallacious reasoning used with many different topics, especially those that are controversial.
 
-**_In addition_** it can be helpful to look at fallacies in terms of a few more general types of mistakes in reasoning. That is what we will do here as we examine some different forms of bad reasoning under the headings: fallacies of *relevance* -- all of which rest reasoning or points that are really just not relevant to the discussion; fallacies of *ambiguity* all of which depend on the ways in which many words and expressions can have multiple and often incompatible meanings; and fallacies of *presumption*," which depend on unacknowledged, unjustified extra assumptions.
+**_In addition_** it can be helpful to look at fallacies in terms of a few more general types of mistakes in reasoning. That is what we will do here as we examine some different forms of bad reasoning under the headings: [fallacies of *relevance*](#relevance) -- all of which rest reasoning or points that are really just not relevant to the discussion; [fallacies of *ambiguity*](#ambiguity) all of which depend on the ways in which many words and expressions can have multiple and often incompatible meanings; and [fallacies of *presumption*](#presumption)," which depend on unacknowledged, unjustified extra assumptions.
 
-## Fallacies of Relevance
+## Fallacies of Relevance {#relevance}
 
 **_As we turn to_** the fallacies of relevance, it is good to remember, that this set of fallacies rests on the use of information that may seem relevant to establishing the conclusion but isn't really relevant at all. They often play on our emotional responses to certain situations and topics and they can be quite effective as means of persuading us. They work so well in getting us to buy into their conclusions in part because of the nature of the human mind – even though we are capable of thinking about things coolly and logically, we often jump to conclusions on emotional grounds and then enlist our cognitive abilities merely to rationalize decisions and conclusions we have already made. Philosophers would encourage us to resist such impulses and to stop and think before jumping to conclusions. This can of course be quite challenging just because of the way in which our brains are wired – the neural pathway between sensory input to motor and cognitive output is shorter in its trip through those parts of the brain that process emotions than it is through our higher cognitive powers. But still, whoever said leading an examined life was the easiest thing to do?
 
@@ -28,11 +28,7 @@ Reality is, you know, the tip of an iceberg of irrationality that we've managed 
 My friend who is a scientist insists that global warming is not cause for alarm, and for me that is a good enough reason to accept her conclusion.
 ```
 
-
-
-
 **_This fallacy_** is also known as “appeal to inappropriate authority.” Appealing to authority is a commonly used way of trying to convince people. But why do we find authorities believable in the first place? Because they are authorities? In this case we may wonder why they are considered authorities at all. On the other hand if they have something to back up their claims, why don't we just see for ourselves whether they are right or not? 
-
 
 ### Ad hominem {-}
 
@@ -44,11 +40,7 @@ There is no need to take that animal rights activist seriously.
 After all, she also benefits from the use of animals – notice her leather shoes and fur mittens.
 ```
 
-
-
-
 **_The name_** of this fallacy is a Latin expression meaning "against the person." It is also known as the "abusive fallacy," or "personal attack." This very popular fallacy focuses on the personal inconsistency of the person giving the argument in an attempt to discredit their argument. People who use this strategy don't respond directly to their opponent's argument but bring up external reasons not to believe anything he or she says. This is clearly wrong since it is the argument that someone gives and its validity and soundness that should be our concern not the person from whose mouth that argument happens to be coming.
-
 
 ### Popular appeal (bandwagon fallacy) {-}
 
@@ -69,9 +61,7 @@ After all it was a part of their culture and not many people objected.
 The reason that we are right is because we have the military might to get rid of any government that disagrees.
 ```
 
-
 **_However effective_** force or threats of force may be in getting people to do what we want, we may wonder whether this approach really is attempting to convince anyone of anything. Even though threats may get people to say that they agree with you, this shows nothing about whether or not the conclusion is true or whether they really believe what you are saying.
-
 
 ### Appeal to consequences {-}
 
@@ -85,7 +75,6 @@ But this conclusion violates our sense of the significance of our own lives and 
 
 **_This fallacy_** involves rejecting some particular viewpoint, theory or idea based on the consequences to which it leads. These consequences are often emotionally loaded, the kinds of things that we may not want to believe. However, it is often simply irrelevant whether or not we like or want to believe something: the truth may in fact be indifferent to what is pleasing to us. The way to tell what the truth of the matter is, is to examine the evidence rather than reject a theory out of hand because it has unappealing consequences.
 
-
 ### The naturalistic fallacy {-}
 
 ```{block type='rmdwarning'}
@@ -98,7 +87,6 @@ So the responsibility of raising and taking care of them is entirely theirs.
 
 **_Next we have_** the naturalistic fallacy. We often appeal to nature as if natural things, practices, etc. were automatically good. This is perhaps understandable in a world filled with various artificial substances of dubious safety. But we should be careful of making such appeals since they involve a leap of logic. The problem with the naturalistic fallacy is actually quite a general problem -- the attempt to conclude something about what should or ought to be be the case from what simply is the case. In this example, the facts of how human reproduction work entail nothing about who should play what role in raising children. That is a matter of social relations that, us philosophers hope, should be based on a free and open (and rational) discussion between those involved and not on the "facts of life."
 
-
 ### Red herring {-}
 
 ```{block type='rmdwarning'}
@@ -109,9 +97,7 @@ We shouldn't worry that much about people dying of horrible diseases in Africa.
 After all we have problems of our own to deal with.
 ```
 
-
 **_The name_** of this fallacy comes from the British method of fox hunting. First a captive fox is released and then a pack of foxhounds follow its scent trail, followed in turn by the hunters. In order to make it a little more difficult for the hounds to follow the fox, a piece of smoked herring (a smelly fish that typically is red in color) is wiped on the ground across the fox's path and thrown off to the side somewhere. This serves to distract and confuse the hounds and gives the fox a chance to get away. In an argument whenever you bring up something irrelevant in order to draw attention away from the topic at hand you are relying on the fallacy of red herring. The problem with the reasoning in this example, of course, is that there is no mention made of the possibility that both problems in Africa and problems here can be addressed. Besides mentioning something off the topic in no way undermines whatever claims are made about that topic.
-
 
 ### Weak analogy {-}
 
@@ -124,13 +110,11 @@ I too am ridiculed for believing that the Pope is a reptilian alien in league wi
 Thus I too will have my day and my views will be accepted.
 ```
 
-
 **_Analogies are_** comparisons between different things. We reason analogically when we argue that because one object or concept has a certain feature, other objects or concepts that are similar in certain respects will also have that feature. This is an important way in which we make sense of the world. However, it has its drawbacks. If we are not careful we can end up making analogies when they are not really there. This argument is based on a weak analogy because it is just not the case that all views that are ridiculed end up prevailing in the end. Some do, like Galileo's, but the reason was not inherent in their being ridiculed, but on their being based on good reasoning supported by evidence in the appropriate ways. And by the way, there really are people who believe that the Pope is a reptilian alien, just google it and see.
 
-## Fallacies of Ambiguity
+## Fallacies of Ambiguity {#ambiguity}
 
 **_The next set_** of fallacies relies on the fact that many terms have multiple meanings. Switching between meanings without acknowledging that one is doing so is a way of making invalid reasoning look valid. Closer examination reveals arguments that do this to be weaker than at first glance. Here we will consider just two examples. Many more often appear in debates.
-
 
 ### Equivocation {-}
 
@@ -141,9 +125,6 @@ People in jail are really free.
 
 This is because if you can think whatever you want, then you are free and people jail can certainly think whatever they want.
 ```
-
-
-
 
 **_Equivocation_** is using multiple meanings of a word as if they were the same. We start out with one meaning of a word like "freedom" and end up with another meaning, in the attempt to fool the person who is listening to us that our reasoning is valid. Used car dealers sometimes use a tactic known as "bait and switch" that is similar to this -– they advertise great deals in the paper and then when you show up to their lot they have something else similar but not quite as good a deal that they offer you instead.
 
@@ -171,7 +152,7 @@ Thus vaccines cause autism.
 
 **_This one_** is really no joke -- in fact the whole of the current scare about childhood vaccinations and autism was "established" by a single study of twelve children! The fact that the paper was retracted, and its author was barred from medical practice didn't matter since its influence only grew since the date of its publication. The logical mistake here is that of selectively reading the evidence in favor of your own hypothesis, or "cherry picking" the data to get the juiciest bits while ignoring anything that contradicts it. The other name for this fallacy, "Texas sharpshooter" refers to the related practice of proving your worth as a target shooter by first shooting random holes in the side of a barn, and then afterwards drawing your target around a cluster of holes so that it looks like you are a great shot. Is this done in Texas? Probably not, but whoever named it must have had a low opinion of Texans -- no offense intended and if you are from Texas, substitute your state of choice.
 
-## Fallacies of Presumption
+## Fallacies of Presumption {#presumption}
 
 **_The third set_** of fallacies we will consider here are those that make presumptions, often in a hidden way. That is, they rely on hidden and unstated assumptions written, as it were, between the lines. This strategy, however, cannot withstand critical analysis since if we can get the perpetrator of such fallacies to acknowledge these hidden presumptions we can see them for what they are, mere assumptions without warrant.
 
@@ -253,7 +234,6 @@ The majority of heroin users smoked marijuana when they were younger.
 
 So smoking marijuana must be one of the causes of heroin use.
 ```
-
 
 **_Us humans_** are very good at noticing patterns in the world around us. In fact science is based on this ability – we notice regularities and then come up with explanations for them. The most powerful of these explanations involve attributing a causal relationship between events that appear to be related to each other in a regular way. We have to be careful here, however, since we also have the tendency to overdo this. This may seem like a convincing argument until we recognize that the fact that something tends to happen before something else is not nearly enough to establish that the first thing causes the second to happen. For example, the fact that my alarm clock goes off every day shortly before sunrise does not mean that my alarm clock causes the sun to rise. The same goes for drug abuse. The fact that I abused marijuana first and then heroin later does not mean that the first caused the second. It is equally possible that I abuse whatever drugs I abuse for another reason -- I have major problems I am trying to escape from.
 
