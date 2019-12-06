@@ -21,10 +21,6 @@ knitr::include_graphics('img/tenniel-tweedle-dee-dum.jpg')
 
 ## Arguments, Rationality and Rhetoric
 
-
-
-
-
 **Arguments** are attempts to persuade other people that they should accept the claims that we are making. Because argumentation is a method of persuasion it may seem at first glance to be similar to rhetoric, also known as "the art of persuasion.” People who study and practice rhetoric often claim that rational argument is just one among many different methods of persuasion, appropriate at specific times, but not fundamentally different than other methods. That is, they claim that argument is a form of rhetoric. Philosophers, on the other hand, would like to insist on the basic difference between the two. Philosophers call attention to the fact that in rhetoric:
 
 - Appeal is made to our emotions, prejudices, fears, hopes, etc. That is, who we are and what we feel about things matters. This is both its strength and its weakness. 
@@ -39,12 +35,9 @@ In rational argument, on the other hand:
 
 ## The Structure of Arguments
 
-
-
 **To see** all of this more clearly, we need to take a look at how arguments work. But first we should define what we mean by an argument. An argument is a simply series of statements including at least one premise and a conclusion. Since arguments are sets of statements: this means that when we are concerned with arguments we are not paying attention to many other uses of language, such as asking questions, making commands, expressing feelings. When we are offering an argument we are making a series of claims in which some are supposed to provide support for others. The statements that are doing the supporting, which contain the information that is the basis of our argument are known as premises. The statement that is being supported, the point of our argument is called the conclusion.
 
 **It is sometimes** difficult to tell whether a set of sentences is an argument or not. Let us consider a few examples:
-
 
 ```{block type='argument'}
 Parents should have the right to make decisions about their own children.
@@ -57,7 +50,6 @@ This may seem like an argument, so how can we tell for sure? Simply by asking ou
 
 **What about** the next example? How many statements are in these sentences? And do any of them really offer support for any of the others?
 
-
 ```{block type='argument'}
 I am convinced that aliens are living among us and you should be convinced as well.
 
@@ -65,11 +57,9 @@ I have really good evidence for this claim.
 
 ```
 
-
 Well this is almost an argument, but not quite. There is a claim being made here: aliens are living among us. But there is no real support given for this claim, only the insistence that this person has some unknown evidence. Before we can start to evaluate this evidence to see whether it really supports the claim, we need to see it. So here we have only two separate statements without a real argument yet.
 
 **None** of these sets of sentences have yet been real arguments even if they might have seemed to be at first glance. Now consider the following example:
-
 
 ```{block type='argument'}
 Christopher Columbus was a criminal, because anyone who kills innocent people, kidnaps others, and steals their valuables is a criminal and that is just what he did.
@@ -91,7 +81,6 @@ So Christopher Columbus was a criminal.
 Perhaps this is not yet a very convincing argument, but at least it is an argument unlike the first examples.
 
 **It is not** always so clear which statements in an argument are the premises and which statement is the conclusion. Often, but not always, these are signaled with one of a number of typical words or phrases that function as premise or conclusion indicators. Paying attention to these typical words and phrases can help you to disentangle the argument from the peculiarities of a writer's style.
-
 
 ### Premises {-}
 
@@ -213,7 +202,6 @@ So Jane should join the navy.
 
 This argument is a little trickier because it contains an IF – THEN statement. IF – THEN statements, also known as conditionals, make indirect claims. They don't just tell us what is the case, they tell us what would be the case if, or on condition that, something else were true. With this in mind let us consider this second argument. First we check for validity, by assuming that the premises are true and seeing if the conclusion would have to be true as well. In other words we are not yet interested in whether or not they really are true, but whether the argument works as an argument, whether the conclusion logically follows from the premises. It seems pretty clear, or at least it should seem clear, that this argument is valid. This is because if, as the first premise claims, the navy really is the best way to see the world, and if as the second premise claims, a person named Jane wants to see the world, then she should clearly join the navy. Notice that this argument's validity does not have anything to do with its content, with the particular claims being made. Instead, validity is a matter of form, so that we could substitute any other content for the content of this argument without affecting its validity. Essentially this argument has the following form:
 
-
 ```{block type='argument'}
 If you want to do A, then you should do B.\
 Person P wants to do A.\
@@ -241,8 +229,6 @@ So Jane wants to see the world.
 ```
 
 This argument seems similar to the previous one, but it has one important difference. The conclusion of this argument was the second premise of the last argument, and the second premise of this argument was its conclusion. What happens to the validity of the argument when we make this simple change? Notice what this argument is saying. It is offering an explanation of why it is that Jane joined the navy -- because she wanted to see the world. The question is, and this is the way we check for validity, are there any other possible explanations of why she joined the navy that are consistent with the premises? In other words, is it possible for the premises to both be true and the conclusion false? The answer is yes. It all hinges on what the first premise doesn't say. It doesn't say that the only possible reason to join the navy is the desire to see the world. It just says that if that's what you happen to want then the navy is for you. So Jane could have joined the navy only because she wanted to learn all there is to know about marine diesel engines without caring whether she learned this in New Jersey or in the South Pacific ocean. To put this in yet another way: if it is at all possible, if there are no contradictions involved, for the premises of an argument to be true and the conclusion false, then the argument is invalid. This argument is invalid for precisely this reason. Furthermore, since it is invalid, this automatically makes it unsound, since in order for it to be sound it has to first be valid.
-
-
 
 ## Proofs and Counterexamples
 
@@ -277,9 +263,7 @@ Barney is younger than Betty and older than Wilma.\
 So Fred is older than Barney.
 ```
 
-
 Even though we have no idea what these peoples' ages are (or even if they exist outside of a 1970's TV cartoon series) we can tell that the conclusion does not have to be true, even if the premises were true. This argument is invalid and we can show this with a counterexample.
-
 
 | person |   age |
 |:------:|:-----:|
@@ -288,13 +272,16 @@ Even though we have no idea what these peoples' ages are (or even if they exist 
 | Fred   | 35    |
 | Wilma  | 32    |
 
-
 Notice that if these people had these ages, this would make all of the premises true and the conclusion false. If Fred is 35, Wilma is 32, Betty is 40 and Barney is 36, then it is true that Fred is older than Wilma, but younger than Betty -- which is what the first premise claims. It is also true that, given these ages, Barney is younger than Betty and older than Wilma – which is what the second premise claims. But Fred is not older than Barney. In other words, what these ages show that it is possible for the premises to be true and for the conclusion to be false and thus that the reasoning involved in getting to the conclusion is invalid. Even if we had true premises, this would not be enough to guarantee the truth of the conclusion. That is what terrible reasoning is all about.
 
-## Exercises and further reading {-}
+## Going further {-}
 
 ```{block type='rmdslides'}
 For the slideshow summarizing the main points of this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/02-logic.html).
 ```
 
+There is, once again a great many web sources that can help clarify the concepts covered in this chapter. Many are oriented towards programmers or computer scientists (computers are automated logic machines after all) and these can get very technical, very quickly. So here are a couple that are a bit more approachable.
 
+- For a slightly different and more in-depth treatment of the basic concepts of logic see [the logic chapter](https://jonathanweisberg.org/vip/logic.html#logic) of Jonathan Weisberg's open source textbook on probability and statistics, *Odds & Ends.* 
+
+- Wireless Philosophy is a well-produced series of short videos on a great many topics in philosophy. Their [playlist on Logic and Critical Thinking](https://www.youtube.com/playlist?list=PLtKNX4SfKpzX_bhh4LOEWEGy3pkLmFDmk) is a great resource for exploring logical thinking in all of its complexity, 5 or 6 minutes at a time.

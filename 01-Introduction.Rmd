@@ -102,6 +102,6 @@ How does all of this play out in real life cases? This is the concern of **appli
 For a slideshow that summarizes the points covered in this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/01-introduction.html).
 ```
 
-Michael Sandel is a philosophy professor at Harvard who teaches a very popular course called "Justice" that explores material that overlaps with this text. His extensive website [Justice with Michael Sandel](http://justiceharvard.org/) also has videos of his lectures the first of which focuses on the famous runaway trolley example.
+Michael Sandel is a philosophy professor at Harvard who teaches a very popular course called "Justice" that explores material that overlaps with this text. His extensive website [Justice with Michael Sandel](http://justiceharvard.org/) also has videos of his lectures from that course the first of which focuses on the famous runaway trolley example.
 
 
