@@ -1,10 +1,22 @@
 # A Little Bit of Logic {#logic}
 
-
+::: {.centertop data-latex=""}
 
 ```{r, fig.align = 'center', echo = FALSE, out.width = '50%'}
 knitr::include_graphics('img/tenniel-tweedle-dee-dum.jpg')
 ```
+
+:::
+
+:::: {.center data-latex=""}
+
+::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
+
+John Tenniel, "Alice meets Tweedle Dee and Tweedle Dum"
+
+:::
+
+::::
 
 ```{block type='epigraph'}
  'Contrariwise,' continued Tweedledee, 'if it was so, it might be; and if it were so, it would be; but as it isn't, it ain't. That's logic.'
@@ -59,7 +71,6 @@ This may seem like an argument, so how can we tell for sure? Simply by checking 
 
 ```{block type='argument'}
 I am convinced that aliens are living among us and you should be convinced as well.
-
 I have really good evidence for this claim.
 
 ```
@@ -164,8 +175,8 @@ How do we answer these questions for the example above? It seems that there is i
 
 **_As far as_** the second question goes, however, we may have our doubts. Are all of the premises really true? Socrates is (or was) a human being – he was one of the first philosophers. And all human beings are in fact mortal, at least as far as the evidence we have goes. But do we really know whether all mortals, past, present and future fear death? So here is the one small weakness of the argument. If we could be assured that this premise was true the argument would be completely convincing and would provide adequate backup for the conclusion. But it rests, unfortunately, on a weak premise, so it is not a sound argument. Since these two ideas are both very important for everything we'll be doing here and not so obviously obvious, here are some more explicit definitions:
 
-```{block type='rmdimportant'}
-The best arguments must be both **valid* and *sound.*
+```{block type='rmdcaution'}
+The best arguments must be both *valid* and *sound.*
 
 - **Validity**: in a valid argument IF the premises are true the conclusion MUST also be true.
 

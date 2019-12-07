@@ -1,6 +1,34 @@
 # Egoism
 
+::: {.centertop data-latex=""}
+
+```{r, fig.align = 'center', echo = FALSE, out.width = '50%'}
+knitr::include_graphics('img/hardcore-02.jpg')
+```
+
+:::
+
+:::: {.center data-latex=""}
+
+::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
+
+[Dread Scott](https://www.dreadscott.net/), Hardcore series, "Devin"
+
+:::
+
+::::
+
+```{block type='epigraph'}
+
+Where the world comes in my way—and it comes in my way everywhere—I consume it to quiet the hunger of my egoism. For me you are nothing but—my food, even as I too am fed upon and turned to use by you.
+
+---Max Stirner
+```
+
 ## What's in it for me?
+
+
+
 
 ## Psychological Egoism
 

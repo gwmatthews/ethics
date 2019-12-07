@@ -1,8 +1,22 @@
 # Fallacies and Biases
 
-```{r, fig.align = 'center', echo = FALSE, out.width = '40%'}
+::: {.centertop data-latex=""}
+
+```{r, fig.align = 'center', echo = FALSE, out.width = '60%'}
 knitr::include_graphics('img/illusion.png')
 ```
+
+:::
+
+:::: {.center data-latex=""}
+
+::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
+
+[OpenClipart-Vectors](https://pixabay.com/users/OpenClipart-Vectors-30363) at [Pixabay](https://pixabay.com/)
+
+:::
+
+::::
 
 ```{block type='epigraph'}
 Reality is, you know, the tip of an iceberg of irrationality that we've managed to drag ourselves up onto for a few panting moments before we slip back into the sea of the unreal.
@@ -16,11 +30,11 @@ Reality is, you know, the tip of an iceberg of irrationality that we've managed 
 
 **_As we turn to examine_** some important logical fallacies it is helpful to keep in mind that there are both many more particular fallacies than the ones we are going to look at and also many different ways of categorizing them. The thing to keep in mind here is that all stretch logical support beyond its breaking point, and how in particular this happens is not always so clear. On the other hand you can usually see the weakness of an argument that relies on a fallacy by asking yourself a simple question about it: What is being claimed here, and on the basis of what? This often reveals the basic weakness of the argument as it involves stepping back from the particular claims being made in order to see the broader pattern and strategy of reasoning involved. It is this pattern that is flawed, regardless of the content of the argument. As a result, we can often find instances of the same form of fallacious reasoning used with many different topics, especially those that are controversial.
 
-**_In addition_** it can be helpful to look at fallacies in terms of a few more general types of mistakes in reasoning. That is what we will do here as we examine some different forms of bad reasoning under the headings: [fallacies of *relevance*](#relevance) -- all of which rest reasoning or points that are really just not relevant to the discussion; [fallacies of *ambiguity*](#ambiguity) all of which depend on the ways in which many words and expressions can have multiple and often incompatible meanings; and [fallacies of *presumption*](#presumption)," which depend on unacknowledged, unjustified extra assumptions.
+**_In addition_** it can be helpful to look at fallacies in terms of a few more general types of mistakes in reasoning. That is what we will do here as we examine some different forms of bad reasoning under the headings: [fallacies of *relevance*](#relevance) all of which depend on premises not relevant to the conclusion; [fallacies of *ambiguity*](#ambiguity) all of which depend on the ways in which many words and expressions can have multiple and often incompatible meanings; and [fallacies of *presumption*](#presumption)," which depend on unacknowledged, unjustified extra assumptions.
 
 ## Fallacies of Relevance {#relevance}
 
-**_As we turn to_** the fallacies of relevance, it is good to remember, that this set of fallacies rests on the use of information that may seem relevant to establishing the conclusion but isn't really relevant at all. They often play on our emotional responses to certain situations and topics and they can be quite effective as means of persuading us. They work so well in getting us to buy into their conclusions in part because of the nature of the human mind – even though we are capable of thinking about things coolly and logically, we often jump to conclusions on emotional grounds and then enlist our cognitive abilities merely to rationalize decisions and conclusions we have already made. Philosophers would encourage us to resist such impulses and to stop and think before jumping to conclusions. This can of course be quite challenging just because of the way in which our brains are wired – the neural pathway between sensory input to motor and cognitive output is shorter in its trip through those parts of the brain that process emotions than it is through our higher cognitive powers. But still, whoever said leading an examined life was the easiest thing to do?
+**_As we turn to_** the fallacies of relevance, it is good to remember these fallacies depend on the use of information that may seem relevant to establishing the conclusion but isn't really relevant after all. They often play on our emotional responses to certain situations and topics and they can be quite effective as means of persuading us. They work so well in getting us to buy into their conclusions in part because of the nature of the human mind – even though we are capable of thinking about things coolly and logically, we often jump to conclusions on emotional grounds and then enlist our cognitive abilities merely to rationalize decisions and conclusions we have already made. Philosophers would encourage us to resist such impulses and to stop and think before jumping to conclusions. This can of course be quite challenging just because of the way in which our brains are wired – the neural pathway between sensory input to motor and cognitive output is shorter in its trip through those parts of the brain that process emotions than it is through our higher cognitive powers. But still, whoever said leading an examined life was the easiest thing to do?
 
 ### Appeal to authority {-}
 
@@ -284,7 +298,7 @@ I just know that the Yankees will win the World Series, they just can't let me d
 
 All of these biases fail to make a distinction between what we would like to be the case and what really is in fact the case. We may end up lucky and happen to find out that reality conforms to how we would like it to be, but then again we may not. We can protect ourselves against these kinds of biases first by being aware of our own tendencies to fall prey to them and then by using particular strategies to separate our analysis of the evidence from our wishes.
 
-***
+
 
 ### **Cold biases**{-}
 

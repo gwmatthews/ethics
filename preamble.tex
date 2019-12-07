@@ -1,8 +1,20 @@
 \usepackage[Bjornstrup]{fncychap}
-
+\usepackage{fancyvrb}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage[bf,singlelinecheck=off]{caption}
+
+\newsavebox{\FVerbBox}
+\newenvironment{FVerbatim}
+ {\VerbatimEnvironment
+  \begin{center}
+  \setlength{\fboxrule}{0pt}
+  \begin{lrbox}{\FVerbBox}
+  \begin{BVerbatim}}
+ {\end{BVerbatim}
+  \end{lrbox}
+  \fbox{\usebox{\FVerbBox}}
+  \end{center}}
 
 %\setmainfont[UprightFeatures={SmallCapsFont=AlegreyaSC-Regular}]{Alegreya}
 
@@ -113,3 +125,5 @@
 
 
 \newenvironment{argument}{\begin{quote}\normalsize}{\end{quote}}
+
+\newenvironment{centertop}{\begin{center}}{\end{center}}

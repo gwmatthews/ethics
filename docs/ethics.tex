@@ -67,10 +67,22 @@
 \makeatother
 
 \usepackage[Bjornstrup]{fncychap}
-
+\usepackage{fancyvrb}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage[bf,singlelinecheck=off]{caption}
+
+\newsavebox{\FVerbBox}
+\newenvironment{FVerbatim}
+ {\VerbatimEnvironment
+  \begin{center}
+  \setlength{\fboxrule}{0pt}
+  \begin{lrbox}{\FVerbBox}
+  \begin{BVerbatim}}
+ {\end{BVerbatim}
+  \end{lrbox}
+  \fbox{\usebox{\FVerbBox}}
+  \end{center}}
 
 %\setmainfont[UprightFeatures={SmallCapsFont=AlegreyaSC-Regular}]{Alegreya}
 
@@ -181,6 +193,8 @@
 
 
 \newenvironment{argument}{\begin{quote}\normalsize}{\end{quote}}
+
+\newenvironment{centertop}{\begin{center}}{\end{center}}
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
 
@@ -357,13 +371,26 @@ If you find a mistake, don't think it's clear in some part, have an issue with a
 \end{itemize}
 
 \hypertarget{part-some-preliminaries}{%
-\part*{Some Preliminaries}\label{part-some-preliminaries}}
-
+\part{Some Preliminaries}\label{part-some-preliminaries}}
 
 \hypertarget{the-examined-life}{%
 \chapter{The Examined Life}\label{the-examined-life}}
 
+\begin{centertop}
+
 \begin{center}\includegraphics[width=0.6\linewidth]{img/david-socrates} \end{center}
+
+\end{centertop}
+
+\begin{center}
+
+\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
+
+Jacques-Louis David, ``The Death of Socrates''
+
+\end{FVerbatim}
+
+\end{center}
 
 \begin{epigraph}
 The unexamined life is not worth living.
@@ -440,58 +467,70 @@ the runaway trolley from hitting the children?}
 
 \textbf{\emph{Philosophical ethics}} is nothing but the deliberate pursuit and clarification of this kind of reflection on our own values, actions and decisions. Even though, as I have been emphasizing, we all have the capacity to reflect on our lives and choices, we do not always spend the time or make the effort to do this carefully and deeply. This is because we are mostly preoccupied with the practical details of our own lives. We are too busy living to take the time to stop and think about the significance of what we are doing. However, at times in the lives of both individuals and societies the need to reflect more clearly on what we are doing becomes more of an imperative. For individuals the need to stop and think and to reconsider the basic assumptions on which we act often arises in relation to important life events or radical changes - the sudden loss of a loved one; the birth of a child; living through a natural disaster or a war; or even the transition to adulthood in which one assumes full moral and legal responsibility while also gaining the full rights and privileges accorded to adults. These are topics and situations, as we will see later, that are often the focus of discussions in the branch of philosophical ethics called applied ethics. In the case of societies, philosophical thinking in general and philosophical ethics in particular likewise flourish in times of great stress or change - for example when radically different societies suddenly make contact with each other; when new groups and ways of living displace old groups and ways; when new discoveries challenge peoples' basic views of the nature of things; when societies find their very existence threatened by seemingly insurmountable obstacles. In cases like these it becomes imperative to reflect more carefully on what we assume is of value to us individually and as a society, on what counts as a good life.
 
-\textbf{\emph{A philosophical}} approach to ethics, or moral philosophy, is concerned with a number of different sorts of questions. Thus the broader field of ethics can be divided up into a number of different regions or areas of concern. Some of the main questions and their corresponding sub-fields are:
+\textbf{\emph{A philosophical approach}} to ethics, or moral philosophy, is concerned with a number of different sorts of questions. Thus the broader field of ethics can be divided up into a number of different regions or areas of concern. Some of the main questions and their corresponding sub-fields are:
 
-\textbf{\emph{Descriptive ethics}}: what do people really think about right and wrong?
+\begin{rmdquestion}
+\textbf{\emph{Descriptive ethics}}
 
-\begin{rmdnote}
-What ethical views do real people have? This is the concern of
-\textbf{descriptive ethics}, which tries to figure out what beliefs
-people happen to actually have concerning ethical questions. As such,
-descriptive ethics is not exclusively a philosophical approach to ethics
-in that sociologists, psychologists, anthropologists and other social
-scientists are also concerned with people's ethical beliefs in this
-sense.
-\end{rmdnote}
+\begin{itemize}
+\tightlist
+\item
+  What do people really think about right and wrong?
+\item
+  How can we best describe and expain people's moral claims and beliefs?
+\end{itemize}
+\end{rmdquestion}
 
-\textbf{\emph{Meta-ethics}}: how does thinking about ethics work?
+What ethical views do real people have? This is the concern of \textbf{descriptive ethics}, which tries to figure out what beliefs people happen to actually have concerning ethical questions. As such, descriptive ethics is not exclusively a philosophical approach to ethics in that sociologists, psychologists, anthropologists and other social scientists are also concerned with people's ethical beliefs in this sense. This approach looks at our beliefs about ethical issues and about ethics in general as facts about us to be catalogued and explained.
 
-\begin{rmdnote}
-What is the nature of ethical thinking and ethical concepts? This is
-usually referred to as \textbf{meta-ethics}, which refers to a
-higher-order or ``meta-level'' discussion about ethical modes of
-thinking. Here again, philosophers as well as social scientists often
-ask meta-ethical questions in their attempts to understand what is
-distinctive about ethical thinking as opposed to other modes of
-cognition.
-\end{rmdnote}
+\begin{rmdquestion}
+\textbf{\emph{Meta-ethics}}
 
-\textbf{\emph{Prescriptive ethics}}: what is really the right thing to do?
+\begin{itemize}
+\tightlist
+\item
+  How does thinking about ethics work?
+\item
+  What are the differences between ethical claims and claims about the
+  facts?
+\end{itemize}
+\end{rmdquestion}
 
-\begin{rmdnote}
-What ethical principles or decision-making procedures are really
-justified? This is the basic question addressed by normative or
-\textbf{prescriptive ethics}, which is the uniquely philosophical
-attempt to find the true basis of ethical thinking. Much of our
-discussion in the first half of this text falls under this heading since
-we will be examining various attempts to give an account of the basis
-and justification of ethical thought, belief and action.
-\end{rmdnote}
+What are the nature and limits of ethical thinking and ethical concepts? This is the concern of \textbf{meta-ethics}, which is a higher-order or ``meta-level'' discussion about ethical thinking. Here again, philosophers as well as social scientists often ask meta-ethical questions in their attempts to understand what is distinctive about ethical thinking as opposed to other modes of cognition. But looking at ethics from this perspective intentionally does not take a stand on particular ethical principles or issues.
 
-\textbf{\emph{Applied ethics}}: what is the right thing to do in this real-world case?
+\begin{rmdquestion}
+\textbf{\emph{Prescriptive ethics}}
 
-\begin{rmdnote}
-How does all of this play out in real life cases? This is the concern of
-\textbf{applied ethics}. Under this heading are also to be found
-discussions of ethical issues associated with some particular area of
-human life, profession, or subject matter - hence medical ethics,
-business ethics, legal ethics, environmental ethics, bioethics and so on
-are sub-fields within applied ethics.
-\end{rmdnote}
+\begin{itemize}
+\tightlist
+\item
+  What is really the right thing to do?
+\item
+  What moral principles are really justified and should be followed?
+\end{itemize}
+\end{rmdquestion}
+
+What ethical principles or decision-making procedures are really justified? This is the basic question addressed by normative or \textbf{prescriptive ethics}, which is the uniquely philosophical attempt to find the true basis of ethical thinking. Much of our discussion in the first half of this text falls under this heading since we will be examining various attempts to give an account of the basis and justification of ethical thought, belief and action. This way of approaching ethics is not scientific, to the extent that science concerns itself with ``value-neutral'' descriptions and explanations of whatever phenomena it is addressing. That philosophy can succeed in making normative claims while remaining based on objectivity and rationality is up to philosophers to establish.
+
+\begin{rmdquestion}
+\textbf{\emph{Applied ethics}}
+
+\begin{itemize}
+\tightlist
+\item
+  What is the right thing to do in real-world cases of ethical
+  controversy?
+\item
+  What assumptions and principles lie at the basis of ethical
+  controversies?
+\end{itemize}
+\end{rmdquestion}
+
+How does all of this play out in real life cases? This is the concern of \textbf{applied ethics}. Under this heading are also to be found discussions of ethical issues associated with some particular area of human life, profession, or subject matter -- hence medical ethics, business ethics, legal ethics, environmental ethics, bioethics and so on are sub-fields within applied ethics.
 
 \textbf{\emph{We should keep in mind}} as we proceed that these various regions are not always so clearly separate from one another. Our description of what people believe about ethical questions, for example, is clearly often informed by what we think they are justified in believing. Nevertheless we should keep in mind the fact that we can look at ethics from each of these different points of view and recognize that failing to do so may result in unnecessary confusion.
 
-\textbf{\emph{In conclusion}} we might say that philosophical ethics involves deliberately reflecting on our ideas about ethics in general and on specific applications of these ideas to actual cases and controversies. Another term for such deliberate reflection is ``critical thinking.'' This should not be looked at as a primarily negative activity as the word ``critical'' might suggest, but as the positive attempt to arrive at the truth of the matter by thinking carefully about what are often complex and ambiguous ideas and concepts. Even though, as I mentioned at the outset, all of us are equally capable of reflecting critically on our own beliefs, desires, actions and values, it does take some effort and quite a bit of practice to be able to do so effectively. This is because critical thinking is a skill like anything else that we might do with our minds (like solve algebra problems or identify different species of trees) and we shouldn't expect to be experts at it from the start. In the next chapter we will look at and get some practice using one of the most important tools for critical thinking -- the logical analysis of arguments.
+\textbf{\emph{In conclusion}} we might say that philosophical ethics involves deliberately reflecting on our ideas about ethics in general and on specific applications of these ideas to actual cases and controversies. Another term for such deliberate reflection is ``critical thinking.'' This should not be looked at as a primarily negative activity as the word ``critical'' might suggest, but as the positive attempt to arrive at the truth of the matter by thinking carefully about what are often complex and ambiguous ideas and concepts. Even though, as I mentioned at the outset, all of us are equally capable of reflecting critically on our own beliefs, desires, actions and values, it does take some effort and quite a bit of practice to be able to do so effectively. This is because critical thinking is a skill like anything else that we might do with our minds (like solve algebra problems or identify different species of trees) and we shouldn't expect to be experts at it from the start. In the \protect\hyperlink{logic}{next chapter} we will look at and get some practice using one of the most important tools for critical thinking -- the logical analysis of arguments.
 
 \hypertarget{further-exploration}{%
 \section*{Further exploration}\label{further-exploration}}
@@ -508,7 +547,21 @@ Michael Sandel is a philosophy professor at Harvard who teaches a very popular c
 \hypertarget{logic}{%
 \chapter{A Little Bit of Logic}\label{logic}}
 
+\begin{centertop}
+
 \begin{center}\includegraphics[width=0.5\linewidth]{img/tenniel-tweedle-dee-dum} \end{center}
+
+\end{centertop}
+
+\begin{center}
+
+\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
+
+John Tenniel, ``Alice meets Tweedle Dee and Tweedle Dum''
+
+\end{FVerbatim}
+
+\end{center}
 
 \begin{epigraph}
 `Contrariwise,' continued Tweedledee, `if it was so, it might be; and if
@@ -571,9 +624,7 @@ This may seem like an argument, so how can we tell for sure? Simply by checking 
 
 \begin{argument}
 I am convinced that aliens are living among us and you should be
-convinced as well.
-
-I have really good evidence for this claim.
+convinced as well. I have really good evidence for this claim.
 \end{argument}
 
 Well this is almost an argument, but not quite. There is a claim being made here: aliens are living among us. But there is no real support given for this claim, only the insistence that this person has some unknown evidence. Before we can start to evaluate this evidence to see whether it really supports the claim, we need to see it. So here we have only two separate statements without a real argument yet.
@@ -714,8 +765,8 @@ How do we answer these questions for the example above? It seems that there is i
 
 \textbf{\emph{As far as}} the second question goes, however, we may have our doubts. Are all of the premises really true? Socrates is (or was) a human being -- he was one of the first philosophers. And all human beings are in fact mortal, at least as far as the evidence we have goes. But do we really know whether all mortals, past, present and future fear death? So here is the one small weakness of the argument. If we could be assured that this premise was true the argument would be completely convincing and would provide adequate backup for the conclusion. But it rests, unfortunately, on a weak premise, so it is not a sound argument. Since these two ideas are both very important for everything we'll be doing here and not so obviously obvious, here are some more explicit definitions:
 
-\begin{rmdimportant}
-The best arguments must be both **valid* and \emph{sound.}
+\begin{rmdcaution}
+The best arguments must be both \emph{valid} and \emph{sound.}
 
 \begin{itemize}
 \item
@@ -725,7 +776,7 @@ The best arguments must be both **valid* and \emph{sound.}
   \textbf{Soundness}: A sound argument is a valid argument that also has
   TRUE premises.
 \end{itemize}
-\end{rmdimportant}
+\end{rmdcaution}
 
 One thing to notice here is that the test for validity is entirely independent of the test for soundness. It is a little misleading, as we can now see, to ask whether arguments are either good or bad. More precisely, they can be:
 
@@ -881,7 +932,21 @@ There is, once again a great many web sources that can help clarify the concepts
 \hypertarget{fallacies-and-biases}{%
 \chapter{Fallacies and Biases}\label{fallacies-and-biases}}
 
-\begin{center}\includegraphics[width=0.4\linewidth]{img/illusion} \end{center}
+\begin{centertop}
+
+\begin{center}\includegraphics[width=0.6\linewidth]{img/illusion} \end{center}
+
+\end{centertop}
+
+\begin{center}
+
+\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
+
+\href{https://pixabay.com/users/OpenClipart-Vectors-30363}{OpenClipart-Vectors} at \href{https://pixabay.com/}{Pixabay}
+
+\end{FVerbatim}
+
+\end{center}
 
 \begin{epigraph}
 Reality is, you know, the tip of an iceberg of irrationality that we've
@@ -897,12 +962,12 @@ slip back into the sea of the unreal.
 
 \textbf{\emph{As we turn to examine}} some important logical fallacies it is helpful to keep in mind that there are both many more particular fallacies than the ones we are going to look at and also many different ways of categorizing them. The thing to keep in mind here is that all stretch logical support beyond its breaking point, and how in particular this happens is not always so clear. On the other hand you can usually see the weakness of an argument that relies on a fallacy by asking yourself a simple question about it: What is being claimed here, and on the basis of what? This often reveals the basic weakness of the argument as it involves stepping back from the particular claims being made in order to see the broader pattern and strategy of reasoning involved. It is this pattern that is flawed, regardless of the content of the argument. As a result, we can often find instances of the same form of fallacious reasoning used with many different topics, especially those that are controversial.
 
-\textbf{\emph{In addition}} it can be helpful to look at fallacies in terms of a few more general types of mistakes in reasoning. That is what we will do here as we examine some different forms of bad reasoning under the headings: \protect\hyperlink{relevance}{fallacies of \emph{relevance}} -- all of which rest reasoning or points that are really just not relevant to the discussion; \protect\hyperlink{ambiguity}{fallacies of \emph{ambiguity}} all of which depend on the ways in which many words and expressions can have multiple and often incompatible meanings; and \protect\hyperlink{presumption}{fallacies of \emph{presumption}}," which depend on unacknowledged, unjustified extra assumptions.
+\textbf{\emph{In addition}} it can be helpful to look at fallacies in terms of a few more general types of mistakes in reasoning. That is what we will do here as we examine some different forms of bad reasoning under the headings: \protect\hyperlink{relevance}{fallacies of \emph{relevance}} all of which depend on premises not relevant to the conclusion; \protect\hyperlink{ambiguity}{fallacies of \emph{ambiguity}} all of which depend on the ways in which many words and expressions can have multiple and often incompatible meanings; and \protect\hyperlink{presumption}{fallacies of \emph{presumption}}," which depend on unacknowledged, unjustified extra assumptions.
 
 \hypertarget{relevance}{%
 \section{Fallacies of Relevance}\label{relevance}}
 
-\textbf{\emph{As we turn to}} the fallacies of relevance, it is good to remember, that this set of fallacies rests on the use of information that may seem relevant to establishing the conclusion but isn't really relevant at all. They often play on our emotional responses to certain situations and topics and they can be quite effective as means of persuading us. They work so well in getting us to buy into their conclusions in part because of the nature of the human mind -- even though we are capable of thinking about things coolly and logically, we often jump to conclusions on emotional grounds and then enlist our cognitive abilities merely to rationalize decisions and conclusions we have already made. Philosophers would encourage us to resist such impulses and to stop and think before jumping to conclusions. This can of course be quite challenging just because of the way in which our brains are wired -- the neural pathway between sensory input to motor and cognitive output is shorter in its trip through those parts of the brain that process emotions than it is through our higher cognitive powers. But still, whoever said leading an examined life was the easiest thing to do?
+\textbf{\emph{As we turn to}} the fallacies of relevance, it is good to remember these fallacies depend on the use of information that may seem relevant to establishing the conclusion but isn't really relevant after all. They often play on our emotional responses to certain situations and topics and they can be quite effective as means of persuading us. They work so well in getting us to buy into their conclusions in part because of the nature of the human mind -- even though we are capable of thinking about things coolly and logically, we often jump to conclusions on emotional grounds and then enlist our cognitive abilities merely to rationalize decisions and conclusions we have already made. Philosophers would encourage us to resist such impulses and to stop and think before jumping to conclusions. This can of course be quite challenging just because of the way in which our brains are wired -- the neural pathway between sensory input to motor and cognitive output is shorter in its trip through those parts of the brain that process emotions than it is through our higher cognitive powers. But still, whoever said leading an examined life was the easiest thing to do?
 
 \hypertarget{appeal-to-authority}{%
 \subsection*{Appeal to authority}\label{appeal-to-authority}}
@@ -1236,8 +1301,6 @@ let me down again!
 
 All of these biases fail to make a distinction between what we would like to be the case and what really is in fact the case. We may end up lucky and happen to find out that reality conforms to how we would like it to be, but then again we may not. We can protect ourselves against these kinds of biases first by being aware of our own tendencies to fall prey to them and then by using particular strategies to separate our analysis of the evidence from our wishes.
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
 \hypertarget{cold-biases}{%
 \subsection*{\texorpdfstring{\textbf{Cold biases}}{Cold biases}}\label{cold-biases}}
 
@@ -1330,15 +1393,30 @@ in slideshow form} of the content of this chapter.
 \begin{center}\includegraphics[width=0.6\linewidth]{img/fallacy-ref} \end{center}
 
 \hypertarget{part-approaching-ethics}{%
-\part*{Approaching Ethics}\label{part-approaching-ethics}}
-
+\part{Approaching Ethics}\label{part-approaching-ethics}}
 
 \hypertarget{relativism}{%
 \chapter{Relativism}\label{relativism}}
 
+\begin{centertop}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/buddha-bird} \end{center}
+
+\end{centertop}
+
+\begin{center}
+
+\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
+
+\href{https://pixabay.com/users/mikhsan-4911734/}{mikhsan} at \href{https://pixabay.com/}{Pixabay}
+
+\end{FVerbatim}
+
+\end{center}
+
 \textbf{\emph{Opinion}}, this seems to be where ethics starts and in many people's minds where it ends. You have a right to your opinion about right and wrong and I have a right to mine, so let's just leave it at that. Given what we have been looking at so far, not to mention all of the unread pages still ahead, it is probably already apparent that that is not going to be the whole story about ethics. It is nevertheless a deeply rooted assumption that ethical claims \emph{must be} opinions, since they are clearly \textbf{not} factual claims and that seems to be the only other sort of claim we can possibly be making when we are using language to state things. That this assumption does not in fact hold up to closer inspection is what this chapter is going to argue. Before we get to that argument, however, I would like to say a few words about what we are going to be up to in the next few chapters that make up this part of the text.
 
-\textbf{\emph{In this part}} of the text we consider a variety of approaches to ethics. We'll start out from the approach that claims that ethics is just a matter of opinion. This is known as relativism and, in spite of its flaws as an account of ethics, it remains popular. Next we will look at two different variants of a claim that seems to be diametrically opposed to relativism -- the claim that ethics can and should be based on religion. And finally, we will examine a view that itself seems to swing back in some other direction, which again seems diametrically opposed to the attempt to root ethics in religion. This is known as egoism and it claims that ethics is psychologically or politically a dangerous and mistaken idea. In spite of the differences of these approaches, they do however share something in common, namely, the idea that if ethics is to make any sense at all our talk about ethics has to be translated into talk about something else like culture, or religion or psychology. As we will see none of the approaches we examine in this part of the text are ultimately adequate -- they all fail to capture what is distinctive about ethics and why ethical norms demand our attention. Thus in the third part of the text we will explore a range of philosophical attempts to reconstruct ethics on its own terms, to make explicit the basis for ethics as an independent source of norms.
+\textbf{\emph{In this part}} of the text we consider a variety of approaches to ethics. We'll start out from the approach that claims that ethics is just a matter of opinion. This is known as relativism and, in spite of its flaws as an account of ethics, it remains popular. Next we will look at two different variants of a claim that seems to be diametrically opposed to relativism -- the claim that ethics can and should be based on \protect\hyperlink{religion}{religion}. And finally, we will examine a view that itself seems to swing back in some other direction, which again seems diametrically opposed to the attempt to root ethics in religion. This is known as \protect\hyperlink{egoism}{egoism} and it claims that ethics is psychologically or politically a dangerous and mistaken idea. In spite of the differences of these approaches, they do however share something in common, namely, the idea that if ethics is to make any sense at all our talk about ethics has to be translated into talk about something else like culture, or religion or psychology. As we will see none of the approaches we examine in this part of the text are ultimately adequate -- they all fail to capture what is distinctive about ethics and why ethical norms demand our attention. Thus in the third part of the text we will explore a range of philosophical attempts to reconstruct ethics on its own terms, to make explicit the basis for ethics as an independent source of norms.
 
 \hypertarget{claims-and-consequences-of-moral-relativism}{%
 \section{Claims and Consequences of Moral Relativism}\label{claims-and-consequences-of-moral-relativism}}
@@ -1519,11 +1597,42 @@ not true for me!
 
 It is also challenging to its opponents since it seems to fit in well with the intractability of ethical stances. People \textbf{do} tend to dig in and refuse to either accept reasons against their own favored views or even the possibility of compromise.
 
-\hypertarget{religion-and-ethics}{%
-\chapter{Religion and Ethics}\label{religion-and-ethics}}
+\hypertarget{religion}{%
+\chapter{Religion and Ethics}\label{religion}}
+
+\begin{centertop}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/tori-shrine} \end{center}
+
+\end{centertop}
+
+\begin{center}
+
+\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
+
+\href{https://pixabay.com/users/jordymeow-943760/}{JordyMeow} at \href{https://pixabay.com/}{Pixabay}
+
+\end{FVerbatim}
+
+\end{center}
+
+\begin{epigraph}
+{[}I consider{]} ethics, as well as religion, as supplements to law in
+the government of man.
+
+---Thomas Jefferson
+\end{epigraph}
 
 \hypertarget{divine-command-theory}{%
 \section{Divine Command Theory}\label{divine-command-theory}}
+
+\begin{epigraph}
+The point which I should first wish to understand is whether the pious
+or holy is beloved by the gods because it is holy, or holy because it is
+beloved of the gods.
+
+---Plato
+\end{epigraph}
 
 \hypertarget{a-nasty-dilemma}{%
 \section{A Nasty Dilemma}\label{a-nasty-dilemma}}
@@ -1536,6 +1645,30 @@ It is also challenging to its opponents since it seems to fit in well with the i
 
 \hypertarget{egoism}{%
 \chapter{Egoism}\label{egoism}}
+
+\begin{centertop}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/hardcore-02} \end{center}
+
+\end{centertop}
+
+\begin{center}
+
+\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
+
+\href{https://www.dreadscott.net/}{Dread Scott}, Hardcore series, ``Devin''
+
+\end{FVerbatim}
+
+\end{center}
+
+\begin{epigraph}
+Where the world comes in my way---and it comes in my way everywhere---I
+consume it to quiet the hunger of my egoism. For me you are nothing
+but---my food, even as I too am fed upon and turned to use by you.
+
+---Max Stirner
+\end{epigraph}
 
 \hypertarget{whats-in-it-for-me}{%
 \section{What's in it for me?}\label{whats-in-it-for-me}}
@@ -1550,8 +1683,7 @@ It is also challenging to its opponents since it seems to fit in well with the i
 \section{Capitalism and the common good}\label{capitalism-and-the-common-good}}
 
 \hypertarget{part-reconstructing-norms}{%
-\part*{Reconstructing Norms}\label{part-reconstructing-norms}}
-
+\part{Reconstructing Norms}\label{part-reconstructing-norms}}
 
 \hypertarget{the-social-contract}{%
 \chapter{The Social Contract}\label{the-social-contract}}

@@ -1,4 +1,4 @@
-# (PART\*) Reconstructing Norms {-}
+# (PART) Reconstructing Norms {-}
 
 # The Social Contract
 

@@ -20,7 +20,7 @@ bookdown::pdf_book:
 #   before_body: before_body.tex
 #    after_body: latex/after_body.tex
   keep_tex: yes
-  latex_engine: xelatex
+  latex_engine: pdflatex #xelatex
   citation_package: natbib
   template: null
   pandoc_args: [--top-level-division=chapter, --wrap=none]
