@@ -4,9 +4,7 @@
 
 ::: {.centertop data-latex=""}
 
-```{r, fig.align = 'center', echo = FALSE, out.width = '50%'}
-knitr::include_graphics('img/buddha-bird.jpg')
-```
+![](img/buddha-bird.jpg){width=40%}
 
 :::
 
@@ -14,7 +12,7 @@ knitr::include_graphics('img/buddha-bird.jpg')
 
 ::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
 
-[mikhsan](https://pixabay.com/users/mikhsan-4911734/) at [Pixabay](https://pixabay.com/)
+mikhsan at pixabay.com
 
 :::
 
@@ -74,11 +72,8 @@ knitr::include_graphics('img/buddha-bird.jpg')
 
 **_The first_** and most obvious way to defend relativism is based on the recognition of human cultural diversity. This was what motivated Herodotus to pronounce that "custon is the kinf of all," and that has led many athropologists and sociologists to embrace it as well. So the first argument for relativism that we will examine here rests on recognition of the diversity of value judgments and tries to argue from this premise directly to the conclusion that there are no ultimate standards for right and wrong.
 
-```{block type='argument'}
-We all have different views about right and wrong.
-
-***
-
+```{block type='argument', echo=TRUE}
+We all have different views about right and wrong.\
 Thus there are no standards about what is really right or wrong.
 ```
 
@@ -88,10 +83,7 @@ Thus there are no standards about what is really right or wrong.
 ### A counterexample{-}
 
 ```{block type='rmdwarning'}
-We all have different views about how to deal with stop signs -- some of come to a complete stop while others only slow down.
-
-***
-
+We all have different views about how to deal with stop signs -- some of come to a complete stop while others only slow down.\
 Thus there are no standards regarding stop signs.
 ```
 
@@ -102,15 +94,10 @@ Thus there are no standards regarding stop signs.
 
 ### learning right from wrong {-}
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 If we get our values from our cultural environments then our values are culturally determined.\
-
 If values are culturally determined then they are relative to cultures.\
-
-We do in fact get our values from our cultural environments.
-
-***
-
+We do in fact get our values from our cultural environments.\
 Thus relativism is true -- values are relative to cultures.
 ```
 
@@ -146,11 +133,7 @@ distinguish between acceptable and wrongful killing of other human beings.
 
 ## Further exploration {-}
 
-```{block type='rmdslides'}
-
-Soon there will be a link here to the slideshow summary covering the main points of this chapter.
-
-```
+- Soon there will be a link here to the slideshow summary covering the main points of this chapter.
 
 **_Relativism is_** a challenging position to take about ethics. It challenges its defenders to come up with an argument in favor of it that doesn't either [beg the question](#begging-the-question), or undermine itself. 
 

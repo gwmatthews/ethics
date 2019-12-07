@@ -1,7 +1,7 @@
 \PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[]{book}
+\documentclass[12pt]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -191,8 +191,7 @@
 }
 
 
-
-\newenvironment{argument}{\begin{quote}\normalsize}{\end{quote}}
+\newenvironment{argument}{\par\begin{quote}}{\end{quote}\par}
 
 \newenvironment{centertop}{\begin{center}}{\end{center}}
 \usepackage[]{natbib}
@@ -202,7 +201,7 @@
 \providecommand{\subtitle}[1]{}
 \subtitle{A Guidebook for Beginners}
 \author{\textbf{George W. Matthews}}
-\date{last revised: 2019-12-06}
+\date{last revised: 2019-12-07}
 
 \begin{document}
 \maketitle
@@ -378,7 +377,7 @@ If you find a mistake, don't think it's clear in some part, have an issue with a
 
 \begin{centertop}
 
-\begin{center}\includegraphics[width=0.6\linewidth]{img/david-socrates} \end{center}
+\includegraphics[width=0.4\textwidth,height=\textheight]{img/david-socrates.jpg}
 
 \end{centertop}
 
@@ -386,7 +385,7 @@ If you find a mistake, don't think it's clear in some part, have an issue with a
 
 \begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
 
-Jacques-Louis David, ``The Death of Socrates''
+Jacques-Louis David, The Death of Socrates
 
 \end{FVerbatim}
 
@@ -536,11 +535,11 @@ How does all of this play out in real life cases? This is the concern of \textbf
 \section*{Further exploration}\label{further-exploration}}
 
 
-\begin{rmdslides}
-For a slideshow that summarizes the points covered in this chapter,
-\href{https://gwmatthews.github.io/ethics-slideshows/01-introduction.html}{click
-here}.
-\end{rmdslides}
+\begin{itemize}
+\tightlist
+\item
+  For a slideshow that summarizes the points covered in this chapter, \href{https://gwmatthews.github.io/ethics-slideshows/01-introduction.html}{click here}.
+\end{itemize}
 
 Michael Sandel is a philosophy professor at Harvard who teaches a very popular course called ``Justice'' that explores material that overlaps with this text. His extensive website \href{http://justiceharvard.org/}{Justice with Michael Sandel} also has videos of his lectures from that course the first of which focuses on the famous runaway trolley example.
 
@@ -549,7 +548,7 @@ Michael Sandel is a philosophy professor at Harvard who teaches a very popular c
 
 \begin{centertop}
 
-\begin{center}\includegraphics[width=0.5\linewidth]{img/tenniel-tweedle-dee-dum} \end{center}
+\includegraphics[width=0.4\textwidth,height=\textheight]{img/tenniel-tweedle-dee-dum.jpg}
 
 \end{centertop}
 
@@ -557,7 +556,7 @@ Michael Sandel is a philosophy professor at Harvard who teaches a very popular c
 
 \begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
 
-John Tenniel, ``Alice meets Tweedle Dee and Tweedle Dum''
+John Tenniel, Alice meets Tweedle Dee and Tweedle Dum
 
 \end{FVerbatim}
 
@@ -637,15 +636,12 @@ people, kidnaps others, and steals their valuables is a criminal and
 that is just what he did.
 \end{argument}
 
-Here the grammatical form is a little misleading. This is an argument in spite of the fact that there is only one sentence. Why? Because this one sentence expresses a few different claims or propositions and some of these claims are offered as supports for others. We can see this if we break it up into individual claims and change the order around like so into \textbf{standard form} with the premises listed as individual statements and the conclusion below a line that can be read as meaning ``therefore.''
+Here the grammatical form is a little misleading. This is an argument in spite of the fact that there is only one sentence. Why? Because this one sentence expresses a few different claims or propositions and some of these claims are offered as supports for others. We can see this if we break it up into individual claims and change the order around like so into \textbf{standard form} with the premises listed as individual statements and the conclusion written last.
 
 \begin{argument}
 Anyone who kills people, kidnaps other people and steals their valuables
 is a criminal.\\
-Christopher Columbus did all of those things.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+Christopher Columbus did all of those things.\\
 So Christopher Columbus was a criminal.
 \end{argument}
 
@@ -735,9 +731,6 @@ These indicate the general logic form of argument being followed. Is it a matter
 Socrates is a human being.\\
 All human beings are mortal.\\
 All mortals fear death.\\
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
 So Socrates fears death.
 \end{argument}
 
@@ -799,9 +792,6 @@ One thing to notice here is that the test for validity is entirely independent o
 The earth is a rotating sphere moving around the sun.\\
 We are all on the surface of the earth.\\
 Anything on the surface of a moving object moves with that object.\\
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
 So we are all moving around the sun.
 \end{argument}
 
@@ -814,9 +804,6 @@ Let's look at another example:
 \begin{argument}
 If you want to see the world, you should join the navy.\\
 Jane wants to see the world.\\
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
 So Jane should join the navy.
 \end{argument}
 
@@ -825,9 +812,6 @@ This argument is a little trickier because it contains an \emph{If \ldots{} then
 \begin{argument}
 If A, then B.\\
 A.\\
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
 Therefore B.
 \end{argument}
 
@@ -840,9 +824,6 @@ Therefore B.
 \begin{argument}
 If you want to see the world, you should join the navy.\\
 Jane joined the navy.\\
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
 So Jane wants to see the world.
 \end{argument}
 
@@ -855,10 +836,7 @@ This argument seems similar to the previous one, but it has one important differ
 
 \begin{argument}
 Fred is older than Wilma but younger than Betty.\\
-Barney is older than Betty.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+Barney is older than Betty.\\
 So Barney is older than Fred.
 \end{argument}
 
@@ -888,9 +866,6 @@ means. So our conclusion that Barney is older than Fred is clearly a
 \begin{argument}
 Fred is older than Wilma but younger than Betty.\\
 Barney is younger than Betty and older than Wilma.\\
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
 So Fred is older than Barney.
 \end{argument}
 
@@ -914,11 +889,11 @@ Wilma & 32\tabularnewline
 \section*{Going further}\label{going-further}}
 
 
-\begin{rmdslides}
-For the slideshow summarizing the main points of this chapter,
-\href{https://gwmatthews.github.io/ethics-slideshows/02-logic.html}{click
-here}.
-\end{rmdslides}
+\begin{itemize}
+\tightlist
+\item
+  For the slideshow summarizing the main points of this chapter, \href{https://gwmatthews.github.io/ethics-slideshows/02-logic.html}{click here}.
+\end{itemize}
 
 There is, once again a great many web sources that can help clarify the concepts covered in this chapter. Many are oriented towards programmers or computer scientists (computers are automated logic machines after all) and these can get very technical, very quickly. So here are a couple that are a bit more approachable.
 
@@ -934,7 +909,7 @@ There is, once again a great many web sources that can help clarify the concepts
 
 \begin{centertop}
 
-\begin{center}\includegraphics[width=0.6\linewidth]{img/illusion} \end{center}
+\includegraphics[width=0.3\textwidth,height=\textheight]{img/illusion.png}
 
 \end{centertop}
 
@@ -942,7 +917,7 @@ There is, once again a great many web sources that can help clarify the concepts
 
 \begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
 
-\href{https://pixabay.com/users/OpenClipart-Vectors-30363}{OpenClipart-Vectors} at \href{https://pixabay.com/}{Pixabay}
+OpenClipart-Vectors at pixabay.com
 
 \end{FVerbatim}
 
@@ -1001,10 +976,7 @@ leather shoes and fur mittens.
 
 
 \begin{rmdwarning}
-The Romans were justified in slaughtering thousands of slaves.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+The Romans were justified in slaughtering thousands of slaves.\\
 After all it was a part of their culture and not many people objected.
 \end{rmdwarning}
 
@@ -1027,10 +999,7 @@ get rid of any government that disagrees.
 
 \begin{rmdwarning}
 If astronomers are correct, the earth orbits a relatively insignificant
-star in a remote corner of one galaxy among billions.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+star in a remote corner of one galaxy among billions.\\
 But this conclusion violates our sense of the significance of our own
 lives and so it must be false.
 \end{rmdwarning}
@@ -1042,10 +1011,7 @@ lives and so it must be false.
 
 
 \begin{rmdwarning}
-Women alone are capable of having babies.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+Women alone are capable of having babies.\\
 So the responsibility of raising and taking care of them is entirely
 theirs.
 \end{rmdwarning}
@@ -1058,10 +1024,7 @@ theirs.
 
 \begin{rmdwarning}
 We shouldn't worry that much about people dying of horrible diseases in
-Africa.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+Africa.\\
 After all we have problems of our own to deal with.
 \end{rmdwarning}
 
@@ -1075,10 +1038,7 @@ After all we have problems of our own to deal with.
 Galileo was ridiculed because of his views, and these views later proved
 to be correct.\\
 I too am ridiculed for believing that the Pope is a reptilian alien in
-league with the Freemasons.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+league with the Freemasons.\\
 Thus I too will have my day and my views will be accepted.
 \end{rmdwarning}
 
@@ -1094,10 +1054,7 @@ Thus I too will have my day and my views will be accepted.
 
 
 \begin{rmdwarning}
-People in jail are really free.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+People in jail are really free.\\
 This is because if you can think whatever you want, then you are free
 and people jail can certainly think whatever they want.
 \end{rmdwarning}
@@ -1110,10 +1067,7 @@ and people jail can certainly think whatever they want.
 
 \begin{rmdwarning}
 The senator who suggested cutting funding for the new Air Force attack
-drone system really wants to leave us defenseless against our enemies.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+drone system really wants to leave us defenseless against our enemies.\\
 Thus we should reject such cuts.
 \end{rmdwarning}
 
@@ -1125,10 +1079,7 @@ Thus we should reject such cuts.
 
 \begin{rmdwarning}
 This study of 12 children clearly shows a link between childhood
-vaccination and autism.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+vaccination and autism.\\
 Thus vaccines cause autism.
 \end{rmdwarning}
 
@@ -1154,10 +1105,7 @@ Abortion is just wrong, and that is all there is to it.
 
 
 \begin{rmdwarning}
-You should become a Christian.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+You should become a Christian.\\
 This is because the Bible says that if you are not a Christian you will
 go to Hell.
 \end{rmdwarning}
@@ -1170,10 +1118,7 @@ go to Hell.
 
 \begin{rmdwarning}
 The claim that the death penalty deters crime has not been established
-with any certainty.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+with any certainty.\\
 Thus it is clear that it does not deter crime.
 \end{rmdwarning}
 
@@ -1187,10 +1132,7 @@ Thus it is clear that it does not deter crime.
 Either living organisms are products of blind chance or they were
 deliberately designed.\\
 But it makes no sense that something as functionally complex as a living
-organism is the result of blind chance.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+organism is the result of blind chance.\\
 Hence they must have been designed.
 \end{rmdwarning}
 
@@ -1201,10 +1143,7 @@ Hence they must have been designed.
 
 
 \begin{rmdwarning}
-All three of my ex-wives always told me what to do.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+All three of my ex-wives always told me what to do.\\
 This clearly shows that all women want to control us men all the time.
 \end{rmdwarning}
 
@@ -1216,10 +1155,7 @@ This clearly shows that all women want to control us men all the time.
 
 \begin{rmdwarning}
 If we legalize physician assisted suicide then everyone over sixty had
-better watch their backs.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+better watch their backs.\\
 Once doctors get used to helping people with terminal illnesses die
 comfortably, they'll find it easier to get rid of older people.
 \end{rmdwarning}
@@ -1231,10 +1167,7 @@ comfortably, they'll find it easier to get rid of older people.
 
 
 \begin{rmdwarning}
-The majority of heroin users smoked marijuana when they were younger.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+The majority of heroin users smoked marijuana when they were younger.\\
 So smoking marijuana must be one of the causes of heroin use.
 \end{rmdwarning}
 
@@ -1245,10 +1178,7 @@ So smoking marijuana must be one of the causes of heroin use.
 
 
 \begin{rmdwarning}
-He must be guilty, since he has a guilty look on his face.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+He must be guilty, since he has a guilty look on his face.\\
 Furthermore, the look on his face indicates guilt, because he is the one
 who did it.
 \end{rmdwarning}
@@ -1346,11 +1276,11 @@ you are a klutz.
 \section*{Find Out More}\label{find-out-more}}
 
 
-\begin{rmdslides}
-Here is a
-\href{https://gwmatthews.github.io/ethics-slideshows/03-fallacies.html}{summary
-in slideshow form} of the content of this chapter.
-\end{rmdslides}
+\begin{itemize}
+\tightlist
+\item
+  Here is a \href{https://gwmatthews.github.io/ethics-slideshows/03-fallacies.html}{summary in slideshow form} of the content of this chapter.
+\end{itemize}
 
 \textbf{\emph{There are many}} great websites that list, discuss and explain the many ways we get things wrong in our thinking. Here are a few of my favorites.
 
@@ -1400,7 +1330,7 @@ in slideshow form} of the content of this chapter.
 
 \begin{centertop}
 
-\begin{center}\includegraphics[width=0.5\linewidth]{img/buddha-bird} \end{center}
+\includegraphics[width=0.4\textwidth,height=\textheight]{img/buddha-bird.jpg}
 
 \end{centertop}
 
@@ -1408,7 +1338,7 @@ in slideshow form} of the content of this chapter.
 
 \begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
 
-\href{https://pixabay.com/users/mikhsan-4911734/}{mikhsan} at \href{https://pixabay.com/}{Pixabay}
+mikhsan at pixabay.com
 
 \end{FVerbatim}
 
@@ -1494,10 +1424,7 @@ brought up in, to be the best.
 \textbf{\emph{The first}} and most obvious way to defend relativism is based on the recognition of human cultural diversity. This was what motivated Herodotus to pronounce that ``custon is the kinf of all,'' and that has led many athropologists and sociologists to embrace it as well. So the first argument for relativism that we will examine here rests on recognition of the diversity of value judgments and tries to argue from this premise directly to the conclusion that there are no ultimate standards for right and wrong.
 
 \begin{argument}
-We all have different views about right and wrong.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+We all have different views about right and wrong.\\
 Thus there are no standards about what is really right or wrong.
 \end{argument}
 
@@ -1509,10 +1436,7 @@ Thus there are no standards about what is really right or wrong.
 
 \begin{rmdwarning}
 We all have different views about how to deal with stop signs -- some of
-come to a complete stop while others only slow down.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+come to a complete stop while others only slow down.\\
 Thus there are no standards regarding stop signs.
 \end{rmdwarning}
 
@@ -1527,14 +1451,9 @@ Thus there are no standards regarding stop signs.
 \begin{argument}
 If we get our values from our cultural environments then our values are
 culturally determined.\\
-
 If values are culturally determined then they are relative to
 cultures.\\
-
-We do in fact get our values from our cultural environments.
-
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
-
+We do in fact get our values from our cultural environments.\\
 Thus relativism is true -- values are relative to cultures.
 \end{argument}
 
@@ -1581,10 +1500,11 @@ can really be resolved.
 \section*{Further exploration}\label{further-exploration-1}}
 
 
-\begin{rmdslides}
-Soon there will be a link here to the slideshow summary covering the
-main points of this chapter.
-\end{rmdslides}
+\begin{itemize}
+\tightlist
+\item
+  Soon there will be a link here to the slideshow summary covering the main points of this chapter.
+\end{itemize}
 
 \textbf{\emph{Relativism is}} a challenging position to take about ethics. It challenges its defenders to come up with an argument in favor of it that doesn't either \protect\hyperlink{begging-the-question}{beg the question}, or undermine itself.
 
@@ -1602,7 +1522,7 @@ It is also challenging to its opponents since it seems to fit in well with the i
 
 \begin{centertop}
 
-\begin{center}\includegraphics[width=0.5\linewidth]{img/tori-shrine} \end{center}
+\includegraphics[width=0.4\textwidth,height=\textheight]{img/tori-shrine.jpg} ```
 
 \end{centertop}
 
@@ -1610,7 +1530,7 @@ It is also challenging to its opponents since it seems to fit in well with the i
 
 \begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
 
-\href{https://pixabay.com/users/jordymeow-943760/}{JordyMeow} at \href{https://pixabay.com/}{Pixabay}
+JordyMeow at pixabay.com
 
 \end{FVerbatim}
 
@@ -1648,7 +1568,7 @@ beloved of the gods.
 
 \begin{centertop}
 
-\begin{center}\includegraphics[width=0.5\linewidth]{img/hardcore-02} \end{center}
+\includegraphics[width=0.3\textwidth,height=\textheight]{img/hardcore-02.jpg}
 
 \end{centertop}
 
@@ -1656,7 +1576,7 @@ beloved of the gods.
 
 \begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
 
-\href{https://www.dreadscott.net/}{Dread Scott}, Hardcore series, ``Devin''
+Dread Scott, Hardcore series, Devin
 
 \end{FVerbatim}
 

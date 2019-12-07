@@ -2,8 +2,7 @@
 
 ::: {.centertop data-latex=""}
 
-```{r, fig.align = 'center', echo = FALSE, out.width = '50%'}
-knitr::include_graphics('img/tori-shrine.jpg')
+![](img/tori-shrine.jpg){width=40%}
 ```
 
 :::
@@ -12,7 +11,7 @@ knitr::include_graphics('img/tori-shrine.jpg')
 
 ::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
 
-[JordyMeow](https://pixabay.com/users/jordymeow-943760/) at [Pixabay](https://pixabay.com/)
+JordyMeow at pixabay.com
 
 :::
 

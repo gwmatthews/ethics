@@ -2,9 +2,7 @@
 
 ::: {.centertop data-latex=""}
 
-```{r, fig.align = 'center', echo = FALSE, out.width = '50%'}
-knitr::include_graphics('img/tenniel-tweedle-dee-dum.jpg')
-```
+![](img/tenniel-tweedle-dee-dum.jpg){width=40%}
 
 :::
 
@@ -12,7 +10,7 @@ knitr::include_graphics('img/tenniel-tweedle-dee-dum.jpg')
 
 ::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
 
-John Tenniel, "Alice meets Tweedle Dee and Tweedle Dum"
+John Tenniel, Alice meets Tweedle Dee and Tweedle Dum
 
 :::
 
@@ -58,42 +56,35 @@ An argument is a series of statements where some of these statements are intende
 
 **_It is, however,_** sometimes difficult to tell whether a set of sentences is an argument or not. Let us consider a few examples:
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 Parents should have the right to make decisions about their own children's healthcare.
 Why should other people mess around in their business?
 And please, let's keep the lawyers out!
-
 ```
 
 This may seem like an argument, so how can we tell for sure? Simply by checking whether this set of sentences is a set of statements where some are intended to provide support for others. So, how many statements are there here? Only one: the first sentence is a statement, the second is a question and the third is a command. In other words, even though this looks at first like an argument it is really just a single claim with no real argument given in support.
 
 **_What about_** the next example? How many statements are in these sentences? And do any of them really offer support for any of the others?
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 I am convinced that aliens are living among us and you should be convinced as well.
 I have really good evidence for this claim.
-
 ```
 
 Well this is almost an argument, but not quite. There is a claim being made here: aliens are living among us. But there is no real support given for this claim, only the insistence that this person has some unknown evidence. Before we can start to evaluate this evidence to see whether it really supports the claim, we need to see it. So here we have only two separate statements without a real argument yet.
 
 **_Now consider_** the following example:
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 Christopher Columbus was a criminal, because anyone who kills innocent people, kidnaps others, and steals their valuables is a criminal and that is just what he did.
-
 ```
 
-Here the grammatical form is a little misleading. This is an argument in spite of the fact that there is only one sentence. Why? Because this one sentence expresses a few different claims or propositions and some of these claims are offered as supports for others. We can see this if we break it up into individual claims and change the order around like so into **standard form** with the premises listed as individual statements and the conclusion below a line that can be read as meaning "therefore."
+Here the grammatical form is a little misleading. This is an argument in spite of the fact that there is only one sentence. Why? Because this one sentence expresses a few different claims or propositions and some of these claims are offered as supports for others. We can see this if we break it up into individual claims and change the order around like so into **standard form** with the premises listed as individual statements and the conclusion written last.
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 Anyone who kills people, kidnaps other people and steals their valuables is a criminal.\
-Christopher Columbus did all of those things.
-
-***
-
+Christopher Columbus did all of those things.\
 So Christopher Columbus was a criminal.
-
 ```
 
 Perhaps this is not yet a very convincing or complete argument, but at least it is an argument unlike the first examples.
@@ -148,15 +139,11 @@ These indicate the general logic form of argument being followed. Is it a matter
 
 **_To take_** a simple example, suppose we would like to establish that Socrates fears death. We don't have any direct reason for thinking that this is true. But we do know some other things that may be of use in establishing this. First we know that Socrates is a human being. Second we know that all human beings are mortal. Third, we know that all mortals fear death. In standard form this would be arranged like so:
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 Socrates is a human being.\
 All human beings are mortal.\
 All mortals fear death.\
-
-***
-
 So Socrates fears death.
-
 ```
 
 This is a bit of a contrived example, but it can help us to see the key concepts we can use to evaluate any argument at all. 
@@ -196,15 +183,11 @@ One thing to notice here is that the test for validity is entirely independent o
 
 **_Learning how_** to identify valid arguments is important for a course in philosophical ethics, since the philosophical approach to ethics consists largely of the examination of arguments about ethical issues. And the best way to learn this is by practicing. Consider the following argument, conveniently written in standard form:
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 The earth is a rotating sphere moving around the sun.\
 We are all on the surface of the earth.\
 Anything on the surface of a moving object moves with that object.\
-
-***
-
 So we are all moving around the sun.
-
 ```
 
 Forget for a moment about whether or not you buy the conclusion on its own. In analyzing an argument we need to know whether the premises support the conclusion adequately, so we pretend that we are not sure about the truth of the conclusion. Our first test is the test of validity. We ask ourselves: if the premises were true, could the conclusion be otherwise? Is the truth of the conclusion guaranteed by the truth of the premises? In this case it seems clear that if we are in fact all on the surface of an object that is moving around the sun, then we would all also have to be moving around the sun. So the argument is valid.
@@ -213,26 +196,18 @@ Forget for a moment about whether or not you buy the conclusion on its own. In a
 
 Let's look at another example:
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 If you want to see the world, you should join the navy.\
 Jane wants to see the world.\
-
-***
-
 So Jane should join the navy.
-
 ```
 
 This argument is a little trickier because it contains an *If ... then* statement. If ... then statements, also known as conditionals, make indirect claims. They don't just tell us what is the case, they tell us what would be the case if, or on condition that, something else were true. With this in mind let us consider this second argument. First we check for validity, by assuming that the premises are true and seeing if the conclusion would have to be true as well. In other words we are not yet interested in whether or not they really are true, but whether the argument works as an argument, whether the conclusion logically follows from the premises. It seems pretty clear that this argument is valid. This is because *if*, as the first premise claims, the navy really is the best way to see the world, *and if* as the second premise claims, a person named Jane wants to see the world, then she should clearly join the navy. Notice that this argument's validity does not have anything to do with its content, with the particular claims being made. Instead, validity is a matter of form, so that we could substitute any other content for the content of this argument without affecting its validity. Essentially this argument has the following form:
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 If A, then B.\
 A.\
-
-***
-
 Therefore B.
-
 ```
 
 **_Here_** A, B can be substituted by any statements we please, as long as our substitution is consistent throughout the argument. In all cases the resulting argument will turn out to be valid. Try it and you will see that the resulting arguments all come out valid. This is because validity is a matter of logical form regardless of the content we are arguing about.
@@ -241,14 +216,10 @@ Therefore B.
 
 **_Now consider_** as our next example, the following argument:
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 If you want to see the world, you should join the navy.\
 Jane joined the navy.\
-
-***
-
 So Jane wants to see the world.
-
 ```
 
 This argument seems similar to the previous one, but it has one important difference. The conclusion of this argument was the second premise of the last argument, and the second premise of this argument was its conclusion. What happens to the validity of the argument when we make this simple change? Notice what this argument is saying. It is offering an explanation of why it is that Jane joined the navy -- because she wanted to see the world. The question is, and this is the way we check for validity, are there any other possible explanations of why she joined the navy that are consistent with the premises? In other words, *is it possible for the premises to both be true and the conclusion false*? The answer is yes. It all hinges on what the first premise doesn't say. It doesn't say that the only possible reason to join the navy is the desire to see the world. It just says that if that's what you happen to want then the navy is for you. So Jane could have joined the navy only because she wanted to learn all there is to know about marine diesel engines without caring whether she learned this in New Jersey or in the South Pacific ocean. To put this in yet another way: if it is at all possible, if there are no contradictions involved, for the premises of an argument to be true and the conclusion false, then the argument is invalid. This argument is invalid for precisely this reason. Furthermore, since it is invalid, this automatically makes it unsound, since in order for it to be sound it has to first be valid.
@@ -257,12 +228,9 @@ This argument seems similar to the previous one, but it has one important differ
 
 **_Another_** way to look at the difference between valid and invalid arguments is in terms of the difference between a proof and a counterexample. A proof is a step by step demonstration that the conclusion is a **necessary** consequence of the premises. To prove that a conclusion validly follows from a set of premises we show in a detailed way how a series of obviously valid steps in reasoning lead us to the conclusion. Take the following argument for example.
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 Fred is older than Wilma but younger than Betty.\
-Barney is older than Betty.
-
-***
-
+Barney is older than Betty.\
 So Barney is older than Fred.
 ```
 
@@ -277,12 +245,9 @@ The first premise states that Fred is older than Wilma and he is younger than Be
 
 **_Invalid arguments_** in contrast are arguments where we would need something more than what is contained in the premises to get the conclusion. No matter how we attempt to prove our conclusion we will *always* come to some spot where we cannot get any closer to the conclusion. So how do we show *this*? We use a counterexample, which is nothing but a possible situation in which the premises would all be true and the conclusion would be false. This shows that the argument is invalid, since if it were valid it would be *impossible* for the premises to be true and the conclusion false at the same time as we just saw. Consider the following argument:
 
-```{block type='argument'}
+```{block type='argument', echo=TRUE}
 Fred is older than Wilma but younger than Betty.\
 Barney is younger than Betty and older than Wilma.\
-
-***
-
 So Fred is older than Barney.
 ```
 
@@ -299,9 +264,9 @@ Even though we have no idea what these peoples' ages are (or even if they exist 
 
 ## Going further {-}
 
-```{block type='rmdslides'}
-For the slideshow summarizing the main points of this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/02-logic.html).
-```
+
+- For the slideshow summarizing the main points of this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/02-logic.html).
+
 
 There is, once again a great many web sources that can help clarify the concepts covered in this chapter. Many are oriented towards programmers or computer scientists (computers are automated logic machines after all) and these can get very technical, very quickly. So here are a couple that are a bit more approachable.
 

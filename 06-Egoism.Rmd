@@ -2,9 +2,7 @@
 
 ::: {.centertop data-latex=""}
 
-```{r, fig.align = 'center', echo = FALSE, out.width = '50%'}
-knitr::include_graphics('img/hardcore-02.jpg')
-```
+![](img/hardcore-02.jpg){width=30%}
 
 :::
 
@@ -12,7 +10,7 @@ knitr::include_graphics('img/hardcore-02.jpg')
 
 ::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
 
-[Dread Scott](https://www.dreadscott.net/), Hardcore series, "Devin"
+Dread Scott, Hardcore series, Devin
 
 :::
 

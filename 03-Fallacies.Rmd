@@ -2,9 +2,7 @@
 
 ::: {.centertop data-latex=""}
 
-```{r, fig.align = 'center', echo = FALSE, out.width = '60%'}
-knitr::include_graphics('img/illusion.png')
-```
+![](img/illusion.png){width=30%}
 
 :::
 
@@ -12,7 +10,7 @@ knitr::include_graphics('img/illusion.png')
 
 ::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
 
-[OpenClipart-Vectors](https://pixabay.com/users/OpenClipart-Vectors-30363) at [Pixabay](https://pixabay.com/)
+OpenClipart-Vectors at pixabay.com
 
 :::
 
@@ -59,10 +57,7 @@ After all, she also benefits from the use of animals – notice her leather shoe
 ### Popular appeal (bandwagon fallacy) {-}
 
 ```{block type='rmdwarning'}
-The Romans were justified in slaughtering thousands of slaves.
-
-***
-
+The Romans were justified in slaughtering thousands of slaves.\
 After all it was a part of their culture and not many people objected.
 ```
 
@@ -80,10 +75,7 @@ The reason that we are right is because we have the military might to get rid of
 ### Appeal to consequences {-}
 
 ```{block type='rmdwarning'}
-If astronomers are correct, the earth orbits a relatively insignificant star in a remote corner of one galaxy among billions.
-
-***
-
+If astronomers are correct, the earth orbits a relatively insignificant star in a remote corner of one galaxy among billions.\
 But this conclusion violates our sense of the significance of our own lives and so it must be false.
 ```
 
@@ -92,10 +84,7 @@ But this conclusion violates our sense of the significance of our own lives and 
 ### The naturalistic fallacy {-}
 
 ```{block type='rmdwarning'}
-Women alone are capable of having babies.
-
-***
-
+Women alone are capable of having babies.\
 So the responsibility of raising and taking care of them is entirely theirs.
 ```
 
@@ -104,10 +93,7 @@ So the responsibility of raising and taking care of them is entirely theirs.
 ### Red herring {-}
 
 ```{block type='rmdwarning'}
-We shouldn't worry that much about people dying of horrible diseases in Africa.
-
-***
-
+We shouldn't worry that much about people dying of horrible diseases in Africa.\
 After all we have problems of our own to deal with.
 ```
 
@@ -117,10 +103,7 @@ After all we have problems of our own to deal with.
 
 ```{block type='rmdwarning'}
 Galileo was ridiculed because of his views, and these views later proved to be correct.\
-I too am ridiculed for believing that the Pope is a reptilian alien in league with the Freemasons.
-
-***
-
+I too am ridiculed for believing that the Pope is a reptilian alien in league with the Freemasons.\
 Thus I too will have my day and my views will be accepted.
 ```
 
@@ -133,10 +116,7 @@ Thus I too will have my day and my views will be accepted.
 ### Equivocation {-}
 
 ```{block type='rmdwarning'}
-People in jail are really free.
-
-***
-
+People in jail are really free.\
 This is because if you can think whatever you want, then you are free and people jail can certainly think whatever they want.
 ```
 
@@ -145,10 +125,7 @@ This is because if you can think whatever you want, then you are free and people
 ### Straw person {-}
 
 ```{block type='rmdwarning'}
-The senator who suggested cutting funding for the new Air Force attack drone system really wants to leave us defenseless against our enemies.
-
-***
-
+The senator who suggested cutting funding for the new Air Force attack drone system really wants to leave us defenseless against our enemies.\
 Thus we should reject such cuts.
 ```
 
@@ -157,10 +134,7 @@ Thus we should reject such cuts.
 ### Cherry picking {-}
 
 ```{block type='rmdwarning'}
-This study of 12 children clearly shows a link between childhood vaccination and autism.
-
-***
-
+This study of 12 children clearly shows a link between childhood vaccination and autism.\
 Thus vaccines cause autism.
 ```
 
@@ -181,10 +155,7 @@ Abortion is just wrong, and that is all there is to it.
 ### Begging the question{-}
 
 ```{block type='rmdwarning'}
-You should become a Christian.
-
-***
-
+You should become a Christian.\
 This is because the Bible says that if you are not a Christian you will go to Hell.
 ```
 
@@ -193,10 +164,7 @@ This is because the Bible says that if you are not a Christian you will go to He
 ### Appeal to ignorance {-}
 
 ```{block type='rmdwarning'}
-The claim that the death penalty deters crime has not been established with any certainty.
-
-***
-
+The claim that the death penalty deters crime has not been established with any certainty.\
 Thus it is clear that it does not deter crime.
 ```
 
@@ -206,10 +174,7 @@ Thus it is clear that it does not deter crime.
 
 ```{block type='rmdwarning'}
 Either living organisms are products of blind chance or they were deliberately designed.\
-But it makes no sense that something as functionally complex as a living organism is the result of blind chance.
-
-***
-
+But it makes no sense that something as functionally complex as a living organism is the result of blind chance.\
 Hence they must have been designed.
 ```
 
@@ -218,10 +183,7 @@ Hence they must have been designed.
 ### Hasty generalization {-}
 
 ```{block type='rmdwarning'}
-All three of my ex-wives always told me what to do.
-
-***
-
+All three of my ex-wives always told me what to do.\
 This clearly shows that all women want to control us men all the time.
 ```
 
@@ -230,10 +192,7 @@ This clearly shows that all women want to control us men all the time.
 ### Slippery slope {-}
 
 ```{block type='rmdwarning'}
-If we legalize physician assisted suicide then everyone over sixty had better watch their backs.
-
-***
-
+If we legalize physician assisted suicide then everyone over sixty had better watch their backs.\
 Once doctors get used to helping people with terminal illnesses die comfortably, they'll find it easier to get rid of older people.
 ```
 
@@ -242,10 +201,7 @@ Once doctors get used to helping people with terminal illnesses die comfortably,
 ### False cause {-}
 
 ```{block type='rmdwarning'}
-The majority of heroin users smoked marijuana when they were younger.
-
-***
-
+The majority of heroin users smoked marijuana when they were younger.\
 So smoking marijuana must be one of the causes of heroin use.
 ```
 
@@ -254,10 +210,7 @@ So smoking marijuana must be one of the causes of heroin use.
 ### Circular reasoning {-}
 
 ```{block type='rmdwarning'}
-He must be guilty, since he has a guilty look on his face.
-
-***
-
+He must be guilty, since he has a guilty look on his face.\
 Furthermore, the look on his face indicates guilt, because he is the one who did it.
 ```
 
@@ -332,18 +285,14 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 
 **_In this_** and the last chapter we have taken a closer look at what is involved in the justification of any claim at all. We have seen that the best arguments are both valid and sound – they work logically in that their premises really provide adequate support for their conclusions and their premises are actually true. We have also examined some of the many mistakes in reasoning to which we are prone. These mistakes are not only used in a deliberately misleading way, since all of us have a tendency to make decisions and judgments first and then come up with reasons in support of them later. Thus we often rely on fallacious reasoning to rationalize our own beliefs or we tend to read the evidence is biased ways. As we will be seeing, as we turn now to start examining some of the many different theoretical approaches to ethics, the tools of logic and critical thinking will prove very useful in trying to come up with a reasonable answer to the general question, "what is the right thing to do?"
 
-
 ## Find Out More {-}
 
-```{block type='rmdslides'}
-Here is a [summary in slideshow form](https://gwmatthews.github.io/ethics-slideshows/03-fallacies.html) of the content of this chapter.
-```
+- Here is a [summary in slideshow form](https://gwmatthews.github.io/ethics-slideshows/03-fallacies.html) of the content of this chapter.
 
 **_There are many_** great websites that list, discuss and explain the many ways we get things wrong in our thinking. Here are a few of my favorites.
 
 - *Your Fallacy Is* is a nicely designed website with more examples of common fallacies.
   - https://yourlogicalfallacyis.com/
-
 
 - *Your Bias Is*: is the sister site to Your Fallacy Is and focuses on common cognitive biases. 
    - https://yourbias.is/

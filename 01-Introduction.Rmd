@@ -4,9 +4,7 @@
 
 ::: {.centertop data-latex=""}
 
-```{r, fig.align = 'center', echo = FALSE, out.width = '60%'}
-knitr::include_graphics('img/david-socrates.jpg')
-```
+![](img/david-socrates.jpg){width=40%}
 
 :::
 
@@ -14,7 +12,7 @@ knitr::include_graphics('img/david-socrates.jpg')
 
 ::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
 
-Jacques-Louis David, "The Death of Socrates"
+Jacques-Louis David, The Death of Socrates
 
 :::
 
@@ -124,9 +122,7 @@ How does all of this play out in real life cases? This is the concern of **appli
 
 ## Further exploration {-}
 
-```{block type='rmdslides'}
-For a slideshow that summarizes the points covered in this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/01-introduction.html).
-```
+- For a slideshow that summarizes the points covered in this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/01-introduction.html).
 
 Michael Sandel is a philosophy professor at Harvard who teaches a very popular course called "Justice" that explores material that overlaps with this text. His extensive website [Justice with Michael Sandel](http://justiceharvard.org/) also has videos of his lectures from that course the first of which focuses on the famous runaway trolley example.
 

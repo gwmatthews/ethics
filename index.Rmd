@@ -6,6 +6,7 @@ date: "last revised: `r Sys.Date()`"
 description: "An open textbook"
 github-repo: "gwmatthews/ethics"
 site: bookdown::bookdown_site
+classoption: 12pt
 graphics: yes
 geometry: 'margin=3cm'
 bibliography: ethics.bib
