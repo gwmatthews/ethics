@@ -1,16 +1,12 @@
 # A Little Bit of Logic {#logic}
 
-::: {.centertop data-latex=""}
+:::: {.centertop data-latex=""}
 
-![](img/tenniel-tweedle-dee-dum.jpg){width=40%}
+![](img/tenniel-tweedle-dee-dum.jpg){width=50%}
 
-:::
+::: {.centerbot data-latex=""}
 
-:::: {.center data-latex=""}
-
-::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
-
-John Tenniel, Alice meets Tweedle Dee and Tweedle Dum
+John Tenniel, "Alice meets Tweedle Dee and Tweedle Dum"
 
 :::
 

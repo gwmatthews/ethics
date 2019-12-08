@@ -1,17 +1,12 @@
 # Religion and Ethics {#religion}
 
-::: {.centertop data-latex=""}
+:::: {.centertop data-latex=""}
 
-![](img/tori-shrine.jpg){width=40%}
-```
+![](img/tori-shrine.jpg){width=50%}
 
-:::
+::: {.centerbot data-latex=""}
 
-:::: {.center data-latex=""}
-
-::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
-
-JordyMeow at pixabay.com
+[JordyMeow](https://pixabay.com/users/jordymeow-943760/) at pixabay.com
 
 :::
 

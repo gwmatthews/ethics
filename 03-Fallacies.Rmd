@@ -1,16 +1,12 @@
 # Fallacies and Biases
 
-::: {.centertop data-latex=""}
+:::: {.centertop data-latex=""}
 
-![](img/illusion.png){width=30%}
+![](img/illusion.png){width=40%}
 
-:::
+::: {.centerbot data-latex=""}
 
-:::: {.center data-latex=""}
-
-::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
-
-OpenClipart-Vectors at pixabay.com
+[OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) at pixabay.com
 
 :::
 

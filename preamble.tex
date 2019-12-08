@@ -3,6 +3,8 @@
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage[bf,singlelinecheck=off]{caption}
+\usepackage{etoolbox}
+\AtBeginEnvironment{centerbot}{\scriptsize}
 
 \newsavebox{\FVerbBox}
 \newenvironment{FVerbatim}
@@ -126,3 +128,5 @@
 \newenvironment{argument}{\par\begin{quote}}{\end{quote}\par}
 
 \newenvironment{centertop}{\begin{center}}{\end{center}}
+
+\newenvironment{centerbot}{\begin{center}}{\end{center}}

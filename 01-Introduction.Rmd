@@ -2,17 +2,15 @@
 
 # The Examined Life
 
-::: {.centertop data-latex=""}
+:::: {.centertop data-latex=""}
 
-![](img/david-socrates.jpg){width=40%}
+![](img/david-socrates.jpg){width=50%}
 
-:::
 
-:::: {.center data-latex=""}
 
-::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
+::: {.centerbot data-latex=""}
 
-Jacques-Louis David, The Death of Socrates
+Jacques-Louis David, "The Death of Socrates"
 
 :::
 

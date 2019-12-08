@@ -1,5 +1,25 @@
 # Utilitarianism
 
+:::: {.centertop data-latex=""}
+
+![](img/crowd.jpg){width=50%}
+
+::: {.centerbot data-latex=""}
+
+[Free-Photos](https://pixabay.com/users/free-photos-242387/) at Pixabay.com
+
+:::
+
+::::
+
+```{block type='epigraph'}
+
+Actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness.
+
+---John Stuart Mill, Utilitarianism
+
+```
+
 ## The highest good
 
 ## Why should I care?

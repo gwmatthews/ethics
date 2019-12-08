@@ -1,5 +1,25 @@
 # Kant and the ethics of duty
 
+:::: {.centertop data-latex=""}
+
+![](img/king-audacity.jpg){width=55%}
+
+::: {.centerbot data-latex=""}
+
+[Ron Cogswell](https://www.flickr.com/photos/22711505@N05/)
+
+:::
+
+::::
+
+```{block type='epigraph'}
+
+Two things fill the mind with ever-increasing wonder and awe, the more often and the more intensely the mind of thought is drawn to them: the starry heavens above me and the moral law within me.
+
+---Immanuel Kant, Critique of Practical Reason
+
+```
+
 ## What do we owe one another?
 
 ## The Categorical Imperative

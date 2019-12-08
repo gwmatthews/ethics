@@ -2,22 +2,24 @@
 
 # Relativism
 
-::: {.centertop data-latex=""}
+:::: {.centertop data-latex=""}
 
-![](img/buddha-bird.jpg){width=40%}
+![](img/buddha-bird.jpg){width=50%}
 
-:::
+::: {.centerbot data-latex=""}
 
-:::: {.center data-latex=""}
-
-::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
-
-mikhsan at pixabay.com
+[mikhsan](https://pixabay.com/users/mikhsan-4911734/) at pixabay.com
 
 :::
 
 ::::
 
+
+```{block type='epigraph'}
+ If anyone, no matter who, were given the opportunity of choosing from amongst all the nations in the world the set of beliefs which he thought best, he would inevitably -- after careful considerations of their relative merits -- choose that of his own country. Everyone without exception believes his own native customs, and the religion he was brought up in, to be the best.
+ 
+---Herodotus, The Histories
+```
 
 **_Opinion_**, this seems to be where ethics starts and in many people's minds where it ends. You have a right to your opinion about right and wrong and I have a right to mine, so let's just leave it at that. Given what we have been looking at so far, not to mention all of the unread pages still ahead, it is probably already apparent that that is not going to be the whole story about ethics. It is nevertheless a deeply rooted assumption that ethical claims *must be* opinions, since they are clearly **not** factual claims and that seems to be the only other sort of claim we can possibly be making when we are using language to state things. That this assumption does not in fact hold up to closer inspection is what this chapter is going to argue. Before we get to that argument, however, I would like to say a few words about what we are going to be up to in the next few chapters that make up this part of the text.
 

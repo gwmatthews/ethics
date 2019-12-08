@@ -71,6 +71,8 @@
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage[bf,singlelinecheck=off]{caption}
+\usepackage{etoolbox}
+\AtBeginEnvironment{centerbot}{\scriptsize}
 
 \newsavebox{\FVerbBox}
 \newenvironment{FVerbatim}
@@ -194,6 +196,8 @@
 \newenvironment{argument}{\par\begin{quote}}{\end{quote}\par}
 
 \newenvironment{centertop}{\begin{center}}{\end{center}}
+
+\newenvironment{centerbot}{\begin{center}}{\end{center}}
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
 
@@ -377,19 +381,15 @@ If you find a mistake, don't think it's clear in some part, have an issue with a
 
 \begin{centertop}
 
-\includegraphics[width=0.4\textwidth,height=\textheight]{img/david-socrates.jpg}
+\includegraphics[width=0.5\textwidth,height=\textheight]{img/david-socrates.jpg}
+
+\begin{centerbot}
+
+Jacques-Louis David, ``The Death of Socrates''
+
+\end{centerbot}
 
 \end{centertop}
-
-\begin{center}
-
-\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
-
-Jacques-Louis David, The Death of Socrates
-
-\end{FVerbatim}
-
-\end{center}
 
 \begin{epigraph}
 The unexamined life is not worth living.
@@ -548,19 +548,15 @@ Michael Sandel is a philosophy professor at Harvard who teaches a very popular c
 
 \begin{centertop}
 
-\includegraphics[width=0.4\textwidth,height=\textheight]{img/tenniel-tweedle-dee-dum.jpg}
+\includegraphics[width=0.5\textwidth,height=\textheight]{img/tenniel-tweedle-dee-dum.jpg}
+
+\begin{centerbot}
+
+John Tenniel, ``Alice meets Tweedle Dee and Tweedle Dum''
+
+\end{centerbot}
 
 \end{centertop}
-
-\begin{center}
-
-\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
-
-John Tenniel, Alice meets Tweedle Dee and Tweedle Dum
-
-\end{FVerbatim}
-
-\end{center}
 
 \begin{epigraph}
 `Contrariwise,' continued Tweedledee, `if it was so, it might be; and if
@@ -909,19 +905,15 @@ There is, once again a great many web sources that can help clarify the concepts
 
 \begin{centertop}
 
-\includegraphics[width=0.3\textwidth,height=\textheight]{img/illusion.png}
+\includegraphics[width=0.4\textwidth,height=\textheight]{img/illusion.png}
+
+\begin{centerbot}
+
+\href{https://pixabay.com/users/openclipart-vectors-30363/}{OpenClipart-Vectors} at pixabay.com
+
+\end{centerbot}
 
 \end{centertop}
-
-\begin{center}
-
-\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
-
-OpenClipart-Vectors at pixabay.com
-
-\end{FVerbatim}
-
-\end{center}
 
 \begin{epigraph}
 Reality is, you know, the tip of an iceberg of irrationality that we've
@@ -1330,19 +1322,26 @@ you are a klutz.
 
 \begin{centertop}
 
-\includegraphics[width=0.4\textwidth,height=\textheight]{img/buddha-bird.jpg}
+\includegraphics[width=0.5\textwidth,height=\textheight]{img/buddha-bird.jpg}
+
+\begin{centerbot}
+
+\href{https://pixabay.com/users/mikhsan-4911734/}{mikhsan} at pixabay.com
+
+\end{centerbot}
 
 \end{centertop}
 
-\begin{center}
+\begin{epigraph}
+If anyone, no matter who, were given the opportunity of choosing from
+amongst all the nations in the world the set of beliefs which he thought
+best, he would inevitably -- after careful considerations of their
+relative merits -- choose that of his own country. Everyone without
+exception believes his own native customs, and the religion he was
+brought up in, to be the best.
 
-\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
-
-mikhsan at pixabay.com
-
-\end{FVerbatim}
-
-\end{center}
+---Herodotus, The Histories
+\end{epigraph}
 
 \textbf{\emph{Opinion}}, this seems to be where ethics starts and in many people's minds where it ends. You have a right to your opinion about right and wrong and I have a right to mine, so let's just leave it at that. Given what we have been looking at so far, not to mention all of the unread pages still ahead, it is probably already apparent that that is not going to be the whole story about ethics. It is nevertheless a deeply rooted assumption that ethical claims \emph{must be} opinions, since they are clearly \textbf{not} factual claims and that seems to be the only other sort of claim we can possibly be making when we are using language to state things. That this assumption does not in fact hold up to closer inspection is what this chapter is going to argue. Before we get to that argument, however, I would like to say a few words about what we are going to be up to in the next few chapters that make up this part of the text.
 
@@ -1522,19 +1521,15 @@ It is also challenging to its opponents since it seems to fit in well with the i
 
 \begin{centertop}
 
-\includegraphics[width=0.4\textwidth,height=\textheight]{img/tori-shrine.jpg} ```
+\includegraphics[width=0.5\textwidth,height=\textheight]{img/tori-shrine.jpg}
+
+\begin{centerbot}
+
+\href{https://pixabay.com/users/jordymeow-943760/}{JordyMeow} at pixabay.com
+
+\end{centerbot}
 
 \end{centertop}
-
-\begin{center}
-
-\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
-
-JordyMeow at pixabay.com
-
-\end{FVerbatim}
-
-\end{center}
 
 \begin{epigraph}
 {[}I consider{]} ethics, as well as religion, as supplements to law in
@@ -1568,19 +1563,15 @@ beloved of the gods.
 
 \begin{centertop}
 
-\includegraphics[width=0.3\textwidth,height=\textheight]{img/hardcore-02.jpg}
+\includegraphics[width=0.4\textwidth,height=\textheight]{img/hardcore-02.jpg}
+
+\begin{centerbot}
+
+\href{https://www.dreadscott.net/works/hardcore/}{Dread Scott}, Hardcore series, ``Devon''
+
+\end{centerbot}
 
 \end{centertop}
-
-\begin{center}
-
-\begin{FVerbatim}[fontsize=\footnotesize, fontfamily=helvetica]
-
-Dread Scott, Hardcore series, Devin
-
-\end{FVerbatim}
-
-\end{center}
 
 \begin{epigraph}
 Where the world comes in my way---and it comes in my way everywhere---I
@@ -1605,8 +1596,26 @@ but---my food, even as I too am fed upon and turned to use by you.
 \hypertarget{part-reconstructing-norms}{%
 \part{Reconstructing Norms}\label{part-reconstructing-norms}}
 
-\hypertarget{the-social-contract}{%
-\chapter{The Social Contract}\label{the-social-contract}}
+\hypertarget{social-contract-theory}{%
+\chapter{Social Contract Theory}\label{social-contract-theory}}
+
+\begin{centertop}
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{img/constitution.jpg}
+
+\begin{centerbot}
+
+\href{https://pixabay.com/users/lynn0101-8308820/}{lyn0101} at Pixabay.com
+
+\end{centerbot}
+
+\end{centertop}
+
+\begin{epigraph}
+For it can never be that war shall preserve life, and peace destroy it.
+
+---Thomas Hobbes, Leviathan
+\end{epigraph}
 
 \hypertarget{hobbes-and-the-invention-of-society}{%
 \section{Hobbes and the invention of society}\label{hobbes-and-the-invention-of-society}}
@@ -1620,6 +1629,25 @@ but---my food, even as I too am fed upon and turned to use by you.
 \hypertarget{utilitarianism}{%
 \chapter{Utilitarianism}\label{utilitarianism}}
 
+\begin{centertop}
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{img/crowd.jpg}
+
+\begin{centerbot}
+
+\href{https://pixabay.com/users/free-photos-242387/}{Free-Photos} at Pixabay.com
+
+\end{centerbot}
+
+\end{centertop}
+
+\begin{epigraph}
+Actions are right in proportion as they tend to promote happiness, wrong
+as they tend to produce the reverse of happiness.
+
+---John Stuart Mill, Utilitarianism
+\end{epigraph}
+
 \hypertarget{the-highest-good}{%
 \section{The highest good}\label{the-highest-good}}
 
@@ -1631,6 +1659,26 @@ but---my food, even as I too am fed upon and turned to use by you.
 
 \hypertarget{kant-and-the-ethics-of-duty}{%
 \chapter{Kant and the ethics of duty}\label{kant-and-the-ethics-of-duty}}
+
+\begin{centertop}
+
+\includegraphics[width=0.55\textwidth,height=\textheight]{img/king-audacity.jpg}
+
+\begin{centerbot}
+
+\href{https://www.flickr.com/photos/22711505@N05/}{Ron Cogswell}
+
+\end{centerbot}
+
+\end{centertop}
+
+\begin{epigraph}
+Two things fill the mind with ever-increasing wonder and awe, the more
+often and the more intensely the mind of thought is drawn to them: the
+starry heavens above me and the moral law within me.
+
+---Immanuel Kant, Critique of Practical Reason
+\end{epigraph}
 
 \hypertarget{what-do-we-owe-one-another}{%
 \section{What do we owe one another?}\label{what-do-we-owe-one-another}}

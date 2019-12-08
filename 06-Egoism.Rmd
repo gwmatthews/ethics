@@ -1,16 +1,12 @@
 # Egoism
 
-::: {.centertop data-latex=""}
+:::: {.centertop data-latex=""}
 
-![](img/hardcore-02.jpg){width=30%}
+![](img/hardcore-02.jpg){width=40%}
 
-:::
+::: {.centerbot data-latex=""}
 
-:::: {.center data-latex=""}
-
-::: {.FVerbatim data-latex="[fontsize=\footnotesize, fontfamily=helvetica]" .tiny}
-
-Dread Scott, Hardcore series, Devin
+[Dread Scott](https://www.dreadscott.net/works/hardcore/), Hardcore series, "Devon"
 
 :::
 

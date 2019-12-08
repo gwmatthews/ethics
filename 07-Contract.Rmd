@@ -1,6 +1,27 @@
 # (PART) Reconstructing Norms {-}
 
-# The Social Contract
+# Social Contract Theory
+
+:::: {.centertop data-latex=""}
+
+![](img/constitution.jpg){width=50%}
+
+::: {.centerbot data-latex=""}
+
+
+[lyn0101](https://pixabay.com/users/lynn0101-8308820/) at Pixabay.com
+
+:::
+
+::::
+
+```{block type='epigraph'}
+
+For it can never be that war shall preserve life, and peace destroy it.
+
+---Thomas Hobbes, Leviathan
+
+```
 
 ## Hobbes and the invention of society
 

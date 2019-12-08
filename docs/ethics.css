@@ -80,11 +80,17 @@ div.epigraph {
 }
 
 .centertop img {
-  padding: 20px;
+  padding: 5px;
   border-radius: 10px;
   border: 2px solid #aaa;
   background-color: #f5f5f5;
   box-shadow: 3px 3px 10px 2px gray;
+}
+
+.centerbot{
+  margin: auto;
+  text-align: center;
+  font-size: x-small;
 }
 
 .tiny {
