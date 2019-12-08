@@ -2,11 +2,11 @@
 
 # Social Contract Theory
 
-:::: {.centertop data-latex=""}
+:::: {.centerpic data-latex=""}
 
 ![](img/constitution.jpg){width=50%}
 
-::: {.centerbot data-latex=""}
+::: {.centercap data-latex=""}
 
 
 [lyn0101](https://pixabay.com/users/lynn0101-8308820/) at Pixabay.com
@@ -15,13 +15,11 @@
 
 ::::
 
-```{block type='epigraph'}
-
-For it can never be that war shall preserve life, and peace destroy it.
-
+:::{.epigraph data-latex=""}
+For it can never be that war shall preserve life, and peace destroy it.\
+\
 ---Thomas Hobbes, Leviathan
-
-```
+:::
 
 ## Hobbes and the invention of society
 

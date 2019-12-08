@@ -1,12 +1,13 @@
 --- 
 title: "Philosophical Ethics"
 subtitle: "A Guidebook for Beginners"
+cover-image: "img/cover-2.jpg"
 author: "**George W. Matthews**"
 date: "last revised: `r Sys.Date()`"
 description: "An open textbook"
 github-repo: "gwmatthews/ethics"
 site: bookdown::bookdown_site
-classoption: 12pt
+classoption: "12pt, openany"
 graphics: yes
 geometry: 'margin=3cm'
 bibliography: ethics.bib
@@ -26,7 +27,20 @@ if (knitr:::is_latex_output()) {
 }
 ```
 
+### Dedication {-}
 
+:::: {.centerpic data-latex=""}
+
+![](img/hongzhi.jpg){width=40%}
+::::
+
+:::: {.epigraph data-latex=""}
+Receive correctly this monk's word-stream, neither frozen nor trickling away, neither transparent nor muddy. When you wring it dry, take advantage of the opportunity; when you enter the bustle, perceive with your whole eye. Thorough understanding and the changing world fulfill each other totally without obstacle. The moon accompanies the current, the wind bends the grass...Find your seat, wear your robe, and go forward and see for yourself.\
+\
+---Hongzhi, *Cultivating the Empty Field* 
+::::
+
+## About this book {-}
 
 **_This book_** is an introduction to philosophical ethics intended for use in introductory college or high school level courses. It has grown out of lecture notes I shared with the first students who took my online Ethics course at the Pennsylvania College of Technology  almost 20 years ago. Since then it has seen more development in a variety of forms -- starting out as a pdf document, and then evolving into a static set of WordPress pages and finally now as a book written in bookdown and hosted at GitHub. This text represents my attempt to scratch a few itches. The first is my wanting a presentation of the major philosophical approaches to ethics that I can actually agree with and that is integrated into my overall teaching method. I tend to teach philosophy to beginners and so there is a fair amount of discussion of the tools used by philosophers and of the ways in which their approach differs from that of their colleagues in other disciplines. 
 
@@ -36,29 +50,18 @@ if (knitr:::is_latex_output()) {
 
 **_In addition_** the decision to convert this text into a [GitHub repository](https://github.com/gwmatthews/ethics) should be considered as an invitation for others to participate in its future development. Anyone can fork the repository where it resides and use it as a template for their own book project; offer suggestions for revisions, or contribute in other ways as well. Please use the "issues" section of the repository for making any major suggestions.
 
-## Dedication {-}
-
-
-
-```{block type='epigraph'}
-Receive correctly this monk's word-stream, neither frozen nor trickling away, neither transparent nor muddy. When you wring it dry, take advantage of the opportunity; when you enter the bustle, perceive with your whole eye. Thorough understanding and the changing world fulfill each other totally without obstacle. The moon accompanies the current, the wind bends the grass...Find your seat, wear your robe, and go forward and see for yourself.
-
----Hongzhi, *Cultivating the Empty Field* 
-```
-
-```{r, fig.align = 'center', echo = FALSE, out.width = '50%'}
-knitr::include_graphics('img/hongzhi.jpg')
-```
 
 ## Acknowledgements {-}
 
 **_The writing_** and publication of this book would not have been possible without the work of numerous people who make and share their amazing work in the open source software community. It is based in particular on the work of [Yi Hui](https://github.com/yihui) and the other developers of [bookdown](https://github.com/rstudio/bookdown) and [Rstudio](https://rstudio.com/products/rstudio/) and related software. While it has been a bit of a steep learning curve figuring out how to use Rstudio and bookdown to write and style a book, it has been a lot of fun too! The end product, hopefully, speaks for itself and demonstrates that these tools are not just for people with highly technical backgrounds, but can be used by anyone with some computer skills and a bit of patience to create functional, cross-platform and pretty good looking web based books. 
 
-Icons are by Paul Davey aka [Mattahan](http://mattahan.deviantart.com). All rights reserved.
+:::: {.center data-latex=""}
+![](img/tux.png){width=50px}
+::::
 
-```{r, fig.align = 'center', echo = FALSE }
-knitr::include_graphics('img/tux.png')
-```
+Icons are by Paul Davey, aka [Mattahan](http://mattahan.deviantart.com). All rights reserved.
+
+
 
 ### License CC BY-SA 4.0 {-}
 

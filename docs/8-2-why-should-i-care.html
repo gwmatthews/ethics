@@ -11,7 +11,7 @@
   <meta property="og:title" content="8.2 Why should I care? | Philosophical Ethics" />
   <meta property="og:type" content="book" />
   
-  
+  <meta property="og:image" content="img/cover-2.jpg" />
   <meta property="og:description" content="An open textbook" />
   <meta name="github-repo" content="gwmatthews/ethics" />
 
@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="8.2 Why should I care? | Philosophical Ethics" />
   
   <meta name="twitter:description" content="An open textbook" />
-  
+  <meta name="twitter:image" content="img/cover-2.jpg" />
 
 <meta name="author" content="George W. Matthews" />
 
@@ -69,7 +69,8 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
-<li class="chapter" data-level="" data-path="dedication.html"><a href="dedication.html"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#dedication"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="" data-path="about-this-book.html"><a href="about-this-book.html"><i class="fa fa-check"></i>About this book</a></li>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a><ul>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html#license-cc-by-sa-4.0"><i class="fa fa-check"></i>License CC BY-SA 4.0</a></li>
 </ul></li>
@@ -269,7 +270,16 @@
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": false,
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
 "fontsettings": {
 "theme": "white",
 "family": "sans",

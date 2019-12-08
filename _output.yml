@@ -12,12 +12,15 @@ bookdown::gitbook:
         <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
     download: [pdf]
     edit: https://github.com/gwmatthews/ethics/blob/master/%s
-    sharing: no
+    sharing:
+      github: yes
+      facebook: no
+      twitter: yes
 
 bookdown::pdf_book:
   includes:
    in_header: preamble.tex
-#   before_body: before_body.tex
+   before_body: frontpage.tex
 #    after_body: latex/after_body.tex
   keep_tex: yes
   latex_engine: pdflatex #xelatex

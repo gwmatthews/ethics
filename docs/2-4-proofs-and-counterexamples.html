@@ -11,7 +11,7 @@
   <meta property="og:title" content="2.4 Proofs and Counterexamples | Philosophical Ethics" />
   <meta property="og:type" content="book" />
   
-  
+  <meta property="og:image" content="img/cover-2.jpg" />
   <meta property="og:description" content="An open textbook" />
   <meta name="github-repo" content="gwmatthews/ethics" />
 
@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="2.4 Proofs and Counterexamples | Philosophical Ethics" />
   
   <meta name="twitter:description" content="An open textbook" />
-  
+  <meta name="twitter:image" content="img/cover-2.jpg" />
 
 <meta name="author" content="George W. Matthews" />
 
@@ -69,7 +69,8 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
-<li class="chapter" data-level="" data-path="dedication.html"><a href="dedication.html"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#dedication"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="" data-path="about-this-book.html"><a href="about-this-book.html"><i class="fa fa-check"></i>About this book</a></li>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a><ul>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html#license-cc-by-sa-4.0"><i class="fa fa-check"></i>License CC BY-SA 4.0</a></li>
 </ul></li>
@@ -207,27 +208,27 @@
 <div id="proofs-and-counterexamples" class="section level2">
 <h2><span class="header-section-number">2.4</span> Proofs and Counterexamples</h2>
 <p><strong><em>Another</em></strong> way to look at the difference between valid and invalid arguments is in terms of the difference between a proof and a counterexample. A proof is a step by step demonstration that the conclusion is a <strong>necessary</strong> consequence of the premises. To prove that a conclusion validly follows from a set of premises we show in a detailed way how a series of obviously valid steps in reasoning lead us to the conclusion. Take the following argument for example.</p>
+<div class="center">
 <div class="argument">
-<p>
-Fred is older than Wilma but younger than Betty.<br />
+<p>Fred is older than Wilma but younger than Betty.<br />
 Barney is older than Betty.<br />
-So Barney is older than Fred.
 </p>
+<p>So Barney is older than Fred.</p>
+</div>
 </div>
 <p>Remember that a valid argument is one in which <strong><em>if</em></strong> the premises are true, the conclusion must also be true. So how would we prove that this is the case? Well we just <em>assume</em> that the premises are true and go from there. So here is what a proof might look like:</p>
 <div class="rmdtip">
-<p>
-The first premise states that Fred is older than Wilma and he is younger than Betty. Wilma doesn’t matter here since she isn’t mentioned in the other premise or the conclusion, so let’s just note that this premise clearly states that Fred is younger than Betty. Now this would mean that Betty is older than Fred, since “older” and “younger” are inverses. If I am younger than you then you are older than me no matter who we are since that’s what “younger” and “older” mean. Now since Barney is older than Betty, as the second premise states, he must be older than Fred too, since as we just saw, Betty is older than Fred. This follows from the fact that the relationship “older than” is a <strong>transitive</strong> relationship – if A is older than B and B is older than C A has to be older than C since that’s “just what”older than&quot; means. So our conclusion that Barney is older than Fred is clearly a <em>logical consequence</em> of the premises.
-</p>
+<p>The first premise states that Fred is older than Wilma and he is younger than Betty. Wilma doesn’t matter here since she isn’t mentioned in the other premise or the conclusion, so let’s just note that this premise clearly states that Fred is younger than Betty. Now this would mean that Betty is older than Fred, since “older” and “younger” are inverses. If I am younger than you then you are older than me no matter who we are since that’s what “younger” and “older” mean. Now since Barney is older than Betty, as the second premise states, he must be older than Fred too, since as we just saw, Betty is older than Fred. This follows from the fact that the relationship “older than” is a <strong>transitive</strong> relationship – if A is older than B and B is older than C A has to be older than C since that’s “just what”older than&quot; means. So our conclusion that Barney is older than Fred is clearly a <em>logical consequence</em> of the premises.</p>
 </div>
 <p><strong><em>That’s all</em></strong> there really is to any proof. We have just unpacked the meaning of what the premises are saying in a way that establishes that they entail the conclusion. We don’t, in other words, have to add any new information to what is already stated in the premises in order to get the conclusion. In more complicated cases it can take much more effort to show this but all proofs are nothing but such a process of showing that the conclusion is thus “contained” in the premises already, which is of course <em>why</em> the truth of the premises would guarantee the truth of the conclusion. In a simple case like this we can almost just see the obviousness of the connection between premises and conclusion, and so it might seem silly to spell things out in this much detail, but in more complicated cases there is more room for error so spelling things out like this is important.</p>
 <p><strong><em>Invalid arguments</em></strong> in contrast are arguments where we would need something more than what is contained in the premises to get the conclusion. No matter how we attempt to prove our conclusion we will <em>always</em> come to some spot where we cannot get any closer to the conclusion. So how do we show <em>this</em>? We use a counterexample, which is nothing but a possible situation in which the premises would all be true and the conclusion would be false. This shows that the argument is invalid, since if it were valid it would be <em>impossible</em> for the premises to be true and the conclusion false at the same time as we just saw. Consider the following argument:</p>
+<div class="center">
 <div class="argument">
-<p>
-Fred is older than Wilma but younger than Betty.<br />
+<p>Fred is older than Wilma but younger than Betty.<br />
 Barney is younger than Betty and older than Wilma.<br />
-So Fred is older than Barney.
 </p>
+<p>So Fred is older than Barney.</p>
+</div>
 </div>
 <p>Even though we have no idea what these peoples’ ages are (or even if they exist outside of a 1970’s TV cartoon series) we can tell that the conclusion does not have to be true, even if the premises were true. This argument is invalid and we can show this with a counterexample.</p>
 <table>
@@ -320,7 +321,16 @@ So Fred is older than Barney.
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": false,
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
 "fontsettings": {
 "theme": "white",
 "family": "sans",

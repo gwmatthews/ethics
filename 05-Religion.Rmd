@@ -1,10 +1,10 @@
 # Religion and Ethics {#religion}
 
-:::: {.centertop data-latex=""}
+:::: {.centerpic data-latex=""}
 
 ![](img/tori-shrine.jpg){width=50%}
 
-::: {.centerbot data-latex=""}
+::: {.centercap data-latex=""}
 
 [JordyMeow](https://pixabay.com/users/jordymeow-943760/) at pixabay.com
 
@@ -12,22 +12,19 @@
 
 ::::
 
-```{block type='epigraph'}
-
-[I consider] ethics, as well as religion, as supplements to law in the government of man.
-
+:::{.epigraph data-latex=""}
+[I consider] ethics, as well as religion, as supplements to law in the government of man.\
+\
 ---Thomas Jefferson
-
-```
-
+:::
 
 ## Divine Command Theory
 
-```{block type='epigraph'}
-The point which I should first wish to understand is whether the pious or holy is beloved by the gods because it is holy, or holy because it is beloved of the gods. 
-
+:::{.epigraph data-latex=""}
+The point which I should first wish to understand is whether the pious or holy is beloved by the gods because it is holy, or holy because it is beloved of the gods. \
+\
 ---Plato
-```
+:::
 
 ## A Nasty Dilemma
 

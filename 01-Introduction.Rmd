@@ -2,13 +2,13 @@
 
 # The Examined Life
 
-:::: {.centertop data-latex=""}
+:::: {.centerpic data-latex=""}
 
 ![](img/david-socrates.jpg){width=50%}
 
 
 
-::: {.centerbot data-latex=""}
+::: {.centercap data-latex=""}
 
 Jacques-Louis David, "The Death of Socrates"
 
@@ -16,16 +16,16 @@ Jacques-Louis David, "The Death of Socrates"
 
 ::::
 
-``` {block type='epigraph'}
+::: {.epigraph data-latex=""}
 
-The unexamined life is not worth living.
-
+The unexamined life is not worth living.\
+\
 ---Socrates
-```
+:::
 
-**_Human beings_** are endowed with a unique capacity, the ability to reflect on what we believe and do. Unlike other animals, we are capable of taking a distance from the evidence of our senses and asking ourselves, "Should I trust what I see or not?" Likewise in the realm of desire and action:  we can examine our own desires, intentions and plans and ask ourselves, "Should I act on these or not?" In both cases we are capable of stepping back from the immediate demands of our situation and seeking orientation from another source -- we seek *reasons* to believe or doubt what we see and *reasons* to follow or resist our urges. This reflective capacity is the source of our strength since it has enabled us to both understand and manipulate the world around us like no other creature on the planet. But it also puts us in the uniquely awkward position of having to justify ourselves to our own worst critics, ourselves. 
+**_Human beings_** have a unique capacity, the ability to reflect on what we believe and do. Unlike other animals, we can take a distance from the evidence of our senses and asking ourselves, "Should I trust what I see or not?" Likewise with desire and action:  we can examine our own desires, intentions and plans and ask ourselves, "Should I act on these or not?" In both cases we are capable of stepping back from the immediate demands of our situation and seeking orientation from another source -- we seek *reasons* to believe or doubt what we see and *reasons* to follow or resist our urges. This reflective capacity is the source of our strength since it has enabled us to both understand and manipulate the world around us like no other creature on the planet. But it also puts us in the uniquely awkward position of having to justify ourselves to our own worst critics, ourselves. 
 
-**_Shakespeare's tragic figure_** of Hamlet sums this up quite well when he on the one hand proclaims,
+**_Shakespeare's tragic figure_** of Hamlet sums this up well when he on the one hand proclaims,
 
 > What a piece of work is a man! how noble in reason! how infinite in faculties! in form and moving how express and admirable! in action how like an angel! in apprehension how like a god! the beauty of the world, the paragon of animals! And yet to me what is this quintessence of dust?
 
@@ -51,21 +51,19 @@ The unexamined life is not worth living.
 
 ### A difficult case {-}
 
-```{block type='rmdquestion'}
-Imagine that you are standing next to a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a switch in front of you, that would divert the trolley to the other track. Unfortunately there is also a single worker on the other track, who is himself to far away to hear you. 
-
+:::{.rmdquestion data-latex=""}
+Imagine that you are standing next to a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a switch in front of you, that would divert the trolley to the other track. Unfortunately there is also a single worker on the other track, who is himself to far away to hear you.\
+\
 *Would you throw the switch and cause the worker to most likely die in order to prevent the runaway trolley from hitting the children?*
-
-```
+:::
 
 **_This classic case_** of an ethical dilemma has been extensively studied by philosophers and psychologists. One significant result of these studies is that a large majority of people say that if they were in that situation they *would* throw the switch. That is they are following a common moral intuition that might be expressed by the rule: all else being equal do whatever saves the most lives. Consider, however, the following variation on this case.
 
-```{block type='rmdquestion'}
-Imagine that you are standing on a bridge with a low railing over a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a very large person standing next to you, and if you gave him a slight push he would fall in front of the trolley car causing it to derail, thus saving the five children. 
-
+:::{.rmdquestion data-latex=""}
+Imagine that you are standing on a bridge with a low railing over a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a very large person standing next to you, and if you gave him a slight push he would fall in front of the trolley car causing it to derail, thus saving the five children.\
+\
 *Would you push the person off of the bridge in order to prevent the runaway trolley from hitting the children?*
-
-```
+:::
 
 **_In this case_** a large majority of people say they *would not* push the person off of the bridge even if it would save the five children. Given that the result is the same in either case, the question then becomes why it is that in the first version of this scenario no longer look at it in terms of the intuition that it is better to do what leads to more lives being saved.
 
@@ -77,43 +75,41 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 **_A philosophical approach_** to ethics, or moral philosophy, is concerned with a number of different sorts of questions. Thus the broader field of ethics can be divided up into a number of different regions or areas of concern. Some of the main questions and their corresponding sub-fields are:
 
-```{block type='rmdquestion'}
-**_Descriptive ethics_**
-
+:::{.rmdquestion data-latex=""}
+**_Descriptive ethics_**\
+\
 - What do people really think about right and wrong?
 - How can we best describe and expain people's moral claims and beliefs?
-```
+:::
 
 What ethical views do real people have? This is the concern of **descriptive ethics**, which tries to figure out what beliefs people happen to actually have concerning ethical questions. As such, descriptive ethics is not exclusively a philosophical approach to ethics in that sociologists, psychologists, anthropologists and other social scientists are also concerned with people's ethical beliefs in this sense. This approach looks at our beliefs about ethical issues and about ethics in general as facts about us to be catalogued and explained.
 
-```{block type='rmdquestion'}
-**_Meta-ethics_**
-
+:::{.rmdquestion data-latex=""}
+**_Meta-ethics_**\
+\
 - How does thinking about ethics work?
 - What are the differences between ethical claims and claims about the facts?
-```
+:::
 
 What are the nature and limits of ethical thinking and ethical concepts? This is the concern of **meta-ethics**, which is a higher-order or "meta-level" discussion about ethical thinking. Here again, philosophers as well as social scientists often ask meta-ethical questions in their attempts to understand what is distinctive about ethical thinking as opposed to other modes of cognition. But looking at ethics from this perspective intentionally does not take a stand on particular ethical principles or issues.
 
-```{block type='rmdquestion'}
-**_Prescriptive ethics_**
-
+:::{.rmdquestion data-latex=""}
+**_Prescriptive ethics_**\
+\
 - What is really the right thing to do?
 - What moral principles are really justified and should be followed?
-```
+:::
 
 What ethical principles or decision-making procedures are really justified? This is the basic question addressed by normative or **prescriptive ethics**, which is the uniquely philosophical attempt to find the true basis of ethical thinking. Much of our discussion in the first half of this text falls under this heading since we will be examining various attempts to give an account of the basis and justification of ethical thought, belief and action. This way of approaching ethics is not scientific, to the extent that  science concerns itself with "value-neutral" descriptions and explanations of whatever phenomena it is addressing. That philosophy can succeed in making normative claims while remaining based on objectivity and rationality is up to philosophers to establish.
 
-```{block type='rmdquestion'}
-**_Applied ethics_**
-
+:::{.rmdquestion data-latex=""}
+**_Applied ethics_**\
+\
 - What is the right thing to do in real-world cases of ethical controversy?
 - What assumptions and principles lie at the basis of ethical controversies?
-```
+:::
 
 How does all of this play out in real life cases? This is the concern of **applied ethics**. Under this heading are also to be found discussions of ethical issues associated with some particular area of human life, profession, or subject matter -- hence medical ethics, business ethics, legal ethics, environmental ethics, bioethics and so on are sub-fields within applied ethics. 
-
-
 **_We should keep in mind_** as we proceed that these various regions are not always so clearly separate from one another. Our description of what people believe about ethical questions, for example, is clearly often informed by what we think they are justified in believing. Nevertheless we should keep in mind the fact that we can look at ethics from each of these different points of view and recognize that failing to do so may result in unnecessary confusion.
 
 **_In conclusion_** we might say that philosophical ethics involves deliberately reflecting on our ideas about ethics in general and on specific applications of these ideas to actual cases and controversies. Another term for such deliberate reflection is "critical thinking." This should not be looked at as a primarily negative activity as the word "critical" might suggest, but as the positive attempt to arrive at the truth of the matter by thinking carefully about what are often complex and ambiguous ideas and concepts. Even though, as I mentioned at the outset, all of us are equally capable of reflecting critically on our own beliefs, desires, actions and values, it does take some effort and quite a bit of practice to be able to do so effectively. This is because critical thinking is a skill like anything else that we might do with our minds (like solve algebra problems or identify different species of trees) and we shouldn't expect to be experts at it from the start. In the [next chapter](#logic) we will look at and get some practice using one of the most important tools for critical thinking -- the logical analysis of arguments.

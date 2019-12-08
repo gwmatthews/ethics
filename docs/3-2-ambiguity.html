@@ -11,7 +11,7 @@
   <meta property="og:title" content="3.2 Fallacies of Ambiguity | Philosophical Ethics" />
   <meta property="og:type" content="book" />
   
-  
+  <meta property="og:image" content="img/cover-2.jpg" />
   <meta property="og:description" content="An open textbook" />
   <meta name="github-repo" content="gwmatthews/ethics" />
 
@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="3.2 Fallacies of Ambiguity | Philosophical Ethics" />
   
   <meta name="twitter:description" content="An open textbook" />
-  
+  <meta name="twitter:image" content="img/cover-2.jpg" />
 
 <meta name="author" content="George W. Matthews" />
 
@@ -69,7 +69,8 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
-<li class="chapter" data-level="" data-path="dedication.html"><a href="dedication.html"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#dedication"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="" data-path="about-this-book.html"><a href="about-this-book.html"><i class="fa fa-check"></i>About this book</a></li>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a><ul>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html#license-cc-by-sa-4.0"><i class="fa fa-check"></i>License CC BY-SA 4.0</a></li>
 </ul></li>
@@ -209,31 +210,34 @@
 <p><strong><em>The next set</em></strong> of fallacies relies on the fact that many terms have multiple meanings. Switching between meanings without acknowledging that one is doing so is a way of making invalid reasoning look valid. Closer examination reveals arguments that do this to be weaker than at first glance. Here we will consider just two examples. Many more often appear in debates.</p>
 <div id="equivocation" class="section level3 unnumbered">
 <h3>Equivocation</h3>
-<div class="rmdwarning">
-<p>
-People in jail are really free.<br />
-This is because if you can think whatever you want, then you are free and people jail can certainly think whatever they want.
+<div class="center">
+<div class="argument">
+<p>People in jail are really free.<br />
 </p>
+<p>This is because if you can think whatever you want, then you are free and people jail can certainly think whatever they want.</p>
+</div>
 </div>
 <p><strong><em>Equivocation</em></strong> is using multiple meanings of a word as if they were the same. We start out with one meaning of a word like “freedom” and end up with another meaning, in the attempt to fool the person who is listening to us that our reasoning is valid. Used car dealers sometimes use a tactic known as “bait and switch” that is similar to this -– they advertise great deals in the paper and then when you show up to their lot they have something else similar but not quite as good a deal that they offer you instead.</p>
 </div>
 <div id="straw-person" class="section level3 unnumbered">
 <h3>Straw person</h3>
-<div class="rmdwarning">
-<p>
-The senator who suggested cutting funding for the new Air Force attack drone system really wants to leave us defenseless against our enemies.<br />
-Thus we should reject such cuts.
+<div class="center">
+<div class="argument">
+<p>The senator who suggested cutting funding for the new Air Force attack drone system really wants to leave us defenseless against our enemies.<br />
 </p>
+<p>Thus we should reject such cuts.</p>
+</div>
 </div>
 <p><strong><em>This fallacy</em></strong> often appears in the context of a debate in which one person misrepresents his or her opponent’s view in order more easily, as with a person made of straw, to knock it down. This is a fallacy of ambiguity in that it relies on a superficially similar version of the view that is being attacked rather than the view itself. One can often “win” debates by using this strategy, but such victories are hollow in that they do not really engage with the real issues but only with caricature. If you really want to demonstrate that some view you are attacking is worthy of rejection, it is far better to rely on the “principle of charity” which involves presenting your opponent’s view in as favorable a light as possible. If it still fails to withstand scrutiny, then perhaps you are wrong to reject it. he drawback, however, is that if you represent your opponent’s views in a more fair and favorable light, your objections to them may themselves not hold up. But then again, that is only a drawback if you care more about winning debates rather than in figuring out what is really the case.</p>
 </div>
 <div id="cherry-picking" class="section level3 unnumbered">
 <h3>Cherry picking</h3>
-<div class="rmdwarning">
-<p>
-This study of 12 children clearly shows a link between childhood vaccination and autism.<br />
-Thus vaccines cause autism.
+<div class="center">
+<div class="argument">
+<p>This study of 12 children clearly shows a link between childhood vaccination and autism.<br />
 </p>
+<p>Thus vaccines cause autism.</p>
+</div>
 </div>
 <p><strong><em>This one</em></strong> is really no joke – in fact the whole of the current scare about childhood vaccinations and autism was “established” by a single study of twelve children! The fact that the paper was retracted, and its author was barred from medical practice didn’t matter since its influence only grew since the date of its publication. The logical mistake here is that of selectively reading the evidence in favor of your own hypothesis, or “cherry picking” the data to get the juiciest bits while ignoring anything that contradicts it. The other name for this fallacy, “Texas sharpshooter” refers to the related practice of proving your worth as a target shooter by first shooting random holes in the side of a barn, and then afterwards drawing your target around a cluster of holes so that it looks like you are a great shot. Is this done in Texas? Probably not, but whoever named it must have had a low opinion of Texans – no offense intended and if you are from Texas, substitute your state of choice.</p>
 </div>
@@ -300,7 +304,16 @@ Thus vaccines cause autism.
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": false,
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
 "fontsettings": {
 "theme": "white",
 "family": "sans",

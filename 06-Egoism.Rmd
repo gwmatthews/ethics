@@ -1,10 +1,10 @@
-# Egoism
+# Egoism {#egoism}
 
-:::: {.centertop data-latex=""}
+:::: {.centerpic data-latex=""}
 
 ![](img/hardcore-02.jpg){width=40%}
 
-::: {.centerbot data-latex=""}
+::: {.centercap data-latex=""}
 
 [Dread Scott](https://www.dreadscott.net/works/hardcore/), Hardcore series, "Devon"
 
@@ -12,12 +12,11 @@
 
 ::::
 
-```{block type='epigraph'}
-
-Where the world comes in my way—and it comes in my way everywhere—I consume it to quiet the hunger of my egoism. For me you are nothing but—my food, even as I too am fed upon and turned to use by you.
-
+:::{.epigraph data-latex=""}
+Where the world comes in my way—and it comes in my way everywhere—I consume it to quiet the hunger of my egoism. For me you are nothing but—my food, even as I too am fed upon and turned to use by you.\
+\
 ---Max Stirner
-```
+:::
 
 ## What's in it for me?
 

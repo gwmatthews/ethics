@@ -11,7 +11,7 @@
   <meta property="og:title" content="Chapter 2 A Little Bit of Logic | Philosophical Ethics" />
   <meta property="og:type" content="book" />
   
-  
+  <meta property="og:image" content="img/cover-2.jpg" />
   <meta property="og:description" content="An open textbook" />
   <meta name="github-repo" content="gwmatthews/ethics" />
 
@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="Chapter 2 A Little Bit of Logic | Philosophical Ethics" />
   
   <meta name="twitter:description" content="An open textbook" />
-  
+  <meta name="twitter:image" content="img/cover-2.jpg" />
 
 <meta name="author" content="George W. Matthews" />
 
@@ -69,7 +69,8 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
-<li class="chapter" data-level="" data-path="dedication.html"><a href="dedication.html"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#dedication"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="" data-path="about-this-book.html"><a href="about-this-book.html"><i class="fa fa-check"></i>About this book</a></li>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a><ul>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html#license-cc-by-sa-4.0"><i class="fa fa-check"></i>License CC BY-SA 4.0</a></li>
 </ul></li>
@@ -206,19 +207,16 @@
             <section class="normal" id="section-">
 <div id="logic" class="section level1">
 <h1><span class="header-section-number">Chapter 2</span> A Little Bit of Logic</h1>
-<div class="centertop">
+<div class="centerpic">
 <p><img src="img/tenniel-tweedle-dee-dum.jpg" style="width:50.0%" /></p>
-<div class="centerbot">
+<div class="centercap">
 <p>John Tenniel, “Alice meets Tweedle Dee and Tweedle Dum”</p>
 </div>
 </div>
 <div class="epigraph">
-<p>
-‘Contrariwise,’ continued Tweedledee, ‘if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.’
-</p>
-<p>
-—Lewis Carroll, Through the Looking Glass
-</p>
+<p>‘Contrariwise,’ continued Tweedledee, ‘if it was so, it might be; and if it were so, it would be; but as it isn’t, it ain’t. That’s logic.’<br />
+<br />
+—Lewis Carroll, Through the Looking Glass</p>
 </div>
 <p><strong><em>Logic</em></strong> is the formal study of reasoning – the attempt to justify or provide evidence for claims or beliefs. In this chapter we will look at the basic concepts and techniques for the logical analysis of arguments. As we will be seeing this will be useful in our discussions of ethics since much of what we will be doing will involve careful consideration of the justification of claims we make about ethics in general as well as particular topics in ethics.</p>
 <p><strong><em>Before</em></strong> we get started though we need to clarify some terminology – especially our use of the word “argument.” Too often this word conjures up a pointless verbal fight between people with opposed views. They argue rather than discuss because their differences of opinion are fixed in place and neither will budge. It is typically a good idea to stay away from arguments in this sense. The word argument as we are using it here, however, has quite a different meaning. For us arguments do not require differences of opinion because arguments are just attempts to explicitly provide back-up or justification for some claim that we might make. We offer arguments in this sense whenever we make the grounds for our belief explicit whether we are doing this within the confines of our own heads, in written form or spoken out loud whether or not anyone disagrees with us. Arguments in this sense of the term might appear in regular old verbal disputes. But as we will be seeing arguments are best looked at one at a time since each one stands or falls on its own merits.</p>
@@ -286,7 +284,16 @@
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": false,
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
 "fontsettings": {
 "theme": "white",
 "family": "sans",
