@@ -128,14 +128,100 @@ The point which I should first wish to understand is whether the pious or holy i
 So we end up with a nasty dilemma -- either we base ethics on God's commands directly, but at the price of rendering ethical rules arbitrary, with no real reason behind them, or we grant that they have a reason behind them at the price of making the authority of God irrelevant to the rightness of these commands. Note that this dilemma is the same dilemma that arises any time we [appeal to authority](#appeal-to-authority) to settle some issue. When someone says for example "Experts says that blah, blah, blah," we can always ask, "Should we listen to that because it is the experts who say it, or because the experts are right?" To avoid granting the experts arbitrary power to tell us what to do, it has to be the second. But that then renders the experts irrelevant in a sense. After all, if what the experts say is right, this has nothing to do with who they are and everything to do with what they say. So let them present their evidence and let us be the judges of whether to listen or not. Because of this problem, Divine Command Theory is rejected even by some people who insist that morality must be based on religion. The Catholic Church, for example, officially rejects this explanation of why ethics needs religion. It prefers instead, the next theory, Natural Law Theory.
 
 ## Natural Law Theory
+:::{.epigraph data-latex=""}
+Happiness is secured through virtue; it is a good attained by man's own will.\
+\
+---St. Thomas Aquinas
+:::
+
+**_Natural Law Theory_ (NLT)**, as the name suggests, argues that there are standards for right and wrong and these are to be found in nature. Natural things are built (whether by a divine creator or by Darwinian evolution doesn't matter here) to be good at certain types of things. Fish are good swimmers, but bad typists. Dogs are good at smelling things in your luggage, but bad at flying. Trees are good at turning solar energy, water and carbon dioxide into sugars, and bad at solving calculus problems. Another way of saying the same thing is to appeal to the concept of a natural function: fish, dogs, trees, and all other natural things, including us humans, have a certain set of built in potentials, or functions, things they are built to do and can do well. Things that are not part of their natural abilities they shouldn't be doing at all. Natural law theory in ethics is based on this idea. Human beings have a certain set of things we can all do and that we can also do well or poorly. By nature us humans can:
+
+- move physically through our surroundings;
+- perceive things around us and learn about how the world works through observation and experiment;
+- maintain our bodies and minds in a healthy state;
+- be emotionally engaged in our lives and the lives of others;
+- be creative and enjoy the products of others' creativity;
+- be productive and politically active members of society;
+- have and raise children.
+
+**_All of these capacities_** combined make up what humans can do by nature. In spite of the fact that this list seems long, there are of course plenty of things that we cannot do by nature, like fly under our own power, or survive underwater without an artificial air supply. Given all of this, the fundamental claim of Natural Law Theory is just that ethics can and should be based on these natural functions. Ethical decisions are decisions that follow from and foster human nature, while unethical decisions are those that go against our natures. So far this may not seem to be a particularly religious approach to ethics as it was billed above. In a sense, the religious reading of natural law theory is optional -- the claims it makes could be cast in an entirely secular light, by simply referring to nature. However, not only is the most popular version of this theory the one embraced by the Catholic Church, but the tradition from which this theory arose saw nature as the result of supernatural forces at work – God's creation. So even the religious aspect of Natural Law Theory may not be required for the theory itself, to the extent that talk about natural purposes evokes the purposes of the creator of natural things, the two are closely connected.
 
 :::{.rmdnote data-latex="" .infobox}
-**According to natural law theory**
+**According to NLT**
 
 - Understanding things requires understanding their purpose.
 - Human nature is clearly visible by the "light of reason."
 - It is better to follow the natural order of things than to oppose it.
 :::
 
+### Implications of NLT {-}
 
-## Human Nature?
+**_This theory may sound simple_** and even a little trivial, but, as we shall soon see, it has far-reaching implications. In addition, it fits in very well with certain intuitions we may have about what is involved in living a good life. We all have some conception of what a good life would look like, and our individual conceptions of a good life no doubt overlap. Among others, elements of a good life would include:
+
+- having a healthy body and mind;
+- knowing enough about our world to be able to effectively realize our personal goals;
+- having friends and a family who love and understand us, and who are willing to help us out in times of need;
+- living in a comfortable community with people who share our values;
+- having an interesting and rewarding job that fits our abilities.
+
+
+_**According to NLT_** it is no accident that these are elements of a good life in most peoples' view, because all of these things involve realizing or fulfilling some of our naturally given capacities mentioned above. In fact, for NLT, living a good life is not only what many people aspire to, it is the naturally given goal of human beings. Fulfilling our natural capacities, realizing the set of capacities we are all born with is also what we should strive for. We should, to borrow a famous slogan, "Be all we can be." In the eyes of a backer of NLT this slogan is not intended only as a way of encouraging us to do our best, it is also an expression of an ethical demand – we should strive to realize our natural potential to the greatest extent possible and we are acting wrongly if we do not listen to this demand.
+
+**_But what about people_** who fail to realize their naturally given potential? In some cases people are prevented from realizing their potential because of factors outside of their control, such as disease or accidents. Someone afflicted with a childhood disease may be prevented from ever realizing the potentials they were born with and this is an unfortunate accident. But someone who has no excuse besides, say laziness, who fails to live up to his or her potential deserves to be condemned. Such a person is a "slacker," a "dead-beat," living a wasted life -- even the language we use to describe someone who fails to live up to their potential has a tone of moral disapproval. For a backer of natural law theory, a person who does not follow human nature and strive to be all that they can be is wrong to do so.
+
+**_On the other hand_**, if a whole society is filled with people who fail to realize their potentials, this is good grounds for suspecting that there is something wrong with the way in which that society is run. In fact, both nations and international organizations such as the United Nations increasingly measure the prosperity of countries not just by GDP growth rates, but by determining to what extent people are well-fed, employed, educated, in good health, etc. It is a common assumption (is it warranted?) in international affairs that if a country is systematically preventing its citizens from realizing their potential, if it is frustrating the fulfillment of their basic human needs, then there is something wrong with that society and it should be encouraged or prodded to change.
+
+**_Taking this idea still further_**, in the hands of Aquinas, Natural Law Theory leads to the idea that there are certain absolute values, things that we must value without exception. If human flourishing is an ethical demand that nature makes on us by providing us with a set of built-in capacities, there are certain things that we must always value as preconditions for realizing those capacities. These are, in Aquinas' view,
+
+- life
+- procreation
+- knowledge
+- sociability
+
+**_If we fail to honor_** these values, we cannot realize our potentials as nature (or its creator) intends. This is most obvious for the first of these absolute values, but the case could be made that if we fail to have children, seek knowledge and develop our social abilities, us human beings would fail miserably in our attempts to realize our natural capacities. It is for this reason that these values simply must be honored – everything else depends on them. Such are the implications of the theory – now on to the important question, "But is it true that right and wrong can be determined by how well or poorly we live up to our natural potentials?"
+
+
+## Ethics and Human Nature
+
+
+The argument for NLT is straightforward. It rests on one factual premise and one premise that contains a value judgment, and runs like so:
+
+
+::::{.center data-latex=""}
+:::{.argument data-latex=""}
+
+
+Human beings have a definite nature, a set of built-in capacities.\
+In general it is better to follow nature than to go against it.\
+\
+So we should act in such a way as to fulfill our nature as human beings and avoid violating what it is in our nature to do.
+:::
+::::
+
+**_This argument has a long history_**, and goes back at least as far as the ancient Greek philosopher Aristotle (384-322 BCE), a student of Plato and teacher of Alexander the Great. It was revived and recast in explicitly religious terms by the great medieval Christian philosopher, and official philosopher of the Catholic Church, St. Thomas Aquinas (1227-1274). It is the foundation of Natural Law Theory and its variant sometimes known as Virtue Ethics, both of which equate an ethical life with a life spent realizing our potentials as well-rounded human beings.
+
+**_As a quick look_** at the argument indicates, it is at least a valid argument. If we have a definite nature and if in fact it is better to follow that nature, then we should clearly follow our particular, human nature. We should all act in the way that is most likely to lead to the fulfillment of our natural functions. We should strive to be well-rounded human beings, or in Aquinas’ version of the theory. Is there anything wrong with this picture? It may seem appealing to talk about what human beings are naturally built to do, and it’s true that many people talk about how "we just weren’t meant to do that." But the question is, how can we be so sure what a human being’s natural functions or abilities really are? And besides, doesn’t this argument seem to rest on a hidden assumption that what is natural is always better, or that what is unnatural is wrong? Can nature really be a guide for the making of value judgments?
+
+**_Natural law theory assumes_** that the following claim is true: "Whatever is unnatural is wrong." But is this claim really true? It is not so easy to say. Part of the difficulty in determining whether or not this claim is true comes from the fact that the word "unnatural" has a number of different meanings. It can mean:
+
+- Going against the laws of nature, as in "Hot snow is unnatural."
+- Being statistically uncommon, as in "He has an unnatural ability to remember what cards were played at the blackjack table."
+- Being artificial, as in "Those snack foods are made only of unnatural ingredients."
+- Violating natural functions, as in "It is unnatural for a lesbian couple to have a child with the help of a sperm bank and a team of doctors."
+
+**_There may perhaps be other meanings_** of the word "unnatural" but these should be enough to work with. Our question then is in any of these meanings of the word "unnatural," is it true or false that "Whatever is unnatural is wrong?" 
+
+**_For the first meaning_** of "unnatural" the answer is clearly "no," for the simple reason that nothing can be unnatural in this sense. The laws of nature, which define what is natural in the first sense, are descriptive laws, so if something appeared to violate those laws, that would indicate a problem with our understanding of what the laws of nature really were. There is nothing wrong about going against nature in this sense.
+
+**_The second meaning_** of unnatural, is also morally neutral in that it appeals to the statistical idea of something being out of the norm. The fact that being unusual is not enough for something to be wrong can be seen clearly with examples: having above average mathematical ability is unnatural in this sense, but is clearly not wrong; while having a tendency to treat people from different social groups worse than we treat people from our own group is statistically very common but morally questionable. So defenders of NLT cannot have this meaning of the word "unnatural" when they, after being encouraged to show their cards, insist that whatever is unnatural is wrong.
+
+**_How about the idea_** that what is unnatural in the sense of being artificial is wrong? At first this seems like it might be true – when was the last time you ever saw the words "All artificial ingredients" on a food package, and how often is the "all natural" character of a product offered as another reason why it is a good product? Food and cosmetics marketers, at least, seem to connect what is natural with what is good. On the other hand, this only goes so far. There are many obvious examples of things that are artificial that are perfectly acceptable from a moral standpoint – artificial heart valves, for example, are being developed to help victims of heart disease to live longer lives. Likewise, we might consider any product of human invention, from architecture to Zoloft, to be unnatural in the sense that Mother Nature by herself, without human assistance does not produce it. Technologies are themselves neither good nor bad, neither wrong nor right – it all depends on how we use them.
+
+**_Thus defenders of NLT_** who claim that "Whatever is unnatural is wrong," have no choice but to fall back on the last of our meanings of "unnatural". All of the other meanings make this claim come out false. So what about "Whatever violates the natural functions of things is wrong?" Is this true or false? Well what things are we talking about here and what are their natural functions? Take for example the human hand – what is its natural function and is it really wrong to violate this function? The natural function of the hand seems to be to grasp things (as well as to type things, or to communicate with others by hand gestures, etc.). But is grasping things right or wrong or does it depend on other factors? Well I might use my hands for good or evil. I can use my hands to lift a baby up out of the tiger cage that she has fallen into at the zoo and thereby do something worthy of praise. Then again I could use my hands, Boston strangler style, to rid the world of people in the way of my plans – an evil use of my hands. I can use my hands to type out the results of my research into a working cure for cancer, or to issue instructions to my terrorist comrades to go ahead with a planned attack.
+
+**_The same is also true_** of other parts of the human body. Take for example the human reproductive organs. Their natural function seems, obviously enough, to be reproduction. But is using them for this the only morally acceptable use? And is making babies always a good thing? If we used our reproductive organs as they should be used according to Natural Law Theory, the world would soon be so full of human beings that we would all end up suffering. Luckily for us, however, birth rates all over the globe have been declining in recent decades and we may yet avoid the worst projections of overpopulation forecast in the late twentieth century. Likewise, there seem to be other equally legitimate uses of these parts -- the pursuit of sexual pleasure, as part of an intimate and loving relationship with another adult, for example.
+
+**_In conclusion_**, even though it may seem tempting to appeal to nature as a guide for ethics, this strategy simply does not work. Something being natural, to use philosophical jargon, is neither necessary not sufficient for it being good or right. Likewise with something being unnatural. Even if we could spell out the "natural functions" of human beings and our parts in a way that did not beg the question, doing so would still leave open the question, as the philosopher G. E. Moore pointed out, about whether following that function was right. Nature provides a framework within which we can make choices that are either right or wrong or that lead either to good or evil and it is our responsibility, not nature’s to figure out which is which. Failure to recognize this is nothing but a trap -- the trap of what Moore called the "[naturalistic fallacy](#the-naturalistic-fallacy)," a mistaken form of reasoning with which we have already met.
+
+## Further exploration {- #further-5}
+
