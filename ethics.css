@@ -100,3 +100,11 @@ div.epigraph {
 .color-theme-2 .infobox {
    color: black;
 }
+
+#preface > h1 {
+  display: none;
+}
+
+.title, .subtitle, .author, .date {
+  text-align: center;
+}
