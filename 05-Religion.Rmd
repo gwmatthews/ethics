@@ -39,59 +39,64 @@ If God did not exist it would be necessary to invent him.\
 
 **_Divine Command Theory starts out_** as a reflection on the nature of moral language and on this basis develops a comprehensive theory of morality. The first thing it points out about moral or ethical language is that it takes the form of rules governing behavior. These rules are expressed as commands, such as "Don't lie," "Don't steal from other people," and "You should never cheat, especially not on your ethics exams." Now commands, as opposed to statements, are neither true nor false, so we cannot simply investigate the world to see whether they are correct or not. Instead the way we determine which commands are "correct" is by figuring out which ones we really should listen to, which ones are truly binding on us and most importantly why? Why should we accept and act on the claims that some things are obligatory for us to do, while some other things are permissible and some other things forbidden? 
 
-**_According to Divine Command Theory_**, moral commands are binding on us only to the extent there is some kind of actually existing authority figure behind them, whose will determines that we should obey his her or its dictates. That is, in order for moral commands to really become obligations for us we need someone or something that can make them stick and give us a reason to accept them as such. On this view commands can only get their binding power from an enforcing authority, and the stronger that authority is, the more binding the commands are. This is not an unfamiliar idea. Why is it necessary for the police to patrol highways looking for people driving faster than the speed limit? Well, obviously, if nobody were around to enforce the rules of the road, many more people would violate them and it would be unsafe to drive on public roads. It is the real threat of punishment by people with the authority to enforce the rules that keeps us in line. The same goes for morality in general, or so the backers of Divine Command Theory claim. 
-
-Morality is a set of absolutely binding rules or commands.
-Moral commands are really binding if and only if they have an authority figure backing them up.
-Absolute moral rules can only be based on an absolute authority like God.
-Moral rules such as "Do not kill," really mean "There is an absolute authority commanding you not to kill."
-
-
-
-
-implications
-Recently there has been much debate surrounding attempts to display the Ten Commandments in public places, such as on the wall of a courtroom in Alabama, or outside the state legislature building in South Carolina. Defenders of this idea clearly are relying on ideas similar to those expressed by DCT. They reason that the authority of the law embodied in a court room or legislature is weakened if it is not ultimately based on divine authority. The only way, they claim, to emphasize the absolutely binding character of human law is to remind us that it is based on, or should be based on, a higher, divine law. So the first implication of DCT is that, if it is true, then moral laws would be absolutely binding on us. It would not be up to us what is right and what is wrong, but up to a higher authority. As a result this would provide an absolute basis for human law, and, in addition, enable us to escape from relativism for good.
-
-This may seem appealing, especially in the light of the relativist's difficulty with moral decision-making. If the relativist has a hard time taking a stance on anything, no matter how obviously appalling it seems, DCT more than makes up for this by insisting on absolutes. If moral language is really a series of divinely issued commands, then there would be no question about whether or not something is wrong. To find out we just consult God's explicit commands.
-
-This solution to the problem of morality, however, presents a number of problems. First, how can we be sure that we really know what it is that God commands? For devout followers of a particular religion, this problem usually never arises, since religious texts such as the Bible are often very explicit about what God commands. To find out what God commands us to do, we need simply consult the Bible. But then what about people of different faiths? Christians, for example, are commanded to honor the sabbath or day of rest and not to work on Sundays. But Jews are commanded to do the same thing by not working on Saturdays, while Muslims can only honor the day of rest by not working on Fridays. All of these commands cannot simultaneously be absolutely binding on us, unless we opt for mandatory three day weekends (not necessarily a bad thing). And the same problem arises regarding other more serious matters and even within a particular religion. On the one hand, the God of Christianity seems to command us to kill certain people – according to the Old Testament book of Leviticus, this would include people who commit adultery, people who work on Sundays, and even our own children if they curse us. But then there is the First Commandment which says simply, "Thou shalt not kill." In the Old Testament there is the famous demand for "an eye for an eye and a tooth for a tooth," as pay-back for crimes committed. But then in the New Testament we find Jesus advising his followers, to "turn the other cheek," and explicitly not seek pay-back for others' crimes against them. Certainly we can't be expected to take conflicting commands literally and put them all into practice.
-
-Now none of this completely undermines DCT, but it certainly presents a challenge to backers of the theory. If DCT is going to offer a reasonable approach to ethical decision making we will have to sort out quite a bit of the content of religious teachings. We will have to figure out which body of religious ideas really reflects God's commands and what those commands are really telling us to do.
-
-In addition, DCT has an added implication that some people may find troubling. That is, since it claims that morality can only be based directly on the commands of God, then someone who does not believe that a God exists cannot have any real basis for moral decision making. Although it is true that an atheist may act in a way that appears to be moral, in fact, without an absolute authority figure to motivate this action, there is really no reason for her to do so. Advocates of DCT do not usually see this a much of a problem, since they insist that the atheists out there are obviously incapable of being moral unless they secretly harbor the suspicion that there may be an ultimate enforcer and hedge their bets accordingly. But is this really true? Is it possible to be a moral person in the complete absence of belief in a supreme being who is the ultimate authority figure enforcing moral rules? Is there any humanly accessible reason for being moral that does not reduce to culturally relative local customs?
-
-We will return to this question later. At this point, we need to examine the arguments in favor of DCT because, as we saw with relativism, the implications of a theory do not by themselves determine whether or not we should accept that theory. These implications only show us what is at stake with the theory and do not yet give us any reason to conclude that its claims are either true or false. To come to that kind of conclusion we need to see the back up for the theory.
-
-in defense of Divine Command Theory
-There are two major arguments for DCT, one of which is based on an explicitly religious assumption and the other of which is not. The religious, or theological, argument goes like so:
-
-If God created everything, then this has to include moral rules, otherwise there would be something that God did not create.
-God created everything.
-So God must have created whatever moral rules there are.
-
-A very clear and simple argument it seems, but is it very convincing? Well it is valid, since if the premises are true then the conclusion must also be true. OK. So are the premises really true? The first simply defines what a creator God would do, if such a God really existed – this is a pretty standard understanding of God shared by all of the great western monotheistic religions, Judaism, Christianity and Islam. So far so good. The second premise, however, is not necessarily true. Granted that people who are true believers in one one of these religions take this as an article of faith, it certainly requires much more argument before anyone else is willing to accept it. So in the end this argument will be found appealing only to those who are members of certain religious faiths. As we will see in a moment, however, even true believers may have reason to reject DCT in spite of this argument.
-
-The second argument, is a classic argument from the philosophy of religion, where it is sometimes used in the attempt to prove that a God exists in the first place. For our purposes, that is not as important as its role in the attempt to put ethics in a religious foundation.
-
-If there is no absolute moral authority, then anything goes.
-But it is not true that anything goes.
-Thus there is an absolute moral authority,and that authority is God.
-
-Once again this is a valid argument. So our evaluation of it needs for its completion a discussion of whether or not the premises are true. To this we now turn, returning to the first argument after a closer examination of this one.
-
-The obvious starting point for critical analysis of the moral authority argument is the second premise "It is just not true that anything goes." How can we just assert that this is true, if this is exactly the kind of thing that is up for grabs in a discussion of philosophical ethics? After all, relativists deny this very claim. Well, at the very least, this premise makes a believable claim – some kinds of behavior are just flat out wrong. If you deny this, you will end up in the uncomfortable position of having to explain how it is that some pretty awful kinds of behavior might be acceptable. For example (and this is the classic example used by defenders of this argument), it is simply unacceptable to kill babies for fun. Try to respond that this is just a matter of culturally relative preference and you will look like a monster.
-
-Perhaps this discussion is best avoided by shifting our focus to the first premise. Is it true that "If there is no absolute moral authority, then anything goes?" At first it may seem that this is true. But if we stop and think for a second we soon realize that this claim sounds suspiciously like what DCT is ultimately claiming. Isn't the point of the theory to defend the claim that the absolute authority of God is the only thing capable of preventing moral anarchy? If that is the case, then rewriting the conclusion as a premise and basing our argument on this premise is a clear example of the fallacy of begging the question. While an argument that begs the question may be valid, it is terrible as an argument because it assumes the very thing it is claiming to be proving. So this argument does not do so well in our analysis – it will only convince people who already buy DCT, and that is not enough to show that DCT is true.
-
-
 :::{.rmdnote data-latex="" .infobox}
 **According to divine command theory**
 
 - Moral principles tell us what we *should* do.
 - Commands are meaningless without authority to back them up.
 - The universal scope of moral commands requires divine backing.
+- Moral rules such as "Do not kill," really mean "God commands us not to kill."
 :::
 
+**_This theory claims that_** moral commands are binding on us only to the extent there is some kind of actually existing authority figure behind them, whose will determines that we should obey his her or its dictates. That is, in order for moral commands to really become obligations for us we need someone or something that can make them stick and give us a reason to accept them as such. On this view commands can only get their binding power from an enforcing authority, and the stronger that authority is, the more binding the commands are. This is not an unfamiliar idea. Why is it necessary for the police to patrol highways looking for people driving faster than the speed limit? Well, obviously, if nobody were around to enforce the rules of the road, many more people would violate them and it would be unsafe to drive on public roads. It is the real threat of punishment by people with the authority to enforce the rules that keeps us in line. The same goes for morality in general, or so the backers of Divine Command Theory claim. 
+
+
+### Implications of DCT {-}
+
+**_In recent years_** there has been much debate surrounding attempts to display the Ten Commandments in public places, such as on the wall of a courtroom in Alabama, or outside the state legislature building in South Carolina. Defenders of this idea clearly are relying on ideas similar to those expressed by DCT. They reason that the authority of the law embodied in a court room or legislature is weakened if it is not ultimately based on divine authority. The only way, they claim, to emphasize the absolutely binding character of human law is to remind us that it is based on, or should be based on, a higher, divine law. So the first implication of DCT is that, if it is true, then moral laws would be absolutely binding on us. It would not be up to us what is right and what is wrong, but up to a higher authority. As a result this would provide an absolute basis for human law, and, in addition, enable us to escape from relativism for good.
+
+**_This may seem appealing_**, especially in the light of the relativist's difficulty with moral decision-making. If the relativist has a hard time taking a stance on anything, no matter how obviously appalling it seems, DCT more than makes up for this by insisting on absolutes. If moral language is really a series of divinely issued commands, then there would be no question about whether or not something is wrong. To find out we just consult God's explicit commands.
+
+**_This solution_** to the problem of morality, however, presents a number of problems. First, how can we be sure that we really know what it is that God commands? For devout followers of a particular religion, this problem usually never arises, since religious texts such as the Bible are often very explicit about what God commands. To find out what God commands us to do, we need simply consult the Bible. But then what about people of different faiths? Christians, for example, are commanded to honor the Sabbath or day of rest and not to work on Sundays. But Jews are commanded to do the same thing by not working on Saturdays, while Muslims can only honor the day of rest by not working on Fridays. All of these commands cannot simultaneously be absolutely binding on us, unless we opt for mandatory three day weekends (not necessarily a bad thing). And the same problem arises regarding other more serious matters and even within a particular religion. On the one hand, the God of Christianity seems to command us to kill certain people – according to the Old Testament book of Leviticus, this would include people who commit adultery, people who work on Sundays, and even our own children if they curse us. But then there is the First Commandment which says simply, "Thou shalt not kill." In the Old Testament there is the famous demand for "an eye for an eye and a tooth for a tooth," as pay-back for crimes committed. But then in the New Testament we find Jesus advising his followers, to "turn the other cheek," and explicitly not seek pay-back for others' crimes against them. Certainly we can't be expected to take conflicting commands literally and put them all into practice.
+
+**_Now none of this _** completely undermines DCT, but it certainly presents a challenge to backers of the theory. If DCT is going to offer a reasonable approach to ethical decision making we will have to sort out quite a bit of the content of religious teachings. We will have to figure out which body of religious ideas really reflects God's commands and what those commands are really telling us to do.
+
+**_In addition_**, DCT has an added implication that some people may find troubling. That is, since it claims that morality can only be based directly on the commands of God, then someone who does not believe that a God exists cannot have any real basis for moral decision making. Although it is true that an atheist may act in a way that appears to be moral, in fact, without an absolute authority figure to motivate this action, there is really no reason for her to do so. Advocates of DCT do not usually see this a much of a problem, since they insist that the atheists out there are obviously incapable of being moral unless they secretly harbor the suspicion that there may be an ultimate enforcer and hedge their bets accordingly. But is this really true? Is it possible to be a moral person in the complete absence of belief in a supreme being who is the ultimate authority figure enforcing moral rules? Is there any humanly accessible reason for being moral that does not reduce to culturally relative local customs?
+
+We will return to this question later. At this point, we need to examine the arguments in favor of DCT because, as we saw with relativism, the implications of a theory do not by themselves determine whether or not we should accept that theory. These implications only show us what is at stake with the theory and do not yet give us any reason to conclude that its claims are either true or false. To come to that kind of conclusion we need to see the back up for the theory.
+
+### Defending DCT {-}
+
+
+There are two major arguments for DCT, one of which is based on an explicitly religious assumption and the other of which is not. The religious, or theological, argument goes like so:
+
+::::{.center data-latex=""}
+:::{.argument data-latex=""}
+
+If God created everything, then this has to include moral rules, otherwise there would be something that God did not create.\
+God created everything.\
+
+So God must have created whatever moral rules there are.
+:::
+::::
+
+**_A very clear_** and simple argument it seems, but is it very convincing? Well it is valid, since if the premises are true then the conclusion must also be true. OK. So are the premises really true? The first simply defines what a creator God would do, if such a God really existed – this is a pretty standard understanding of God shared by all of the great western monotheistic religions, Judaism, Christianity and Islam. So far so good. The second premise, however, is not necessarily true. Granted that people who are true believers in one one of these religions take this as an article of faith, it certainly requires much more argument before anyone else is willing to accept it. So in the end this argument will be found appealing only to those who are members of certain religious faiths. As we will see in a moment, however, even true believers may have reason to reject DCT in spite of this argument.
+
+**_The second argument_** is a classic argument from the philosophy of religion, where it is sometimes used in the attempt to prove that a God exists in the first place. For our purposes, that is not as important as its role in the attempt to put ethics in a religious foundation.
+
+::::{.center data-latex=""}
+:::{.argument data-latex=""}
+
+If there is no absolute moral authority, then anything goes.\
+But it is not true that anything goes.\
+\
+Thus there is an absolute moral authority,and that authority is God.
+:::
+::::
+
+**_Once again_** this is a valid argument. So our evaluation of it needs for its completion a discussion of whether or not the premises are true. The obvious starting point for critical analysis of this argument is the second premise "It is just not true that anything goes." How can we just assert that this is true, if this is exactly the kind of thing that is up for grabs in a discussion of philosophical ethics? After all, relativists deny this very claim. Well, at the very least, this premise makes a believable claim – some kinds of behavior are just flat out wrong. If you deny this, you will end up in the uncomfortable position of having to explain how it is that some pretty awful kinds of behavior might be acceptable. For example (and this is the classic example used by defenders of this argument), it is simply unacceptable to kill babies for fun. Try to respond that this is just a matter of culturally relative preference and you will look like a monster.
+
+**_Perhaps this discussion_** is best avoided by shifting our focus to the first premise. Is it true that "If there is no absolute moral authority, then anything goes?" At first it may seem that this is true. But if we stop and think for a second we soon realize that this claim sounds suspiciously like what DCT is ultimately claiming. Isn't the point of the theory to defend the claim that the absolute authority of God is the only thing capable of preventing moral anarchy? If that is the case, then rewriting the conclusion as a premise and basing our argument on this premise is a clear example of the fallacy of begging the question. While an argument that begs the question may be valid, it is terrible as an argument because it assumes the very thing it is claiming to be proving. So this argument does not do so well in our analysis – it will only convince people who already buy DCT, and that is not enough to show that DCT is true.
 
 ## A Nasty Dilemma
 
