@@ -223,5 +223,5 @@ So we should act in such a way as to fulfill our nature as human beings and avoi
 
 **_In conclusion_**, even though it may seem tempting to appeal to nature as a guide for ethics, this strategy simply does not work. Something being natural, to use philosophical jargon, is neither necessary not sufficient for it being good or right. Likewise with something being unnatural. Even if we could spell out the "natural functions" of human beings and our parts in a way that did not beg the question, doing so would still leave open the question, as the philosopher G. E. Moore pointed out, about whether following that function was right. Nature provides a framework within which we can make choices that are either right or wrong or that lead either to good or evil and it is our responsibility, not nature’s to figure out which is which. Failure to recognize this is nothing but a trap -- the trap of what Moore called the "[naturalistic fallacy](#the-naturalistic-fallacy)," a mistaken form of reasoning with which we have already met.
 
-## Further exploration {- #further-5}
+## Further exploration {-}
 
