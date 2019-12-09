@@ -84,7 +84,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 - How can we best describe and expain people's moral claims and beliefs?
 :::
 
-What ethical views do real people have? This is the concern of **descriptive ethics**, which tries to figure out what beliefs people happen to actually have concerning ethical questions. As such, descriptive ethics is not exclusively a philosophical approach to ethics in that sociologists, psychologists, anthropologists and other social scientists are also concerned with people's ethical beliefs in this sense. This approach looks at our beliefs about ethical issues and about ethics in general as facts about us to be catalogued and explained.
+**_What ethical views_** do real people have? This is the concern of **descriptive ethics**, which tries to figure out what beliefs people happen to actually have concerning ethical questions. As such, descriptive ethics is not exclusively a philosophical approach to ethics in that sociologists, psychologists, anthropologists and other social scientists are also concerned with people's ethical beliefs in this sense. This approach looks at our beliefs about ethical issues and about ethics in general as facts about us to be catalogued and explained.
 
 :::{.rmdquestion data-latex=""}
 **_Meta-ethics_**\
@@ -93,7 +93,7 @@ What ethical views do real people have? This is the concern of **descriptive eth
 - What are the differences between ethical claims and claims about the facts?
 :::
 
-What are the nature and limits of ethical thinking and ethical concepts? This is the concern of **meta-ethics**, which is a higher-order or "meta-level" discussion about ethical thinking. Here again, philosophers as well as social scientists often ask meta-ethical questions in their attempts to understand what is distinctive about ethical thinking as opposed to other modes of cognition. But looking at ethics from this perspective intentionally does not take a stand on particular ethical principles or issues.
+**_What are the nature and limits_** of ethical thinking and ethical concepts? This is the concern of **meta-ethics**, which is a higher-order or "meta-level" discussion about ethical thinking. Here again, philosophers as well as social scientists often ask meta-ethical questions in their attempts to understand what is distinctive about ethical thinking as opposed to other modes of cognition. But looking at ethics from this perspective intentionally does not take a stand on particular ethical principles or issues.
 
 :::{.rmdquestion data-latex=""}
 **_Prescriptive ethics_**\
@@ -102,7 +102,7 @@ What are the nature and limits of ethical thinking and ethical concepts? This is
 - What moral principles are really justified and should be followed?
 :::
 
-What ethical principles or decision-making procedures are really justified? This is the basic question addressed by normative or **prescriptive ethics**, which is the uniquely philosophical attempt to find the true basis of ethical thinking. Much of our discussion in the first half of this text falls under this heading since we will be examining various attempts to give an account of the basis and justification of ethical thought, belief and action. This way of approaching ethics is not scientific, to the extent that  science concerns itself with "value-neutral" descriptions and explanations of whatever phenomena it is addressing. That philosophy can succeed in making normative claims while remaining based on objectivity and rationality is up to philosophers to establish.
+**_What ethical principles_** or decision-making procedures are really justified? This is the basic question addressed by normative or **prescriptive ethics**, which is the uniquely philosophical attempt to find the true basis of ethical thinking. Much of our discussion in the first half of this text falls under this heading since we will be examining various attempts to give an account of the basis and justification of ethical thought, belief and action. This way of approaching ethics is not scientific, to the extent that  science concerns itself with "value-neutral" descriptions and explanations of whatever phenomena it is addressing. That philosophy can succeed in making normative claims while remaining based on objectivity and rationality is up to philosophers to establish.
 
 :::{.rmdquestion data-latex=""}
 **_Applied ethics_**\
@@ -111,7 +111,8 @@ What ethical principles or decision-making procedures are really justified? This
 - What assumptions and principles lie at the basis of ethical controversies?
 :::
 
-How does all of this play out in real life cases? This is the concern of **applied ethics**. Under this heading are also to be found discussions of ethical issues associated with some particular area of human life, profession, or subject matter -- hence medical ethics, business ethics, legal ethics, environmental ethics, bioethics and so on are sub-fields within applied ethics. 
+**_How does all of this_** play out in real life cases? This is the concern of **applied ethics**. Under this heading are also to be found discussions of ethical issues associated with some particular area of human life, profession, or subject matter -- hence medical ethics, business ethics, legal ethics, environmental ethics, bioethics and so on are sub-fields within applied ethics.
+
 **_We should keep in mind_** as we proceed that these various regions are not always so clearly separate from one another. Our description of what people believe about ethical questions, for example, is clearly often informed by what we think they are justified in believing. Nevertheless we should keep in mind the fact that we can look at ethics from each of these different points of view and recognize that failing to do so may result in unnecessary confusion.
 
 **_In conclusion_** we might say that philosophical ethics involves deliberately reflecting on our ideas about ethics in general and on specific applications of these ideas to actual cases and controversies. Another term for such deliberate reflection is "critical thinking." This should not be looked at as a primarily negative activity as the word "critical" might suggest, but as the positive attempt to arrive at the truth of the matter by thinking carefully about what are often complex and ambiguous ideas and concepts. Even though, as I mentioned at the outset, all of us are equally capable of reflecting critically on our own beliefs, desires, actions and values, it does take some effort and quite a bit of practice to be able to do so effectively. This is because critical thinking is a skill like anything else that we might do with our minds (like solve algebra problems or identifying different species of trees) and we shouldn't expect to be experts at it from the start. In the [next chapter](#logic) we will look at and get some practice using one of the most important tools for critical thinking -- the logical analysis of arguments.
