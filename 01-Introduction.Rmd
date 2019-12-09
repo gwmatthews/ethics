@@ -53,7 +53,7 @@ The unexamined life is not worth living.\
 
 ### A difficult case {-}
 
-:::{.rmdquestion data-latex=""}
+:::{.rmdquestion data-latex="" .infobox}
 Imagine that you are standing next to a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a switch in front of you, that would divert the trolley to the other track. Unfortunately there is also a single worker on the other track, who is himself to far away to hear you.\
 \
 *Would you throw the switch and cause the worker to most likely die in order to prevent the runaway trolley from hitting the children?*
@@ -61,7 +61,7 @@ Imagine that you are standing next to a railway track and notice a runaway troll
 
 **_This classic case_** of an ethical dilemma has been extensively studied by philosophers and moral psychologists. It presents us with a situation in which we most likely feel torn between two alternatives, neither of which seems to be acceptable or desirable, but in which we also may feel unable to refuse to pick either. Cases like this are good at bringing to the surface the intuitions and assumptions we make about what the right thing to do might be, and that is why they are often studied by philosophers and others interesting in looking more closely at moral decision making. One significant result of the study of this case is that a large majority of people say that if they were in that situation they *would* throw the switch. That is they are following a common moral intuition that might be expressed by the rule: all else being equal do whatever saves the most lives. Consider, however, the following variation on this case.
 
-:::{.rmdquestion data-latex=""}
+:::{.rmdquestion data-latex="" .infobox}
 Imagine that you are standing on a bridge with a low railing over a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a very large person standing next to you, and if you gave him a slight push he would fall in front of the trolley car causing it to derail, thus saving the five children.\
 \
 *Would you push the person off of the bridge in order to prevent the runaway trolley from hitting the children?*
@@ -77,7 +77,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 **_A philosophical approach_** to ethics, or moral philosophy^[Throughout this book I'll be using the terms "ethics" and "morality" as basically synonymous. Some people distinguish between the two terms in one way or another and that is fine as far as it goes. But since the reason English has both terms is that we borrowed each from a different language -- "ethics" comes from Greek, while "morality" comes from Latin -- and both original terms mean something pretty similar, I see no reason to insist on any fundamental different meaning between them.], is concerned with a number of different sorts of questions. Thus the broader field of ethics can be divided up into a number of different regions or areas of concern. Some of the main questions and their corresponding sub-fields are:
 
-:::{.rmdquestion data-latex=""}
+:::{.rmdquestion data-latex="" .infobox}
 **_Descriptive ethics_**\
 \
 - What do people really think about right and wrong?
@@ -86,7 +86,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 **_What ethical views_** do real people have? This is the concern of **descriptive ethics**, which tries to figure out what beliefs people happen to actually have concerning ethical questions. As such, descriptive ethics is not exclusively a philosophical approach to ethics in that sociologists, psychologists, anthropologists and other social scientists are also concerned with people's ethical beliefs in this sense. This approach looks at our beliefs about ethical issues and about ethics in general as facts about us to be catalogued and explained.
 
-:::{.rmdquestion data-latex=""}
+:::{.rmdquestion data-latex="" .infobox}
 **_Meta-ethics_**\
 \
 - How does thinking about ethics work?
@@ -95,7 +95,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 **_What are the nature and limits_** of ethical thinking and ethical concepts? This is the concern of **meta-ethics**, which is a higher-order or "meta-level" discussion about ethical thinking. Here again, philosophers as well as social scientists often ask meta-ethical questions in their attempts to understand what is distinctive about ethical thinking as opposed to other modes of cognition. But looking at ethics from this perspective intentionally does not take a stand on particular ethical principles or issues.
 
-:::{.rmdquestion data-latex=""}
+:::{.rmdquestion data-latex="" .infobox}
 **_Prescriptive ethics_**\
 \
 - What is really the right thing to do?
@@ -104,7 +104,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 **_What ethical principles_** or decision-making procedures are really justified? This is the basic question addressed by normative or **prescriptive ethics**, which is the uniquely philosophical attempt to find the true basis of ethical thinking. Much of our discussion in the first half of this text falls under this heading since we will be examining various attempts to give an account of the basis and justification of ethical thought, belief and action. This way of approaching ethics is not scientific, to the extent that  science concerns itself with "value-neutral" descriptions and explanations of whatever phenomena it is addressing. That philosophy can succeed in making normative claims while remaining based on objectivity and rationality is up to philosophers to establish.
 
-:::{.rmdquestion data-latex=""}
+:::{.rmdquestion data-latex="" .infobox}
 **_Applied ethics_**\
 \
 - What is the right thing to do in real-world cases of ethical controversy?

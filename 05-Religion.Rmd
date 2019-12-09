@@ -26,8 +26,37 @@ The point which I should first wish to understand is whether the pious or holy i
 ---Plato
 :::
 
+
+:::{.rmdnote data-latex="" .infobox}
+**According to divine command theory**
+
+- Moral principles tell us what we *should* do.
+- Commands are meaningless without authority to back them up.
+- The universal scope of moral commands requires divine backing.
+:::
+
+
 ## A Nasty Dilemma
 
+
+:::{.rmdcaution data-latex="" .infobox}
+**The dilemma of divine command theory**
+
+- Is something wrong **because God says so**?
+  - This would make morality *arbitrary*.
+- Or does God say something is wrong because **it really is wrong**?
+  - This would make morality *independent* of God'd will.
+:::
+
 ## Natural Law Theory
+
+:::{.rmdnote data-latex="" .infobox}
+**According to natural law theory**
+
+- Understanding things requires understanding their purpose.
+- Human nature is clearly visible by the "light of reason."
+- It is better to follow the natural order of things than to oppose it.
+:::
+
 
 ## Human Nature?

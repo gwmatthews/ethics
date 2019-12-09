@@ -18,7 +18,7 @@ div.epigraph {
 }
 
 .rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdquestion, .rmdslides, .rmdwarning {
-  padding: 1em 2em 1em 4em;
+  padding: 0.5em 2em 0 4em;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -93,6 +93,10 @@ div.epigraph {
    text-align: center;
 }
 
-.book.color-theme-2 .argument {
+.color-theme-2 .argument {
   color: black;
+}
+
+.color-theme-2 .infobox {
+   color: black;
 }
