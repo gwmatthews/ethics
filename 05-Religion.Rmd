@@ -13,10 +13,33 @@
 ::::
 
 :::{.epigraph data-latex=""}
-[I consider] ethics, as well as religion, as supplements to law in the government of man.\
+If God did not exist it would be necessary to invent him.\
 \
----Thomas Jefferson
+---Voltaire
 :::
+
+**_What is the relation_** between religion and ethics? Many people, especially those who oppose the view we looked at in the last chapter, relativism, insist on their close connection. They claim that the only way to provide an alternative to the "anything goes" attitude of the relativists is to turn, or return, to a set of strict ethical rules grounded in religion. This is the claim that we will be investigating in this chapter. We will do this by looking at two of the most important approaches to providing a foundation for ethics in religion. The first emphasizes the authoritative character of religion, highlighting one traditional role played by God in monotheistic faiths, that of providing laws for human conduct. This approach is known as Divine Command Theory and is most popular, in the United States, among conservative Protestants. The second emphasizes the order inherent in the natural world, considered as something created by and reflecting the plans of a divine creator. It is known as Natural Law Theory and is the official ethical theory of the Roman Catholic Church. Before we get to these particular theories it is worth considering in more general terms what motivates them both. What are they trying to accomplish and why?
+
+**_It almost goes without _saying_** that when any public figure in the United States speaks about things like "values," or "morality" they are usually talking about religion. Hence it probably wouldn't come as a surprise that the political organization called [The Moral Majority](https://www.pewresearch.org/2007/05/17/rev-falwells-moral-majority-mission-accomplished/) advocated a much greater role for religion in public life.  But on what basis do we make this assumption that morality and religion are so closely connected? There are a number of reasons for this:
+
+- Many of us learn about what matters, about values, early in life in the context of religion. We are often taught about right and wrong in more or less explicitly religious terms.
+- Religious leaders have the reputation of being experts on moral and ethical issues, they serve as ethics and morality advisers to political and military leaders and often express concerns about the morality of scientific research and new technologies.
+- In many religions God plays the role of the source of morality – he/she/it is often considered the highest good and the giver of the laws.
+- Societies lacking strong religious traditions have a tendency to embrace moral and ethical pluralism, or at least an openly tolerant attitude about many questions of individual conduct and social roles.
+
+**_It is important to keep in mind_** here a distinction between three things:
+
+1. The *origins* of an idea, thought or principle.
+2. An *explanation* of why someone might have it.
+3. The *justification* of that idea, thought or principle.
+
+:::{.rmdquestion data-latex="" .infobox}
+
+Even if religion is often *the source* of moral ideas, does this mean that religion is *necessary* for morality?
+
+:::
+
+Backers of the theories we will be looking at here claim that we *need* religion, or at least a religiously inspired conception of reality, if there is to be any hope of avoiding the trap of moral relativism. 
 
 ## Divine Command Theory
 
@@ -45,7 +68,7 @@ The point which I should first wish to understand is whether the pious or holy i
 - Is something wrong **because God says so**?
   - This would make morality *arbitrary*.
 - Or does God say something is wrong because **it really is wrong**?
-  - This would make morality *independent* of God'd will.
+  - This would make morality *independent* of God's will.
 :::
 
 ## Natural Law Theory

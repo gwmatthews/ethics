@@ -377,8 +377,8 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 - And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fallacy_ref?lang=en) on Twitter.
   - https://twitter.com/fallacy_ref
   
-```{r, fig.align = 'center', echo = FALSE, out.width = '60%'}
-knitr::include_graphics('img/fallacy-ref.jpg')
+:::: {.centerpic data-latex=""}
+![](img/fallacy-ref.jpg){width=50%}
 
-```
+::::
    

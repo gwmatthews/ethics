@@ -69,7 +69,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 **_In this case_** a large majority of people say they *would not* push the person off of the bridge even if it would save the five children. Given that the result is the same in either case, the question then becomes why it is that in the first version of this scenario no longer look at it in terms of the intuition that it is better to do what leads to more lives being saved.
 
-**_Whatever the explanation_** for this discrepancy may be (and there is an entire academic industry that has developed around research into the trolley dilemma) the important point here is that philosophers are interested in both examining cases like this directly and in studying how it is that we all tend to respond. Cases like this help us to see and hence to start examining the deeper assumptions we rely on in our thinking about right and wrong. In general this is what philisophy as a discipline is all about -- exposing to view and carefully examining the assumptions we make about how the world works, what we can know about it, and what matters. And this is exactly what Socrates means by "the examined life." He insisted that if we never bothered to reflect on our own deepest assumptions about reality, knowledge and values we would be missing out on what make truly makes life worth living. You may disagree with him that such an examination is something that one should devote one's entire life to as he did, but he does have a point worth considering. If we never take the time to deeply reflect on our assumptions, are really ever living *our own* lives?
+**_Whatever the explanation_** for this discrepancy may be (and there is an entire academic industry that has developed around research into the trolley dilemma) the important point here is that philosophers are interested in both examining cases like this directly and in studying how it is that we all tend to respond. Cases like this help us to see and hence to start examining the deeper assumptions we rely on in our thinking about right and wrong. In general this is what philosophy as a discipline is all about -- exposing to view and carefully examining the assumptions we make about how the world works, what we can know about it, and what matters. And this is exactly what Socrates means by "the examined life." He insisted that if we never bothered to reflect on our own deepest assumptions about reality, knowledge and values we would be missing out on what make truly makes life worth living. You may disagree with him that such an examination is something that one should devote one's entire life to as he did, but he does have a point worth considering. If we never take the time to deeply reflect on our assumptions, are really ever living *our own* lives?
 
 ## Philosophical Ethics
 
@@ -81,10 +81,10 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 **_Descriptive ethics_**\
 \
 - What do people really think about right and wrong?
-- How can we best describe and expain people's moral claims and beliefs?
+- How can we best describe and explain people's moral claims and beliefs?
 :::
 
-**_What ethical views_** do real people have? This is the concern of **descriptive ethics**, which tries to figure out what beliefs people happen to actually have concerning ethical questions. As such, descriptive ethics is not exclusively a philosophical approach to ethics in that sociologists, psychologists, anthropologists and other social scientists are also concerned with people's ethical beliefs in this sense. This approach looks at our beliefs about ethical issues and about ethics in general as facts about us to be catalogued and explained.
+**_What ethical views_** do real people have? This is the concern of **descriptive ethics**, which tries to figure out what beliefs people happen to actually have concerning ethical questions. As such, descriptive ethics is not exclusively a philosophical approach to ethics in that sociologists, psychologists, anthropologists and other social scientists are also concerned with people's ethical beliefs in this sense. This approach looks at our beliefs about ethical issues and about ethics in general as facts about us to be cataloged and explained.
 
 :::{.rmdquestion data-latex="" .infobox}
 **_Meta-ethics_**\
