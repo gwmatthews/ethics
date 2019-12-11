@@ -67,7 +67,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 *Would you push the person off of the bridge in order to prevent the runaway trolley from hitting the children?*
 :::
 
-**_In this case_** a large majority of people say they *would not* push the person off of the bridge even if it would save the five children. Given that the result is the same in either case, the question then becomes why it is that in the first version of this scenario we no longer look at it in terms of the intuition that it is better to do what leads to more lives being saved.
+**_In this case_** a large majority of people say they *would not* push the person off of the bridge even if it would save the five children. Given that the result is the same in either case, the question then becomes why it is that in the this version of this scenario we no longer look at it in terms of the intuition that it is better to do what leads to more lives being saved.
 
 **_Whatever the explanation_** for this discrepancy may be (and there is an entire academic industry that has developed around research into the trolley dilemma) the important point here is that philosophers are interested in both examining cases like this directly and in studying how it is that we all tend to respond. Cases like this help us to see and hence to start examining the deeper assumptions we rely on in our thinking about right and wrong. In general this is what philosophy as a discipline is all about -- exposing to view and carefully examining the assumptions we make about how the world works, what we can know about it, and what matters. This is exactly what Socrates meant by leading "an examined life." He insisted that if we never bothered to reflect on our own deepest assumptions about reality, knowledge and values we would be missing out on what make truly makes life worth living. You may disagree with him that this kind of examination is something that we should all devote our entire lives to as he did, but he does have a point worth considering. If we never take the time to deeply reflect on our assumptions, are really ever living *our own* lives?
 
@@ -77,41 +77,42 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 **_A philosophical approach_** to ethics, or moral philosophy^[Throughout this book I'll be using the terms "ethics" and "morality" as basically synonymous. Some people distinguish between the two terms in one way or another and that is fine as far as it goes. But since the reason English has both terms is that we borrowed each from a different language -- "ethics" comes from Greek, while "morality" comes from Latin -- and both original terms mean something pretty similar, I see no reason to insist on any fundamental different meaning between them.], is concerned with a number of different kinds of questions. Thus the broader field of ethics can be divided up into a number of different sub-fields. These are:
 
+### Descriptive ethics {-}
+
 :::{.rmdquestion data-latex="" .infobox}
-**_Descriptive ethics_**\
-\
 - What do people really think about right and wrong?
 - How can we best describe and explain people's moral claims and beliefs?
 :::
 
-Descriptive ethics is not exclusively a philosophical approach to ethics in that sociologists, psychologists, anthropologists and other social scientists may also be concerned with people's ethical beliefs. This approach looks at our beliefs about ethical issues and about ethics in general as facts about us to be cataloged and explained.
+**_Descriptive ethics_** is not exclusively a philosophical approach to ethics in that sociologists, psychologists, anthropologists and other social scientists may also be concerned with people's ethical beliefs. This approach looks at our beliefs about ethical issues and about ethics in general as facts about us to be cataloged and explained.
+
+### Meta-ethics{-}
 
 :::{.rmdquestion data-latex="" .infobox}
-**_Meta-ethics_**\
-\
 - How does thinking about ethics work?
 - What are the differences between ethical claims and claims about the facts?
 :::
 
-Meta ethics is a higher-order or "meta-level" discussion *about* ethical thinking. Here again, philosophers as well as social scientists often ask meta-ethical questions in their attempts to understand what is distinctive about ethical thinking as opposed to other modes of cognition. But looking at ethics from this perspective does not involve taking a stand on particular ethical principles or issues.
+**_Meta-ethics_** is a higher-order or "meta-level" discussion *about* ethical thinking. Here again, philosophers as well as social scientists often ask meta-ethical questions in their attempts to understand what is distinctive about ethical thinking as opposed to other modes of cognition. But looking at ethics from this perspective does not involve taking a stand on particular ethical principles or issues.
+
+### Prescriptive ethics{-}
 
 :::{.rmdquestion data-latex="" .infobox}
-**_Prescriptive ethics_**\
-\
 - What is really the right thing to do?
 - What moral principles are really justified and should be followed?
 :::
 
-This approach to ethics is the uniquely philosophical attempt to find the true basis of ethical thinking. We will be spending a lot of time here examining various attempts to give an account of the basis and justification of ethical thought, belief and action. This way of approaching ethics is not scientific, to the extent that  science concerns itself with "value-neutral" descriptions and explanations of whatever phenomena it is addressing. That philosophy can succeed in making normative claims while remaining based on objectivity and rationality is up to philosophers to establish.
+**_This approach_** to ethics is the uniquely philosophical attempt to find the true basis of ethical thinking. We will be spending a lot of time here examining various attempts to give an account of the basis and justification of ethical thought, belief and action. This way of approaching ethics is not scientific, to the extent that  science concerns itself with "value-neutral" descriptions and explanations of whatever phenomena it is addressing. That philosophy can succeed in making normative claims while remaining based on objectivity and rationality is up to philosophers to establish.
+
+### Applied ethics {-}
 
 :::{.rmdquestion data-latex="" .infobox}
-**_Applied ethics_**\
-\
+
 - What is the right thing to do in real-world cases of ethical controversy?
 - What assumptions and principles lie at the basis of ethical controversies?
 :::
 
-How does all of this play out in real life cases? Under this heading are also to be found discussions of ethical issues associated with some particular area of human life, profession, or subject matter -- hence medical ethics, business ethics, legal ethics, environmental ethics, bioethics and so on are sub-fields within applied ethics.
+**_How does all of this play out_** in real life cases? Under this heading are also to be found discussions of ethical issues associated with some particular area of human life, profession, or subject matter -- hence medical ethics, business ethics, legal ethics, environmental ethics, bioethics and so on are sub-fields within applied ethics.
 
 **_We should keep in mind_** as we proceed that these various approaches are not always so clearly separate from one another. Our description of what people believe about ethical questions, for example, is clearly often informed by what we think they are justified in believing. Nevertheless we should keep in mind the fact that we can look at ethics from each of these different points of view and recognize that failing to do so may result in unnecessary confusion.
 

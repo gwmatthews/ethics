@@ -107,6 +107,21 @@ So the responsibility of raising and taking care of them is entirely theirs.
 
 **_Next we have_** the naturalistic fallacy. We often appeal to nature as if natural things, practices, etc. were automatically good. This is perhaps understandable in a world filled with various artificial substances of dubious safety. But we should be careful of making such appeals since they involve a leap of logic. The problem with the naturalistic fallacy is actually quite a general problem -- the attempt to conclude something about what should or ought to be be the case from what simply is the case. In this example, the facts of how human reproduction work entail nothing about who should play what role in raising children. That is a matter of social relations that, us philosophers hope, should be based on a free and open (and rational) discussion between those involved and not on the "facts of life."
 
+
+### The genetic fallacy {-}
+
+::::{.center data-latex=""}
+:::{.argument data-latex=""}
+
+Newspapers are businesses that make profits from selling papers.\
+
+So we should distrust what they publish since it is bound to be affected by their desire to make money.
+:::
+::::
+
+**_Arguing like this_** is a more general version of the naturalistic fallacy. We often assume that where something comes from affects its nature in fundamental ways and so we automatically tend to distrust research that is paid for by corporations, we distrust claims made by people who stand to gain from what these claims are about and so on. Although it may seem like wise advice to "follow the money" and keep in mind that those who pay the bills might use their power to determine the content of the conversation, insisting that *this must be* the case simply does not follow. In the case of the news media, the fact that a large newspaper corporation makes money for its employees doesn't automatically slant what exactly they are saying in one way or another. This is because one part of their business strategy might also be to maintain high standards of independently verified journalistic integrity. If they are selling their repuation as reliable reporters, and there is an independent way f=of determining the truth of their claims, there is not necessarily a conflict built into the idea of selling newspapers. Just as in the case of other fallacies of relevance, such as appeak to authority and ad hominem, in this case waht matters is not so much who is saying something but what is being said, and we can see for ourselves whether or not it is reliable or slanted in any way.
+
+
 ### Red herring {-}
 
 ::::{.center data-latex=""}
