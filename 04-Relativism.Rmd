@@ -1,3 +1,7 @@
+---
+nocite: | 
+ 
+---
 # (PART) Approaching Ethics {-}
 
 # Relativism {#relativism}
@@ -30,7 +34,7 @@
 ::::{.epigraph data-latex=""}
 The life history of the individual is first and foremost an accommodation to the patterns and standards traditionally handed in his community. From the moment of his birth the customs into which he is born shape his experience and behavior.
  
----Ruth Benedict, Patterns of Culture
+---Ruth Benedict, Patterns of Culture^[@benedictPatternsCulture1935]
 ::::
 
 
@@ -188,6 +192,8 @@ Can a relativist ever lay claim to being correct about anything including the co
 ## Further exploration {-}
 
 - Soon there will be a link here to the slideshow summary covering the main points of this chapter.
+
+- For a much more detailed account, see the Internet Encyclopedia of Philosophy's page on [moral relativism](https://www.iep.utm.edu/moral-re/).
 
 - The Crash Course is a series of videos by the brothers Hank and John Green. Hank has an excellent set of videos on many topics in philosophy including this one on [Metaethics](https://youtu.be/FOoffXFpAlU), which explores many of the issues we have been dealing with in this chapter. 
 

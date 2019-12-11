@@ -1,3 +1,7 @@
+---
+nocite: | 
+  @carrollLookingGlass1999
+---
 # A Little Bit of Logic {#logic}
 
 :::: {.centerpic data-latex=""}
