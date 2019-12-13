@@ -385,17 +385,16 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 
 **_There are many_** great websites that list, discuss and explain the many ways we get things wrong in our thinking. Here are a few of my favorites.
 
-- *Your Fallacy Is* is a nicely designed website with more examples of common fallacies.
-  - https://yourlogicalfallacyis.com/
+- [*Your Fallacy Is*](https://yourlogicalfallacyis.com/) is a nicely designed website with more examples of common fallacies.
 
-- *Your Bias Is*: is the sister site to Your Fallacy Is and focuses on common cognitive biases. 
-   - https://yourbias.is/
+- [*Your Bias Is*](https://yourbias.is/) is the sister site to Your Fallacy Is and focuses on common cognitive biases. 
+   
+- [*Logically Fallacious*](https://www.logicallyfallacious.com/tools/lp/Bo/LogicalFallacies) is a site with a huge and comprehensive list of logical fallacies and cognitive biases. A great reference with lots of examples.
    
 - Dan Ariely is a behavioral economist who studies human irrationality and has written a number of very readable books documenting his findings. He also has a number of videos of talks he has given on his site, [danariely.com](http://danariely.com/)
   - http://danariely.com/
    
-- And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fallacy_ref?lang=en) on Twitter.
-  - https://twitter.com/fallacy_ref
+- And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fallacy_ref) on Twitter.
   
 :::: {.centerpic data-latex=""}
 ![](img/fallacy-ref.jpg){width=50%}
