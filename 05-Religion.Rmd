@@ -117,12 +117,17 @@ The point which I should first wish to understand is whether the pious or holy i
 **_Does God say that murder is wrong because_** it really is wrong? This definitely seems to fit better with how we usually think of God, as a supremely wise being. But this makes it look like standards of right and wrong are independent of God – he knows and does not simply decree that murder is wrong. This seems OK except for the fact that Divine Command Theory claims that right (and wrong) are based on God's will.
 
 :::{.rmdcaution data-latex="" .infobox}
+
 **The dilemma of DCT**
 
-- Is something wrong **because God says so**?
-  - This would make morality *arbitrary*.
-- Or does God say something is wrong because **it really is wrong**?
-  - This would make morality *independent* of God's will.
+Is something wrong **because God says so**?
+
+- This would make morality *arbitrary*.
+
+Or does God say something is wrong because **it really is wrong**?
+
+- This would make morality *independent* of God's will.
+
 :::
 
 So we end up with a nasty dilemma -- either we base ethics on God's commands directly, but at the price of rendering ethical rules arbitrary, with no real reason behind them, or we grant that they have a reason behind them at the price of making the authority of God irrelevant to the rightness of these commands. Note that this dilemma is the same dilemma that arises any time we [appeal to authority](#appeal-to-authority) to settle some issue. When someone says for example "Experts says that blah, blah, blah," we can always ask, "Should we listen to that because it is the experts who say it, or because the experts are right?" To avoid granting the experts arbitrary power to tell us what to do, it has to be the second. But that then renders the experts irrelevant in a sense. After all, if what the experts say is right, this has nothing to do with who they are and everything to do with what they say. So let them present their evidence and let us be the judges of whether to listen or not. Because of this problem, Divine Command Theory is rejected even by some people who insist that morality must be based on religion. The Catholic Church, for example, officially rejects this explanation of why ethics needs religion. It prefers instead, the next theory, Natural Law Theory.
@@ -211,20 +216,47 @@ So we should act in such a way as to fulfill our nature as human beings and avoi
 
 **_Let's look at these_** definitions one at a time:
 
-1. *Violating the laws of nature is wrong.* This is clearly false in that the laws of nature are just descriptions of regularities in nature and so it makes no sense to talk about violating them. Apparent violations of the law really just show us that we described things incorrectly.
-2. *What is uncommon is wrong.* Obviously not always -- being part of the statistically defined norm is neither good not bad by itself. Rare talents are great, rare diseases not so good.
-3. *What is artificial is wrong.* While we might resist buying food labelled "All artificial ingredients," and assume that natural ingredients are better than artificial ones, this claim is not in general true. There are plenty of things like artificial heart valves and limbs that have made people's lives better and many perfectly natural phenomena like tornados and earthquakes that have not.
+1. *Violating the laws of nature is wrong.* This is clearly false in that the laws of nature are just descriptions of regularities in nature and so it makes no sense to talk about violating them. Apparent violations of the law really just show us that our view of what the laws of nature *are* is incorrect.
+2. *What is uncommon is wrong.* Clearly this is not always the case -- being part of the statistically defined norm is neither good not bad by itself. Rare talents are great, rare diseases not so good.
+3. *What is artificial is wrong.* While we might resist buying food labelled "All artificial ingredients," and assume that natural ingredients are better than artificial ones, this claim is not in general true. There are plenty of things like artificial heart valves and limbs that have made people's lives better and many perfectly natural phenomena like tornadoes and earthquakes that have not.
 4. **What violates natural functions is wrong.** This claim is really what Natural Law Theory rests on, but it also seems a bit shaky as a support for morality as we will see in a moment.
 
 ### Natural purposes {-}
 
-**_The whole idea that_** things in nature have built-in purposes that it is somehow wrong to violate is somewhat paradoxical in that it is both intuitively appealing and difficult if not impossible to establish. It is intuitively appealing to think that things in nature have "essences" or some set of essential features that determine how they act and their roles in relationship to us. This spontaneous "essentialism" is part of what psychologists have termed "magical thinking" and it seems to be built-in to the way the human mind works.^[See [@gelmanEssentialismEverydayThought] for more on essentialism as a sponatneous mode of thinking.] Hence both children and early human societies tend to accept without reservation the idea that everything has a place in the world and certain internal characteristics that it would be wrong to ignore. And this makes sense to the extent that categorizing is a basic mental function that comes online first and only later are its products subject to critical reevaluation.
+**_The whole idea that_** things in nature have built-in purposes that it is somehow wrong to violate is somewhat paradoxical in that it is both intuitively appealing and difficult if not impossible to establish. It is intuitively appealing to think that things in nature have "essences" or some set of essential features that determine how they act and their roles in relationship to us. As the old saying goes, "Fish gotta swim, birds gotta fly..." This spontaneous "essentialism" is part of what psychologists have termed "magical thinking" and it seems to be built-in to the way the human mind works.^[See [@gelmanEssentialismEverydayThought] for more on essentialism as a spontaneous mode of thinking.] Hence both children and early human societies tend to accept without reservation the idea that everything has a place in the world and certain internal characteristics that it would be wrong to ignore. And this makes sense to the extent that categorizing is a basic mental function that comes online first and only later are its products subject to critical reevaluation.
+
+**_Until the scientific revolution_** finally rejected the idea that explanations of natural phenomena required specifying what the purpose, end or function of something was, this kind of essentialism was simply taken for granted as part of the explanation of *anything*. Aristotle was the first to explicitly formulate it as part of his account of the requirements of any explanation. According to Aristotle's doctrine of "the four causes," any explanation had to answer four questions about what was being explained:
+
+:::{.rmdnote data-latex=""  .infobox}
+
+For Aristotle any explanation requires specifying it's "four causes."
+
+1. What is it made of. (the "material cause")
+2. What sort of thing it is. (its "formal cause")
+3. How it came to be in its present state. (the "efficient cause")
+4. What it is **for** or its function, purpose or goal. (its "final cause")
+
+:::
+
+**_This doctrine_** was incredibly influential and was only rejected as Galileo and other early modern scientists in the early 1500's rejected all but the third of these as irrelevant to scientific explanation. Nevertheless, it is a central assumption of Aquinas' account of morality that we both can and should spell out the purposes of anything in nature. If purposes are "built-in" the human beings then what we *should* do would be accessible in a straightforward way "by the light of reason." However that no longer seems so obvious to modern eyes since we tend to see the purposes of things as externally imposed on them by creatures like us who use them for our purposes. Nature is no longer in our conception a place of built in forms and functions organized hierarchically in the Medieval "Great Chain of Being" or other such comprehensive views, but is more like a vast and value-neutral machine that we may be part of but that has no intrinsic values in its parts. Hence any account of value is, from this modern point of view, dependent on the free choices of those, like us, who value things. We will be seeing different conceptions of what this means in coming chapters.
 
 **_In conclusion_**, even though it may seem tempting to appeal to nature as a guide for ethics, this strategy simply does not work. Something being natural, to use philosophical jargon, is neither necessary not sufficient for it being good or right. Likewise with something being unnatural. Even if we could spell out the "natural functions" of human beings and our parts in a way that did not beg the question, doing so would still leave open the question, as the philosopher G. E. Moore pointed out, about whether following that function was right.^[[@prestonMooreGeorgeEdward]] Nature provides a framework within which we can make choices that are either right or wrong or that lead either to good or evil and it is our responsibility, not nature’s to figure out which is which. Failure to recognize this is nothing but a trap -- the trap of what Moore called the "[naturalistic fallacy](#the-naturalistic-fallacy)," a mistaken form of reasoning with which we have already met.
 
 ### Religion and ethics reconsidered {-}
 
+**_The ultimate conclusion_** of this chapter can be stated simply enough:
 
+:::{.rmdnote data-latex=""  .infobox}
+
+In spite of the fact that religion often *expresses* moral concerns, morality and ethics are independent of religion.
+:::
+
+**_As a result_** we can see why it is that both Divine Command Theory and Natural Law Theory had to fail since both asserted the opposite, that without some connection to the divine, either directly or through a divinely ordered nature, ethics would be impossible. Note that this doesn't mean that in human cultural history religious conceptions of ethics have not come first. Nor is it intended to deny that religion can be a powerful way of teaching ethical principles as it is for many people. It is just intended to mean that religion is neither necessary nor sufficient for ethics. It is not necessary in that one can be ethical without any religious belief. And it is not sufficient in that it is possible to have strong religious belief and be an awful person from a moral or ethical point of view.
 
 ## Further exploration {-}
 
+- The slideshow summary of this chapter's material can be found here.
+
+- The Crash Course videos on [Divine Command Theory](https://youtu.be/wRHBwxC8b8I) and [Natural Law Theory](https://youtu.be/r_UfYY7aWKo) are both helpful accounts of the basic contours of these approaches to ethics.
+
+- A much more comprehensive account of the relationship between religion and morality can be found at the Stanford Encyclopedia of Philosophy's article "[Religion and Morality](https://plato.stanford.edu/entries/religion-morality/)."
