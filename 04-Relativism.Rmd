@@ -100,7 +100,6 @@ Thus there are no standards about what is really right or wrong.
 :::
 ::::
 
-
 **_This argument_** may seem to be persuasive. Doesn't the fact of human diversity automatically entail relativism? But the question we should ask about this argument is not "Does it seem persuasive?", but "Is it valid and sound?" Remember, a [valid argument](#key-concepts) is one in which *if the premises are true the conclusion must also be true*. So is this argument valid? How can we tell? In this case the premise seems obviously true, but does that by itself force us to accept the conclusion? Clearly not, since even if the premise is true and we do all disagree, this alone does not have to mean that there are no standards. However implausible it may seem that there are universal moral standards, the fact of human disagreement about what those standards might look like is just not enough to rule out the existence of standards. To see this more clearly, it may help to consider a more obviously bad argument of exactly the same logical form in which the premise is clearly true and the conclusion is clearly false.
 
 ### A counterexample{-}
