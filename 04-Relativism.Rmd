@@ -125,7 +125,7 @@ Given that disagreement about something does not conclusively tell us whether it
 - Or are ethical disputes more like disputes about taste where the best we can hope for is to agree to disagree?
 :::
 
-### Learning right from wrong {-}
+## The argument from learning
 
 **_A second way to argue_** that relativism is true is to appeal to the origins of our ideas of moral concepts. It seems plausible that we get our ideas about what is right and what is wrong by learning them from those around us. We may have certain built-in reflexes but moral judgments are learned and are not innate. This is a commonly held view on morality -- the apple doesn't fall far from the tree, so if a child is raised with strict moral guidelines, she will be better behaved than a child given too much freedom to choose. We will get back to the question of whether or not this is really the best way to look at morality in a moment. For now we can grant it as the premise for a second argument in defense of relativism.
 
@@ -152,7 +152,7 @@ Thus relativism is true -- values are relative to cultures.
 - believe in the importance of telling the truth in general, even if exceptions are sometimes made to this.
 - distinguish between acceptable and wrongful killing of other human beings.
 
-### Saying different things {-}
+## Difference and tolerance
 
 **_Relativism isn't quite finished_** yet though, since there is another popular argument in its favor that we haven't yet considered. This argument appeals to the, once again seemingly obvious, difficulty in coming to any kind of agreement about the meaning of basic moral terms. Here it is in explcit form:
 

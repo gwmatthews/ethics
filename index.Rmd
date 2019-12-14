@@ -11,7 +11,7 @@ classoption: "12pt, openany"
 graphics: yes
 geometry: 'margin=3cm'
 bibliography: ethics.bib
-citation-style: modern-language-association.csl
+citation-style: chicago-fullnote-bibliography.csl
 ---
 
 # Preface {-}

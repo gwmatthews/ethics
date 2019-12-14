@@ -308,9 +308,6 @@ Even though we have no idea what these peoples' ages are (or even if they exist 
 
 - For the slideshow summarizing the main points of this chapter, [click here](https://gwmatthews.github.io/ethics-slideshows/02-logic.html).
 
-
-There is, once again a great many web sources that can help clarify the concepts covered in this chapter. Many are oriented towards programmers or computer scientists (computers are automated logic machines after all) and these can get very technical, very quickly. So here are a couple that are a bit more approachable.
-
 - For a slightly different and more in-depth treatment of the basic concepts of logic see [the logic chapter](https://jonathanweisberg.org/vip/logic.html#logic) of Jonathan Weisberg's open source textbook on probability and statistics, *Odds & Ends.* 
 
 - Wireless Philosophy is a well-produced series of short videos on a great many topics in philosophy. Their [playlist on Logic and Critical Thinking](https://www.youtube.com/playlist?list=PLtKNX4SfKpzX_bhh4LOEWEGy3pkLmFDmk) is a great resource for exploring logical thinking in all of its complexity, 5 or 6 minutes at a time.
