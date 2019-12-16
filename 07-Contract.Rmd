@@ -1,5 +1,3 @@
-# (PART) Reconstructing Norms {-}
-
 # Social Contract Theory
 
 :::: {.centerpic data-latex=""}
