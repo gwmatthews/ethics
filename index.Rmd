@@ -136,3 +136,9 @@ Over time I will also try to expand on and/or make room for approaches I haven't
 
 --George
 :::
+
+## chat {-}
+
+:::{.embed data-latex="chatroom on the website"}
+<iframe src="https://hack.chat/?phil_ethics"></iframe>
+:::
