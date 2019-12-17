@@ -135,10 +135,7 @@ In this text I'll be exploring various approaches to ethics chiefly as I underst
 Over time I will also try to expand on and/or make room for approaches I haven't yet had time to integrate into my overall scheme, such as virtue ethics, Buddhist ethics (and non-Western approaches more broadly) and feminist approaches to ethics. I do welcome suggestions about how to extend and revise this text to make it more inclusive. Didn't I just say that I encourage others to contribute? Well, I mean it. 
 
 --George
+
 :::
 
-## chat {-}
 
-:::{.embed data-latex="chatroom on the website"}
-<iframe src="https://hack.chat/?phil_ethics"></iframe>
-:::
