@@ -26,5 +26,25 @@ For it can never be that war shall preserve life, and peace destroy it.\
 ## Why should we follow the rules?
 
 
+## Further exploration {-}
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+<br>
+  <br>
+  <hr>
+
+**Editorial comments**
+
+If you have a GitHub account and want to make any editorial suggestions, please do so here.
+
+<script src="https://utteranc.es/client.js"
+        repo="gwmatthews/ethics"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+```
 
 

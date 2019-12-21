@@ -24,5 +24,27 @@ Actions are right in proportion as they tend to promote happiness, wrong as they
 
 ## Problems, problems
 
+## Further exploration {-}
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+<br>
+  <br>
+  <hr>
+
+**Editorial comments**
+
+If you have a GitHub account and want to make any editorial suggestions, please do so here.
+
+<script src="https://utteranc.es/client.js"
+        repo="gwmatthews/ethics"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+```
+
+
 
 

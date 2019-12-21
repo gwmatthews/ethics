@@ -187,7 +187,11 @@ So defending ethical rules is really defending selfishness.
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
-### Editorial comments {-}
+<br>
+  <br>
+  <hr>
+
+**Editorial comments**
 
 If you have a GitHub account and want to make any editorial suggestions, please do so here.
 

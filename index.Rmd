@@ -87,7 +87,7 @@ Also note the arrows on the side of the screen (or down at the bottom if you are
 
 ### Comment on it {-}
 
-If you are a current student in one of my Ethics classes you'll have to do some commenting. When I used WordPress to host this text that was a built in feature. Here I am relying on a third party commenting add-on to the online version of the book. There are many ways to do this, with Disqus being one of the most popular. But we won't be using that since they track users and push lots of severtising. Instead we'll be using a nice tool called Hypothes.is, which [you can find out all about here](#appendix-1).
+If you are a current student in one of my Ethics classes you'll have to do some commenting. When I used WordPress to host this text that was a built in feature. Here I am relying on a third party commenting add-on to the online version of the book. There are many ways to do this, with Disqus being one of the most popular. But we won't be using it since they track users and push lots of advertising. Instead we'll be using a nice tool called Hypothes.is, which [you can find out all about here](#appendix-1).
 
 ### Contribute to it {- #contribute}
 

@@ -313,7 +313,11 @@ Even though we have no idea what these peoples' ages are (or even if they exist 
 - Wireless Philosophy is a well-produced series of short videos on a great many topics in philosophy. Their [playlist on Logic and Critical Thinking](https://www.youtube.com/playlist?list=PLtKNX4SfKpzX_bhh4LOEWEGy3pkLmFDmk) is a great resource for exploring logical thinking in all of its complexity, 5 or 6 minutes at a time.
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
-### Editorial comments {-}
+<br>
+  <br>
+  <hr>
+
+**Editorial comments**
 
 If you have a GitHub account and want to make any editorial suggestions, please do so here.
 
