@@ -48,12 +48,12 @@ Some websites, like this one have it built in. You may have noticed the funny ic
 
 - You'll have to register and either get the Chrome extension or save the bookmarklet. It's simple.
 
-- Then you can join the private group Ethics@PCT and add a note to this page. To join, follow the link I sent you after you have registered.
+- Then you can join the private group Ethics\@PCT and add a note to this page. To join, follow the link I sent you after you have registered.
 
 
 #### 5. Annotate this page {-}
 
-Your first assignment is to add a group note to this page that will be visible only to the Ethics@PCT group.
+Your first assignment is to add a group note to this page that will be visible only to the Ethics\@PCT group.
 
 - You can just open the Hypothes.is tool, login and figure it out.
 

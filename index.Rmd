@@ -89,31 +89,15 @@ Also note the arrows on the side of the screen (or down at the bottom if you are
 
 If you are a current student in one of my Ethics classes you'll have to do some commenting. When I used WordPress to host this text that was a built in feature. Here I am relying on a third party commenting add-on to the online version of the book. There are many ways to do this, with Disqus being one of the most popular. But we won't be using that since they track users and push lots of severtising. Instead we'll be using a nice tool called Hypothes.is, which [you can find out all about here](#appendix-1).
 
-Others are also welcome to comment on the text. If you are a GitHub user and you like to contribute you can use the comment boxes at the end of each chapter to make suggestions or add editorial comments.
+### Contribute to it {- #contribute}
 
+If you find a mistake, don't think it's clear in some part, have an issue with any part of it, want something more added, etc. I encourage you to contribute. You can do this in a few ways.
 
-### Contribute to it {-}
-
-If you find a mistake, don't think it's clear in some part, have an issue with any part of it, want something more added, etc. I encourage you to contribute. You can do this in a couple of ways.
-
-- Leave a comment and we can discuss possible changes.
-- Click on the "edit" button on the top menu bar -- this will take you to the GitHub repository where the source material lives. There you can either open up an "issue" and we can discuss it there, or you can "fork" the repository make whatever edits you want and then offer them in the form of a "pull request." All of this assumes that you:
+- If you have a GitHub account, you can leave a comment in the box at the end of each chapter. THat creates an "issue" which others can read or add to as well.
+- You can also more directly as a pull request by clicking on the "edit" button on the top menu bar -- this will take you to the GitHub repository where the source material lives. There you can fork the repository, make whatever edits you want and then offer them in the form of a "pull request." All of this assumes that you:
   + Know what "git" even is.^[If you don't, it is a version control system that enables collaboration and it mostly intended for software development, but it can be used for working together on any kind of project that involves electronic files, from novels to operating systems. If you want to learn more, check out [Happy Git and GitHub for the useR](https://happygitwithr.com/) or [Learn git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud). I love reading documentation, don't you?]
   + Have an account at [GitHub](https://github.com/) -- which is free. And [GitHub pages](https://pages.github.com/) is a great way to get yourself a free website too!
 - Send me an email if you know me in the real world.
 
-:::{.rmdnote data-latex="" .infobox}
-
-\
-\
-**A note on method:**
-
-In this text I'll be exploring various approaches to ethics chiefly as I understand them. Although at times I make reference to historical philosophers and sometimes to their particular arguments and texts, this book is not intended as a contribution to historical scholarship. Instead my approach is to consider ethics in terms of a series of "ideal types" which, while they may overlap with the ideas of certain historical figures, are intended to capture what I understand to be the major lines of argument available to anyone who attempts to clarify basic notions of ethics. There is a certain inner logic it seems to me to how we can, and maybe even should, think about ethics. Or maybe that is just a result of my having spent too much time reading Hegel in my youth. In either case, *caveat lector* -- let the reader beware.
-
-Over time I will also try to expand on and/or make room for approaches I haven't yet had time to integrate into my overall scheme, such as virtue ethics, Buddhist ethics (and non-Western approaches more broadly) and feminist approaches to ethics. I do welcome suggestions about how to extend and revise this text to make it more inclusive. Didn't I just say that I encourage others to contribute? Well, I mean it. 
-
---George
-
-:::
 
 

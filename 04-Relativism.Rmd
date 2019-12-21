@@ -36,6 +36,18 @@ nocite: |
 
 **_So much for_** a general account of what we will be up to here. This section of the text looks at two approaches to ethics that may seem to be diametrically opposed -- cultural relativism and the attempt to show how ethics can and should be based on religion. According to cultural relativism, ethical rules and norms are determined by culture in the sense that there are no absolute and universal rules with an independent warrant, but only particular, culturally determined ways of conducting oneself, none fundamentally better or worse than the others. According to religious approaches to ethics, ethical rules and principles do have an absolute foundation and that foundation is to be found is an authoritative set of religious truths. In spite of their obvious opposition, with relativism denying the existence of ethical absolutes and religious approaches affirming it, in a sense both have something essential in common, which is the idea that ethical rules come to us "from outside" and have little to do with human choices. Their opposition lies in whether or not the source of ethical rules varies from place to place or not. Both of these approaches will be found wanting, for roughly parallel reasons. And so the next part of the text, which examines various more purely philosophical approaches to ethics, takes up the question of what ethics might look like if it is something we humans create and not imposed from outside by culture, God or human nature.
 
+:::{.rmdnote data-latex="" .infobox}
+
+
+**A note on method:**
+
+In this text I'll be exploring various approaches to ethics chiefly as I understand them. Although at times I make reference to historical philosophers and sometimes to their particular arguments and texts, this book is not intended as a contribution to historical scholarship. Instead my approach is to consider ethics in terms of a series of "ideal types" which, while they may overlap with the ideas of certain historical figures, are intended to capture what I understand to be the major lines of argument available to anyone who attempts to clarify basic notions of ethics. There is a certain inner logic it seems to me to how we can, and maybe even should, think about ethics. Or maybe that is just a result of my having spent too much time reading Hegel in my youth. In either case, *caveat lector* -- let the reader beware.
+
+Over time I will also try to expand on and/or make room for approaches I haven't yet had time to integrate into my overall scheme, such as virtue ethics, Buddhist ethics (and non-Western approaches more broadly) and feminist approaches to ethics. [I do welcome suggestions](#contribute) about how to extend and revise this text to make it more inclusive. 
+
+:::
+
+
 ## Claims and Consequences of Moral Relativism
 
 
