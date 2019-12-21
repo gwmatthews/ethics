@@ -1,7 +1,8 @@
 bookdown::gitbook:
   exclude: "README.md"
   includes:
-     after_body: comments.html
+     before:body: hypothesis.html
+#     after_body: comments.html
   css: ethics.css
   split_by: section+number
   config:

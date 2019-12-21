@@ -1,0 +1,11 @@
+### Editorial comments
+
+If you have a GitHub account and want to make any editorial suggestions, please do so here.
+
+<script src="https://utteranc.es/client.js"
+        repo="gwmatthews/ethics"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

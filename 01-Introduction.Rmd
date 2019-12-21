@@ -130,4 +130,21 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 - Michael Sandel is a philosophy professor at Harvard who teaches a very popular course called "Justice" that explores material that overlaps with this text. His extensive website [Justice with Michael Sandel](http://justiceharvard.org/) also has videos of his lectures from that course the first of which focuses on the famous runaway trolley example.
 
 
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+### Editorial comments
+
+If you have a GitHub account and want to make any editorial suggestions, please do so here.
+
+<script src="https://utteranc.es/client.js"
+        repo="gwmatthews/ethics"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+```
+
+
+
 

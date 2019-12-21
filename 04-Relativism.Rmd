@@ -219,6 +219,20 @@ Can a relativist ever lay claim to being correct about anything including the co
 - [Leaving White Nationalism](https://www.npr.org/2018/09/24/651052970/how-a-rising-star-of-white-nationalism-broke-free-from-the-movement) is an audio podcast that tells the story of Derek Black, a rising star on the radical right who came to question the views that he was brought up into, but that he also vocally defended on the radio. Once again this story raises the issue of how we can independently assess even views that we are indoctrinated into. 
 
 
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+### Editorial comments
+
+If you have a GitHub account and want to make any editorial suggestions, please do so here.
+
+<script src="https://utteranc.es/client.js"
+        repo="gwmatthews/ethics"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+```
 
 
 
