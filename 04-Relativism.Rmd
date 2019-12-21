@@ -38,7 +38,6 @@ nocite: |
 
 :::{.rmdnote data-latex="" .infobox}
 
-
 **A note on method:**
 
 In this text I'll be exploring various approaches to ethics chiefly as I understand them. Although at times I make reference to historical philosophers and sometimes to their particular arguments and texts, this book is not intended as a contribution to historical scholarship. Instead my approach is to consider ethics in terms of a series of "ideal types" which, while they may overlap with the ideas of certain historical figures, are intended to capture what I understand to be the major lines of argument available to anyone who attempts to clarify basic notions of ethics. There is a certain inner logic it seems to me to how we can, and maybe even should, think about ethics. Or maybe that is just a result of my having spent too much time reading Hegel in my youth. In either case, *caveat lector* -- let the reader beware.
