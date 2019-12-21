@@ -183,3 +183,20 @@ So defending ethical rules is really defending selfishness.
 **_Finally, we have_** the last argument for Ethical Egoism to deal with. This argument claimed to establish that we should always be selfish because even ethical rules only really encourage us to do what is in our self-interest anyway. I called this the "revisionist argument" since it tries to revise ethical rules in a way that turns them into rules that even purely self-interested people would be willing to accept. The problem here is that when we revise ethics in this way, we lose something important about ethical rules. It might be nice if ethical rules were things that even the most self-involved people among us could easily live with, but unfortunately that is not the case. Ethics makes demands on us that we can't always just simply accept. For example, even though at times refraining from lying is really in my own best interest, since it helps to maintain trust between myself and others upon whom I rely to tell me the truth, this is not always the case. If there is an ethical rule about usually not lying, it is because at times it probably seems to me that it is in my selfish interest to lie to others, even if there are larger reasons not to lie. Ethical rules frequently ask us to set our self-interest aside for the sake of larger goals or purposes. Of course, we have not yet seen why we should ever do this (utilitarianism and Kantian ethics, as we will see, offer two different arguments why we should). But to claim that ethics does not ever really do this is to throw out the proverbial baby with the bath water. If ethics is really reducible to self-interest, merely throwing out those parts of ethics that conflict with self-interest is no way to show this. And all we have to do to seem that it is probably not reducible in this way to consider any situation in which ethics makes demands on us not to do something that it is in our self-interest to do.
   
 ## Further exploration {-}
+
+
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+### Editorial comments {-}
+
+If you have a GitHub account and want to make any editorial suggestions, please do so here.
+
+<script src="https://utteranc.es/client.js"
+        repo="gwmatthews/ethics"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+```

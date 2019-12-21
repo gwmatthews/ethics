@@ -220,7 +220,7 @@ Can a relativist ever lay claim to being correct about anything including the co
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
-### Editorial comments
+### Editorial comments {-}
 
 If you have a GitHub account and want to make any editorial suggestions, please do so here.
 

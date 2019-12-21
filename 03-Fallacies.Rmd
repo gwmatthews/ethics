@@ -403,7 +403,7 @@ The fact that I tripped when walking down the street was because the sidewalk wa
    
    
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
-### Editorial comments
+### Editorial comments {-}
 
 If you have a GitHub account and want to make any editorial suggestions, please do so here.
 
