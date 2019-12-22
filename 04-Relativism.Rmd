@@ -154,7 +154,7 @@ Given that disagreement about something does not conclusively tell us whether it
 - Or are ethical disputes more like disputes about taste where the best we can hope for is to agree to disagree?
 :::
 
-## The argument from learning
+## The Argument from Learning
 
 **_A second way to argue_** that relativism is true is to appeal to how we acquire moral concepts. It seems plausible that we get our ideas about what is right and what is wrong by learning them from those around us. We may have certain built-in reflexes but moral judgments seem to be learned and not to be innate. The evidence for this would be their global variability and their local consistency. Cultures around the world differ in terms of their basic moral concepts, so this story goes, but we each tend to embrace values similar to those in our immediate social environment. This is a commonly held view on morality -- the apple doesn't fall far from the tree. Likewise it is also a commonly held view that raising a child with strict moral guidelines is the best way to ensure that she will continue to adhere to those values later in life. We will get back to the question of whether or not this is really the best way to look at morality in a moment. For now we can grant it as the premise for a second argument in defense of relativism.
 
@@ -181,7 +181,7 @@ Thus relativism is true -- values are relative to cultures.
 - believe in the importance of telling the truth in general, even if exceptions are sometimes made to this.
 - distinguish between acceptable and wrongful killing of other human beings.
 
-## Difference and tolerance
+## Difference and Tolerance
 
 **_Relativism isn't quite finished_** yet though, since there is another popular argument in its favor that we haven't yet considered. This argument appeals to the, once again seemingly obvious, difficulty in coming to any kind of agreement about the meaning of basic moral terms. Here it is in explicit form:
 
@@ -194,7 +194,7 @@ Hence relativism is true and there are no universal values.
 :::
 ::::
 
-## Questioning relativism
+## Questioning Relativism
 
 **_The possibility_** that there is a common moral ground between groups of people is tempting as a possible alternative to relativism. What relativism gets right is the fact that we all disagree about how to carry out the basic moral demands these core values impose on us. But what it gets wrong is the degree to which we do all disagree. After all, we all have some way of honoring the dead, we all think that the survival of our group is important, we all recognize that communication is only possible against a general background of truth-telling, and we all agree that there is something that should be considered the wrongful killing of a human being or murder, even if different cultures have very different ways of putting these values into practice.
 

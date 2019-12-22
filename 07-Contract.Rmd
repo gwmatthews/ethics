@@ -37,7 +37,7 @@ For it can never be that war shall preserve life, and peace destroy it.\
 
 **_Social Contract Theory_** is an attempt to answer the question why follow the rules when we have a choice not to. It goes beyond all of the other theories we have considered by not just either assuming that there are moral rules or assuming that we have a good reason to ignore such rules and tries to spell out how might might justify those rules in terms acceptable to rational agents capable of making free choices. We explore its promise and its limitations in this chapter.
 
-## Hobbes and the invention of society
+## Hobbes and the Invention of Society
 
 :::{.epigraph data-latex=""}
 To this war of every man against every man, this also in consequent; that nothing can be unjust. The notions of right and wrong, justice and injustice have there no place. Where there is no common power, there is no law, where no law, no injustice.\
