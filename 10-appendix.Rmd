@@ -36,7 +36,7 @@ Some websites, like this one have it built in. You may have noticed the funny ic
 - **NOTE:** since most pages don't have Hypothes.is built in you'll have to use one of these last two methods to use it on other websites.
 
 
-:::{.rmdnote data-latex="" .infobox}
+:::{.note data-latex="" .infobox}
 
 **Special note for using on a phone:**  Except for when commenting on websites like this that have the Hypothes.is tool built in, you have to do things a little different on a phone. All you have to do is copy the web address of the page you want to annotate and then [go to this page](https://via.hypothes.is/) and paste it in the box. That runs the page through the Hypothes.is server and let's you add your own notes.
 

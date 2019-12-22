@@ -29,7 +29,7 @@ If God did not exist it would be necessary to invent him.\
 
 **_Now this doesn't yet_** show that morality and public order must be based on religion as Voltaire seemed to assume when he asserted that "If God didn't exist we would have to invent him" as a method of social control. But at least it shows that many people are comfortable with asserting a close connection between the two. It is important to keep in mind, however, a distinction between three things: the origin, explanation and justification of a thing or concept.
 
-:::{.rmdnote data-latex="" .infobox}
+:::{.note data-latex="" .infobox}
 
 **NOTE:** we should keep in mind the distinction between three things.
 
@@ -45,7 +45,7 @@ If God did not exist it would be necessary to invent him.\
 
 **_Divine Command Theory starts out_** as a reflection on the nature of moral language and on this basis develops a comprehensive theory of morality. The first thing it points out about moral or ethical language is that it takes the form of rules governing behavior. These rules are expressed as commands, such as "Don't lie," "Don't steal from other people," and "You should never cheat, especially not on your ethics exams." Now commands, as opposed to statements, are neither true nor false, so we cannot simply investigate the world to see whether they are correct or not. Instead the way we determine which commands are "correct" is by figuring out which ones we really should listen to, which ones are truly binding on us and most importantly why? Why should we accept and act on the claims that some things are obligatory for us to do, while some other things are permissible and some other things forbidden? 
 
-:::{.rmdnote data-latex="" .infobox}
+:::{.note data-latex="" .infobox}
 **According to divine command theory**
 
 - Moral principles tell us what we *should* do.
@@ -122,7 +122,7 @@ The point which I should first wish to understand is whether the pious or holy i
 
 **_Does God say that murder is wrong because_** it really is wrong? This definitely seems to fit better with how we usually think of God, as a supremely wise being. But this makes it look like standards of right and wrong are independent of God – he knows and does not simply decree that murder is wrong. This seems OK except for the fact that Divine Command Theory claims that right (and wrong) are based on God's will.
 
-:::{.rmdcaution data-latex="" .infobox}
+:::{.caution data-latex="" .infobox}
 
 **The dilemma of DCT**
 
@@ -157,7 +157,7 @@ Happiness is secured through virtue; it is a good attained by man's own will.\
 
 **_All of these capacities_** combined make up what humans can do by nature. In spite of the fact that this list seems long, there are of course plenty of things that we cannot do by nature, like fly under our own power, or survive underwater without an artificial air supply. Given all of this, the fundamental claim of Natural Law Theory is just that ethics can and should be based on these natural functions. Ethical decisions are decisions that follow from and foster human nature, while unethical decisions are those that go against our natures. So far this may not seem to be a particularly religious approach to ethics as it was billed above. In a sense, the religious reading of natural law theory is optional -- the claims it makes could be cast in an entirely secular light, by simply referring to nature. However, not only is the most popular version of this theory the one embraced by the Catholic Church, but the tradition from which this theory arose saw nature as the result of supernatural forces at work – God's creation. So even the religious aspect of Natural Law Theory may not be required for the theory itself, to the extent that talk about natural purposes evokes the purposes of the creator of natural things, the two are closely connected.
 
-:::{.rmdnote data-latex="" .infobox}
+:::{.note data-latex="" .infobox}
 **According to NLT**
 
 - Understanding things requires understanding their purpose.
@@ -233,7 +233,7 @@ So we should act in such a way as to fulfill our nature as human beings and avoi
 
 **_Until the scientific revolution_** finally rejected the idea that explanations of natural phenomena required specifying what the purpose, end or function of something was, this kind of essentialism was simply taken for granted as part of the explanation of *anything*. Aristotle was the first to explicitly formulate it as part of his account of the requirements of any explanation. According to Aristotle's doctrine of "the four causes," any explanation had to answer four questions about what was being explained:
 
-:::{.rmdnote data-latex=""  .infobox}
+:::{.note data-latex=""  .infobox}
 
 For Aristotle any explanation requires specifying it's "four causes."
 

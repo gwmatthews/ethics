@@ -36,7 +36,7 @@ nocite: |
 
 **_So much for_** a general account of what we will be up to here. This section of the text looks at two approaches to ethics that may seem to be diametrically opposed -- cultural relativism and the attempt to show how ethics can and should be based on religion. According to cultural relativism, ethical rules and norms are determined by culture in the sense that there are no absolute and universal rules with an independent warrant, but only particular, culturally determined ways of conducting oneself, none fundamentally better or worse than the others. According to religious approaches to ethics, ethical rules and principles do have an absolute foundation and that foundation is to be found is an authoritative set of religious truths. In spite of their obvious opposition, with relativism denying the existence of ethical absolutes and religious approaches affirming it, in a sense both have something essential in common, which is the idea that ethical rules come to us "from outside" and have little to do with human choices. Their opposition lies in whether or not the source of ethical rules varies from place to place or not. Both of these approaches will be found wanting, for roughly parallel reasons. And so the next part of the text, which examines various more purely philosophical approaches to ethics, takes up the question of what ethics might look like if it is something we humans create and not imposed from outside by culture, God or human nature.
 
-:::{.rmdnote data-latex="" .infobox}
+:::{.note data-latex="" .infobox}
 
 **A note on method:**
 
@@ -65,7 +65,7 @@ Over time I will also try to expand on and/or make room for approaches I haven't
 
 So let us then look more carefully at what cultural relativism claims. It is a [meta-ethical](#meta-ethics) position that boils down to a few simple and seemingly obvious claims:
 
-:::{.rmdnote data-latex="" .infobox}
+:::{.note data-latex="" .infobox}
 **According to cultural relativism**
 
 - Ethical or moral claims are not objective in the way factual claims are.
@@ -93,7 +93,7 @@ So let us then look more carefully at what cultural relativism claims. It is a [
 
 **_Relativism seems_** like a plausible theory about the nature of value judgments. It also seems, at first glance at least, to be a theory with nothing but positive implications -- it seems to encourage of diversity and lets everyone do their own thing. However, as we have just seen this easy-going character of relativism soon reveals a darker side. A relativist cannot really have any grounds for condemning any behavior at all, no matter how intuitively awful it seems, as long as someone believes that it is OK. In addition relativism does away with one of the most important parts of our moral thinking, the idea that maybe through our efforts we can make things a little better. This idea of progress is rendered simply meaningless by relativism. These implications of relativism do not by themselves let us know whether or not relativism is true. At best they reveal what the stakes are -- if relativism is true we get tolerance at the expense of having to tolerate anything all at that someone feels is the right thing to do. To determine whether or not relativism is true we need to consider more explicitly the arguments in support of this theory.
 
-:::{.rmdcaution data-latex="" .infobox}
+:::{.caution data-latex="" .infobox}
 **Consequences of relativism**
 
 If relativism is true:
@@ -145,7 +145,7 @@ Thus there are no standards regarding stop signs.
 
 **_So this argument_** for relativism is inconclusive. Relativism focuses on our differences of opinion and tries to draw from this a conclusion that just does not follow. We still are no closer to deciding whether, as in cases of dispute about the law, we will be able to settle our ethical differences, or whether, as in cases of dispute about taste, we will not. It remains an open question whether or not there are standards in ethics.
 
-:::{.rmdquestion data-latex=""}
+:::{.question data-latex=""}
 
 Given that disagreement about something does not conclusively tell us whether it is possible to settle the dispute we are left with the questions:
 
@@ -199,7 +199,7 @@ Hence relativism is true and there are no universal values.
 **_The possibility_** that there is a common moral ground between groups of people is tempting as a possible alternative to relativism. What relativism gets right is the fact that we all disagree about how to carry out the basic moral demands these core values impose on us. But what it gets wrong is the degree to which we do all disagree. After all, we all have some way of honoring the dead, we all think that the survival of our group is important, we all recognize that communication is only possible against a general background of truth-telling, and we all agree that there is something that should be considered the wrongful killing of a human being or murder, even if different cultures have very different ways of putting these values into practice.
 
 
-:::{.rmdcaution data-latex="" .infobox}
+:::{.caution data-latex="" .infobox}
 **_But then_**, wait a moment, doesn't relativism just reappear on another level? So what if we all agree on the importance of honoring the dead? Our different views about how exactly to do this have the potential to lead to serious conflict. And it is far from clear that this kind of conflict, conflict about the implementation of core values, can really be resolved.
 :::
 
@@ -211,7 +211,7 @@ Hence relativism is true and there are no universal values.
 
 **_Relativism is_** a difficult position to come to grips with. First of all it seems completely obvious to many people that it must be true, especially those who are sensitive to the ways in which us humans differ from each other. But the fact that many people come to discussions of relativism already thinking that it is true masks the fact that it is hard to defend with explicit arguments in favor of it that don't [beg the question](#begging-the-question). And then there is the deeper philosophical question of whether it is even a coherent position that makes any sense at all. In some sense it may not even be possible to deny the truth of all truth as more extreme versions of relativism seem to do.
 
-:::{.rmdquestion data-latex="" .infobox}
+:::{.question data-latex="" .infobox}
 Can a relativist ever lay claim to being correct about anything including the correctness of relativism? In case she did, then anyone else could simply say, "well relativism may be true for you, but it's not true for me!"
 :::
 

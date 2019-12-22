@@ -58,7 +58,7 @@ The unexamined life is not worth living.\
 
 ### A difficult case {-}
 
-:::{.rmdquestion data-latex="" .infobox}
+:::{.question data-latex="" .infobox}
 Imagine that you are standing next to a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a switch in front of you, that would divert the trolley to the other track. Unfortunately there is also a single worker on the other track, who is himself to far away to hear you.\
 \
 *Would you throw the switch and cause the worker to most likely die in order to prevent the runaway trolley from hitting the children?*
@@ -66,7 +66,7 @@ Imagine that you are standing next to a railway track and notice a runaway troll
 
 **_This classic case_** of an ethical dilemma has been extensively studied by philosophers and moral psychologists.^[Originally developed by Judith Jarvis Thompson 50 years ago, this problem has lately seen practical application in the development of self-driving cars.[@davisWouldYouPull2015]] It presents us with a situation in which we most likely feel torn between two alternatives, neither of which seems to be acceptable or desirable, but in which we also may feel unable to refuse to pick either. Cases like this are good at bringing to the surface the intuitions and assumptions we make about what the right thing to do might be, and that is why they are often studied by philosophers and others interested in looking more closely at moral decision making. One significant result of the study of this case is that a large majority of people say that if they were in that situation they *would* throw the switch. That is, many of us find compelling a common moral intuition that might be expressed by the rule: all else being equal, do whatever saves the most lives. Consider, however, the following variation on this case.
 
-:::{.rmdquestion data-latex="" .infobox}
+:::{.question data-latex="" .infobox}
 Imagine that you are standing on a bridge with a low railing over a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a very large person standing next to you, and if you gave him a slight push he would fall in front of the trolley car causing it to derail, thus saving the five children.\
 \
 *Would you push the person off of the bridge in order to prevent the runaway trolley from hitting the children?*
@@ -84,7 +84,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 ### Descriptive ethics {-}
 
-:::{.rmdquestion data-latex="" .infobox}
+:::{.question data-latex="" .infobox}
 - What do people really think about right and wrong?
 - How can we best describe and explain people's moral claims and beliefs?
 :::
@@ -93,7 +93,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 ### Meta-ethics{-}
 
-:::{.rmdquestion data-latex="" .infobox}
+:::{.question data-latex="" .infobox}
 - How does thinking about ethics work?
 - What are the differences between ethical claims and claims about the facts?
 :::
@@ -102,7 +102,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 ### Prescriptive ethics{-}
 
-:::{.rmdquestion data-latex="" .infobox}
+:::{.question data-latex="" .infobox}
 - What is really the right thing to do?
 - What moral principles are really justified and should be followed?
 :::
@@ -111,7 +111,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 ### Applied ethics {-}
 
-:::{.rmdquestion data-latex="" .infobox}
+:::{.question data-latex="" .infobox}
 
 - What is the right thing to do in real-world cases of ethical controversy?
 - What assumptions and principles lie at the basis of ethical controversies?

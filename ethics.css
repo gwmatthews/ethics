@@ -17,7 +17,7 @@ div.epigraph {
   text-align: right;
 }
 
-.rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdquestion, .rmdslides, .rmdwarning {
+.caution, .important, .note, .tip, .question, .slides, .warning {
   padding: 0.5em 2em 0 4em;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -30,19 +30,19 @@ div.epigraph {
 }
 
 
-.rmdcaution {
+.caution {
   background-image: url("./img/caution.png");
 }
-.rmdimportant {
+.important {
   background-image: url("./img/important.png");
 }
-.rmdnote {
+.note {
   background-image: url("./img/note.png");
 }
-.rmdtip {
+.tip {
   background-image: url("./img/tip.png");
 }
-.rmdwarning {
+.warning {
   background-image: url("./img/warning.png");
 }
 
@@ -50,7 +50,7 @@ div.epigraph {
   background-image: url("./img/question.png");
 }
 
-.rmdslides {
+.slides {
   background-image: url("./img/slides.png");
 }
 
