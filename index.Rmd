@@ -12,6 +12,11 @@ graphics: yes
 geometry: 'margin=3cm'
 bibliography: ethics.bib
 citation-style: chicago-fullnote-bibliography.csl
+nocite: | 
+  @lentPatterningInstinct2017
+  @carrollLookingGlass1999
+  @ArgumentativeTheoryEdge
+  @gauthierMoralsAgreement1986
 ---
 
 # Preface {-}

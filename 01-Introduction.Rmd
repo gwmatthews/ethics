@@ -1,8 +1,3 @@
----
-nocite: | 
-  @lentPatterningInstinct2017
----
-
 # (PART) Some Preliminaries {-}
 
 # The Examined Life

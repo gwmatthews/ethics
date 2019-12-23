@@ -1,7 +1,3 @@
----
-nocite: | 
- 
----
 # (PART) Ethics Culture and Religion {-}
 
 # Relativism {#relativism}
