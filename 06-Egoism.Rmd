@@ -43,9 +43,9 @@ Where the world comes in my way -- and it comes in my way everywhere -- I consum
 
 :::{.note data-latex="" .infobox}
 
-**Two varities of egoism**
+**Two varieties of egoism**
 
-- Psychological egoism: a descriptive theory about the nature of human decision-making. It claims that all decisions are by definition self-servng and so **_ethics is impossible_**.
+- Psychological egoism: a descriptive theory about the nature of human decision-making. It claims that all decisions are by definition self-serving and so **_ethics is impossible_**.
 
 - Ethical Egoism: a normative theory about what is best for all of us. It claims, somewhat paradoxically, that the best way to help others is to help yourself and so **_ethics is wrong._**
 
@@ -139,7 +139,7 @@ So psychological egoism is true.
 
 **_OK, so what reasons_** might be given to support the idea that we have not only have no real duties towards others, that we can and even should always put ourselves first? There are three main arguments to consider here, which I'll call "Rand's argument," "The capitalists' argument," and "The revisionist argument."
 
-**_The first argument_** we'll examine was developed by the Russian emigre philosopher and novelist named Ayn Rand (1905-1982). Rand was a staunch opponent of communism who dramatised her ideas in the best-selling novels *The Fountainhead* and *Atlas Shrugged*, as well as in essays with titles such as "The Virtues of Selfishness." Her argument for EE goes like so,
+**_The first argument_** we'll examine was developed by the Russian emigre philosopher and novelist named Ayn Rand (1905-1982). Rand was a staunch opponent of communism who dramatized her ideas in the best-selling novels *The Fountainhead* and *Atlas Shrugged*, as well as in essays with titles such as "The Virtues of Selfishness." Her argument for EE goes like so,
 
 ::::{.center data-latex=""}
 :::{.argument data-latex=""}
@@ -202,6 +202,11 @@ So defending ethical rules is really defending selfishness.
 
 ## Further exploration {-}
 
+- [The Internet Encylcopedia Page on Egoism](https://www.iep.utm.edu/egoism/) An in-depth account of the varieties of egoism. It takes a different approach to ethical egoism, by distinguishing it from "rational egoism" but the discussion overlaps the one given here.
+
+- Ayn Rand was and remains a controversial figure. She is often criticized by philosophers as an unsophisticated, ideologically motivated and not very good novelist who developed a cult-like following. And yet her ideas have been enormously influential in American culture and politics with followers ranging from Alan Greenspan to Donald Trump. Read more [about her and her influence in this article](https://www.theguardian.com/books/2017/apr/10/new-age-ayn-rand-conquered-trump-white-house-silicon-valley) .
+
+- [Markets and Morals](https://scholar.harvard.edu/sandel/markets-morals): For more on the topic of free market approaches to social decision-making and their limitations, this collection of interviews and articles by and about Michael Sandel's work on this topic is a great place to start.
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}

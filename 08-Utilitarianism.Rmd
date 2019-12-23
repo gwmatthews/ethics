@@ -51,7 +51,7 @@ Utilitarianism is an attempt to provide a rational basis for ethical decision ma
 
 **_Each of us_** has his/her own idea of what will lead to happiness, but in general we are all out to maximize happiness. Now every pleasurable thing that we strive for has a cost including time, money, effort, and/or opportunity costs. But, both benefits and costs are uncertain. So the rational way of attaining happiness is by getting as much satisfaction for as little cost as possible given the uncertainties involved. This is "maximizing utility" or the rational approach to happiness.
 
-**_The rational _way_** to attain happiness is to strive to maximize utility by taking into account the costs and benefits (as well as their respective probabilities) of each possible choice we may have in a give situation. So far, we have only been speaking of the way each of might satisfy his or her own selfish desires. Both Bentham and Mill argued, however, this account can be the basis of ethics as well. If each of of is out to get the most pleasure for the least cost, then the ethical thing to do would be the course of action that enables the most people to satisfy their personal interests at the least cost. Ethical choices are choices that lead to the greatest overall utility.
+**_The rational way_** to attain happiness is to strive to maximize utility by taking into account the costs and benefits (as well as their respective probabilities) of each possible choice we may have in a give situation. So far, we have only been speaking of the way each of might satisfy his or her own selfish desires. Both Bentham and Mill argued, however, this account can be the basis of ethics as well. If each of of is out to get the most pleasure for the least cost, then the ethical thing to do would be the course of action that enables the most people to satisfy their personal interests at the least cost. Ethical choices are choices that lead to the greatest overall utility.
 
 ### Implications of utilitarianism{-}
 
@@ -63,7 +63,7 @@ Utilitarianism is an attempt to provide a rational basis for ethical decision ma
 
 **_Finally,_** we have the problem that, if utilitarianism is correct, and the moral worth of an action is to be measured by the amount of good it does in the world, this seems to do away with the concept of rights. As long as an action leads to a sufficiently good outcome, anything goes. For example, suppose framing and executing an innocent person for murder would lead to great happiness for the whole of a community. As long as we could show that the benefits to everyone else outweigh the costs to this innocent person, a utilitarian would not have a problem with this. But, what about the rights of an innocent person not to be punished for a crime he or she did not commit? We will return to this question in the next chapter.
 
-**_In spite of some**_ of the troubling consequences of utilitarianism, however, it remains a popular theory. Part of the reason for its popularity is the plausibility of the argument for this view. It it to this that we now turn.
+**_In spite of some_** of the troubling consequences of utilitarianism, however, it remains a popular theory. Part of the reason for its popularity is the plausibility of the argument for this view. It it to this that we now turn.
 
 ## Why should I care?
 
