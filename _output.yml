@@ -7,7 +7,7 @@ bookdown::gitbook:
   split_by: section+number
   config:
     toc:
-      collapse: subsection
+      collapse: section
       before: |
         <li><a href="./">Philosophical Ethics</a></li>
       after: |
