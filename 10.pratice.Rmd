@@ -1,3 +1,5 @@
+# (PART) Applied Ethics {-}
+
 # Theory in Practice
 
 :::: {.centerpic data-latex=""}
@@ -6,7 +8,7 @@
 
 ::: {.centercap data-latex=""}
 
-Jim Matthews
+[Jordy Meow](https://pixabay.com/users/jordymeow-943760/)
 
 :::
 
