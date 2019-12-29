@@ -15,6 +15,10 @@ bookdown::gitbook:
     download: [pdf]
     edit: https://github.com/gwmatthews/ethics/blob/master/%s
     sharing: no
+    fontsettings:
+      theme: sepia
+      family: sans
+      size: 2
 bookdown::pdf_book:
   includes:
    in_header: preamble.tex
