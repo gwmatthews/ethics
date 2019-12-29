@@ -1,6 +1,7 @@
 bookdown::gitbook:
   exclude: "README.md"
   includes:
+     in_header: header.html
      before_body: hypothesis.html
 #     after_body: comments.html
   css: ethics.css
