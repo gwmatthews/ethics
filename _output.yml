@@ -15,6 +15,7 @@ bookdown::gitbook:
     download: [pdf]
     edit: https://github.com/gwmatthews/ethics/blob/master/%s
     sharing: no
+  favicon: "favicon.ico"
 bookdown::pdf_book:
   includes:
    in_header: preamble.tex
