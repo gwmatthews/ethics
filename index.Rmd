@@ -7,6 +7,8 @@ date: "last revised: `r Sys.Date()`"
 description: "An open textbook"
 github-repo: "gwmatthews/ethics"
 site: bookdown::bookdown_site
+favicon: "favicon.ico"
+apple-touch-icon: "apple-touch-icon.png"
 classoption: "12pt, openany"
 graphics: yes
 geometry: 'margin=3cm'
