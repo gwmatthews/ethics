@@ -11,7 +11,7 @@ favicon: "favicon.ico"
 apple-touch-icon: "apple-touch-icon.png"
 classoption: "12pt, openany"
 graphics: yes
-geometry: 'margin=3cm'
+geometry: 'margin=2cm'
 bibliography: ethics.bib
 citation-style: chicago-fullnote-bibliography.csl
 nocite: | 
