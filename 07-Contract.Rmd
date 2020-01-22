@@ -131,6 +131,9 @@ Hence moral rules are a product of human choices and are grounded in our common 
 
 ## Further exploration {-}
 
+- You can find the slideshow summary covering the main points of this chapter [here](https://gwmatthews.github.io/ethics-slideshows/07-contract.html).
+
+
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 <br>
   <br>

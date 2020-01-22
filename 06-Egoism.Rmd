@@ -8,7 +8,7 @@
 
 ::: {.centercap data-latex=""}
 
-[Dread Scott](https://www.dreadscott.net/works/hardcore/), Hardcore series, "Devon"
+[Dread Scott](https://www.dreadscott.net/works/hardcore/){target="_blank"}, Hardcore series, "Devon"
 
 :::
 ::::
@@ -202,11 +202,13 @@ So defending ethical rules is really defending selfishness.
 
 ## Further exploration {-}
 
-- [The Internet Encylcopedia Page on Egoism](https://www.iep.utm.edu/egoism/) An in-depth account of the varieties of egoism. It takes a different approach to ethical egoism, by distinguishing it from "rational egoism" but the discussion overlaps the one given here.
+- You can find the slideshow summary covering the main points of this chapter [here](https://gwmatthews.github.io/ethics-slideshows/06-egoism.html).
 
-- Ayn Rand was and remains a controversial figure. She is often criticized by philosophers as an unsophisticated, ideologically motivated and not very good novelist who developed a cult-like following. And yet her ideas have been enormously influential in American culture and politics with followers ranging from Alan Greenspan to Donald Trump. Read more [about her and her influence in this article](https://www.theguardian.com/books/2017/apr/10/new-age-ayn-rand-conquered-trump-white-house-silicon-valley) .
+- [The Internet Encylcopedia Page on Egoism](https://www.iep.utm.edu/egoism/){target="_blank"} An in-depth account of the varieties of egoism. It takes a different approach to ethical egoism, by distinguishing it from "rational egoism" but the discussion overlaps the one given here.
 
-- [Markets and Morals](https://scholar.harvard.edu/sandel/markets-morals): For more on the topic of free market approaches to social decision-making and their limitations, this collection of interviews and articles by and about Michael Sandel's work on this topic is a great place to start.
+- Ayn Rand was and remains a controversial figure. She is often criticized by philosophers as an unsophisticated, ideologically motivated and not very good novelist who developed a cult-like following. And yet her ideas have been enormously influential in American culture and politics with followers ranging from Alan Greenspan to Donald Trump. Read more [about her and her influence in this article](https://www.theguardian.com/books/2017/apr/10/new-age-ayn-rand-conquered-trump-white-house-silicon-valley){target="_blank"}.
+
+- [Markets and Morals](https://scholar.harvard.edu/sandel/markets-morals){target="_blank"}: For more on the topic of free market approaches to social decision-making and their limitations, this collection of interviews and articles by and about Michael Sandel's work on this topic is a great place to start.
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}

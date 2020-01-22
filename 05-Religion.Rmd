@@ -253,11 +253,11 @@ For Aristotle any explanation requires specifying it's "four causes."
 
 ## Further exploration {-}
 
-- The slideshow summary of this chapter's material can be found here.
+- You can find the slideshow summary covering the main points of this chapter [here](https://gwmatthews.github.io/ethics-slideshows/05-religion.html).
 
-- The Crash Course videos on [Divine Command Theory](https://youtu.be/wRHBwxC8b8I) and [Natural Law Theory](https://youtu.be/r_UfYY7aWKo) are both helpful accounts of the basic contours of these approaches to ethics.
+- The Crash Course videos on [Divine Command Theory](https://youtu.be/wRHBwxC8b8I){target="_blank"} and [Natural Law Theory](https://youtu.be/r_UfYY7aWKo){target="_blank"} are both helpful accounts of the basic contours of these approaches to ethics.
 
-- A much more comprehensive account of the relationship between religion and morality can be found at the Stanford Encyclopedia of Philosophy's article "[Religion and Morality](https://plato.stanford.edu/entries/religion-morality/)."
+- A much more comprehensive account of the relationship between religion and morality can be found at the Stanford Encyclopedia of Philosophy's article "[Religion and Morality](https://plato.stanford.edu/entries/religion-morality/){target="_blank"}."
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
