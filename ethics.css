@@ -124,3 +124,10 @@ div.epigraph {
   left: 0; top: 0;
 }
 
+
+
+.book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active>a {
+    color: #00579E;
+    background: 0 0;
+    text-decoration: none;
+}
