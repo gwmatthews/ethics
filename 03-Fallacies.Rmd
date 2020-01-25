@@ -2,11 +2,11 @@
 
 :::: {.centerpic data-latex=""}
 
-![](img/illusion.png){width=40%}
+![](img/illusion.png){width="40%" alt="illustration"}
 
 ::: {.centercap data-latex=""}
 
-[OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/) at pixabay.com
+[OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/){target="_blank"} at pixabay.com
 
 :::
 

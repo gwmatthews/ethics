@@ -2,7 +2,7 @@
 
 :::: {.centerpic data-latex=""}
 
-![](img/tenniel-tweedle-dee-dum.jpg){width=50%}
+![](img/tenniel-tweedle-dee-dum.jpg){width="50%" alt="illustration"}
 
 ::: {.centercap data-latex=""}
 

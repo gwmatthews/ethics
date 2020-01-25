@@ -2,11 +2,11 @@
 
 :::: {.centerpic data-latex=""}
 
-![](img/crowd.jpg){width=50%}
+![](img/crowd.jpg){width="50%" alt="illustration"}
 
 ::: {.centercap data-latex=""}
 
-[Free-Photos](https://pixabay.com/users/free-photos-242387/) at Pixabay.com
+[Free-Photos](https://pixabay.com/users/free-photos-242387/){target="_blank"} at Pixabay.com
 
 :::
 

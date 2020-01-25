@@ -2,11 +2,11 @@
 
 :::: {.centerpic data-latex=""}
 
-![](img/king-audacity.jpg){width=55%}
+![](img/king-audacity.jpg){width="55%" alt="illustration"}
 
 ::: {.centercap data-latex=""}
 
-[Ron Cogswell](https://www.flickr.com/photos/22711505@N05/)
+[Ron Cogswell](https://www.flickr.com/photos/22711505@N05/){target="_blank"}
 
 :::
 

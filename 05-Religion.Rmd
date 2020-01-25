@@ -2,11 +2,11 @@
 
 :::: {.centerpic data-latex=""}
 
-![](img/tori-shrine.jpg){width=50%}
+![](img/tori-shrine.jpg){width="50%" alt="illustration"}
 
 ::: {.centercap data-latex=""}
 
-[JordyMeow](https://pixabay.com/users/jordymeow-943760/) at pixabay.com
+[JordyMeow](https://pixabay.com/users/jordymeow-943760/){target="_blank"} at pixabay.com
 
 :::
 

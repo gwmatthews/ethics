@@ -4,11 +4,11 @@
 
 :::: {.centerpic data-latex=""}
 
-![](img/buddha-bird.jpg){width=50%}
+![](img/buddha-bird.jpg){width="50%" alt="illustration"}
 
 ::: {.centercap data-latex=""}
 
-[mikhsan](https://pixabay.com/users/mikhsan-4911734/) at pixabay.com
+[mikhsan](https://pixabay.com/users/mikhsan-4911734/){target="_blank"} at pixabay.com
 
 :::
 

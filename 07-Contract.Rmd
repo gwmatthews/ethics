@@ -2,12 +2,12 @@
 
 :::: {.centerpic data-latex=""}
 
-![](img/constitution.jpg){width=50%}
+![](img/constitution.jpg){width="50%" alt="illustration"}
 
 ::: {.centercap data-latex=""}
 
 
-[lyn0101](https://pixabay.com/users/lynn0101-8308820/) at Pixabay.com
+[lyn0101](https://pixabay.com/users/lynn0101-8308820/){target="_blank"} at Pixabay.com
 
 :::
 

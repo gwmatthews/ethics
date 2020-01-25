@@ -4,7 +4,7 @@
 
 :::: {.centerpic data-latex=""}
 
-![](img/david-socrates.jpg){width=50%}
+![](img/david-socrates.jpg){width="50%" alt="illustration"}
 
 
 
