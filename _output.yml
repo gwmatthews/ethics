@@ -1,5 +1,5 @@
 bookdown::gitbook:
-  exclude: ["README.md"]
+  exclude: ["README.md", "15-environment.Rmd"]
   includes:
      in_header: header.html
      before_body: hypothesis.html

@@ -17,7 +17,7 @@ div.epigraph {
   text-align: right;
 }
 
-.caution, .important, .note, .tip, .question, .slides, .warning {
+.caution, .important, .note, .tip, .question, .slides, .warning, .example {
   padding: 0.5em 2em 0 4em;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -46,7 +46,7 @@ div.epigraph {
   background-image: url("./img/warning.png");
 }
 
-.rmdquestion {
+.question {
   background-image: url("./img/question.png");
 }
 
