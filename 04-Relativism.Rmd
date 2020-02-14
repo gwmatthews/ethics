@@ -231,6 +231,7 @@ Can a relativist ever lay claim to being correct about anything including the co
 - [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/04-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/04-handout.pdf).
 
 ```
+
 ## Further exploration {-}
 
 - For a much more detailed account, see the Internet Encyclopedia of Philosophy's page on [moral relativism](https://www.iep.utm.edu/moral-re/){target="_blank"}.
