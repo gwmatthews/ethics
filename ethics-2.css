@@ -1,0 +1,132 @@
+.argument {
+  padding: 1em 2em 0.5em 2em;
+  margin: 3em auto;
+  border-radius: 10px;
+  border: 2px solid #aaa;
+  background-color: #f5f5f5;
+  width: 75%;
+}
+
+.video {
+  position: relative;
+  width: 70%;
+  height: 0;
+  padding-bottom: 56%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.video iframe {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+
+.slideshow iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+.case {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 129%;
+}
+
+.case iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+.embedcard {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 1px;
+  margin: 30px;
+}
+
+.infobox {
+  padding: 0.5em 2em 0 4em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid #aaa;
+  background: #f5f5f5 10px center/3em no-repeat;
+  width: 95%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.caution {
+  background-image: url("./img/caution.png");
+}
+.note {
+  background-image: url("./img/note.png");
+}
+.question {
+  background-image: url("./img/question.png");
+}
+.tip {
+  background-image: url("./img/tip.png");
+}
+
+.centerpic{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.centerpic img {
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid #aaa;
+  background-color: #f5f5f5;
+  box-shadow: 3px 3px 10px 1px gray;
+}
+
+.title, .subtitle, .author, .date {
+  text-align: center;
+}
+
+.centercap{
+  margin: auto;
+  padding-bottom: 3em;
+  text-align: center;
+  font-size: x-small;
+}
+
+#pydi-2710-plymouth-state h1{
+  text-align: center;
+  font-size: medium;
+}
+
+.subtitle{
+  font-weight: normal;
+}
+
+.color-theme-2 .infobox {
+   color: black;
+}
+
+.color-theme-1 .centerpic img {
+  box-shadow: none;
+}
+
+.color-theme-2 .centerpic img {
+  box-shadow: none;
+}
+
