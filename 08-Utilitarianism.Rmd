@@ -137,6 +137,19 @@ If pains must come let them extend to few.^[[@benthamIntroductionPrinciplesMoral
 
 **_The big worry here_** is captured by the question, "Can the ends ever justify the means?" Utilitarians answer in the affirmative -- given good enough outcomes, the pursuit of the greatest happiness for the greatest number of people may in certain cases lead us to endorse doing things that seem to be morally dubious. Should we ever risk the lives of innocent people in order to accomplish a "greater good?" Well utilitarians might very well answer in the affirmative if they consider the payoff to be big enough. But then, if we can't really determine how big the payoff really is, how can we say when this might be the case? Are we really justified in causing real harm in the interests of avoiding even worse but merely hypothetical results if we acted differently. Since we have no real way of rewinding the tape and playing the scenario again with a different choice at the crucial moment we are basically reducing the morality of any given decision to something that is basically unknowable — what would have happened if things had been otherwise. Real life examples of this are easy to find and it always must seem at least a little suspect to offer as a response to the victims of our actions, "Trust me the outcome would have been much worse if I did this instead of that."
 
+## Summary {-}
+
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/08-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/08-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/08-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/08-slides.html" width="100%">
+</iframe>
+:::
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/08-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/08-handout.pdf).
+
+```
+
 ## Further exploration {-}
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}

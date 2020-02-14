@@ -146,6 +146,19 @@ So murder is unconditionally wrong and we have a strict duty not to murder.
 
 **_The argument for Kantian ethics_** is the most abstract of all of the arguments we have considered. And perhaps it seems to be stretching the limits of what reason alone can do as a method for grasping just what is wrong with immoral or unethical actions. Nevertheless, it seems to be at least a plausible argument, or set of arguments, since it seems to capture some important features of morality. First, morality does in fact seem to require consistency. If there is such a thing as morality, it would have to be the same for everyone, otherwise it would be nothing but an arbitrary set of rules lacking any ultimate basis. Second, Kant's argument makes it clear how morality can be universal, without being the kind of thing that one group can simply impose on other groups. To grasp the content of morality requires only thinking things through carefully enough to see that what I am doing either makes sense or fails to make sense when considered as something practiced universally. We certainly expect that every rational adult can grasp the fact that lying and stealing and murder just should not be done. Kant's theory shows us why we might be justified in having such expectations and in hold people responsible for seeing that "you just shouldn't do those kinds of things." His theory certainly seems to impose some strict demands on us as moral agents, but then again, who said being good was easy?
 
+## Summary {-}
+
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/09-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/09-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/09-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/09-slides.html" width="100%">
+</iframe>
+:::
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/09-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/09-handout.pdf).
+
+```
+
 ## Further exploration {-}
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}

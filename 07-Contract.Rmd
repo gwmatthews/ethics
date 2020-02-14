@@ -129,10 +129,20 @@ Hence moral rules are a product of human choices and are grounded in our common 
 
 **_This brings me_** to the second point I want to make about the prisoner's dilemma, namely that it shows the ultimate weakness of Social Contract Theory as a justification for moral rules. Moral rules are supposed to be solutions to situations like prisoner's dilemmas, since in the state of nature we all act for the sake of our immediate short term gain and thus cannot coordinate our behavior in a way that leads to peace and security. But moral rules alone, in the form of voluntary agreements not to break the rules that you yourself have agreed to, are not enough to get out of prisoner's dilemmas. As we saw a moment ago, a promise to follow a rule that we ourselves can agree is a good idea is worthless given the ever present temptation to cheat in order to get a better outcome.
 
+## Summary {-}
+
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/07-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/07-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/07-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/07-slides.html" width="100%">
+</iframe>
+:::
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/07-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/07-handout.pdf).
+
+```
+
 ## Further exploration {-}
-
-- You can find the slideshow summary covering the main points of this chapter [here](https://gwmatthews.github.io/ethics-slideshows/07-contract.html).
-
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 <br>
