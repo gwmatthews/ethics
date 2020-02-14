@@ -377,7 +377,7 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 ## Summary {-}
 
 :::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/03-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/03-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/03-handout.pdf}{printed}."}
-<iframe src="https://gwmatthews.github.io/ethics-slideshows/03-slides.html" width="100%">
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/03-slides.html">
 </iframe>
 :::
 

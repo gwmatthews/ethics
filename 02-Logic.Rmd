@@ -302,7 +302,7 @@ Even though we have no idea what these peoples' ages are (or even if they exist 
 ## Summary {-}
 
 :::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/02-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/02-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/02-handout.pdf}{printed}."}
-<iframe src="https://gwmatthews.github.io/ethics-slideshows/02-slides.html" width="100%">
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/02-slides.html">
 </iframe>
 :::
 

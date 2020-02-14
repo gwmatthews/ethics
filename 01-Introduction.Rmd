@@ -123,7 +123,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 ## Summary {-}
 
 :::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/01-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-handout.pdf}{printed}."}
-<iframe src="https://gwmatthews.github.io/ethics-slideshows/01-slides.html" width="100%">
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/01-slides.html">
 </iframe>
 :::
 
