@@ -14,7 +14,6 @@
 
 ::::
 
-
 :::{.epigraph data-latex=""}
 
 In theory there is no difference between theory and practice, but in practice there is.\
@@ -23,9 +22,7 @@ In theory there is no difference between theory and practice, but in practice th
 
 :::
 
-
 **_At this point_** we have explored many different approaches to the fundamental questions of philosophical ethics. We have examined how these different approaches account for and justify basic moral principles and we have looked at how well-founded each of them was as a philosophical theory. But given such an abundance of theories we may be left wondering about how things might play out in real world cases where we have to make decisions about what exactly the right thing to do might be. Do we just pick whichever theory we like or which leads us to the results we want and then claim justification for our views? We could do that, but then that would require a willingness to leave out of account the various philosophical failings of many of the theories we have encountered. I won't rehearse these various failings here but in general I have tried to make the case that an adequate account of ethics must avoid two things. 
-
 **_First an adequate ethics_** cannot be based on appeals to some sort of external authority. Whether this appeal is to culture, God or nature doesn't really matter since all of these supposed sources of ethical norms inevitably leave us scratching our head and wondering *why* exactly we should ever do what it is that they demand of us. It is always up to us as to whether or not to listen to any authority, and this depends crucially on what it is that we ourselves want.
 
 **_Secondly, however,_** ethics can also not simply be based on appealing to what it is that we want. Self-interest, whether in the crude and explicit form endorsed by egoism or in the more socially filtered versions at the basis of Social Contract Theory and Utilitarianism, is not in the end capable of giving us a reason to be ethical, since ethics involves putting our own interests aside, not for a greater payoff later but for another being now. Showing why we should ever do this and how we even can is the great challenge of philosophical ethics. This challenge is simply not met by showing how I can scratch my itches best by scratching yours, because sometimes that is just not possible. Morality can involve genuine sacrifice and renunciation of selfish desires and maybe even requires it in some cases. 
@@ -34,9 +31,7 @@ In theory there is no difference between theory and practice, but in practice th
 
 **_This is still, however,_** just a bare-bones account of what ethics really looks like because the real lives within which ethical decisions have to be made by us real people are messy and complicated. We still have to be able to put this general approach, as well as our knowledge of the inadequacies of the other various lines of thinking we have encountered into practice and this can be a hard thing to do. But practice requires practice and so the best thing is just start examining different kinds of situations and dilemmas that we may face in the real world and see what sense we can make of them given all we have seen so far, and that is what we will be doing in this part of the book.
 
-
 ## Ethics in the real world
-
 
 ::: {.epigraph data-latex=""}
 
