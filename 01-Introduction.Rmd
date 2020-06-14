@@ -122,8 +122,8 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 ## Summary {-}
 
-:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/01-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-handout.pdf}{printed}."}
-<iframe src="https://gwmatthews.github.io/ethics-slideshows/01-slides.html">
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/01-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/01-phl210-slides.html">
 </iframe>
 :::
 
@@ -136,7 +136,17 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 ## Further exploration {-}
 
-- Michael Sandel is a philosophy professor at Harvard who teaches a very popular course called "Justice" that explores material that overlaps with this text. His extensive website [Justice with Michael Sandel](http://justiceharvard.org/){target="_blank"} also has videos of his lectures from that course the first of which focuses on the famous runaway trolley example.
+Michael Sandel is a philosophy professor at Harvard who teaches a very popular course called "Justice" that explores material that overlaps with this text. His extensive website [Justice with Michael Sandel](http://justiceharvard.org/){target="_blank"} also has videos of his lectures from that course the first of which focuses on the famous runaway trolley example.
+
+[The Trolley Problem](https://www.theguardian.com/science/head-quarters/2016/dec/12/the-trolley-problem-would-you-kill-one-person-to-save-many-others){target="_blank"}: an account of some recent rearch on the problem.
+
+[Socrates on self-confidence](https://youtu.be/_gVyEOefhIQ){target="_blank"} and questioning others about their values. A great video outlining the motivation for doing philosophy in the first place.
+
+[It's impossible to lead a totally ethical life](https://qz.com/1327804/its-impossible-to-lead-a-totally-ethical-life-but-its-fun-to-try/){target="_blank"}: Ephrat Livni reflects on ethics and everyday life.
+
+[Introduction to Philosophy: Ethics](https://press.rebus.community/intro-to-phil-ethics/){target="_blank"}, ed. George Matthews. A free textbook, part of a series edited by Christina Hendricks.
+
+
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}

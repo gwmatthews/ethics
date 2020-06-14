@@ -301,22 +301,30 @@ Even though we have no idea what these peoples' ages are (or even if they exist 
 
 ## Summary {-}
 
-:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/02-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/02-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/02-handout.pdf}{printed}."}
-<iframe src="https://gwmatthews.github.io/ethics-slideshows/02-slides.html">
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/02-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/02-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/02-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/02-phl210-slides.html">
 </iframe>
 :::
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/02-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/02-handout.pdf).
+- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/02-phl210-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/02-phl210-handout.pdf).
 
 ```
 
 ## Further exploration {-}
 
-- For a slightly different and more in-depth treatment of the basic concepts of logic see [the logic chapter](https://jonathanweisberg.org/vip/logic.html#logic){target="_blank"} of Jonathan Weisberg's open source textbook on probability and statistics, *Odds & Ends.* 
+For a slightly different and more in-depth treatment of the basic concepts of logic see [the logic chapter](https://jonathanweisberg.org/vip/logic.html#logic){target="_blank"} of Jonathan Weisberg's open source textbook on probability and statistics, *Odds & Ends.* 
 
-- Wireless Philosophy is a well-produced series of short videos on a great many topics in philosophy. Their [playlist on Logic and Critical Thinking](https://www.youtube.com/playlist?list=PLtKNX4SfKpzX_bhh4LOEWEGy3pkLmFDmk){target="_blank"} is a great resource for exploring logical thinking in all of its complexity, 5 or 6 minutes at a time.
+Wireless Philosophy is a well-produced series of short videos on a great many topics in philosophy. Their [playlist on Logic and Critical Thinking](https://www.youtube.com/playlist?list=PLtKNX4SfKpzX_bhh4LOEWEGy3pkLmFDmk){target="_blank"} is a great resource for exploring logical thinking in all of its complexity, 5 or 6 minutes at a time.
+
+[Critical Thinking Web](https://philosophy.hku.hk/think/){target="_blank"}: A great site with over 100 free tutorials on many aspects of logic and critical thinking. A nice way to hone your logical thinking skills.
+
+[Deductive and Inductive Arguments](https://www.iep.utm.edu/ded-ind/){target="_blank"}: An in depth look at the subject at the Internet Encyclopedia of Philosophy.
+
+[Abduction](https://plato.stanford.edu/entries/abduction/#){target="_blank"}: A close look at the logic of scientific explanation. Gets technical, but the introduction is accessible.
+
+[The Irrationality of Politics](https://youtu.be/4JYL5VUe5NQ){target="_blank"}: Michael Huemer is a professor of philosophy at the University of Colorado. This TED Talk by him addresses the question of why we are so irrational when it comes to politics.
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 <br>

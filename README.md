@@ -1,5 +1,5 @@
 
-A work in progress. Eventually this will become an open source textbook on ethics.
+An open source textbook on ethics.
 
 **License CC BY-SA 4.0 license**
 

@@ -131,14 +131,14 @@ Hence moral rules are a product of human choices and are grounded in our common 
 
 ## Summary {-}
 
-:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/07-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/07-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/07-handout.pdf}{printed}."}
-<iframe src="https://gwmatthews.github.io/ethics-slideshows/07-slides.html" width="100%">
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/07-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/07-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/07-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/07-phl210-slides.html" width="100%">
 </iframe>
 :::
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/07-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/07-handout.pdf).
+- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/07-phl210-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/07-phl210-handout.pdf).
 
 ```
 

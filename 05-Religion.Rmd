@@ -253,22 +253,22 @@ For Aristotle any explanation requires specifying it's "four causes."
 
 ## Summary {-}
 
-:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/05-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/05-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/05-handout.pdf}{printed}."}
-<iframe src="https://gwmatthews.github.io/ethics-slideshows/05-slides.html" width="100%">
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html" width="100%">
 </iframe>
 :::
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/05-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/05-handout.pdf).
+- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-handout.pdf).
 
 ```
 
 ## Further exploration {-}
 
-- The Crash Course videos on [Divine Command Theory](https://youtu.be/wRHBwxC8b8I){target="_blank"} and [Natural Law Theory](https://youtu.be/r_UfYY7aWKo){target="_blank"} are both helpful accounts of the basic contours of these approaches to ethics.
+The Crash Course videos on [Divine Command Theory](https://youtu.be/wRHBwxC8b8I){target="_blank"} and [Natural Law Theory](https://youtu.be/r_UfYY7aWKo){target="_blank"} are both helpful accounts of the basic contours of these approaches to ethics.
 
-- A much more comprehensive account of the relationship between religion and morality can be found at the Stanford Encyclopedia of Philosophy's article "[Religion and Morality](https://plato.stanford.edu/entries/religion-morality/){target="_blank"}."
+A much more comprehensive account of the relationship between religion and morality can be found at the Stanford Encyclopedia of Philosophy's article "[Religion and Morality](https://plato.stanford.edu/entries/religion-morality/){target="_blank"}."
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}

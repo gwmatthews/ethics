@@ -376,14 +376,14 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 
 ## Summary {-}
 
-:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/03-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/03-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/03-handout.pdf}{printed}."}
-<iframe src="https://gwmatthews.github.io/ethics-slideshows/03-slides.html">
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/03-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/03-phl210-slides.html">
 </iframe>
 :::
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/03-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/03-handout.pdf).
+- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-handout.pdf).
 
 ```
 
@@ -392,15 +392,15 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 
 **_There are many_** great websites that list, discuss and explain the many ways we get things wrong in our thinking. Here are a few of my favorites.
 
-- [*Your Fallacy Is*](https://yourlogicalfallacyis.com/){target="_blank"} is a nicely designed website with more examples of common fallacies.
+[*Your Fallacy Is*](https://yourlogicalfallacyis.com/){target="_blank"} is a nicely designed website with more examples of common fallacies.
 
-- [*Your Bias Is*](https://yourbias.is/){target="_blank"} is the sister site to Your Fallacy Is and focuses on common cognitive biases. 
+[*Your Bias Is*](https://yourbias.is/){target="_blank"} is the sister site to Your Fallacy Is and focuses on common cognitive biases. 
    
-- [*Logically Fallacious*](https://www.logicallyfallacious.com/tools/lp/Bo/LogicalFallacies){target="_blank"} is a site with a huge and comprehensive list of logical fallacies and cognitive biases. A great reference with lots of examples.
+[*Logically Fallacious*](https://www.logicallyfallacious.com/tools/lp/Bo/LogicalFallacies){target="_blank"} is a site with a huge and comprehensive list of logical fallacies and cognitive biases. A great reference with lots of examples.
    
-- Dan Ariely is a behavioral economist who studies human irrationality and has written a number of very readable books documenting his findings. He also has a number of videos of talks he has given on his site, [danariely.com](http://danariely.com/){target="_blank"}
+Dan Ariely is a behavioral economist who studies human irrationality and has written a number of very readable books documenting his findings. He also has a number of videos of talks he has given on his site, [danariely.com](http://danariely.com/){target="_blank"}
    
-- And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fallacy_ref){target="_blank"} on Twitter.
+And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fallacy_ref){target="_blank"} on Twitter.
   
 :::: {.centerpic data-latex=""}
 ![](img/fallacy-ref.jpg){width=50%}
