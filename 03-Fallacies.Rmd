@@ -383,7 +383,7 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-pdf) / [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/03-phl210-slides.html)
+- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210.pdf) / [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/03-phl210-slides.html)
 
 ```
 

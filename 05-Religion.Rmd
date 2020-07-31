@@ -260,7 +260,7 @@ For Aristotle any explanation requires specifying it's "four causes."
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-pdf) /  [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html)
+- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210.pdf) /  [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html)
 
 ```
 ## Further exploration {-}
