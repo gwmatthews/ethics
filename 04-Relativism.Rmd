@@ -225,9 +225,19 @@ Can a relativist ever lay claim to being correct about anything including the co
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/04-phl210-slides.pdf) /  [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/04-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/04-phl210-slides.html)
+<div class="horizontal-menu">
+<div>
+[download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/04-phl210-slides.pdf)
+</div>
+<div>
+[ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/04-phl210-handout.pdf)
+</div>
+<div>
+[ view in new tab](https://gwmatthews.github.io/ethics-slideshows/04-phl210-slides.html)
+</div>
+</div>
 
-```
+  ```
 
 ## Further exploration {-}
 

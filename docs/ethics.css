@@ -144,9 +144,15 @@ div.epigraph {
   left: 0; top: 0;
 }
 
-.slideshow + ul li{
-  display: inline-block;
+.horizontal-menu {
+
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.horizontal-menu p {
+  padding-top: 8em;
+}
 
 

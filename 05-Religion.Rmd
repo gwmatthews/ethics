@@ -260,9 +260,20 @@ For Aristotle any explanation requires specifying it's "four causes."
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-slides.pdf) /  [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html)
+<div class="horizontal-menu">
+<div>
+[download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-slides.pdf)
+</div>
+<div>
+[ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-handout.pdf)
+</div>
+<div>
+[ view in new tab](https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html)
+</div>
+</div>
 
-```
+  ```
+
 ## Further exploration {-}
 
 The Crash Course videos on [Divine Command Theory](https://youtu.be/wRHBwxC8b8I){target="_blank"} and [Natural Law Theory](https://youtu.be/r_UfYY7aWKo){target="_blank"} are both helpful accounts of the basic contours of these approaches to ethics.

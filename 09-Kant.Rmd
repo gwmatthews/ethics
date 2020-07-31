@@ -155,9 +155,19 @@ So murder is unconditionally wrong and we have a strict duty not to murder.
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/09-phl210-slides.pdf) /  [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/09-phl210-handout.pdf) / [ view in new tab ](https://gwmatthews.github.io/ethics-slideshows/09-phl210-slides.html)
+<div class="horizontal-menu">
+<div>
+[download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/09-phl210-slides.pdf)
+</div>
+<div>
+[ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/09-phl210-handout.pdf)
+</div>
+<div>
+[ view in new tab](https://gwmatthews.github.io/ethics-slideshows/09-phl210-slides.html)
+</div>
+</div>
 
-```
+  ```
 
 ## Further exploration {-}
 
