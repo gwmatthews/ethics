@@ -208,10 +208,9 @@ So defending ethical rules is really defending selfishness.
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-handout.pdf).
+- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-pdf) /  [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/06-phl210-slides.html)
 
 ```
-
 
 ## Further exploration {-}
 

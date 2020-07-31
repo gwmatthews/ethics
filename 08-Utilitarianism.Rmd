@@ -146,7 +146,7 @@ If pains must come let them extend to few.^[[@benthamIntroductionPrinciplesMoral
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/08-phl210-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/08-phl210-handout.pdf).
+- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/08-phl210-pdf) /  [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/08-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/08-phl210-slides.html)
 
 ```
 

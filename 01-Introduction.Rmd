@@ -129,7 +129,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/01-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/01-handout.pdf).
+- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-pdf) /  [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/01-phl210-slides.html)
 
 ```
 
