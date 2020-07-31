@@ -374,7 +374,7 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 
 **_In this_** and the last chapter we have taken a closer look at what is involved in the justification of any claim at all. We have seen that the best arguments are both valid and sound – they work logically in that their premises really provide adequate support for their conclusions and their premises are actually true. We have also examined some of the many mistakes in reasoning to which we are prone. These mistakes are not only used in a deliberately misleading way, since all of us have a tendency to make decisions and judgments first and then come up with reasons in support of them later. Thus we often rely on fallacious reasoning to rationalize our own beliefs or we tend to read the evidence is biased ways. As we will be seeing, as we turn now to start examining some of the many different theoretical approaches to ethics, the tools of logic and critical thinking will prove very useful in trying to come up with a reasonable answer to the general question, "what is the right thing to do?"
 
-## Summary {-}
+## Slideshow Summary
 
 :::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/03-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-handout.pdf}{printed}."}
 <iframe src="https://gwmatthews.github.io/ethics-slideshows/03-phl210-slides.html">
@@ -383,7 +383,7 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210.pdf) / [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/03-phl210-slides.html)
+- [download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-slides.pdf) / [ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/03-phl210-handout.pdf) / [ view in new tab](https://gwmatthews.github.io/ethics-slideshows/03-phl210-slides.html)
 
 ```
 
