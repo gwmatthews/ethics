@@ -29,6 +29,7 @@ div.epigraph {
   width: 95%;
   margin-left:auto;
   margin-right: auto;
+  box-shadow: 2px 2px 8px gray;
 }
 
 
@@ -124,10 +125,14 @@ div.epigraph {
 
 .book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active>a {
     color: #00579E;
+    text-decoration: none;
+    font-size: larger;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal a {
   color: #00579E;
+  text-decoration: none;
+  font-size: larger;
 }
 
 .slideshow {
