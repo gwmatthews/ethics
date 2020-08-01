@@ -138,7 +138,7 @@ Hence moral rules are a product of human choices and are grounded in our common 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-<div class="horizontal-menu">
+<div class="slideshow-buttons">
 <div>
 [download](https://gwmatthews.github.io/ethics-slideshows/pdf/07-phl210-slides.pdf)
 </div>

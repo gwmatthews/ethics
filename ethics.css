@@ -160,32 +160,32 @@ img[alt="Philosophical Ethics book cover"]{
 }
 
 /*slideshow link buttons*/
-.horizontal-menu {
+.slideshow-buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.horizontal-menu div {
+.slideshow-buttons div {
   padding: 2em 0 0 0;
 }
 
-.horizontal-menu p {
+.slideshow-buttons p {
   padding: 10px;
   background-color: #e6e6e6;
   border-radius: 5px;
   box-shadow: 2px 2px 8px gray;
 }
 
-.horizontal-menu p:hover {
+.slideshow-buttons p:hover {
   padding: 10px;
   background-color: #efeaea;
   border-radius: 5px;
   box-shadow: 1px 1px 2px gray;
 }
 
-.horizontal-menu a:hover {
-  text-decoration: none;
+.slideshow-buttons a:hover {
+  text-decoration: none !important;
 }
 
 

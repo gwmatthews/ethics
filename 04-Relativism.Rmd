@@ -225,7 +225,7 @@ Can a relativist ever lay claim to being correct about anything including the co
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-<div class="horizontal-menu">
+<div class="slideshow-buttons">
 <div>
 [download](https://gwmatthews.github.io/ethics-slideshows/pdf/04-phl210-slides.pdf)
 </div>

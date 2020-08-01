@@ -129,7 +129,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-<div class="horizontal-menu">
+<div class="slideshow-buttons">
 <div>
 [download](https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-slides.pdf)
 </div>
@@ -151,7 +151,7 @@ Michael Sandel is a philosophy professor at Harvard who teaches a very popular c
 
 [Socrates on self-confidence](https://youtu.be/_gVyEOefhIQ){target="_blank"} and questioning others about their values. A great video outlining the motivation for doing philosophy in the first place.
 
-[It's impossible to lead a totally ethical life](https://qz.com/1327804/its-impossible-to-lead-a-totally-ethical-life-but-its-fun-to-try/){target="_blank"}: Ephrat Livni reflects on ethics and everyday life.
+[It is impossible to lead a totally ethical life](https://qz.com/1327804/its-impossible-to-lead-a-totally-ethical-life-but-its-fun-to-try/){target="_blank"}: Ephrat Livni reflects on ethics and everyday life.
 
 [Introduction to Philosophy: Ethics](https://press.rebus.community/intro-to-phil-ethics/){target="_blank"}, ed. George Matthews. A free textbook, part of a series edited by Christina Hendricks.
 
