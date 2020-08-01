@@ -171,5 +171,5 @@ div.epigraph {
 }
 
 .horizontal-menu a:hover {
-  text-decoration-color: white;
+  text-decoration: none;
 }
