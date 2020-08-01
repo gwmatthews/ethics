@@ -262,13 +262,13 @@ For Aristotle any explanation requires specifying it's "four causes."
 
 <div class="horizontal-menu">
 <div>
-[download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-slides.pdf)
+[download](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-slides.pdf)
 </div>
 <div>
-[ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-handout.pdf)
+[print](https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-handout.pdf)
 </div>
 <div>
-[ view in new tab](https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html){target="_blank"}
+[new tab](https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html){target="_blank"}
 </div>
 </div>
 

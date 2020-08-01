@@ -131,13 +131,13 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 <div class="horizontal-menu">
 <div>
-[download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-slides.pdf)
+[download](https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-slides.pdf)
 </div>
 <div>
-[ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-handout.pdf)
+[print](https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-handout.pdf)
 </div>
 <div>
-[ view in new tab](https://gwmatthews.github.io/ethics-slideshows/01-phl210-slides.html){target="_blank"}
+[new tab](https://gwmatthews.github.io/ethics-slideshows/01-phl210-slides.html){target="_blank"}
 </div>
 </div>
 

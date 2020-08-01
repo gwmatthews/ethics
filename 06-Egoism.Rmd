@@ -210,13 +210,13 @@ So defending ethical rules is really defending selfishness.
 
 <div class="horizontal-menu">
 <div>
-[download pdf slides ](https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-slides.pdf)
+[download](https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-slides.pdf)
 </div>
 <div>
-[ printable handouts ](https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-handout.pdf)
+[print](https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-handout.pdf)
 </div>
 <div>
-[ view in new tab](https://gwmatthews.github.io/ethics-slideshows/06-phl210-slides.html){target="_blank"}
+[new tab](https://gwmatthews.github.io/ethics-slideshows/06-phl210-slides.html){target="_blank"}
 </div>
 </div>
 
