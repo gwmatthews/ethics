@@ -1,3 +1,4 @@
+/* text boxes */
 div.argument {
   padding: 1em 2em 0.5em 2em;
   margin-top: 3em;
@@ -18,8 +19,6 @@ div.epigraph {
   text-align: right;
 }
 
-
-
 .caution, .important, .note, .tip, .question, .slides, .warning, .example {
   padding: 0.5em 2em 0 4em;
   margin-top: 20px;
@@ -32,7 +31,6 @@ div.epigraph {
   margin-right: auto;
   box-shadow: 2px 2px 8px gray;
 }
-
 
 .caution {
   background-image: url("./img/caution.png");
@@ -65,10 +63,21 @@ div.epigraph {
   padding: 9px 14px;
 }
 
+.color-theme-2 .argument {
+  color: black;
+}
+
+.color-theme-2 .infobox {
+   color: black;
+}
+
+
+/* center content */
 .center{
   margin: auto;
   }
 
+/* centered image */
 .centerpic{
   margin:auto;
   text-align: center;
@@ -82,6 +91,14 @@ div.epigraph {
   box-shadow: 3px 3px 10px 2px gray;
 }
 
+/*cover image*/
+img[alt="Philosophical Ethics book cover"]{
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 2px 2px 8px gray;
+}
+
+/*font size adjustments*/
 .centercap{
   margin: auto;
   text-align: center;
@@ -94,22 +111,17 @@ div.epigraph {
    text-align: center;
 }
 
-.color-theme-2 .argument {
-  color: black;
-}
-
-.color-theme-2 .infobox {
-   color: black;
-}
-
+/* hide title in preface*/
 #preface > h1 {
   display: none;
 }
 
+/*title styling*/
 .title, .subtitle, .author, .date {
   text-align: center;
 }
 
+/*embedded iframes*/
 .embed {
   position: relative;
   width: 100%;
@@ -138,7 +150,6 @@ div.epigraph {
   left: 0; top: 0;
   box-shadow: 2px 2px 8px gray;
   border-radius: 10px;
-  border: 10px solid #eee;
 }
 
 @media (max-width: 700px){
@@ -148,10 +159,11 @@ div.epigraph {
   }
 }
 
+/*slideshow link buttons*/
 .horizontal-menu {
   display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .horizontal-menu div {
@@ -176,14 +188,5 @@ div.epigraph {
   text-decoration: none;
 }
 
-@media (max-width: 700px){
-  .slideshow iframe {
-  box-shadow: 2px 2px 8px gray;
-  }
-}
 
-img[alt="Philosophical Ethics book cover"]{
-  border-radius: 10px;
-  margin-top: 30px;
-  box-shadow: 2px 2px 8px gray;
-}
+
