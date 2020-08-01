@@ -149,10 +149,18 @@ div.epigraph {
   display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+}
+.horizontal-menu div {
+  padding: 3em 0;
 }
 
 .horizontal-menu p {
-  padding-top: 8em;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px gray;
+
 }
 
 
