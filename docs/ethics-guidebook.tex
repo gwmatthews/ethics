@@ -1,43 +1,56 @@
-\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[12pt, openany]{book}
+\documentclass[
+  12pt, openany]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provides euro and other symbols
-\else % if luatex or xelatex
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
   \usepackage{unicode-math}
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\usepackage{hyperref}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-            pdftitle={Philosophical Ethics},
-            pdfauthor={George W. Matthews},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
+  pdftitle={Philosophical Ethics},
+  pdfauthor={George W. Matthews},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage[margin=2cm]{geometry}
 \usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -47,25 +60,14 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
+% Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
 \usepackage[Bjornstrup]{fncychap}
 \usepackage{cclicenses}
 \usepackage{fancyvrb}
@@ -230,10 +232,15 @@
 \AtBeginDocument{\let\maketitle\relax}
 
 \title{Philosophical Ethics}
-\providecommand{\subtitle}[1]{}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
 \subtitle{A Guidebook for Beginners}
 \author{\textbf{George W. Matthews}}
-\date{last revised: 2020-06-14}
+\date{last revised: 2020-08-19}
 
 \begin{document}
 \maketitle
@@ -279,7 +286,7 @@
 
 \begin{epigraph}
 
-Receive correctly this monk's word-stream, neither frozen nor trickling away, neither transparent nor muddy. When you wring it dry, take advantage of the opportunity; when you enter the bustle, perceive with your whole eye. Thorough understanding and the changing world fulfill each other totally without obstacle. The moon accompanies the current, the wind bends the grass\ldots{}Find your seat, wear your robe, and go forward and see for yourself.\\
+Receive correctly this monk's word-stream, neither frozen nor trickling away, neither transparent nor muddy. When you wring it dry, take advantage of the opportunity; when you enter the bustle, perceive with your whole eye. Thorough understanding and the changing world fulfill each other totally without obstacle. The moon accompanies the current, the wind bends the grass\ldots Find your seat, wear your robe, and go forward and see for yourself.\\
 ~\\
 ---Hongzhi, \emph{Cultivating the Empty Field}
 
@@ -411,7 +418,7 @@ Then raising the cup to his lips, quite readily and cheerfully he drank off the 
 
 \end{center}
 
-\textbf{\emph{This is Plato's account}} of what an eyewitness saw when he witnessed the last living moments of their teacher Socrates. Socrates was executed in 399 BCE in his hometown of Athens, Greece in the customary way of being given a cup of poison hemlock extract to drink, for the crimes of ``corrupting the youth'' and ``preaching false gods.'' What he really did was spend his days engaging his fellow citizens in dialogue about anything and everything, but especially focused on questions concerning how we all should live our lives, as well as challenging everyone he met to account for and defend their assumptions about how to live. But his relentless questioning earned him many enemies who preferred that the youth, and everybody else, rest content in the assumption that the best way to live is to seek fame and fortune and try to live the ``good life'' that these seem to make possible. Socrates was not convinced and advocated the life of the philosopher, turning away from worldly pursuits and instead reflecting on and critically examining our deepest assumptions and ultimately being willing to admit how little we really know.
+\textbf{\emph{This is Plato's versio}} of an eyewitness' account of the last living moments of their teacher Socrates. Socrates was executed in 399 BCE in his hometown of Athens, Greece in the customary way of being given a cup of poison hemlock extract to drink, for the crimes of ``corrupting the youth'' and ``preaching false gods.'' What he really did was spend his days engaging his fellow citizens in dialogue about anything and everything, but especially focused on questions concerning how we all should live our lives, as well as challenging everyone he met to account for and defend their assumptions about how to live. But his relentless questioning earned him many enemies who preferred that the youth, and everybody else, rest content in the assumption that the best way to live is to seek fame and fortune and try to live the ``good life'' that these seem to make possible. Socrates was not convinced and advocated the life of the philosopher, turning away from worldly pursuits and instead reflecting on and critically examining our deepest assumptions and ultimately being willing to admit how little we really know.
 
 \textbf{\emph{Socrates}} was famous for his saying that ``the unexamined life is not worth living.'' What he meant by this is that all of us have a responsibility to examine our own beliefs and try to figure out whether or not they are really true. Not doing this is like sleepwalking through life. This might be pleasant but it runs the risk of us devoting our lives to things that don't truly matter, and even worse it leads us to neglect developing our unique capacity as human beings. Unlike other animals, we can mentally take a step back from what we see in front of us and ask, ``Should I trust what I see or not?'' Likewise with everything we do: we can examine our own desires, intentions and plans and ask ourselves, ``Should I act on these or not?'' In both cases we are capable of distancing ourselves from the immediate demands of our situation and seeking orientation from another source -- we seek \emph{reasons} to believe or doubt what we see and \emph{reasons} to follow or resist our urges. This reflective capacity is the source of our strength since it has enabled us to understand and manipulate the world around us like no other creature on the planet. But, as we can now see more clearly than perhaps Socrates could, it also puts us in the uniquely awkward position of having to justify ourselves to our own worst critics, ourselves.
 
@@ -566,7 +573,7 @@ Michael Sandel is a philosophy professor at Harvard who teaches a very popular c
 
 \href{https://qz.com/1327804/its-impossible-to-lead-a-totally-ethical-life-but-its-fun-to-try/}{It's impossible to lead a totally ethical life}: Ephrat Livni reflects on ethics and everyday life.
 
-\href{https://press.rebus.community/intro-to-phil-ethics/}{Introduction to Philosophy: Ethics}, ed. George Matthews. A free textbook, part of a series edited by Christina Hendricks.
+\href{https://press.rebus.community/intro-to-phil-ethics/}{Introduction to Philosophy: Ethics}, ed.~George Matthews. A free textbook, part of a series edited by Christina Hendricks.
 
 \hypertarget{logic}{%
 \chapter{A Little Bit of Logic}\label{logic}}
@@ -770,6 +777,21 @@ These indicate the general logic form of argument being followed. Is it a matter
 \hypertarget{validity-and-soundness}{%
 \section{Validity and Soundness}\label{validity-and-soundness}}
 
+\begin{note}
+
+Reason imposes two demands on us.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Have good reasons for what you believe. Don't just repeat them because you have heard them, but own them because you have thought them through and they seem to present a defensible picture of how things should be. (This is what VALID reasoning is all about.)
+\item
+  Adjust your theories to the evidence. Theories are nothing but models that help us see what might happen next. If our theories keep telling us that something will happen and it doesn't so much the worse for the theory. (This is discussed below under SOUNDNESS.)
+\end{enumerate}
+
+\end{note}
+
 \textbf{\emph{Not all arguments}}, however, are really equal. Just having any old argument won't always get us very far. Instead, as we will see, there are some arguments that really are better than others. This was the insight of the first philosophers in the Western tradition, Socrates, Plato and Aristotle, and it does seem kind of strange that I feel compelled to have to justify it even after a couple of thousand years. Way back then, just like now, many people thought this was a presumptuous claim to make. This is especially the case since it amounts to the claim that some arguments are really compelling on their own, and that we should, as long as we are being rational, have no choice but to accept them. For the skeptics out there who doubt that we will ever be able to create such an argument, I should also point out that the clearest and best arguments really don't end up saying anything very controversial or extraordinary. This is one of the limitations that logic imposes on us: if we are really being logical and using only reliable arguments we may have to refrain from claiming to be able to establish very much. Understanding the logic of arguments, if nothing else, should encourage us to be a little more modest in our claims to knowledge. And this is why Socrates, in spite of his reputation for being a bit of a jerk in pointing out to many people the flaws in their own arguments is today most well known for saying that the only thing he really knew what how little he knew.
 
 \textbf{\emph{To get back to business,}} when we are arguing what we are doing is trying to establish the truth of something that we don't know on the basis of other things that we already know or accept. What we are interested in is establishing the truth of the conclusion, yet for some reason it's truth is not obviously apparent to us so we need to establish it on the basis of other claims the truth of which we can already accept. Arguments move us from the known to the unknown.
@@ -842,6 +864,22 @@ One thing to notice here is that the test for validity is entirely independent o
 \hypertarget{more-examples}{%
 \subsection*{More examples}\label{more-examples}}
 
+
+\begin{note}
+
+\emph{Theoretical and Empirical Claims}
+
+Complex arguments about moral issues typically have two primary kinds of support, theoretical claims and empirical claims.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Theoretical Claims} are premises that spell out the bigger picture about how we are looking at things. These can range from explicit statements of methodology and scientific support to implicit ideological frameworks and assumptions.
+\item
+  \textbf{Empirical Claims} are factual claims on which the application of our theory to reality rests. If our theory says that this economic policy will cause that change in unemployment rates and it consistently doesn't happen that way, we have a flawed theory. So empirical claims are where we provide evidence that shows as much as we can how it is that our theory makes a difference in reality. This is an important part of moral argument as well since it is often the case that our ideas about morality depend on our ideas about what humans really do in certain kinds of cases, so we should at least get that right.
+\end{itemize}
+
+\end{note}
 
 \textbf{\emph{Learning how}} to identify valid arguments is important for a course in philosophical ethics, since the philosophical approach to ethics consists largely of the examination of arguments about ethical issues. And the best way to learn this is by practicing. Consider the following argument, conveniently written in standard form:
 
@@ -3137,7 +3175,7 @@ Thus no form of euthanasia should be legalized.
 \subsection*{Appealing to mercy}\label{appealing-to-mercy}}
 
 
-\textbf{\emph{The clearest argument}} in favor of legalizing at least physician assisted suicide and perhaps also active euthanasia appeals to the idea that we should ease the suffering of the terminally ill. This is the other major role of medicine -- helping to relieve the suffering that disease or injury often entail.
+\textbf{\emph{The clearest argument}} in favor of legalizing at least physician assisted suicide and perhaps also active euthanasia appeals to the idea that we should ease the suffering of the terminally ill.~This is the other major role of medicine -- helping to relieve the suffering that disease or injury often entail.
 
 \begin{center}
 

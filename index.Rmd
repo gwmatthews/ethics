@@ -1,20 +1,20 @@
 --- 
 title: "Philosophical Ethics"
-subtitle: "A Guidebook for Beginners"
-cover-image: "img/cover-2.jpg"
-author: "**George W. Matthews**"
-date: "last revised: `r Sys.Date()`"
-description: "An open textbook"
-github-repo: "gwmatthews/ethics"
+author: '**George W. Matthews**'
+date: 'last revised: `r Sys.Date()`'
+subtitle: A Guidebook for Beginners
+cover-image: img/cover-2.jpg
+description: An open textbook
+github-repo: gwmatthews/ethics
 site: bookdown::bookdown_site
-favicon: "favicon.ico"
-apple-touch-icon: "apple-touch-icon.png"
-classoption: "12pt, openany"
+favicon: favicon.ico
+apple-touch-icon: apple-touch-icon.png
+classoption: 12pt, openany
 graphics: yes
-geometry: 'margin=2cm'
+geometry: margin=2cm
 bibliography: ethics.bib
 citation-style: chicago-fullnote-bibliography.csl
-nocite: | 
+nocite: |
   @lentPatterningInstinct2017
   @carrollLookingGlass1999
   @ArgumentativeTheoryEdge
