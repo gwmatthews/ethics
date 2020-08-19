@@ -1,0 +1,2043 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "3.6.3",
+  "metadata": {
+    "appmode": "rmd-static",
+    "primary_rmd": "index.Rmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": {
+    "base64enc": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "base64enc",
+        "Version": "0.1-3",
+        "Title": "Tools for base64 encoding",
+        "Author": "Simon Urbanek <Simon.Urbanek@r-project.org>",
+        "Maintainer": "Simon Urbanek <Simon.Urbanek@r-project.org>",
+        "Depends": "R (>= 2.9.0)",
+        "Enhances": "png",
+        "Description": "This package provides tools for handling base64 encoding. It is more flexible than the orphaned base64 package.",
+        "License": "GPL-2 | GPL-3",
+        "URL": "http://www.rforge.net/base64enc",
+        "NeedsCompilation": "yes",
+        "Packaged": "2015-02-04 20:31:00 UTC; svnuser",
+        "Repository": "CRAN",
+        "Date/Publication": "2015-07-28 08:03:37",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:36:19 UTC; unix"
+      }
+    },
+    "bookdown": {
+      "Source": "github",
+      "Repository": null,
+      "GithubRepo": "bookdown",
+      "GithubUsername": "rstudio",
+      "GithubRef": "HEAD",
+      "GithubSha1": "f9cf1ac3acaf30415e314b93e68e818fe6f2d656",
+      "description": {
+        "Package": "bookdown",
+        "Type": "Package",
+        "Title": "Authoring Books and Technical Documents with R Markdown",
+        "Version": "0.20.2",
+        "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"JJ\", \"Allaire\", role = \"ctb\"),\n    person(\"Albert\", \"Kim\", role = \"ctb\"),\n    person(\"Alessandro\", \"Samuel-Rosa\", role = \"ctb\"),\n    person(\"Andrzej\", \"Oles\", role = \"ctb\"),\n    person(\"Atsushi\", \"Yasumoto\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8335-495X\")),\n    person(\"Aust\", \"Frederik\", role = \"ctb\", comment = c(ORCID = \"0000-0003-4900-788X\")),\n    person(\"Bastiaan\", \"Quast\", role = \"ctb\"),\n    person(\"Ben\", \"Marwick\", role = \"ctb\"),\n    person(\"Chester\", \"Ismay\", role = \"ctb\"),\n    person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n    person(\"Clifton\", \"Franklund\", role = \"ctb\"),\n    person(\"Daniel\", \"Emaasit\", role = \"ctb\"),\n    person(\"David\", \"Shuman\", role = \"ctb\"),\n    person(\"Dean\", \"Attali\", role = \"ctb\"),\n    person(\"Drew\", \"Tyre\", role = \"ctb\"),\n    person(\"Ellis\", \"Valentiner\", role = \"ctb\"),\n    person(\"Frans\", \"van Dunne\", role = \"ctb\"),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Jeff\", \"Allen\", role = \"ctb\"),\n    person(\"Jennifer\", \"Bryan\", role = \"ctb\"),\n    person(\"Jonathan\", \"McPhers\", role = \"ctb\"),\n    person(\"JooYoung\", \"Seo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-4064-6012\")),\n    person(\"Joyce\", \"Robbins\", role = \"ctb\"),\n    person(\"Junwen\", \"Huang\", role = \"ctb\"),\n    person(\"Kevin\", \"Cheung\", role = \"ctb\"),\n    person(\"Kevin\", \"Ushey\", role = \"ctb\"),\n    person(\"Kim\", \"Seonghyun\", role = \"ctb\"),\n    person(\"Kirill\", \"Muller\", role = \"ctb\"),\n    person(\"Luciano\", \"Selzer\", role = \"ctb\"),\n    person(\"Matthew\", \"Lincoln\", role = \"ctb\"),\n    person(\"Maximilian\", \"Held\", role = \"ctb\"),\n    person(\"Michael\", \"Sachs\", role = \"ctb\"),\n    person(\"Michal\", \"Bojanowski\", role = \"ctb\"),\n    person(\"Nathan\", \"Werth\", role = \"ctb\"),\n    person(\"Noam\", \"Ross\", role = \"ctb\"),\n    person(\"Peter\", \"Hickey\", role = \"ctb\"),\n    person(\"Romain\", \"Lesur\", role = \"ctb\", comment = c(ORCID = \"0000-0002-0721-5595\")),\n    person(\"Sahir\", \"Bhatnagar\", role = \"ctb\"),\n    person(\"Steve\", \"Simpson\", role = \"ctb\"),\n    person(\"Thierry\", \"Onkelinx\", role = \"ctb\", comment = c(ORCID = \"0000-0001-8804-4216\")),\n    person(\"Vincent\", \"Fulco\", role = \"ctb\"),\n    person(\"Yixuan\", \"Qiu\", role = \"ctb\"),\n    person(\"Zhuoer\", \"Dong\", role = \"ctb\"),\n    person(family = \"RStudio, PBC\", role = \"cph\"),\n    person(\"Bartek\", \"Szopka\", role = \"ctb\", comment = \"The jQuery Highlight plugin\"),\n    person(\"Zeno\", \"Rocha\", role = \"cph\", comment = \"clipboard.js library\"),\n    person(family = \"jQuery Foundation\", role = \"cph\", comment = \"jQuery library\"),\n    person(family = \"jQuery contributors\", role = c(\"ctb\", \"cph\"), comment = \"jQuery library; authors listed in inst/resources/AUTHORS\"),\n    person(family = \"MathQuill contributors\", role = \"ctb\", comment = \"The MathQuill library; authors listed in inst/resources/AUTHORS\"),\n    person(family = \"FriendCode Inc\", role = c(\"cph\", \"ctb\"), comment = \"The gitbook style, with modifications\")\n    )",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Description": "Output formats and utilities for authoring books and technical documents with R Markdown.",
+        "License": "GPL-3",
+        "Imports": "htmltools (>= 0.3.6), knitr (>= 1.22), rmarkdown (>= 2.3),\nxfun (>= 0.6), tinytex (>= 0.12)",
+        "Suggests": "htmlwidgets, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr\n(>= 0.13), shiny, testit (>= 0.9), tufte, webshot",
+        "URL": "https://github.com/rstudio/bookdown",
+        "BugReports": "https://github.com/rstudio/bookdown/issues",
+        "SystemRequirements": "Pandoc (>= 1.17.2)",
+        "LazyData": "TRUE",
+        "RoxygenNote": "7.1.0",
+        "Encoding": "UTF-8",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "bookdown",
+        "RemoteUsername": "rstudio",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "f9cf1ac3acaf30415e314b93e68e818fe6f2d656",
+        "GithubRepo": "bookdown",
+        "GithubUsername": "rstudio",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "f9cf1ac3acaf30415e314b93e68e818fe6f2d656",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-08-07 13:00:58 UTC; george",
+        "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  JJ Allaire [ctb],\n  Albert Kim [ctb],\n  Alessandro Samuel-Rosa [ctb],\n  Andrzej Oles [ctb],\n  Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>),\n  Aust Frederik [ctb] (<https://orcid.org/0000-0003-4900-788X>),\n  Bastiaan Quast [ctb],\n  Ben Marwick [ctb],\n  Chester Ismay [ctb],\n  Christophe Dervieux [ctb],\n  Clifton Franklund [ctb],\n  Daniel Emaasit [ctb],\n  David Shuman [ctb],\n  Dean Attali [ctb],\n  Drew Tyre [ctb],\n  Ellis Valentiner [ctb],\n  Frans van Dunne [ctb],\n  Hadley Wickham [ctb],\n  Jeff Allen [ctb],\n  Jennifer Bryan [ctb],\n  Jonathan McPhers [ctb],\n  JooYoung Seo [ctb] (<https://orcid.org/0000-0002-4064-6012>),\n  Joyce Robbins [ctb],\n  Junwen Huang [ctb],\n  Kevin Cheung [ctb],\n  Kevin Ushey [ctb],\n  Kim Seonghyun [ctb],\n  Kirill Muller [ctb],\n  Luciano Selzer [ctb],\n  Matthew Lincoln [ctb],\n  Maximilian Held [ctb],\n  Michael Sachs [ctb],\n  Michal Bojanowski [ctb],\n  Nathan Werth [ctb],\n  Noam Ross [ctb],\n  Peter Hickey [ctb],\n  Romain Lesur [ctb] (<https://orcid.org/0000-0002-0721-5595>),\n  Sahir Bhatnagar [ctb],\n  Steve Simpson [ctb],\n  Thierry Onkelinx [ctb] (<https://orcid.org/0000-0001-8804-4216>),\n  Vincent Fulco [ctb],\n  Yixuan Qiu [ctb],\n  Zhuoer Dong [ctb],\n  RStudio, PBC [cph],\n  Bartek Szopka [ctb] (The jQuery Highlight plugin),\n  Zeno Rocha [cph] (clipboard.js library),\n  jQuery Foundation [cph] (jQuery library),\n  jQuery contributors [ctb, cph] (jQuery library; authors listed in\n    inst/resources/AUTHORS),\n  MathQuill contributors [ctb] (The MathQuill library; authors listed in\n    inst/resources/AUTHORS),\n  FriendCode Inc [cph, ctb] (The gitbook style, with modifications)",
+        "Built": "R 3.6.3; ; 2020-08-07 13:00:59 UTC; unix"
+      }
+    },
+    "digest": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "digest",
+        "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, Kendon Bell,\n Matthew de Queljoe, Ion Suruceanu, and Bill Denney.",
+        "Version": "0.6.25",
+        "Date": "2020-02-22",
+        "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
+        "Title": "Create Compact Hash Digests of R Objects",
+        "Description": "Implementation of a function 'digest()' for the creation \n of hash digests of arbitrary R objects (using the 'md5', 'sha-1', 'sha-256', \n 'crc32', 'xxhash', 'murmurhash' and 'spookyhash' algorithms) permitting easy\n comparison of R language objects, as well as functions such as'hmac()' to\n create hash-based message authentication code. Please note that this package\n is not meant to be deployed for cryptographic purposes for which more\n comprehensive (and widely tested) libraries such as 'OpenSSL' should be\n used.",
+        "URL": "http://dirk.eddelbuettel.com/code/digest.html",
+        "BugReports": "https://github.com/eddelbuettel/digest/issues",
+        "Depends": "R (>= 3.1.0)",
+        "Imports": "utils",
+        "License": "GPL (>= 2)",
+        "Suggests": "tinytest, knitr, rmarkdown",
+        "VignetteBuilder": "knitr",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-02-22 14:55:28.282493 UTC; edd",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-02-23 00:10:02 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:36:12 UTC; unix"
+      }
+    },
+    "evaluate": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "evaluate",
+        "Type": "Package",
+        "Title": "Parsing and Evaluation Tools that Provide More Details than the\nDefault",
+        "Version": "0.14",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Michael\", \"Lawrence\", role = \"ctb\"),\n    person(\"Thomas\", \"Kluyver\", role = \"ctb\"),\n    person(\"Jeroen\", \"Ooms\", role = \"ctb\"),\n    person(\"Barret\", \"Schloerke\", role = \"ctb\"),\n    person(\"Adam\", \"Ryczkowski\", role = \"ctb\"),\n    person(\"Hiroaki\", \"Yutani\", role = \"ctb\"),\n    person(\"Michel\", \"Lang\", role = \"ctb\"),\n    person(\"Karolis\", \"Koncevičius\", role = \"ctb\")\n    )",
+        "Description": "Parsing and evaluation tools that make it easy to recreate the\n    command line behaviour of R.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/r-lib/evaluate",
+        "BugReports": "https://github.com/r-lib/evaluate/issues",
+        "Depends": "R (>= 3.0.2)",
+        "Imports": "methods",
+        "Suggests": "testthat, lattice, ggplot2",
+        "RoxygenNote": "6.1.1",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "no",
+        "Packaged": "2019-05-28 15:30:02 UTC; yihui",
+        "Author": "Hadley Wickham [aut],\n  Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Michael Lawrence [ctb],\n  Thomas Kluyver [ctb],\n  Jeroen Ooms [ctb],\n  Barret Schloerke [ctb],\n  Adam Ryczkowski [ctb],\n  Hiroaki Yutani [ctb],\n  Michel Lang [ctb],\n  Karolis Koncevičius [ctb]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2019-05-28 15:50:02 UTC",
+        "Built": "R 3.6.3; ; 2020-08-07 11:36:34 UTC; unix"
+      }
+    },
+    "glue": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "glue",
+        "Title": "Interpreted String Literals",
+        "Version": "1.4.1",
+        "Authors@R": "person(\"Jim\", \"Hester\", email = \"james.f.hester@gmail.com\", role = c(\"aut\", \"cre\"))",
+        "Description": "An implementation of interpreted string literals, inspired by\n  Python's Literal String Interpolation <https://www.python.org/dev/peps/pep-0498/> and Docstrings\n  <https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted String Literals\n  <https://docs.julialang.org/en/v1.3/manual/strings/#Triple-Quoted-String-Literals-1>.",
+        "Depends": "R (>= 3.1)",
+        "Imports": "methods",
+        "Suggests": "testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,\nRSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,\nggplot2, dplyr, withr, vctrs (>= 0.3.0)",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.1.0",
+        "URL": "https://github.com/tidyverse/glue, https://glue.tidyverse.org/",
+        "BugReports": "https://github.com/tidyverse/glue/issues",
+        "VignetteBuilder": "knitr",
+        "ByteCompile": "true",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-05-13 14:58:42 UTC; jhester",
+        "Author": "Jim Hester [aut, cre]",
+        "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-05-13 16:10:07 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:34:01 UTC; unix"
+      }
+    },
+    "highr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "highr",
+        "Type": "Package",
+        "Title": "Syntax Highlighting for R Source Code",
+        "Version": "0.8",
+        "Authors@R": "c(person(\"Christopher\", \"Gandrud\", role = \"ctb\"),\n    person(\"Qiang\", \"Li\", role = \"ctb\"),\n    person(\"Yixuan\", \"Qiu\", role = \"aut\"),\n    person(\"Yihui\", \"Xie\", email = \"xie@yihui.name\", role = c(\"aut\", \"cre\")))",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Description": "Provides syntax highlighting for R source code. Currently it\n    supports LaTeX and HTML output. Source code of other languages is supported\n    via Andre Simon's highlight package (<http://www.andre-simon.de>).",
+        "Depends": "R (>= 3.2.3)",
+        "Suggests": "knitr, testit",
+        "License": "GPL",
+        "URL": "https://github.com/yihui/highr",
+        "BugReports": "https://github.com/yihui/highr/issues",
+        "VignetteBuilder": "knitr",
+        "RoxygenNote": "6.0.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2019-03-20 18:58:08 UTC; yihui",
+        "Author": "Christopher Gandrud [ctb],\n  Qiang Li [ctb],\n  Yixuan Qiu [aut],\n  Yihui Xie [aut, cre]",
+        "Repository": "CRAN",
+        "Date/Publication": "2019-03-20 21:10:33 UTC",
+        "Built": "R 3.6.3; ; 2020-08-07 11:36:36 UTC; unix"
+      }
+    },
+    "htmltools": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "htmltools",
+        "Type": "Package",
+        "Title": "Tools for HTML",
+        "Version": "0.5.0",
+        "Authors@R": "c(\n  person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n  person(\"Carson\", \"Sievert\", role = c(\"aut\", \"cre\"), email = \"carson@rstudio.com\", comment = c(ORCID = \"0000-0002-4958-2844\")),\n  person(\"Winston\", \"Chang\", role = \"aut\", email = \"winston@rstudio.com\"),\n  person(\"Yihui\", \"Xie\", role = \"aut\", email = \"yihui@rstudio.com\"),\n  person(\"Jeff\", \"Allen\", role = \"aut\", email = \"jeff@rstudio.com\"),\n  person(family = \"RStudio\", role = \"cph\")\n )",
+        "Description": "Tools for HTML generation and output.",
+        "Depends": "R (>= 2.14.1)",
+        "Imports": "utils, digest, grDevices, base64enc, rlang",
+        "Suggests": "markdown, testthat, withr, Cairo, ragg",
+        "Enhances": "knitr",
+        "License": "GPL (>= 2)",
+        "URL": "https://github.com/rstudio/htmltools",
+        "BugReports": "https://github.com/rstudio/htmltools/issues",
+        "RoxygenNote": "7.1.0.9000",
+        "Encoding": "UTF-8",
+        "Collate": "'colors.R' 'html_dependency.R' 'html_escape.R' 'html_print.R'\n'images.R' 'known_tags.R' 'shim.R' 'utils.R' 'tags.R'\n'template.R'",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-06-15 14:46:19 UTC; cpsievert",
+        "Author": "Joe Cheng [aut],\n  Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Winston Chang [aut],\n  Yihui Xie [aut],\n  Jeff Allen [aut],\n  RStudio [cph]",
+        "Maintainer": "Carson Sievert <carson@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-06-16 14:10:10 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:37:09 UTC; unix"
+      }
+    },
+    "jsonlite": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "jsonlite",
+        "Version": "1.7.0",
+        "Title": "A Robust, High Performance JSON Parser and Generator for R",
+        "License": "MIT + file LICENSE",
+        "NeedsCompilation": "yes",
+        "Depends": "methods",
+        "Authors@R": "c(\n    person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroen@berkeley.edu\",\n      comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Duncan\", \"Temple Lang\", role = \"ctb\"),\n    person(\"Lloyd\", \"Hilaiel\", role = \"cph\", comment=\"author of bundled libyajl\"))",
+        "URL": "https://arxiv.org/abs/1403.2805 (paper)\nhttps://jeroen.cran.dev/jsonlite (docs)",
+        "BugReports": "http://github.com/jeroen/jsonlite/issues",
+        "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
+        "VignetteBuilder": "knitr, R.rsp",
+        "Description": "A fast JSON parser and generator optimized for statistical data\n    and the web. Started out as a fork of 'RJSONIO', but has been completely\n    rewritten in recent versions. The package offers flexible, robust, high\n    performance tools for working with JSON in R and is particularly powerful\n    for building pipelines and interacting with a web API. The implementation is\n    based on the mapping described in the vignette (Ooms, 2014). In addition to\n    converting JSON data from/to R objects, 'jsonlite' contains functions to\n    stream, validate, and prettify JSON data. The unit tests included with the\n    package verify that all edge cases are encoded and decoded consistently for\n    use with dynamic data in systems and applications.",
+        "Suggests": "httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sf, sp",
+        "RoxygenNote": "7.1.0",
+        "Encoding": "UTF-8",
+        "Packaged": "2020-06-24 22:21:10 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Duncan Temple Lang [ctb],\n  Lloyd Hilaiel [cph] (author of bundled libyajl)",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-06-25 11:50:11 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:36:48 UTC; unix"
+      }
+    },
+    "knitr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "knitr",
+        "Type": "Package",
+        "Title": "A General-Purpose Package for Dynamic Report Generation in R",
+        "Version": "1.29",
+        "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Adam\", \"Vogt\", role = \"ctb\"),\n    person(\"Alastair\", \"Andrew\", role = \"ctb\"),\n    person(\"Alex\", \"Zvoleff\", role = \"ctb\"),\n    person(\"Andre\", \"Simon\", role = \"ctb\", comment = \"the CSS files under inst/themes/ were derived from the Highlight package http://www.andre-simon.de\"),\n    person(\"Aron\", \"Atkins\", role = \"ctb\"),\n    person(\"Aaron\", \"Wolen\", role = \"ctb\"),\n    person(\"Ashley\", \"Manton\", role = \"ctb\"),\n    person(\"Atsushi\", \"Yasumoto\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8335-495X\")),\n    person(\"Ben\", \"Baumer\", role = \"ctb\"),\n    person(\"Brian\", \"Diggs\", role = \"ctb\"),\n    person(\"Brian\", \"Zhang\", role = \"ctb\"),\n    person(\"Cassio\", \"Pereira\", role = \"ctb\"),\n    person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n    person(\"David\", \"Hugh-Jones\", role = \"ctb\"),\n    person(\"David\", \"Robinson\", role = \"ctb\"),\n    person(\"Doug\", \"Hemken\", role = \"ctb\"),\n    person(\"Duncan\", \"Murdoch\", role = \"ctb\"),\n    person(\"Elio\", \"Campitelli\", role = \"ctb\"),\n    person(\"Ellis\", \"Hughes\", role = \"ctb\"),\n    person(\"Emily\", \"Riederer\", role = \"ctb\"),\n    person(\"Fabian\", \"Hirschmann\", role = \"ctb\"),\n    person(\"Fitch\", \"Simeon\", role = \"ctb\"),\n    person(\"Forest\", \"Fang\", role = \"ctb\"),\n    person(c(\"Frank\", \"E\", \"Harrell\", \"Jr\"), role = \"ctb\", comment = \"the Sweavel package at inst/misc/Sweavel.sty\"),\n    person(\"Garrick\", \"Aden-Buie\", role = \"ctb\"),\n    person(\"Gregoire\", \"Detrez\", role = \"ctb\"),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Hao\", \"Zhu\", role = \"ctb\"),\n    person(\"Heewon\", \"Jeon\", role = \"ctb\"),\n    person(\"Henrik\", \"Bengtsson\", role = \"ctb\"),\n    person(\"Hiroaki\", \"Yutani\", role = \"ctb\"),\n    person(\"Ian\", \"Lyttle\", role = \"ctb\"),\n    person(\"Hodges\", \"Daniel\", role = \"ctb\"),\n    person(\"Jake\", \"Burkhead\", role = \"ctb\"),\n    person(\"James\", \"Manton\", role = \"ctb\"),\n    person(\"Jared\", \"Lander\", role = \"ctb\"),\n    person(\"Jason\", \"Punyon\", role = \"ctb\"),\n    person(\"Javier\", \"Luraschi\", role = \"ctb\"),\n    person(\"Jeff\", \"Arnold\", role = \"ctb\"),\n    person(\"Jenny\", \"Bryan\", role = \"ctb\"),\n    person(\"Jeremy\", \"Ashkenas\", role = c(\"ctb\", \"cph\"), comment = \"the CSS file at inst/misc/docco-classic.css\"),\n    person(\"Jeremy\", \"Stephens\", role = \"ctb\"),\n    person(\"Jim\", \"Hester\", role = \"ctb\"),\n    person(\"Joe\", \"Cheng\", role = \"ctb\"),\n    person(\"Johannes\", \"Ranke\", role = \"ctb\"),\n    person(\"John\", \"Honaker\", role = \"ctb\"),\n    person(\"John\", \"Muschelli\", role = \"ctb\"),\n    person(\"Jonathan\", \"Keane\", role = \"ctb\"),\n    person(\"JJ\", \"Allaire\", role = \"ctb\"),\n    person(\"Johan\", \"Toloe\", role = \"ctb\"),\n    person(\"Jonathan\", \"Sidi\", role = \"ctb\"),\n    person(\"Joseph\", \"Larmarange\", role = \"ctb\"),\n    person(\"Julien\", \"Barnier\", role = \"ctb\"),\n    person(\"Kaiyin\", \"Zhong\", role = \"ctb\"),\n    person(\"Kamil\", \"Slowikowski\", role = \"ctb\"),\n    person(\"Karl\", \"Forner\", role = \"ctb\"),\n    person(c(\"Kevin\", \"K.\"), \"Smith\", role = \"ctb\"),\n    person(\"Kirill\", \"Mueller\", role = \"ctb\"),\n    person(\"Kohske\", \"Takahashi\", role = \"ctb\"),\n    person(\"Lorenz\", \"Walthert\", role = \"ctb\"),\n    person(\"Lucas\", \"Gallindo\", role = \"ctb\"),\n    person(\"Marius\", \"Hofert\", role = \"ctb\"),\n    person(\"Martin\", \"Modrák\", role = \"ctb\"),\n    person(\"Michael\", \"Chirico\", role = \"ctb\"),\n    person(\"Michael\", \"Friendly\", role = \"ctb\"),\n    person(\"Michal\", \"Bojanowski\", role = \"ctb\"),\n    person(\"Michel\", \"Kuhlmann\", role = \"ctb\"),\n    person(\"Miller\", \"Patrick\", role = \"ctb\"),\n    person(\"Nacho\", \"Caballero\", role = \"ctb\"),\n    person(\"Nick\", \"Salkowski\", role = \"ctb\"),\n    person(\"Niels Richard\", \"Hansen\", role = \"ctb\"),\n    person(\"Noam\", \"Ross\", role = \"ctb\"),\n    person(\"Obada\", \"Mahdi\", role = \"ctb\"),\n    person(\"Qiang\", \"Li\", role = \"ctb\"),\n    person(\"Ramnath\", \"Vaidyanathan\", role = \"ctb\"),\n    person(\"Richard\", \"Cotton\", role = \"ctb\"),\n    person(\"Robert\", \"Krzyzanowski\", role = \"ctb\"),\n    person(\"Romain\", \"Francois\", role = \"ctb\"),\n    person(\"Ruaridh\", \"Williamson\", role = \"ctb\"),\n    person(\"Scott\", \"Kostyshak\", role = \"ctb\"),\n    person(\"Sebastian\", \"Meyer\", role = \"ctb\"),\n    person(\"Sietse\", \"Brouwer\", role = \"ctb\"),\n    person(c(\"Simon\", \"de\"), \"Bernard\", role = \"ctb\"),\n    person(\"Sylvain\", \"Rousseau\", role = \"ctb\"),\n    person(\"Taiyun\", \"Wei\", role = \"ctb\"),\n    person(\"Thibaut\", \"Assus\", role = \"ctb\"),\n    person(\"Thibaut\", \"Lamadon\", role = \"ctb\"),\n    person(\"Thomas\", \"Leeper\", role = \"ctb\"),\n    person(\"Tim\", \"Mastny\", role = \"ctb\"),\n    person(\"Tom\", \"Torsney-Weir\", role = \"ctb\"),\n    person(\"Trevor\", \"Davis\", role = \"ctb\"),\n    person(\"Viktoras\", \"Veitas\", role = \"ctb\"),\n    person(\"Weicheng\", \"Zhu\", role = \"ctb\"),\n    person(\"Wush\", \"Wu\", role = \"ctb\"),\n    person(\"Zachary\", \"Foster\", role = \"ctb\")\n    )",
+        "Description": "Provides a general-purpose tool for dynamic report generation in R\n    using Literate Programming techniques.",
+        "Depends": "R (>= 3.2.3)",
+        "Imports": "evaluate (>= 0.10), highr, markdown, stringr (>= 0.6), yaml\n(>= 2.1.19), methods, xfun (>= 0.15), tools",
+        "Suggests": "formatR, testit, digest, rgl (>= 0.95.1201), codetools,\nrmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice (>= 0.10),\ntinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1), magick,\npng, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>= 0.4-1),\nshowtext, tibble, sass, ragg, styler (>= 1.2.0)",
+        "License": "GPL",
+        "URL": "https://yihui.org/knitr/",
+        "BugReports": "https://github.com/yihui/knitr/issues",
+        "Encoding": "UTF-8",
+        "VignetteBuilder": "knitr",
+        "SystemRequirements": "Package vignettes based on R Markdown v2 or\nreStructuredText require Pandoc (http://pandoc.org). The\nfunction rst2pdf() require rst2pdf\n(https://github.com/rst2pdf/rst2pdf).",
+        "Collate": "'block.R' 'cache.R' 'utils.R' 'citation.R' 'hooks-html.R'\n'plot.R' 'defaults.R' 'concordance.R' 'engine.R' 'highlight.R'\n'themes.R' 'header.R' 'hooks-asciidoc.R' 'hooks-chunk.R'\n'hooks-extra.R' 'hooks-latex.R' 'hooks-md.R' 'hooks-rst.R'\n'hooks-textile.R' 'hooks.R' 'output.R' 'package.R' 'pandoc.R'\n'params.R' 'parser.R' 'pattern.R' 'rocco.R' 'spin.R' 'table.R'\n'template.R' 'utils-conversion.R' 'utils-rd2html.R'\n'utils-sweave.R' 'utils-upload.R' 'utils-vignettes.R' 'zzz.R'",
+        "RoxygenNote": "7.1.0",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-06-23 04:37:45 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Adam Vogt [ctb],\n  Alastair Andrew [ctb],\n  Alex Zvoleff [ctb],\n  Andre Simon [ctb] (the CSS files under inst/themes/ were derived from\n    the Highlight package http://www.andre-simon.de),\n  Aron Atkins [ctb],\n  Aaron Wolen [ctb],\n  Ashley Manton [ctb],\n  Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>),\n  Ben Baumer [ctb],\n  Brian Diggs [ctb],\n  Brian Zhang [ctb],\n  Cassio Pereira [ctb],\n  Christophe Dervieux [ctb],\n  David Hugh-Jones [ctb],\n  David Robinson [ctb],\n  Doug Hemken [ctb],\n  Duncan Murdoch [ctb],\n  Elio Campitelli [ctb],\n  Ellis Hughes [ctb],\n  Emily Riederer [ctb],\n  Fabian Hirschmann [ctb],\n  Fitch Simeon [ctb],\n  Forest Fang [ctb],\n  Frank E Harrell Jr [ctb] (the Sweavel package at inst/misc/Sweavel.sty),\n  Garrick Aden-Buie [ctb],\n  Gregoire Detrez [ctb],\n  Hadley Wickham [ctb],\n  Hao Zhu [ctb],\n  Heewon Jeon [ctb],\n  Henrik Bengtsson [ctb],\n  Hiroaki Yutani [ctb],\n  Ian Lyttle [ctb],\n  Hodges Daniel [ctb],\n  Jake Burkhead [ctb],\n  James Manton [ctb],\n  Jared Lander [ctb],\n  Jason Punyon [ctb],\n  Javier Luraschi [ctb],\n  Jeff Arnold [ctb],\n  Jenny Bryan [ctb],\n  Jeremy Ashkenas [ctb, cph] (the CSS file at\n    inst/misc/docco-classic.css),\n  Jeremy Stephens [ctb],\n  Jim Hester [ctb],\n  Joe Cheng [ctb],\n  Johannes Ranke [ctb],\n  John Honaker [ctb],\n  John Muschelli [ctb],\n  Jonathan Keane [ctb],\n  JJ Allaire [ctb],\n  Johan Toloe [ctb],\n  Jonathan Sidi [ctb],\n  Joseph Larmarange [ctb],\n  Julien Barnier [ctb],\n  Kaiyin Zhong [ctb],\n  Kamil Slowikowski [ctb],\n  Karl Forner [ctb],\n  Kevin K. Smith [ctb],\n  Kirill Mueller [ctb],\n  Kohske Takahashi [ctb],\n  Lorenz Walthert [ctb],\n  Lucas Gallindo [ctb],\n  Marius Hofert [ctb],\n  Martin Modrák [ctb],\n  Michael Chirico [ctb],\n  Michael Friendly [ctb],\n  Michal Bojanowski [ctb],\n  Michel Kuhlmann [ctb],\n  Miller Patrick [ctb],\n  Nacho Caballero [ctb],\n  Nick Salkowski [ctb],\n  Niels Richard Hansen [ctb],\n  Noam Ross [ctb],\n  Obada Mahdi [ctb],\n  Qiang Li [ctb],\n  Ramnath Vaidyanathan [ctb],\n  Richard Cotton [ctb],\n  Robert Krzyzanowski [ctb],\n  Romain Francois [ctb],\n  Ruaridh Williamson [ctb],\n  Scott Kostyshak [ctb],\n  Sebastian Meyer [ctb],\n  Sietse Brouwer [ctb],\n  Simon de Bernard [ctb],\n  Sylvain Rousseau [ctb],\n  Taiyun Wei [ctb],\n  Thibaut Assus [ctb],\n  Thibaut Lamadon [ctb],\n  Thomas Leeper [ctb],\n  Tim Mastny [ctb],\n  Tom Torsney-Weir [ctb],\n  Trevor Davis [ctb],\n  Viktoras Veitas [ctb],\n  Weicheng Zhu [ctb],\n  Wush Wu [ctb],\n  Zachary Foster [ctb]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-06-23 06:20:05 UTC",
+        "Built": "R 3.6.3; ; 2020-08-07 11:37:16 UTC; unix"
+      }
+    },
+    "magrittr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "magrittr",
+        "Type": "Package",
+        "Title": "A Forward-Pipe Operator for R",
+        "Version": "1.5",
+        "Author": "Stefan Milton Bache <stefan@stefanbache.dk> and\n    Hadley Wickham <h.wickham@gmail.com>",
+        "Maintainer": "Stefan Milton Bache <stefan@stefanbache.dk>",
+        "Description": "Provides a mechanism for chaining commands with a\n    new forward-pipe operator, %>%. This operator will forward a\n    value, or the result of an expression, into the next function\n    call/expression. There is flexible support for the type\n    of right-hand side expressions. For more information, see\n    package vignette.\n    To quote Rene Magritte, \"Ceci n'est pas un pipe.\"",
+        "Suggests": "testthat, knitr",
+        "VignetteBuilder": "knitr",
+        "License": "MIT + file LICENSE",
+        "ByteCompile": "Yes",
+        "Packaged": "2014-11-22 08:50:53 UTC; shb",
+        "NeedsCompilation": "no",
+        "Repository": "CRAN",
+        "Date/Publication": "2014-11-22 19:15:57",
+        "Built": "R 3.6.3; ; 2020-08-07 11:34:04 UTC; unix"
+      }
+    },
+    "markdown": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "markdown",
+        "Type": "Package",
+        "Title": "Render Markdown with the C Library 'Sundown'",
+        "Version": "1.1",
+        "Authors@R": "c(\n   person(\"JJ\", \"Allaire\", role = \"aut\"),\n   person(\"Jeffrey\", \"Horner\", role = \"aut\"),\n   person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n   person(\"Henrik\", \"Bengtsson\", role = \"ctb\"),\n   person(\"Jim\", \"Hester\", role = \"ctb\"),\n   person(\"Yixuan\", \"Qiu\", role = \"ctb\"),\n   person(\"Kohske\", \"Takahashi\", role = \"ctb\"),\n   person(\"Adam\", \"November\", role = \"ctb\"),\n   person(\"Nacho\", \"Caballero\", role = \"ctb\"),\n   person(\"Jeroen\", \"Ooms\", role = \"ctb\"),\n   person(\"Thomas\", \"Leeper\", role = \"ctb\"),\n   person(\"Joe\", \"Cheng\", role = \"ctb\"),\n   person(\"Andrzej\", \"Oles\", role = \"ctb\"),\n   person(\"Vicent\", \"Marti\", role = c(\"aut\", \"cph\"), comment = \"The Sundown library\"),\n   person(\"Natacha\", \"Porte\", role = c(\"aut\", \"cph\"), comment = \"The Sundown library\"),\n   person(family = \"RStudio\", role = \"cph\")\n   )",
+        "Description": "Provides R bindings to the 'Sundown' Markdown rendering library\n    (<https://github.com/vmg/sundown>). Markdown is a plain-text formatting\n    syntax that can be converted to 'XHTML' or other formats. See\n    <http://en.wikipedia.org/wiki/Markdown> for more information about Markdown.",
+        "Depends": "R (>= 2.11.1)",
+        "Imports": "utils, xfun, mime (>= 0.3)",
+        "Suggests": "knitr, RCurl",
+        "License": "GPL-2",
+        "URL": "https://github.com/rstudio/markdown",
+        "BugReports": "https://github.com/rstudio/markdown/issues",
+        "VignetteBuilder": "knitr",
+        "RoxygenNote": "6.1.1",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "yes",
+        "Packaged": "2019-08-07 15:59:28 UTC; yihui",
+        "Author": "JJ Allaire [aut],\n  Jeffrey Horner [aut],\n  Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Henrik Bengtsson [ctb],\n  Jim Hester [ctb],\n  Yixuan Qiu [ctb],\n  Kohske Takahashi [ctb],\n  Adam November [ctb],\n  Nacho Caballero [ctb],\n  Jeroen Ooms [ctb],\n  Thomas Leeper [ctb],\n  Joe Cheng [ctb],\n  Andrzej Oles [ctb],\n  Vicent Marti [aut, cph] (The Sundown library),\n  Natacha Porte [aut, cph] (The Sundown library),\n  RStudio [cph]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2019-08-07 16:30:02 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:37:01 UTC; unix"
+      }
+    },
+    "mime": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "mime",
+        "Type": "Package",
+        "Title": "Map Filenames to MIME Types",
+        "Version": "0.9",
+        "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Jeffrey\", \"Horner\", role = \"ctb\"),\n    person(\"Beilei\", \"Bian\", role = \"ctb\")\n    )",
+        "Description": "Guesses the MIME type from a filename extension using the data\n    derived from /etc/mime.types in UNIX-type systems.",
+        "Imports": "tools",
+        "License": "GPL",
+        "URL": "https://github.com/yihui/mime",
+        "BugReports": "https://github.com/yihui/mime/issues",
+        "LazyData": "TRUE",
+        "RoxygenNote": "7.0.2",
+        "Encoding": "UTF-8",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-02-04 17:11:45 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Jeffrey Horner [ctb],\n  Beilei Bian [ctb]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-02-04 18:20:06 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:36:55 UTC; unix"
+      }
+    },
+    "rlang": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "rlang",
+        "Version": "0.4.7",
+        "Title": "Functions for Base Types and Core R and 'Tidyverse' Features",
+        "Description": "A toolbox for working with base types, core R features\n  like the condition system, and core 'Tidyverse' features like tidy\n  evaluation.",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+        "License": "GPL-3",
+        "LazyData": "true",
+        "ByteCompile": "true",
+        "Biarch": "true",
+        "Depends": "R (>= 3.2.0)",
+        "Suggests": "cli, covr, crayon, glue, magrittr, methods, pillar,\nrmarkdown, testthat (>= 2.3.0), vctrs (>= 0.2.3), withr",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.1",
+        "URL": "http://rlang.r-lib.org, https://github.com/r-lib/rlang",
+        "BugReports": "https://github.com/r-lib/rlang/issues",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-07-09 12:06:27 UTC; lionel",
+        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  RStudio [cph]",
+        "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-07-09 23:00:18 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:36:21 UTC; unix"
+      }
+    },
+    "rmarkdown": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "rmarkdown",
+        "Type": "Package",
+        "Title": "Dynamic Documents for R",
+        "Version": "2.3",
+        "Authors@R": "c(\n  person(\"JJ\", \"Allaire\", role = \"aut\", email = \"jj@rstudio.com\"),\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Jonathan\", \"McPherson\", role = \"aut\", email = \"jonathan@rstudio.com\"),\n  person(\"Javier\", \"Luraschi\", role = \"aut\", email = \"javier@rstudio.com\"),\n  person(\"Kevin\", \"Ushey\", role = \"aut\", email = \"kevin@rstudio.com\"),\n  person(\"Aron\", \"Atkins\", role = \"aut\", email = \"aron@rstudio.com\"),\n  person(\"Hadley\", \"Wickham\", role = \"aut\", email = \"hadley@rstudio.com\"),\n  person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n  person(\"Winston\", \"Chang\", role = \"aut\", email = \"winston@rstudio.com\"),\n  person(\"Richard\", \"Iannone\", role = \"aut\", email = \"rich@rstudio.com\", comment = c(ORCID = \"0000-0003-3925-190X\")),\n  #\n  # Contributors, ordered alphabetically by first name\n  person(\"Andrew\", \"Dunning\", role = \"ctb\", comment = c(ORCID = \"0000-0003-0464-5036\")),\n  person(\"Atsushi\", \"Yasumoto\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8335-495X\")),\n  person(\"Barret\", \"Schloerke\", role = \"ctb\"),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person(\"Frederik\", \"Aust\", role = \"ctb\", email = \"frederik.aust@uni-koeln.de\", comment = c(ORCID = \"0000-0003-4900-788X\")),\n  person(\"Jeff\", \"Allen\", role = \"ctb\", email = \"jeff@rstudio.com\"),\n  person(\"JooYoung\", \"Seo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-4064-6012\")),\n  person(\"Malcolm\", \"Barrett\", role = \"ctb\"),\n  person(\"Rob\", \"Hyndman\", role = \"ctb\", email = \"Rob.Hyndman@monash.edu\"),\n  person(\"Romain\", \"Lesur\", role = \"ctb\"),\n  person(\"Roy\", \"Storey\", role = \"ctb\"),\n  person(\"Ruben\", \"Arslan\", role = \"ctb\", email = \"ruben.arslan@uni-goettingen.de\"),\n  person(\"Sergio\", \"Oller\", role = \"ctb\"),\n  #\n  # Copyright holders\n  person(family = \"RStudio, PBC\", role = \"cph\"),\n  person(family = \"jQuery Foundation\", role = \"cph\",\n         comment = \"jQuery library\"),\n  person(family = \"jQuery contributors\", role = c(\"ctb\", \"cph\"),\n         comment = \"jQuery library; authors listed in inst/rmd/h/jquery-AUTHORS.txt\"),\n  person(family = \"jQuery UI contributors\", role = c(\"ctb\", \"cph\"),\n         comment = \"jQuery UI library; authors listed in inst/rmd/h/jqueryui-AUTHORS.txt\"),\n  person(\"Mark\", \"Otto\", role = \"ctb\",\n         comment = \"Bootstrap library\"),\n  person(\"Jacob\", \"Thornton\", role = \"ctb\",\n         comment = \"Bootstrap library\"),\n  person(family = \"Bootstrap contributors\", role = \"ctb\",\n         comment = \"Bootstrap library\"),\n  person(family = \"Twitter, Inc\", role = \"cph\",\n         comment = \"Bootstrap library\"),\n  person(\"Alexander\", \"Farkas\", role = c(\"ctb\", \"cph\"),\n         comment = \"html5shiv library\"),\n  person(\"Scott\", \"Jehl\", role = c(\"ctb\", \"cph\"),\n         comment = \"Respond.js library\"),\n  person(\"Ivan\", \"Sagalaev\", role = c(\"ctb\", \"cph\"),\n         comment = \"highlight.js library\"),\n  person(\"Greg\", \"Franko\", role = c(\"ctb\", \"cph\"),\n         comment = \"tocify library\"),\n  person(\"John\", \"MacFarlane\", role = c(\"ctb\", \"cph\"),\n         comment = \"Pandoc templates\"),\n  person(family = \"Google, Inc.\", role = c(\"ctb\", \"cph\"),\n         comment = \"ioslides library\"),\n  person(\"Dave\", \"Raggett\", role = \"ctb\",\n         comment = \"slidy library\"),\n  person(family = \"W3C\", role = \"cph\",\n         comment = \"slidy library\"),\n  person(\"Dave\", \"Gandy\", role = c(\"ctb\", \"cph\"),\n         comment = \"Font-Awesome\"),\n  person(\"Ben\", \"Sperry\", role = \"ctb\",\n         comment = \"Ionicons\"),\n  person(family = \"Drifty\", role = \"cph\",\n         comment = \"Ionicons\"),\n  person(\"Aidan\", \"Lister\", role = c(\"ctb\", \"cph\"), \n         comment = \"jQuery StickyTabs\"),\n  person(\"Benct Philip\", \"Jonsson\", role = c(\"ctb\", \"cph\"), \n         comment = \"pagebreak lua filter\"),\n  person(\"Albert\", \"Krewinkel\", role = c(\"ctb\", \"cph\"), \n         comment = \"pagebreak lua filter\")\n  )",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Description": "Convert R Markdown documents into a variety of formats.",
+        "Depends": "R (>= 3.0)",
+        "Imports": "tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>=\n0.3.5), evaluate (>= 0.13), base64enc, jsonlite, mime, tinytex\n(>= 0.11), xfun, methods, stringr (>= 1.2.0)",
+        "Suggests": "shiny (>= 0.11), tufte, testthat, digest, dygraphs, tibble,\nfs, pkgdown, rsconnect",
+        "SystemRequirements": "pandoc (>= 1.12.3) - http://pandoc.org",
+        "URL": "https://github.com/rstudio/rmarkdown",
+        "BugReports": "https://github.com/rstudio/rmarkdown/issues",
+        "License": "GPL-3",
+        "RoxygenNote": "7.1.0",
+        "Encoding": "UTF-8",
+        "VignetteBuilder": "knitr",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-06-18 13:32:36 UTC; yihui",
+        "Author": "JJ Allaire [aut],\n  Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Jonathan McPherson [aut],\n  Javier Luraschi [aut],\n  Kevin Ushey [aut],\n  Aron Atkins [aut],\n  Hadley Wickham [aut],\n  Joe Cheng [aut],\n  Winston Chang [aut],\n  Richard Iannone [aut] (<https://orcid.org/0000-0003-3925-190X>),\n  Andrew Dunning [ctb] (<https://orcid.org/0000-0003-0464-5036>),\n  Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>),\n  Barret Schloerke [ctb],\n  Christophe Dervieux [ctb],\n  Frederik Aust [ctb] (<https://orcid.org/0000-0003-4900-788X>),\n  Jeff Allen [ctb],\n  JooYoung Seo [ctb] (<https://orcid.org/0000-0002-4064-6012>),\n  Malcolm Barrett [ctb],\n  Rob Hyndman [ctb],\n  Romain Lesur [ctb],\n  Roy Storey [ctb],\n  Ruben Arslan [ctb],\n  Sergio Oller [ctb],\n  RStudio, PBC [cph],\n  jQuery Foundation [cph] (jQuery library),\n  jQuery contributors [ctb, cph] (jQuery library; authors listed in\n    inst/rmd/h/jquery-AUTHORS.txt),\n  jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in\n    inst/rmd/h/jqueryui-AUTHORS.txt),\n  Mark Otto [ctb] (Bootstrap library),\n  Jacob Thornton [ctb] (Bootstrap library),\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Alexander Farkas [ctb, cph] (html5shiv library),\n  Scott Jehl [ctb, cph] (Respond.js library),\n  Ivan Sagalaev [ctb, cph] (highlight.js library),\n  Greg Franko [ctb, cph] (tocify library),\n  John MacFarlane [ctb, cph] (Pandoc templates),\n  Google, Inc. [ctb, cph] (ioslides library),\n  Dave Raggett [ctb] (slidy library),\n  W3C [cph] (slidy library),\n  Dave Gandy [ctb, cph] (Font-Awesome),\n  Ben Sperry [ctb] (Ionicons),\n  Drifty [cph] (Ionicons),\n  Aidan Lister [ctb, cph] (jQuery StickyTabs),\n  Benct Philip Jonsson [ctb, cph] (pagebreak lua filter),\n  Albert Krewinkel [ctb, cph] (pagebreak lua filter)",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-06-18 14:50:02 UTC",
+        "Built": "R 3.6.3; ; 2020-08-07 11:37:26 UTC; unix"
+      }
+    },
+    "stringi": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "stringi",
+        "Version": "1.4.6",
+        "Date": "2020-02-17",
+        "Title": "Character String Processing Facilities",
+        "Description": "Fast, correct, consistent, portable and convenient character\n    string/text processing in every locale and any native encoding. \n    Owing to the use of the 'ICU' (International Components for Unicode) \n    library, the package provides 'R' users with platform-independent functions\n    known to 'Java', 'Perl', 'Python', 'PHP' and 'Ruby' programmers. Available\n    features include: pattern searching (e.g., with 'Java'-like regular\n    expressions or the 'Unicode' collation algorithm), random string generation,\n    case mapping, string transliteration, concatenation,\n    Unicode normalization, date-time formatting and parsing and many more.",
+        "URL": "http://www.gagolewski.com/software/stringi/\nhttp://site.icu-project.org/ http://www.unicode.org/",
+        "BugReports": "http://github.com/gagolews/stringi/issues",
+        "SystemRequirements": "ICU4C (>= 55, optional)",
+        "Type": "Package",
+        "Depends": "R (>= 2.14)",
+        "Imports": "tools, utils, stats",
+        "Biarch": "TRUE",
+        "License": "file LICENSE",
+        "Author": "Marek Gagolewski [aut, cre] (<https://orcid.org/0000-0003-0637-6028>),\n    Bartek Tartanus [ctb]\n    and other contributors (stringi source code);\n    IBM, Unicode, Inc. and other contributors (ICU4C source code);\n    Unicode, Inc. (Unicode Character Database)",
+        "Maintainer": "Marek Gagolewski <marek@gagolewski.com>",
+        "RoxygenNote": "7.0.2",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-02-17 01:46:10 UTC; gagolews",
+        "License_is_FOSS": "yes",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-02-17 18:00:06 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:34:20 UTC; unix"
+      }
+    },
+    "stringr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "stringr",
+        "Title": "Simple, Consistent Wrappers for Common String Operations",
+        "Version": "1.4.0",
+        "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = c(\"aut\", \"cre\", \"cph\"),\n             email = \"hadley@rstudio.com\"),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")))",
+        "Description": "A consistent, simple and easy to use set of\n    wrappers around the fantastic 'stringi' package. All function and\n    argument names (and positions) are consistent, all functions deal with\n    \"NA\"'s and zero length vectors in the same way, and the output from\n    one function is easy to feed into the input of another.",
+        "License": "GPL-2 | file LICENSE",
+        "URL": "http://stringr.tidyverse.org, https://github.com/tidyverse/stringr",
+        "BugReports": "https://github.com/tidyverse/stringr/issues",
+        "Depends": "R (>= 3.1)",
+        "Imports": "glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)",
+        "Suggests": "covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "6.1.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2019-02-09 16:03:19 UTC; hadley",
+        "Author": "Hadley Wickham [aut, cre, cph],\n  RStudio [cph, fnd]",
+        "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2019-02-10 03:40:03 UTC",
+        "Built": "R 3.6.3; ; 2020-08-07 11:37:06 UTC; unix"
+      }
+    },
+    "tinytex": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "tinytex",
+        "Type": "Package",
+        "Title": "Helper Functions to Install and Maintain TeX Live, and Compile\nLaTeX Documents",
+        "Version": "0.25",
+        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(family = \"RStudio, PBC\", role = \"cph\"),\n  person(\"Fernando\", \"Cagua\", role = \"ctb\"),\n  person(\"Ethan\", \"Heinzen\", role = \"ctb\"),\n  person()\n  )",
+        "Description": "Helper functions to install and maintain the 'LaTeX' distribution\n  named 'TinyTeX' (<https://yihui.org/tinytex/>), a lightweight, cross-platform,\n  portable, and easy-to-maintain version of 'TeX Live'. This package also\n  contains helper functions to compile 'LaTeX' documents, and install missing\n  'LaTeX' packages automatically.",
+        "Imports": "xfun (>= 0.5)",
+        "Suggests": "testit, rstudioapi",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/yihui/tinytex",
+        "BugReports": "https://github.com/yihui/tinytex/issues",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.1.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-07-23 23:35:49 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>),\n  RStudio, PBC [cph],\n  Fernando Cagua [ctb],\n  Ethan Heinzen [ctb]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-07-24 04:30:02 UTC",
+        "Built": "R 3.6.3; ; 2020-08-07 11:38:11 UTC; unix"
+      }
+    },
+    "xfun": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "xfun",
+        "Type": "Package",
+        "Title": "Miscellaneous Functions by 'Yihui Xie'",
+        "Version": "0.16",
+        "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Wush\", \"Wu\", role = \"ctb\"),\n  person(\"Daijiang\", \"Li\", role = \"ctb\"),\n  person(\"Xianying\", \"Tan\", role = \"ctb\"),\n  person(\"Salim\", \"Brüggemann\", role = \"ctb\", email = \"salim-b@pm.me\", comment = c(ORCID = \"0000-0002-5329-5987\")),\n  person()\n  )",
+        "Description": "Miscellaneous functions commonly used in other packages maintained by 'Yihui Xie'.",
+        "Imports": "stats, tools",
+        "Suggests": "testit, parallel, codetools, rstudioapi, tinytex, mime,\nmarkdown, knitr, htmltools, remotes, rmarkdown",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/yihui/xfun",
+        "BugReports": "https://github.com/yihui/xfun/issues",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.1.1",
+        "VignetteBuilder": "knitr",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-07-23 21:16:59 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>),\n  Wush Wu [ctb],\n  Daijiang Li [ctb],\n  Xianying Tan [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>)",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-07-24 10:00:02 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:36:57 UTC; unix"
+      }
+    },
+    "yaml": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "yaml",
+        "Type": "Package",
+        "Title": "Methods to Convert R Data to YAML and Back",
+        "Date": "2020-01-23",
+        "Version": "2.2.1",
+        "Suggests": "RUnit",
+        "Author": "Jeremy Stephens [aut, cre], Kirill Simonov [aut], Yihui Xie [ctb],\n  Zhuoer Dong [ctb], Hadley Wickham [ctb], Jeffrey Horner [ctb], reikoch [ctb],\n  Will Beasley [ctb], Brendan O'Connor [ctb], Gregory R. Warnes [ctb]",
+        "Maintainer": "Jeremy Stephens <jeremy.f.stephens@vumc.org>",
+        "License": "BSD_3_clause + file LICENSE",
+        "Description": "Implements the 'libyaml' 'YAML' 1.1 parser and emitter\n  (<http://pyyaml.org/wiki/LibYAML>) for R.",
+        "URL": "https://github.com/viking/r-yaml/",
+        "BugReports": "https://github.com/viking/r-yaml/issues",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-01-30 20:29:56 UTC; stephej1",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-02-01 05:50:02 UTC",
+        "Built": "R 3.6.3; x86_64-pc-linux-gnu; 2020-08-07 11:36:38 UTC; unix"
+      }
+    }
+  },
+  "files": {
+    "_bookdown_files/ethics-guidebook_cache/html/__packages": {
+      "checksum": "ce771bb33a2a445c8e616a88ec29c517"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-1_70b35c20d252d2df71fea5a9bc403d13.RData": {
+      "checksum": "63d70a922599fd7cb62efa70307f2e1d"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-1_70b35c20d252d2df71fea5a9bc403d13.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-1_70b35c20d252d2df71fea5a9bc403d13.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-10_0d7de748d1ea0600e896ba70dc25d875.RData": {
+      "checksum": "e84db4a16cb618f5d493cc1003225cb8"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-10_0d7de748d1ea0600e896ba70dc25d875.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-10_0d7de748d1ea0600e896ba70dc25d875.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-11_06bc3dc179332886e3d886e8a9797ed4.RData": {
+      "checksum": "6a7b713ef37605d65a12e8159adbb0bc"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-11_06bc3dc179332886e3d886e8a9797ed4.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-11_06bc3dc179332886e3d886e8a9797ed4.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-12_8342e8a70c9be0374a049a6bd8327d2b.RData": {
+      "checksum": "a5bf32140d3946309eb8f24aef6f216d"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-12_8342e8a70c9be0374a049a6bd8327d2b.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-12_8342e8a70c9be0374a049a6bd8327d2b.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-13_315a8ae7ec8d26dc9e8464c480d46cc0.RData": {
+      "checksum": "16d805e2bce66a037976476c467b9c3d"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-13_315a8ae7ec8d26dc9e8464c480d46cc0.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-13_315a8ae7ec8d26dc9e8464c480d46cc0.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-14_0546dccbbbf36c7d7b841d366a5bb401.RData": {
+      "checksum": "b51f24d8ab2bc90e7ad82eab345fdca5"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-14_0546dccbbbf36c7d7b841d366a5bb401.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-14_0546dccbbbf36c7d7b841d366a5bb401.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-15_a94a96a4857edc63f09484cb3a1d62da.RData": {
+      "checksum": "0e552a34d900d2460fc01f6d7544edc7"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-15_a94a96a4857edc63f09484cb3a1d62da.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-15_a94a96a4857edc63f09484cb3a1d62da.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-16_b4aed2c4e5dd00e36680cfd8f0e576fb.RData": {
+      "checksum": "0c8170ea163731ad0a309c8564a26ffe"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-16_b4aed2c4e5dd00e36680cfd8f0e576fb.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-16_b4aed2c4e5dd00e36680cfd8f0e576fb.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-17_2fba90139bf5d43a2548c536d3789a6a.RData": {
+      "checksum": "2c88c0dda7cd0111ff60b66af762927d"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-17_2fba90139bf5d43a2548c536d3789a6a.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-17_2fba90139bf5d43a2548c536d3789a6a.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-18_b037cf984b4a2774b2ba7c0cc0eb9e66.RData": {
+      "checksum": "6a11ce2039f17a5a341c38388316b111"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-18_b037cf984b4a2774b2ba7c0cc0eb9e66.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-18_b037cf984b4a2774b2ba7c0cc0eb9e66.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-19_802d4760e35ceba92639a3c91309fae3.RData": {
+      "checksum": "2baa3c6df70bfda6c0db91749e7d8eff"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-19_802d4760e35ceba92639a3c91309fae3.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-19_802d4760e35ceba92639a3c91309fae3.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-2_25f390f0e5c6ae3a4b953b409173e739.RData": {
+      "checksum": "9d9b4de73501864a2faf423a0734fdb3"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-2_25f390f0e5c6ae3a4b953b409173e739.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-2_25f390f0e5c6ae3a4b953b409173e739.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-20_240ad04e8c2f2bf95cf8d9c433f1d94a.RData": {
+      "checksum": "e2479fab3e6bb6f669708b99a0b43160"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-20_240ad04e8c2f2bf95cf8d9c433f1d94a.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-20_240ad04e8c2f2bf95cf8d9c433f1d94a.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-3_150485c90f04f76bfebf197942b3e74d.RData": {
+      "checksum": "f2db7e8035fcf11edd057cfbe76f8f92"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-3_150485c90f04f76bfebf197942b3e74d.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-3_150485c90f04f76bfebf197942b3e74d.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-4_60546179f871d3f53826e6ac5963da1f.RData": {
+      "checksum": "0122c3da48624d72c1762c0afbdc3d24"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-4_60546179f871d3f53826e6ac5963da1f.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-4_60546179f871d3f53826e6ac5963da1f.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-5_be4fe4aef5c74d064d941d6cddb0e535.RData": {
+      "checksum": "b1087ef679bdee76970d111d1b1ad63a"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-5_be4fe4aef5c74d064d941d6cddb0e535.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-5_be4fe4aef5c74d064d941d6cddb0e535.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-6_5254b228dee766e8cb6f8357ad6295a1.RData": {
+      "checksum": "e5346f8f4aa720840b0ef0cd58318222"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-6_5254b228dee766e8cb6f8357ad6295a1.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-6_5254b228dee766e8cb6f8357ad6295a1.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-7_b832ff8ad39f399923b53f96e732a0cb.RData": {
+      "checksum": "c9e71ea452824fcbaea7300cc959aeda"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-7_b832ff8ad39f399923b53f96e732a0cb.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-7_b832ff8ad39f399923b53f96e732a0cb.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-8_9cb2ba05413785acb8e5670d2814a5a2.RData": {
+      "checksum": "d91b5c461c2bd5ff0b8b0b227d7073a8"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-8_9cb2ba05413785acb8e5670d2814a5a2.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-8_9cb2ba05413785acb8e5670d2814a5a2.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-9_810a77042ddee6896244cdb57e3f23b0.RData": {
+      "checksum": "76ca7187ddc8b80cacb9a17e34d6791a"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-9_810a77042ddee6896244cdb57e3f23b0.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/html/unnamed-chunk-9_810a77042ddee6896244cdb57e3f23b0.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/__packages": {
+      "checksum": "ce771bb33a2a445c8e616a88ec29c517"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-1_b30a4eceeb53cb447e18f6b752aaa5c8.RData": {
+      "checksum": "a35957bc0deb59edc09c8d0d30a9e14e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-1_b30a4eceeb53cb447e18f6b752aaa5c8.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-1_b30a4eceeb53cb447e18f6b752aaa5c8.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-10_c776562ff5f04fd4054068faeea66891.RData": {
+      "checksum": "f3658223f94fa12f94639c5e432bb737"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-10_c776562ff5f04fd4054068faeea66891.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-10_c776562ff5f04fd4054068faeea66891.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-11_9bca50939d96982fb67e51c09f525d36.RData": {
+      "checksum": "45a17ad3f420126ac24e37cccd15c669"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-11_9bca50939d96982fb67e51c09f525d36.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-11_9bca50939d96982fb67e51c09f525d36.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-12_68c72e52adf1964ebd3a607868f95e7a.RData": {
+      "checksum": "b588b52ce51e2d76e43d72ea9f2c8d66"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-12_68c72e52adf1964ebd3a607868f95e7a.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-12_68c72e52adf1964ebd3a607868f95e7a.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-13_e2abb4301591c21d2d6b9f99e3e80ddd.RData": {
+      "checksum": "811fd131190bef6bc2d185fcf3b7534e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-13_e2abb4301591c21d2d6b9f99e3e80ddd.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-13_e2abb4301591c21d2d6b9f99e3e80ddd.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-14_11ad3ab6115375a9ae7bbc428089264d.RData": {
+      "checksum": "120a935b87121afc79cc63b92e9958e0"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-14_11ad3ab6115375a9ae7bbc428089264d.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-14_11ad3ab6115375a9ae7bbc428089264d.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-15_fb2493caa44d0a41771dec3890e08a0b.RData": {
+      "checksum": "52a8d239200111a674aa56a4bff138f7"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-15_fb2493caa44d0a41771dec3890e08a0b.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-15_fb2493caa44d0a41771dec3890e08a0b.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-16_8deed007e1874c565bcd694e5d5d3250.RData": {
+      "checksum": "9da0e02f050f1601c63b32f1ef6612f6"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-16_8deed007e1874c565bcd694e5d5d3250.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-16_8deed007e1874c565bcd694e5d5d3250.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-17_58191c6b4db827ad1641894e53b07467.RData": {
+      "checksum": "63adf0b9d5cc3790150e633a763dc93b"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-17_58191c6b4db827ad1641894e53b07467.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-17_58191c6b4db827ad1641894e53b07467.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-18_cd009886d853d889bc2c36eafb786488.RData": {
+      "checksum": "a16a842d01dc9b1b5465f14c41455f4b"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-18_cd009886d853d889bc2c36eafb786488.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-18_cd009886d853d889bc2c36eafb786488.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-19_209cdc4a750bebc91afe415427798b71.RData": {
+      "checksum": "93d59c8ae6ed2bcbeeb6a35f351bc91d"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-19_209cdc4a750bebc91afe415427798b71.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-19_209cdc4a750bebc91afe415427798b71.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-2_3599e8c6482911772da3613e3a0ffa4c.RData": {
+      "checksum": "830ae304b393af50146517ba2160b1e8"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-2_3599e8c6482911772da3613e3a0ffa4c.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-2_3599e8c6482911772da3613e3a0ffa4c.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-20_717d38c4298a8b2cc867df790a940d1a.RData": {
+      "checksum": "dc66fb43031a6ac29ed6df62fbec4ed6"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-20_717d38c4298a8b2cc867df790a940d1a.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-20_717d38c4298a8b2cc867df790a940d1a.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-3_374c8d8e2b52822cdd63eb5d008ad5c4.RData": {
+      "checksum": "ca2449947eb66e0928c3ee418525c067"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-3_374c8d8e2b52822cdd63eb5d008ad5c4.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-3_374c8d8e2b52822cdd63eb5d008ad5c4.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-4_fc8f84fe7e9d27151473f77eb04d361b.RData": {
+      "checksum": "1da408e2dede92ecbcb80804e180cfe3"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-4_fc8f84fe7e9d27151473f77eb04d361b.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-4_fc8f84fe7e9d27151473f77eb04d361b.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-5_cd8f4ec68114b8e6a7aec6225b886f3a.RData": {
+      "checksum": "b84adc992107f26c4659e6b63cf53bef"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-5_cd8f4ec68114b8e6a7aec6225b886f3a.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-5_cd8f4ec68114b8e6a7aec6225b886f3a.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-6_40c174e91931f62047f4a19c23a80881.RData": {
+      "checksum": "d84c76312bf08fc6183cb0f8604a8bcf"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-6_40c174e91931f62047f4a19c23a80881.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-6_40c174e91931f62047f4a19c23a80881.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-7_24aaaf97e430d9cab351b72ce6f799f6.RData": {
+      "checksum": "32d8ff8684c1fe298734d22b2c1b6d6e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-7_24aaaf97e430d9cab351b72ce6f799f6.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-7_24aaaf97e430d9cab351b72ce6f799f6.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-8_4891b7474508c5f509776c1af240bfa4.RData": {
+      "checksum": "b1ee07edae7d886c9f072070d70c53b5"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-8_4891b7474508c5f509776c1af240bfa4.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-8_4891b7474508c5f509776c1af240bfa4.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-9_ae1d615e85fdde4cb285af1006c44c17.RData": {
+      "checksum": "848049948defa4eda307b376ed131a19"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-9_ae1d615e85fdde4cb285af1006c44c17.rdb": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_bookdown_files/ethics-guidebook_cache/latex/unnamed-chunk-9_ae1d615e85fdde4cb285af1006c44c17.rdx": {
+      "checksum": "eb216f15c8f5f35d79be62a3b9492e62"
+    },
+    "_bookdown.yml": {
+      "checksum": "169c13c17bf478486fb902e8db4bdb7b"
+    },
+    "_output.yml": {
+      "checksum": "2dd7316c4a2013950f0cdb37cc2d267b"
+    },
+    ".RData": {
+      "checksum": "289370fb46fb177ac9ffb9964b8fc3f6"
+    },
+    "01-Introduction.Rmd": {
+      "checksum": "e93ab02731a945b325fdb8bc62f62976"
+    },
+    "02-Logic.Rmd": {
+      "checksum": "e3e3009ba80b3bc2b06ab43ca3fdaf17"
+    },
+    "03-Fallacies.Rmd": {
+      "checksum": "a9ddd780b69abfdaf89ff69a5fa20bf6"
+    },
+    "04-Relativism.Rmd": {
+      "checksum": "19b73dba596a9226f5ac58a88f14ce7f"
+    },
+    "05-Religion.Rmd": {
+      "checksum": "97b4efc480e0f90001afab31f539f570"
+    },
+    "06-Egoism.Rmd": {
+      "checksum": "ed2cad280ba3b221dee4c25dac560101"
+    },
+    "07-Contract.Rmd": {
+      "checksum": "721e83802d21a06c5b242dbc3f8c59de"
+    },
+    "08-Utilitarianism.Rmd": {
+      "checksum": "ccfcb45d9ee9eb0d5a46706ace34b87d"
+    },
+    "09-Kant.Rmd": {
+      "checksum": "fdea84c683d22b087ccd3da1e8bb94fd"
+    },
+    "1-1-arguments-rationality-and-rhetoric.html": {
+      "checksum": "c9a150e89cb7891f664a91b30ba1272f"
+    },
+    "1-1-claims-and-consequences-of-moral-relativism.html": {
+      "checksum": "74575892d17363c046cd0158d5e641b6"
+    },
+    "1-1-defending-the-status-quo.html": {
+      "checksum": "8bc26a30636b0edc66acfba7c2e8a397"
+    },
+    "1-1-divine-command-theory.html": {
+      "checksum": "4b6be205054a2b2d22d8938cc094fdff"
+    },
+    "1-1-ethics-in-the-real-world.html": {
+      "checksum": "268d83203b3ec991e8d7469509748bde"
+    },
+    "1-1-happiness-and-the-highest-good.html": {
+      "checksum": "cbca8f1ac5e3f697398b91463d500c92"
+    },
+    "1-1-hobbes-and-the-invention-of-society.html": {
+      "checksum": "7cd63cbc28054f35fc00346d906b41b3"
+    },
+    "1-1-libertarians-and-paternalists.html": {
+      "checksum": "f6d47ff2865d66cc02cdeba90bea496b"
+    },
+    "1-1-psychological-egoism-whats-in-it-for-me.html": {
+      "checksum": "23fc1eda4c958e00c665fc4c9eafa278"
+    },
+    "1-1-relevance.html": {
+      "checksum": "2b35ed05132730448eac7b4969aa8e2c"
+    },
+    "1-1-the-standard-view.html": {
+      "checksum": "70e932a73bf34c4da0ca7ed2d206e0bd"
+    },
+    "1-1-types-of-euthanasia.html": {
+      "checksum": "ca132c7fe622f4674d4ef724fd80a3f5"
+    },
+    "1-1-utilitarian-approaches.html": {
+      "checksum": "c8560e536af184134dd37534dd36b582"
+    },
+    "1-1-what-do-i-know.html": {
+      "checksum": "a9321141d794294e9b2a102fc9301502"
+    },
+    "1-1-what-do-we-owe-one-another.html": {
+      "checksum": "509199a4bac266d05e8c69985fcce4d6"
+    },
+    "1-2-a-nasty-dilemma.html": {
+      "checksum": "b3cbbacfc519d3544133343e2e63b921"
+    },
+    "1-2-ambiguity.html": {
+      "checksum": "081ef0943272e79413479fe69f0b650b"
+    },
+    "1-2-arguing-about-euthanasia.html": {
+      "checksum": "31e631467e80f370f8dd143026e4461a"
+    },
+    "1-2-arguments-for-psychological-egoism.html": {
+      "checksum": "8863564d3a472042051d32c9eef63bfc"
+    },
+    "1-2-defending-relativism.html": {
+      "checksum": "31ad6f446e05445313fb6c248c7c52c4"
+    },
+    "1-2-humane-reform.html": {
+      "checksum": "37c7cd4515f3398cfccc1fddd8c460cf"
+    },
+    "1-2-retributivist-approaches.html": {
+      "checksum": "117d89dc4ffb00a4312f334dbd7b3f8e"
+    },
+    "1-2-rights-and-the-ideal-of-respect.html": {
+      "checksum": "8f03a1950cf99777a1c84e1f516e2bbf"
+    },
+    "1-2-the-case-of-recreational-drugs.html": {
+      "checksum": "8f7758f9b699b281468926d1c6ce4d7a"
+    },
+    "1-2-the-limits-of-nature.html": {
+      "checksum": "b5d777cd69d3b75dac854db6adaac7f1"
+    },
+    "1-2-the-social-contract.html": {
+      "checksum": "d5a07863a099540a3c7f8b14ebe4dfba"
+    },
+    "1-2-the-structure-of-arguments.html": {
+      "checksum": "6fbedcee30ca98dfb3043e151b470ff4"
+    },
+    "1-2-what-should-i-do.html": {
+      "checksum": "4a7f4fe5f3f3d55b80818bd7e15d2b32"
+    },
+    "1-2-why-should-i-care.html": {
+      "checksum": "1ad8e4e04e78689d099b9d37ab3cea7f"
+    },
+    "1-3-ethical-egoism.html": {
+      "checksum": "bd66d35f7e05d9123404e5e110b46f0f"
+    },
+    "1-3-genuine-moral-consideration.html": {
+      "checksum": "629a90e67ef3f0777f205539b7386cad"
+    },
+    "1-3-natural-law-theory.html": {
+      "checksum": "3e5a6a981bdd1ae52779dce98940277c"
+    },
+    "1-3-philosophical-ethics.html": {
+      "checksum": "8f73dd0a90d10ab22150b5a061370a44"
+    },
+    "1-3-presumption.html": {
+      "checksum": "5d08aa27c54528b0a338404bd21c96a8"
+    },
+    "1-3-problems-problems.html": {
+      "checksum": "a71f06aca6b8dc3e2f8b0f8fa17a3e9c"
+    },
+    "1-3-the-argument-from-learning.html": {
+      "checksum": "abb2e7ee4f52f818658a9d020a614d07"
+    },
+    "1-3-the-categorical-imperative.html": {
+      "checksum": "b0e4ff313d2b2f63ce279c9f9f325de4"
+    },
+    "1-3-the-death-penalty.html": {
+      "checksum": "48970c60b131fbfb85c4ef0a1810dbe7"
+    },
+    "1-3-validity-and-soundness.html": {
+      "checksum": "f78670e1e50d01d635a56b310cd62244"
+    },
+    "1-3-varieties-of-environmental-ethics.html": {
+      "checksum": "3f1e0e24a5de8bac0c607c812eeee6a6"
+    },
+    "1-3-why-should-we-follow-the-rules.html": {
+      "checksum": "34f9977716a41ca16ba9b1968c09257c"
+    },
+    "1-4-cognitive-biases.html": {
+      "checksum": "56d4e58f9c711c8c10d7e2b04e923969"
+    },
+    "1-4-difference-and-tolerance.html": {
+      "checksum": "f1c33d2114f26caeeb7d412770f8b38b"
+    },
+    "1-4-ethics-and-human-nature.html": {
+      "checksum": "e934ce4a5b8f03f8fc339cb00a4a604b"
+    },
+    "1-4-in-defense-of-ethical-egoism.html": {
+      "checksum": "4de5f192b2b3f4e7a07f1acb734e7638"
+    },
+    "1-4-proofs-and-counterexamples.html": {
+      "checksum": "d416d3dcd7d21df1a8d43b0499edc3c1"
+    },
+    "1-4-slideshow-summary.html": {
+      "checksum": "a654b25ad57a9134119b029bb1ecaee1"
+    },
+    "1-5-capitalism-and-the-common-good.html": {
+      "checksum": "799cf8cf23ba30467ee32bdb31c9e829"
+    },
+    "1-5-questioning-relativism.html": {
+      "checksum": "3082dafc5a7431a851626fd5b635b254"
+    },
+    "1-5-slideshow-summary.html": {
+      "checksum": "5286b78278e84ca63ef8d9f7ac069132"
+    },
+    "1-6-slideshow-summary.html": {
+      "checksum": "962b184cd4c01dc37cee7cf05f04797f"
+    },
+    "1-animals-and-ethics.html": {
+      "checksum": "4ed6538d8ee8836be977e2e0408d8bfe"
+    },
+    "1-crime-and-punishment.html": {
+      "checksum": "a7bd2507075e849a8d4fd1b912a111b9"
+    },
+    "1-egoism.html": {
+      "checksum": "fc7306d90fdc74998f1e3e9d65c96fab"
+    },
+    "1-ethics-and-the-environment.html": {
+      "checksum": "8b11690cf6cef079dd23999e54e5794d"
+    },
+    "1-euthanasia.html": {
+      "checksum": "3db2a62c1feaea1a9d30c99b6163a185"
+    },
+    "1-fallacies-and-biases.html": {
+      "checksum": "b899409677a1d9db758247fda0cb8c0d"
+    },
+    "1-kant-and-the-ethics-of-duty.html": {
+      "checksum": "36273d9312a46e105b765c5eb066e70e"
+    },
+    "1-liberty-and-its-limits.html": {
+      "checksum": "1e2ba26939b58d179fe533569a75177f"
+    },
+    "1-logic.html": {
+      "checksum": "1e8eac766239fc1579d4247ece9becce"
+    },
+    "1-relativism.html": {
+      "checksum": "3666e09382b3e023c70bb72f107ef08e"
+    },
+    "1-religion.html": {
+      "checksum": "6fb7d526bcfe26ae07a67bc6ecbb3e17"
+    },
+    "1-social-contract-theory.html": {
+      "checksum": "3d94b81c3d736abab80c6e988df8b7cb"
+    },
+    "1-the-examined-life.html": {
+      "checksum": "bb9cb4aff885d3a6999d0eb84322a179"
+    },
+    "1-theory-in-practice.html": {
+      "checksum": "2c4d457d673b10d3e6e4721a0f526565"
+    },
+    "1-utilitarianism.html": {
+      "checksum": "375735692b2ee4fd2675c6d95974ed99"
+    },
+    "10-practice.Rmd": {
+      "checksum": "3453ffc148eafc4d446d808501019e8f"
+    },
+    "11-euthanasia.Rmd": {
+      "checksum": "b642eca4d10ea4586ff73272781255a0"
+    },
+    "12-liberty.Rmd": {
+      "checksum": "5d1d16ac6570e88a550ede1b5e87f32f"
+    },
+    "13-crime.Rmd": {
+      "checksum": "58caa96db17f0f2edf84158187d09d71"
+    },
+    "14-animals.Rmd": {
+      "checksum": "6e929b7b5443eab4db39c9a2cadf772e"
+    },
+    "15-environment.Rmd": {
+      "checksum": "89618ae60b0626cf9608bcbcbf802d5f"
+    },
+    "18-appendix.Rmd": {
+      "checksum": "d7af40b7add1925f66f145a4a6655868"
+    },
+    "20-References.Rmd": {
+      "checksum": "83e80cdad613bb3176e56a277a078c89"
+    },
+    "about-this-book.html": {
+      "checksum": "42dc027ebbd6423c0955d337c8a2c3e0"
+    },
+    "acknowledgements.html": {
+      "checksum": "84bbf54fb142da76af5da161c184e6bf"
+    },
+    "appendix-1.html": {
+      "checksum": "27b742f5ef39fac8147da744a0b618e5"
+    },
+    "apple-touch-icon.png": {
+      "checksum": "65849dbe67a8a69e2cdec53b18ab0853"
+    },
+    "chicago-fullnote-bibliography.csl": {
+      "checksum": "0939daee675ee3cb5f0c01770fae098e"
+    },
+    "dedication.html": {
+      "checksum": "ab30fc534a5515e113f6d8ac837d678c"
+    },
+    "DESCRIPTION": {
+      "checksum": "0fc1774d9d1d423722815f11383bffb3"
+    },
+    "docs/1-1-what-do-i-know.html": {
+      "checksum": "c30e3166e61fb6d12ae7b1af24139387"
+    },
+    "docs/1-2-what-should-i-do.html": {
+      "checksum": "3e952b2b937dfc7bb9569bf9b5f29ae8"
+    },
+    "docs/1-3-philosophical-ethics.html": {
+      "checksum": "8792968fae62c1cf7e5c76f5fbc1cb46"
+    },
+    "docs/1-4-slideshow-summary.html": {
+      "checksum": "3c2c6acdaf4de197a0e174b8edc52a25"
+    },
+    "docs/1-the-examined-life.html": {
+      "checksum": "c793901965c1cf832cfab9ddec045eee"
+    },
+    "docs/10-1-ethics-in-the-real-world.html": {
+      "checksum": "eb4c4f64658cfedd292d9a505daa456a"
+    },
+    "docs/10-theory-in-practice.html": {
+      "checksum": "6539cf687d4e690beb2cc45c59ade5dc"
+    },
+    "docs/11-1-types-of-euthanasia.html": {
+      "checksum": "8586db8081b649603c5b2fa4443bbffe"
+    },
+    "docs/11-2-arguing-about-euthanasia.html": {
+      "checksum": "f65d675d89b71b989478b38694c106c3"
+    },
+    "docs/11-euthanasia.html": {
+      "checksum": "059780c6359ee17c2e3f552a9d20aada"
+    },
+    "docs/12-1-libertarians-and-paternalists.html": {
+      "checksum": "009667e30ff32de0dea7d808773d96ee"
+    },
+    "docs/12-2-the-case-of-recreational-drugs.html": {
+      "checksum": "8d532b24f76ca16f257459b8d03aa497"
+    },
+    "docs/12-liberty-and-its-limits.html": {
+      "checksum": "a34703869fe259688b619349fd189569"
+    },
+    "docs/13-1-utilitarian-approaches.html": {
+      "checksum": "9238150053eee4156e1362e237b9064b"
+    },
+    "docs/13-2-retributivist-approaches.html": {
+      "checksum": "5263e6d7c2a7ca045a305efc6bc5985f"
+    },
+    "docs/13-3-the-death-penalty.html": {
+      "checksum": "b52169b3a6cbd1f5e27077fb8cae9942"
+    },
+    "docs/13-crime-and-punishment.html": {
+      "checksum": "f15c96deb46c9e5733b708e3a478f002"
+    },
+    "docs/14-1-defending-the-status-quo.html": {
+      "checksum": "4a7d756a498dbbcc31509e2f4919b296"
+    },
+    "docs/14-2-humane-reform.html": {
+      "checksum": "347a6213009a6afb284b9c8d913d727c"
+    },
+    "docs/14-3-genuine-moral-consideration.html": {
+      "checksum": "b2eb0def6d36cf6998985983ca8cde12"
+    },
+    "docs/14-animals-and-ethics.html": {
+      "checksum": "15e3283c6cfde3e7d3931455ed4a52d8"
+    },
+    "docs/15-1-the-standard-view.html": {
+      "checksum": "c4503805fbab2a6956eac45c7d0e6470"
+    },
+    "docs/15-2-the-limits-of-nature.html": {
+      "checksum": "bf4453f1ec84552bed28eec6b5062300"
+    },
+    "docs/15-3-varieties-of-environmental-ethics.html": {
+      "checksum": "d66b41756149e88078276a0262e59964"
+    },
+    "docs/15-ethics-and-the-environment.html": {
+      "checksum": "243f1ef66b38ddb17d2080422f7715f3"
+    },
+    "docs/2-1-arguments-rationality-and-rhetoric.html": {
+      "checksum": "213b24a6921bd7c0a2a419362002eb16"
+    },
+    "docs/2-2-the-structure-of-arguments.html": {
+      "checksum": "e7c7f32ce0f50297e385d41962405ed6"
+    },
+    "docs/2-3-validity-and-soundness.html": {
+      "checksum": "0f0bceade575f3dc055206807a78d266"
+    },
+    "docs/2-4-proofs-and-counterexamples.html": {
+      "checksum": "ec1474e990628b58d7945739440527e0"
+    },
+    "docs/2-5-slideshow-summary-1.html": {
+      "checksum": "858e467e160b4eccd377de261ffb496d"
+    },
+    "docs/2-logic.html": {
+      "checksum": "f7497603ee44c983df305d2c817a98db"
+    },
+    "docs/3-1-relevance.html": {
+      "checksum": "73fb3cc5c7c8fbdf9a50e5a076bdfa6b"
+    },
+    "docs/3-2-ambiguity.html": {
+      "checksum": "a8c0286091f775cb1eedc31b986ab906"
+    },
+    "docs/3-3-presumption.html": {
+      "checksum": "2cbdc924095843314f58be14d70c46ea"
+    },
+    "docs/3-4-cognitive-biases.html": {
+      "checksum": "229429111b1b0e930963290052a958f7"
+    },
+    "docs/3-5-slideshow-summary-2.html": {
+      "checksum": "6b1b1c6c102f96313d00b12d63de74c0"
+    },
+    "docs/3-fallacies-and-biases.html": {
+      "checksum": "f635c31fd62839113b99f52e4c496ed7"
+    },
+    "docs/4-1-claims-and-consequences-of-moral-relativism.html": {
+      "checksum": "31396c9020ae39936b1bfb87bc7c776f"
+    },
+    "docs/4-2-defending-relativism.html": {
+      "checksum": "a0a00d3a4c95e461ccea8cd032ee3f5e"
+    },
+    "docs/4-3-the-argument-from-learning.html": {
+      "checksum": "f834c013c384d4b443e0a556fed91a0f"
+    },
+    "docs/4-4-difference-and-tolerance.html": {
+      "checksum": "a97aef8885df3b4ea2e91acc1fa14fae"
+    },
+    "docs/4-5-questioning-relativism.html": {
+      "checksum": "677ba7abfcd58e70c9edc939a6cc1b70"
+    },
+    "docs/4-6-slideshow-summary-3.html": {
+      "checksum": "ac85000b583cbe2e06f0dc3b0139352f"
+    },
+    "docs/4-relativism.html": {
+      "checksum": "17d333d34f527394c30af78623967905"
+    },
+    "docs/5-1-divine-command-theory.html": {
+      "checksum": "b0a27cd489af84ccf11068cbea0a3ef3"
+    },
+    "docs/5-2-a-nasty-dilemma.html": {
+      "checksum": "fe6b5fda2c15ae4e8e8c678a108c42c8"
+    },
+    "docs/5-3-natural-law-theory.html": {
+      "checksum": "62483b775152069dfd76420f13f93fd9"
+    },
+    "docs/5-4-ethics-and-human-nature.html": {
+      "checksum": "e7f2fa95303fdac6180ea725f1d2d026"
+    },
+    "docs/5-5-slideshow-summary-4.html": {
+      "checksum": "7815247d9a2a1a8733593a52dbcf4428"
+    },
+    "docs/5-religion.html": {
+      "checksum": "daeef1ae7acb56129c2589926ae4818b"
+    },
+    "docs/6-1-psychological-egoism-whats-in-it-for-me.html": {
+      "checksum": "3a2ad49bd4ad34fd7fb73bcb820bd5dd"
+    },
+    "docs/6-2-arguments-for-psychological-egoism.html": {
+      "checksum": "9c3bebd9441ee14c0ab3c4c65352dca7"
+    },
+    "docs/6-3-ethical-egoism.html": {
+      "checksum": "315f928fb1a84a9b2748775811676218"
+    },
+    "docs/6-4-in-defense-of-ethical-egoism.html": {
+      "checksum": "87c4cea19352fc077893b3fac871be43"
+    },
+    "docs/6-5-capitalism-and-the-common-good.html": {
+      "checksum": "0c31e37b8a7337e2c9c4c453088c4b50"
+    },
+    "docs/6-6-slideshow-summary-5.html": {
+      "checksum": "ce6c37a7177b6a2b2fd1650d02835864"
+    },
+    "docs/6-egoism.html": {
+      "checksum": "ccaf4a3f65af3a183a33da02de597f00"
+    },
+    "docs/7-1-hobbes-and-the-invention-of-society.html": {
+      "checksum": "fc32dc47a0959ec60b34146f43e78ba7"
+    },
+    "docs/7-2-the-social-contract.html": {
+      "checksum": "b45beb926a55054add24808bdb6835b7"
+    },
+    "docs/7-3-why-should-we-follow-the-rules.html": {
+      "checksum": "debe2c86e2e586664492dd7a91024796"
+    },
+    "docs/7-4-slideshow-summary-6.html": {
+      "checksum": "6234cde0a1f602bbbd5e7e6c02b4ab45"
+    },
+    "docs/7-social-contract-theory.html": {
+      "checksum": "84db32bfe6a34abd703b6184f2512fb1"
+    },
+    "docs/8-1-happiness-and-the-highest-good.html": {
+      "checksum": "70e8404d64da9dcadb36074d014a3602"
+    },
+    "docs/8-2-why-should-i-care.html": {
+      "checksum": "469638144f8684b876e66868092b31a9"
+    },
+    "docs/8-3-problems-problems.html": {
+      "checksum": "5d27701894eeabc470672df38bd50a91"
+    },
+    "docs/8-4-slideshow-summary-7.html": {
+      "checksum": "c9992bd110db9ef60d9a9489707f23ce"
+    },
+    "docs/8-utilitarianism.html": {
+      "checksum": "e3206282ef83aff09122bc6207c17d45"
+    },
+    "docs/9-1-what-do-we-owe-one-another.html": {
+      "checksum": "43528af51846339295f82be269538a4f"
+    },
+    "docs/9-2-rights-and-the-ideal-of-respect.html": {
+      "checksum": "2a92807286e42a96e86b222b11ef6e23"
+    },
+    "docs/9-3-the-categorical-imperative.html": {
+      "checksum": "57d5e904bce34e8568fa3943a2fe06db"
+    },
+    "docs/9-4-slideshow-summary-8.html": {
+      "checksum": "d653014a8ab5a89e1fcba98b9ced5ad1"
+    },
+    "docs/9-kant-and-the-ethics-of-duty.html": {
+      "checksum": "9d889458f90ec33324c8ff3547bf06d6"
+    },
+    "docs/about-this-book.html": {
+      "checksum": "959bafda5183c223eaff613687ccafbe"
+    },
+    "docs/acknowledgements.html": {
+      "checksum": "373df5e35b66df91364240a5f26f872d"
+    },
+    "docs/appendix-1.html": {
+      "checksum": "8fa6fbbbc244cefec8e9aa744c6645a6"
+    },
+    "docs/apple-touch-icon.png": {
+      "checksum": "65849dbe67a8a69e2cdec53b18ab0853"
+    },
+    "docs/dedication.html": {
+      "checksum": "7d07454f0636fdf9d68ce5cb80cc3c66"
+    },
+    "docs/ethics-guidebook.pdf": {
+      "checksum": "4c87e98bb726b55e104a23397cc78edf"
+    },
+    "docs/ethics-guidebook.tex": {
+      "checksum": "a5475405c646c152bc660ec7ddf7b629"
+    },
+    "docs/ethics.css": {
+      "checksum": "7c361ba4cc37172b644bcac79555b02c"
+    },
+    "docs/favicon.ico": {
+      "checksum": "f00a44853aabca31c203637ea63591de"
+    },
+    "docs/further-3.html": {
+      "checksum": "dd0e56f11c8d715b6916361519de87d9"
+    },
+    "docs/further-exploration-1.html": {
+      "checksum": "95283be6ebc43b00aefb8ada9d593551"
+    },
+    "docs/further-exploration-2.html": {
+      "checksum": "f285150016194cf01be9ffa4a4095050"
+    },
+    "docs/further-exploration-3.html": {
+      "checksum": "fd1bed89db043bcad59a0b7d4e6bab3b"
+    },
+    "docs/further-exploration-4.html": {
+      "checksum": "eff014db809223704068d0c0f32d99d7"
+    },
+    "docs/further-exploration-5.html": {
+      "checksum": "dae00788e78b9c88f1c27b57c32eeec6"
+    },
+    "docs/further-exploration-6.html": {
+      "checksum": "e432db4ddf2567e7e380dbf32dd7d79e"
+    },
+    "docs/further-exploration-7.html": {
+      "checksum": "130ca4196ed6737726e740d027b45b83"
+    },
+    "docs/further-exploration-8.html": {
+      "checksum": "a42ee8b27b54dc6fa32db96b65290567"
+    },
+    "docs/further-exploration.html": {
+      "checksum": "fdbe0ea435f4ac0d830c53f90807a269"
+    },
+    "docs/how-to-use-this-book.html": {
+      "checksum": "b858d18535855bf60eb8a5c10b2cd1a2"
+    },
+    "docs/img/buddha-bird.jpg": {
+      "checksum": "c61814b8797e21f6fd811717c6314704"
+    },
+    "docs/img/caution.png": {
+      "checksum": "7ec035fcf5aefe9a8e1c5b9e59037f64"
+    },
+    "docs/img/constitution.jpg": {
+      "checksum": "63fe75e4518398d31309522e645813b1"
+    },
+    "docs/img/cover-2.jpg": {
+      "checksum": "2ec09805fa18d51cc81b859268396942"
+    },
+    "docs/img/crowd.jpg": {
+      "checksum": "dcc10387326d3ef0f6cee928e0da704e"
+    },
+    "docs/img/david-socrates.jpg": {
+      "checksum": "ded0bfbc667d5e096f77220ce5ab5646"
+    },
+    "docs/img/fallacy-ref.jpg": {
+      "checksum": "9cdf9b3408c8b700b46f3adafaba353e"
+    },
+    "docs/img/hardcore-02.jpg": {
+      "checksum": "7e24e67f744cc5fdd02f11611d627b95"
+    },
+    "docs/img/hongzhi.jpg": {
+      "checksum": "59f593a4bada3645a0ef14583b87268a"
+    },
+    "docs/img/illusion.png": {
+      "checksum": "197e45be3a2eebda04607f761ca3cb87"
+    },
+    "docs/img/important.png": {
+      "checksum": "124f4bc6b4a53a8b52d2af71ec51258c"
+    },
+    "docs/img/jizo.jpg": {
+      "checksum": "6eb83ef2978580de8f1f6fa830a01196"
+    },
+    "docs/img/king-audacity.jpg": {
+      "checksum": "2386f7c5eb69cf6fff402d452afa52a4"
+    },
+    "docs/img/note.png": {
+      "checksum": "0690cec7d1daa86931e49f3da6962123"
+    },
+    "docs/img/question.png": {
+      "checksum": "ce81f74fbd76b058c2db0d77be90dcdb"
+    },
+    "docs/img/tenniel-tweedle-dee-dum.jpg": {
+      "checksum": "dbb6a0982afbfc6e8e487b60fcf17d37"
+    },
+    "docs/img/tip.png": {
+      "checksum": "a192572cc7ca1ed758cbcdaadb4cd292"
+    },
+    "docs/img/tori-shrine.jpg": {
+      "checksum": "4e427162806dfcd620bb3670cebb7e1c"
+    },
+    "docs/img/tux.png": {
+      "checksum": "c9486c3f5abf6f05efcbb032129301c8"
+    },
+    "docs/img/warning.png": {
+      "checksum": "02d21f609a0b3982019a501ace1585a3"
+    },
+    "docs/index.html": {
+      "checksum": "2191c141fb9cc1db27dedcd370095835"
+    },
+    "docs/libs/accessible-code-block-0.0.1/empty-anchor.js": {
+      "checksum": "53c42ac72d71beb8e6dbffe86ab543d6"
+    },
+    "docs/libs/gitbook-2.6.7/css/fontawesome/fontawesome-webfont.ttf": {
+      "checksum": "b06871f281fee6b241d60582ae9369b9"
+    },
+    "docs/libs/gitbook-2.6.7/css/plugin-bookdown.css": {
+      "checksum": "47d2ab46c435be24b407aa0c92b4d610"
+    },
+    "docs/libs/gitbook-2.6.7/css/plugin-clipboard.css": {
+      "checksum": "e4a3bdc1e3d5590f47cbac67976f3961"
+    },
+    "docs/libs/gitbook-2.6.7/css/plugin-fontsettings.css": {
+      "checksum": "76af8c23a8138a4b66aa6959ca5c3a8e"
+    },
+    "docs/libs/gitbook-2.6.7/css/plugin-highlight.css": {
+      "checksum": "467fbe4b6b5a4b88fdd75c463f8626ec"
+    },
+    "docs/libs/gitbook-2.6.7/css/plugin-search.css": {
+      "checksum": "0d7a6bb6a50e00c7358cf61027f099f0"
+    },
+    "docs/libs/gitbook-2.6.7/css/plugin-table.css": {
+      "checksum": "8cb82f94ce1446fa4bafe7a3933e6c65"
+    },
+    "docs/libs/gitbook-2.6.7/css/style.css": {
+      "checksum": "11f13a161c95d0e8257d673dc27f9251"
+    },
+    "docs/libs/gitbook-2.6.7/js/app.min.js": {
+      "checksum": "395a8093ce46450cabfaa545a0705a3b"
+    },
+    "docs/libs/gitbook-2.6.7/js/clipboard.min.js": {
+      "checksum": "be72101c8c16ba95fd8b69760d5ebc56"
+    },
+    "docs/libs/gitbook-2.6.7/js/jquery.highlight.js": {
+      "checksum": "999424d32e03b9857098d2c7f53928c2"
+    },
+    "docs/libs/gitbook-2.6.7/js/lunr.js": {
+      "checksum": "fbc747c6143aabb39b0ea7c0524b7057"
+    },
+    "docs/libs/gitbook-2.6.7/js/plugin-bookdown.js": {
+      "checksum": "36b5487b9c1020c0de1352b8f26b8a8e"
+    },
+    "docs/libs/gitbook-2.6.7/js/plugin-clipboard.js": {
+      "checksum": "a30f95fcd3fde10637ace1fb691b7475"
+    },
+    "docs/libs/gitbook-2.6.7/js/plugin-fontsettings.js": {
+      "checksum": "4f57689705fdfa3eabfb7b7b92614f33"
+    },
+    "docs/libs/gitbook-2.6.7/js/plugin-search.js": {
+      "checksum": "2d4c4d47ba34946b8ebcbe41aa522756"
+    },
+    "docs/libs/gitbook-2.6.7/js/plugin-sharing.js": {
+      "checksum": "67bb84cbf25c3fb4f971aec5b333dbc8"
+    },
+    "docs/libs/jquery-2.2.3/jquery.min.js": {
+      "checksum": "33cabfa15c1060aaa3d207c653afb1ee"
+    },
+    "docs/references.html": {
+      "checksum": "9712bf0632fb013f8fcb9eb7e07ee782"
+    },
+    "docs/search_index.json": {
+      "checksum": "ff68969e2870d2115bab98bbefcbd854"
+    },
+    "ethics-guidebook.aux": {
+      "checksum": "93c3339ff9fcd6e159ce1edc1c2ed2ea"
+    },
+    "ethics-guidebook.out": {
+      "checksum": "01d001b5cf7f0c4e94a9d1ec114bcc8f"
+    },
+    "ethics.bib": {
+      "checksum": "ab8bcfdfd777c38116c22f92681bc297"
+    },
+    "ethics.css": {
+      "checksum": "7c361ba4cc37172b644bcac79555b02c"
+    },
+    "extras/800px-Relief_Herodotus_cour_Carree_Louvre.jpg": {
+      "checksum": "60013be9fd98faeca0e2a57f92b3bf0c"
+    },
+    "extras/adam-smith.jpg": {
+      "checksum": "b3e8dde9f9bc94cff013e27b902dca8a"
+    },
+    "extras/android-chrome-192x192.png": {
+      "checksum": "9e7aa0a9da92ebc51e0a2b0b7a6f1a83"
+    },
+    "extras/android-chrome-512x512.png": {
+      "checksum": "4eb0eea73ce5286d8cdc4abe9ff36ed0"
+    },
+    "extras/apple-touch-icon.png": {
+      "checksum": "65849dbe67a8a69e2cdec53b18ab0853"
+    },
+    "extras/aristotle.jpg": {
+      "checksum": "8f29275a24965cc68de0a718a198cae0"
+    },
+    "extras/bentham.jpg": {
+      "checksum": "27ae226721fc67a05cbde27361e2feb2"
+    },
+    "extras/citations/spiro-1986.pdf": {
+      "checksum": "88ae5f9c0a1b0b0d01ee85d6aa3f54b6"
+    },
+    "extras/favicon_io.zip": {
+      "checksum": "bc9747e5a4093cff4d8808ccf7c3f51d"
+    },
+    "extras/favicon-16x16.png": {
+      "checksum": "096793ca80ba5887632841a487c47a81"
+    },
+    "extras/favicon-32x32.png": {
+      "checksum": "b5958feaaf5bf21fa2625ec82167b3c1"
+    },
+    "extras/favicon.ico": {
+      "checksum": "f00a44853aabca31c203637ea63591de"
+    },
+    "extras/giovanni-battista-bertucci-aquinas.jpg": {
+      "checksum": "1fdb310bd76874a95d0024d958f9abd8"
+    },
+    "extras/herodotus-louvre-carre.jpg": {
+      "checksum": "382e0e7d899d75363c96e27f84b4378c"
+    },
+    "extras/inuit-1.jpg": {
+      "checksum": "30a5ff17228580403e7ab2dfe2392c05"
+    },
+    "extras/inuit-2.jpg": {
+      "checksum": "b908f972e6eb00233922d8a8cba6e969"
+    },
+    "extras/inuit-4.jpg": {
+      "checksum": "58bad8ef800da7d16502d420f5dc03ec"
+    },
+    "extras/inuit-5.jpg": {
+      "checksum": "a17c20e712bbd1e4064076f94eea4015"
+    },
+    "extras/inuit-woman-1907.jpg": {
+      "checksum": "b17b8b8324d0ce74ad80f0720b39ea6d"
+    },
+    "extras/leviathan.jpg": {
+      "checksum": "7aca09deb55bf48b76a3d156aa9b5ad1"
+    },
+    "extras/masters-of-photography": {
+      "checksum": "98c2c9dd021609b7f12e5e5c85d9c433"
+    },
+    "extras/mill.jpg": {
+      "checksum": "669329e10cbe038ae86047bbcaa41066"
+    },
+    "extras/photo-credits": {
+      "checksum": "e2cf5939cf45570ba9fdc128996bfeb0"
+    },
+    "extras/rand.jpg": {
+      "checksum": "35fe44501d6014e4b210bc3fe41c9b1f"
+    },
+    "extras/ruth-benedict.jpg": {
+      "checksum": "ba1f62e0ed2cad47aab2b94586076971"
+    },
+    "extras/site.webmanifest": {
+      "checksum": "053100cb84a50d2ae7f5492f7dd7f25e"
+    },
+    "extras/stirner.jpg": {
+      "checksum": "19a6ab0d8f5c2c5b8740e38f36d4a917"
+    },
+    "extras/ten-commandments-luther-beham-1527.jpg": {
+      "checksum": "c2057568d21c3e51aa1f9ce5023bb473"
+    },
+    "extras/tibbets-hiroshima.jpg": {
+      "checksum": "80dbd95e63a06b39145206f65b885aa4"
+    },
+    "favicon.ico": {
+      "checksum": "f00a44853aabca31c203637ea63591de"
+    },
+    "frontpage.tex": {
+      "checksum": "6a22544b925e172774aababeb879f648"
+    },
+    "further-3.html": {
+      "checksum": "69dddeb105d889f4f3e8c80353e8b3ac"
+    },
+    "further-exploration.html": {
+      "checksum": "0243b81a5ec215f27b464a92e533bfd7"
+    },
+    "header.html": {
+      "checksum": "e844ab209a3c86c643d4bcc9e5f0bc68"
+    },
+    "how-to-use-this-book.html": {
+      "checksum": "150d3e369e13fbd359fd31e9e26ce3d5"
+    },
+    "hypothesis.html": {
+      "checksum": "1ebeb0168b082a31bc9e4d2897552c2e"
+    },
+    "img/android-chrome-192x192.png": {
+      "checksum": "9e7aa0a9da92ebc51e0a2b0b7a6f1a83"
+    },
+    "img/android-chrome-512x512.png": {
+      "checksum": "4eb0eea73ce5286d8cdc4abe9ff36ed0"
+    },
+    "img/apple-touch-icon.png": {
+      "checksum": "65849dbe67a8a69e2cdec53b18ab0853"
+    },
+    "img/buddha-bird.jpg": {
+      "checksum": "c61814b8797e21f6fd811717c6314704"
+    },
+    "img/caution.png": {
+      "checksum": "7ec035fcf5aefe9a8e1c5b9e59037f64"
+    },
+    "img/cc.png": {
+      "checksum": "36e5a68d52a8c79064425167a675ea48"
+    },
+    "img/constitution.jpg": {
+      "checksum": "63fe75e4518398d31309522e645813b1"
+    },
+    "img/cover-2.jpg": {
+      "checksum": "2ec09805fa18d51cc81b859268396942"
+    },
+    "img/cover.jpg": {
+      "checksum": "c2ab7e9f0a4cc251cfdf9d3e8ee4f5e9"
+    },
+    "img/crowd.jpg": {
+      "checksum": "dcc10387326d3ef0f6cee928e0da704e"
+    },
+    "img/david-socrates.jpg": {
+      "checksum": "ded0bfbc667d5e096f77220ce5ab5646"
+    },
+    "img/fallacy-ref.jpg": {
+      "checksum": "9cdf9b3408c8b700b46f3adafaba353e"
+    },
+    "img/favicon-16x16.png": {
+      "checksum": "096793ca80ba5887632841a487c47a81"
+    },
+    "img/favicon-32x32.png": {
+      "checksum": "b5958feaaf5bf21fa2625ec82167b3c1"
+    },
+    "img/favicon.ico": {
+      "checksum": "f00a44853aabca31c203637ea63591de"
+    },
+    "img/further.png": {
+      "checksum": "8977fcd9d89f575b81bc6d0c39b18a0f"
+    },
+    "img/graffiti.jpg": {
+      "checksum": "129e44c6c358f9fd6455965b6bc10b28"
+    },
+    "img/hardcore-02.jpg": {
+      "checksum": "7e24e67f744cc5fdd02f11611d627b95"
+    },
+    "img/hongzhi.jpg": {
+      "checksum": "59f593a4bada3645a0ef14583b87268a"
+    },
+    "img/illusion.png": {
+      "checksum": "197e45be3a2eebda04607f761ca3cb87"
+    },
+    "img/important.png": {
+      "checksum": "124f4bc6b4a53a8b52d2af71ec51258c"
+    },
+    "img/jizo.jpg": {
+      "checksum": "6eb83ef2978580de8f1f6fa830a01196"
+    },
+    "img/king-audacity.jpg": {
+      "checksum": "2386f7c5eb69cf6fff402d452afa52a4"
+    },
+    "img/mulberry-street.jpg": {
+      "checksum": "c37bc5cec2b4dc423612e3f5a36ff5a6"
+    },
+    "img/note.png": {
+      "checksum": "0690cec7d1daa86931e49f3da6962123"
+    },
+    "img/question.png": {
+      "checksum": "ce81f74fbd76b058c2db0d77be90dcdb"
+    },
+    "img/remarkbox--2.png": {
+      "checksum": "5b30e640236540b6924adf71b4b705a3"
+    },
+    "img/site.webmanifest": {
+      "checksum": "a25fe7d47f651a5ed9994c4202953b1a"
+    },
+    "img/slides.png": {
+      "checksum": "3db41b96dbf1dc326e11e80e7ad97762"
+    },
+    "img/task.png": {
+      "checksum": "d1d65b61a94964f0dd52f8ac8d720539"
+    },
+    "img/tenniel-alice-discussion.png": {
+      "checksum": "5441086d07b4f568d44c8c81063c322a"
+    },
+    "img/tenniel-alice-humpty.jpg": {
+      "checksum": "dafd12013b07b7e67bcc8b159801fb9b"
+    },
+    "img/tenniel-alice-queens.jpg": {
+      "checksum": "f3a9aecff35cefc2b16608ff79a2b6a4"
+    },
+    "img/tenniel-father-will.jpg": {
+      "checksum": "1b40dc3a7d52af960161b4f9b219567a"
+    },
+    "img/tenniel-father-william.png": {
+      "checksum": "d5c1e56b98daa01e280a78e6aabec93f"
+    },
+    "img/tenniel-hatter.png": {
+      "checksum": "7580078fdac034d18f9aac7c3bcaea0a"
+    },
+    "img/tenniel-tweedle-dee-dum.jpg": {
+      "checksum": "dbb6a0982afbfc6e8e487b60fcf17d37"
+    },
+    "img/tip.png": {
+      "checksum": "a192572cc7ca1ed758cbcdaadb4cd292"
+    },
+    "img/tori-shrine.jpg": {
+      "checksum": "4e427162806dfcd620bb3670cebb7e1c"
+    },
+    "img/tux.png": {
+      "checksum": "c9486c3f5abf6f05efcbb032129301c8"
+    },
+    "img/warning.png": {
+      "checksum": "02d21f609a0b3982019a501ace1585a3"
+    },
+    "index.Rmd": {
+      "checksum": "909e78340d3ebac28e67c1388dc6ad02"
+    },
+    "libs/accessible-code-block-0.0.1/empty-anchor.js": {
+      "checksum": "53c42ac72d71beb8e6dbffe86ab543d6"
+    },
+    "libs/gitbook-2.6.7/css/fontawesome/fontawesome-webfont.ttf": {
+      "checksum": "b06871f281fee6b241d60582ae9369b9"
+    },
+    "libs/gitbook-2.6.7/css/plugin-bookdown.css": {
+      "checksum": "47d2ab46c435be24b407aa0c92b4d610"
+    },
+    "libs/gitbook-2.6.7/css/plugin-clipboard.css": {
+      "checksum": "e4a3bdc1e3d5590f47cbac67976f3961"
+    },
+    "libs/gitbook-2.6.7/css/plugin-fontsettings.css": {
+      "checksum": "76af8c23a8138a4b66aa6959ca5c3a8e"
+    },
+    "libs/gitbook-2.6.7/css/plugin-highlight.css": {
+      "checksum": "467fbe4b6b5a4b88fdd75c463f8626ec"
+    },
+    "libs/gitbook-2.6.7/css/plugin-search.css": {
+      "checksum": "0d7a6bb6a50e00c7358cf61027f099f0"
+    },
+    "libs/gitbook-2.6.7/css/plugin-table.css": {
+      "checksum": "8cb82f94ce1446fa4bafe7a3933e6c65"
+    },
+    "libs/gitbook-2.6.7/css/style.css": {
+      "checksum": "11f13a161c95d0e8257d673dc27f9251"
+    },
+    "libs/gitbook-2.6.7/js/app.min.js": {
+      "checksum": "395a8093ce46450cabfaa545a0705a3b"
+    },
+    "libs/gitbook-2.6.7/js/clipboard.min.js": {
+      "checksum": "be72101c8c16ba95fd8b69760d5ebc56"
+    },
+    "libs/gitbook-2.6.7/js/jquery.highlight.js": {
+      "checksum": "999424d32e03b9857098d2c7f53928c2"
+    },
+    "libs/gitbook-2.6.7/js/lunr.js": {
+      "checksum": "fbc747c6143aabb39b0ea7c0524b7057"
+    },
+    "libs/gitbook-2.6.7/js/plugin-bookdown.js": {
+      "checksum": "36b5487b9c1020c0de1352b8f26b8a8e"
+    },
+    "libs/gitbook-2.6.7/js/plugin-clipboard.js": {
+      "checksum": "a30f95fcd3fde10637ace1fb691b7475"
+    },
+    "libs/gitbook-2.6.7/js/plugin-fontsettings.js": {
+      "checksum": "4f57689705fdfa3eabfb7b7b92614f33"
+    },
+    "libs/gitbook-2.6.7/js/plugin-search.js": {
+      "checksum": "2d4c4d47ba34946b8ebcbe41aa522756"
+    },
+    "libs/gitbook-2.6.7/js/plugin-sharing.js": {
+      "checksum": "67bb84cbf25c3fb4f971aec5b333dbc8"
+    },
+    "libs/jquery-2.2.3/jquery.min.js": {
+      "checksum": "33cabfa15c1060aaa3d207c653afb1ee"
+    },
+    "LICENSE": {
+      "checksum": "c63c812da95490661796a4bafbf1a658"
+    },
+    "modern-language-association.csl": {
+      "checksum": "4cfa66f61f4b67daee557bb30a708a6f"
+    },
+    "packrat/desc/base64enc": {
+      "checksum": "6445fcef101e96d6abf589bd4f90a548"
+    },
+    "packrat/desc/bookdown": {
+      "checksum": "7f326a09c59d8994f4215d1f5d1319c3"
+    },
+    "packrat/desc/digest": {
+      "checksum": "0867dfa4fa2646143b093b547db136c7"
+    },
+    "packrat/desc/evaluate": {
+      "checksum": "a9cd9b89bfea49c257fde3ee48779162"
+    },
+    "packrat/desc/glue": {
+      "checksum": "717d6b7b80f51fc6a34e334a9d57ea5c"
+    },
+    "packrat/desc/highr": {
+      "checksum": "1b72a772312e98287353ca91ae811f2f"
+    },
+    "packrat/desc/htmltools": {
+      "checksum": "6d22b39766196130d7614360b21213db"
+    },
+    "packrat/desc/jsonlite": {
+      "checksum": "baf7e5e63bc4d2fd28057a6b7b1e5cd3"
+    },
+    "packrat/desc/knitr": {
+      "checksum": "abdcc29f084110c423529bb689437e43"
+    },
+    "packrat/desc/magrittr": {
+      "checksum": "78d40b06d2a31a879a92252c48212373"
+    },
+    "packrat/desc/markdown": {
+      "checksum": "9f086f8b31297190568dbab62ae7314b"
+    },
+    "packrat/desc/mime": {
+      "checksum": "a44e0d1eb437f9380f08964581aa4bb5"
+    },
+    "packrat/desc/rlang": {
+      "checksum": "1221604158ccdd60b7657daa4eeaf71f"
+    },
+    "packrat/desc/rmarkdown": {
+      "checksum": "dd94c1b6f1b9d789dd2c02ec1cc789f6"
+    },
+    "packrat/desc/stringi": {
+      "checksum": "9bc574698ad92d71b79d115f5b6ac158"
+    },
+    "packrat/desc/stringr": {
+      "checksum": "a195a2ad78f384a9140d622c8ef30261"
+    },
+    "packrat/desc/tinytex": {
+      "checksum": "1e139ad782a77c2eea3267b66ecfa848"
+    },
+    "packrat/desc/xfun": {
+      "checksum": "4d7f935103c109474e59c2f33210a51c"
+    },
+    "packrat/desc/yaml": {
+      "checksum": "7538b813e66ebe9f97d31783ca635c85"
+    },
+    "packrat/packrat.lock": {
+      "checksum": "aae4bbcfee3f3ad1e39d4c7bcd670739"
+    },
+    "preamble.html": {
+      "checksum": "12363705be95d357662f47fa5805619d"
+    },
+    "preamble.tex": {
+      "checksum": "36e80e2ef7521860ac2e354e90aaa939"
+    },
+    "preface.html": {
+      "checksum": "c88043683a57833e825b184bd27699ca"
+    },
+    "README.html": {
+      "checksum": "74de748e27be0ed9d3555bc9926198b3"
+    },
+    "README.md": {
+      "checksum": "99e9b773e5ef283e10626b647653b918"
+    },
+    "references.html": {
+      "checksum": "021c84ff04f3693be2bdecd912a41c21"
+    }
+  },
+  "users": null
+}
