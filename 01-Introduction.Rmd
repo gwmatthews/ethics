@@ -148,11 +148,11 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 <div class="container">
 <div class="widget">
-<a class="twitter-timeline" data-width="350" data-height="500" href="https://twitter.com/geoslack/lists/ethics?ref_src=twsrc%5Etfw">A Twitter List by geoslack</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/geoslack/lists/ethics?ref_src=twsrc%5Etfw">A Twitter List by geoslack</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
   
 <div class="widget">
-<a class="twitter-timeline" data-width="350" data-height="500" href="https://twitter.com/geoslack/lists/justice?ref_src=twsrc%5Etfw">A Twitter List by geoslack</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/geoslack/lists/justice?ref_src=twsrc%5Etfw">A Twitter List by geoslack</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
   </div>
 ```
