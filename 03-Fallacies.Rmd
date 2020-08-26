@@ -408,14 +408,23 @@ The fact that I tripped when walking down the street was because the sidewalk wa
    
 [*Logically Fallacious*](https://www.logicallyfallacious.com/tools/lp/Bo/LogicalFallacies){target="_blank"} is a site with a huge and comprehensive list of logical fallacies and cognitive biases. A great reference with lots of examples.
    
-Dan Ariely is a behavioral economist who studies human irrationality and has written a number of very readable books documenting his findings. He also has a number of videos of talks he has given on his site, [danariely.com](http://danariely.com/){target="_blank"}
-   
 And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fallacy_ref){target="_blank"} on Twitter.
   
 :::: {.centerpic data-latex=""}
 ![](img/fallacy-ref.jpg){width=50%}
 
 ::::
+  
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/Gomg-PrQUTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  </div>
+> Dan Ariely explores rationality and irrationality in our buggy moral code.
+
+
+```
    
    
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}

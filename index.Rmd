@@ -4,7 +4,7 @@ author: '**George W. Matthews**'
 date: 'last revised: `r Sys.Date()`'
 subtitle: A Guidebook for Beginners
 cover-image: img/cover-2.jpg
-description: "An introduction to philosophical ethics."
+description: An introduction to philosophical ethics.
 github-repo: gwmatthews/ethics
 site: bookdown::bookdown_site
 favicon: favicon.ico

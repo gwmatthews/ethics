@@ -276,9 +276,40 @@ For Aristotle any explanation requires specifying it's "four causes."
 
 ## Further exploration {-}
 
-The Crash Course videos on [Divine Command Theory](https://youtu.be/wRHBwxC8b8I){target="_blank"} and [Natural Law Theory](https://youtu.be/r_UfYY7aWKo){target="_blank"} are both helpful accounts of the basic contours of these approaches to ethics.
-
 A much more comprehensive account of the relationship between religion and morality can be found at the Stanford Encyclopedia of Philosophy's article "[Religion and Morality](https://plato.stanford.edu/entries/religion-morality/){target="_blank"}."
+
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/wRHBwxC8b8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
+> Hank Green looks at the idea that ethics must be rooted in religion in this [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR) video.
+
+```
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/r_UfYY7aWKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
+> Hank Green turns to an examination of Natural Law Theory in this [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR) video.
+
+```
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+<div class="video">
+  <iframe src="https://player.vimeo.com/video/140062188?color=ffffff&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+<p><a href="https://vimeo.com/140062188">Angola for Life</a> from <a href="https://vimeo.com/atlanticvideo">The Atlantic</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</div>
+  
+> This video portrait of the inmates of Angola State Penitentiary in Lousiana shows a different angle on the relationship between religion and morality.
+
+```
+
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}

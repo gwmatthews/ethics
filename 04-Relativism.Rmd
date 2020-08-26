@@ -243,11 +243,21 @@ Can a relativist ever lay claim to being correct about anything including the co
 
 For a much more detailed account, see the Internet Encyclopedia of Philosophy's page on [moral relativism](https://www.iep.utm.edu/moral-re/){target="_blank"}.
 
-The Crash Course is a series of videos by the brothers Hank and John Green. Hank has an excellent set of videos on many topics in philosophy including this one on [Metaethics](https://youtu.be/FOoffXFpAlU){target="_blank"}, which explores many of the issues we have been dealing with in this chapter. 
-
 [Unfollow](https://www.newyorker.com/magazine/2015/11/23/conversion-via-twitter-westboro-baptist-church-megan-phelps-roper){target="_blank"}: this is the story of how someone raised in social isolation in the radically conservative Westboro Baptist Church came to question her own firmly entrenched beliefs. 
 
 [Leaving White Nationalism](https://www.npr.org/2018/09/24/651052970/how-a-rising-star-of-white-nationalism-broke-free-from-the-movement){target="_blank"} is an audio podcast that tells the story of Derek Black, a rising star on the radical right who came to question the views that he was brought up into, but that he also vocally defended on the radio. Once again this story raises the issue of how we can independently assess even views that we are indoctrinated into. 
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/FOoffXFpAlU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
+> Hank Green explores the question of whether or not our values are just a matter of opinion in this [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR) video.
+
+```
+
+
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
