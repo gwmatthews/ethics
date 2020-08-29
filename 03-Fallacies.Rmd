@@ -192,6 +192,22 @@ Thus vaccines cause autism.
 
 **_This one_** is really no joke -- in fact the whole of the current scare about childhood vaccinations and autism was "established" by a single study of twelve children! The fact that the paper was retracted, and its author was barred from medical practice didn't matter since its influence only grew since the date of its publication. The logical mistake here is that of selectively reading the evidence in favor of your own hypothesis, or "cherry picking" the data to get the juiciest bits while ignoring anything that contradicts it. The other name for this fallacy, "Texas sharpshooter" refers to the related practice of proving your worth as a target shooter by first shooting random holes in the side of a barn, and then afterwards drawing your target around a cluster of holes so that it looks like you are a great shot. Is this done in Texas? Probably not, but whoever named it must have had a low opinion of Texans -- no offense intended and if you are from Texas, substitute your state of choice.
 
+### Fallacy of misplaced concreteness {-}
+
+::::{.center data-latex=""}
+:::{.argument data-latex=""}
+
+I feel so agitated after I watch the news.
+
+That is not so surprising though, since the media is trying to scare us all.
+
+:::
+::::
+
+**_How often have you heard someone_** say something like "it's the media's fault?" While this may be a common way of talking about things, it makes a subtle mistake in reasoning. It treats an abstract noun, "the media" which refers to many different organizations, publications, companies and their vast numbers of employees owners stockholders, etc, as if it were a concrete noun: the kind of thing that **could** meaningfully be referred to as being at fault for something. Concrete things, such as individual people can of course be at fault. Some organizations, such as corporations, can be at fault in a legal sense that they are liable for damages if they do something that is illegal. But can "the media" really be at fault for *anything?* What would this even mean? To be at fault for something, I for example, have to knowingly and willingly do something that is illegal or otherwise wrong. But this requires that I can know things and will things, that is, that I am person with a functioning mind. 
+
+**_When we talk about abstractions_** like governments, the media, society and so on, were are no longer talking about particular concrete things, however. Instead we are talking about collections of organizations, institutions, and of course all of the many particular people who run them. And such collections are just not the kinds of things that *can do anything* on their own. This is not to say that individual news agencies, reporters, publishers or whoever, would be responsible for publishing false or misleading information. Of course they are. It is also not to say that there might not be general trends -- clearly governments run by one particular political party tend to do things that governments run by another party would not. It's just that we have to be careful about talking these abstractions -- the government, the media, society -- as if they were real agents making deliberate decisions. 
+
 ## Fallacies of Presumption {#presumption}
 
 **_The third set_** of fallacies we will consider here are those that make presumptions, often in a hidden way. That is, they rely on hidden and unstated assumptions written, as it were, between the lines. This strategy, however, cannot withstand critical analysis since if we can get the perpetrator of such fallacies to acknowledge these hidden presumptions we can see them for what they are, mere assumptions without warrant.

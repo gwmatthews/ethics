@@ -1,10 +1,10 @@
 --- 
 title: "Philosophical Ethics"
 author: '**George W. Matthews**'
-date: 'last revised: `r Sys.Date()`'
-subtitle: A Guidebook for Beginners
-cover-image: img/cover-2.jpg
-description: An introduction to philosophical ethics.
+date: '`r Sys.Date()`'
+#subtitle: a guidebook for beginners
+cover-image: img/cover-3.jpg
+description: This book is an introduction to philosophical ethics intended for use in high school or college classes. It includes chapters on logic and argumentation, major philosophical approaches to ethics and a few chapters outlining topics in applied ethics. 
 github-repo: gwmatthews/ethics
 site: bookdown::bookdown_site
 favicon: favicon.ico
@@ -35,7 +35,7 @@ if (knitr:::is_latex_output()) {
 ```
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
-<div style=" width: 80%; margin-left: auto; margin-right: auto;"><img src="img/cover-2.jpg" alt="Philosophical Ethics book cover" /></div>
+<div style=" width: 80%; margin-left: auto; margin-right: auto;"><img src="img/cover-3.jpg" alt="Philosophical Ethics book cover" /></div>
 ```
 ## Dedication {-}
 
