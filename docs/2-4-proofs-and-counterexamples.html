@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -414,6 +418,28 @@ Barney is younger than Betty and older than Wilma.<br />
 </table>
 <p><strong><em>Notice that</em></strong> if these people had these ages, this would make all of the premises true and the conclusion false. If Fred is 35, Wilma is 32, Betty is 40 and Barney is 36, then it is true that Fred is older than Wilma, but younger than Betty – which is what the first premise claims. It is also true that, given these ages, Barney is younger than Betty and older than Wilma – which is what the second premise claims. But Fred is not older than Barney. In other words, what these ages show that it is <em>possible</em> for the premises to be true and for the conclusion to be false and thus that the reasoning involved in getting to the conclusion is invalid. Even if we had true premises, this would not be enough to guarantee the truth of the conclusion. That is what terrible reasoning is all about. We will many more examples of bad reasoning in the next chapter on logical fallacies.</p>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -382,6 +386,28 @@
 <p><strong><em>Clearly if PE were true,</em></strong> this would have an enormous impact on our lives. If we simply cannot ever really be unselfish, at best we are confused when we talk about ethics and and worst we are deceiving ourselves about human nature. Whatever the case may be, PE compels us to give up talking about others’ needs and interests, and gives us a clear license to put ourselves first. This may sound appealing – it relieves us from the burdens that go with ethical demands to help others, and frees us to pursue our own self-interest without the guilt feelings that society has traditionally encouraged us to feel when we put ourselves first. Furthermore, the view that we never are really unselfish strikes some people as a realistic antidote to the idealistic tone of ethics. If PE is true, describing human actions in terms of what we should and shouldn’t do, in terms of duties and obligations, etc. is simply unrealistic and we should give it up. The ethical perspective would be revealed to be obsolete from the new, more realistic standpoint of Psychological Egoism. On the other hand, if PE is true, we would not really ever have any grounds for complaint about the way others treat us. If nobody really can be unselfish, what right would we ever have to ask others to take our interests seriously and not try to take advantage of us?</p>
 </div>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

@@ -52,7 +52,7 @@ div.epigraph {
   background-image: url("./img/question.png");
 }
 
-.book .book-body .page-wrapper .page-inner section.normal blockquote {
+.book .book-body .page-wrapper .page-inner section.normal blockquote, .more {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -226,3 +226,58 @@ img[alt="Philosophical Ethics book cover"]{
   box-shadow: 2px 2px 5px black;
 }
 
+.show-more-text {
+  padding: 1px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+ }
+
+ .show-more-text i {
+   color: #888;
+ }
+
+.more-text {
+  margin-top: 10px;
+  padding: 10px;
+  overflow: hidden;
+  display: none;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+
+.more-text p {
+
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.pullquote {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  border-left: 5px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.pullquote p {
+  margin-top: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.pullquote .pull-right{
+  text-align: right;
+  padding: 2em;
+  margin-top: -3em;
+}

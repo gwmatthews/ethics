@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -411,6 +415,28 @@ So psychological egoism is true.</p>
 <p><strong><em>Thus we can see</em></strong> that both arguments for PE ultimately fail. As a result, however cynical we may sometimes feel about the possibility of genuine altruism, we must leave open the possibility that we are at least capable of being altruistic. Whew! It takes philosophers an enormously long time to establish the simplest of points. Well, at least we can now respond definitively to the cynics who assert that by definition everything we do is selfish.</p>
 </div>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

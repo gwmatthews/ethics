@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -374,6 +378,28 @@ When you say the same words you mean something completely different.<br />
 <p><strong><em>Once again</em></strong>, this argument might convince someone who already is partial to relativism, since it might seem obvious that our different opinions about what moral concepts mean can only be rooted in fundamentally different value systems. But is this really so obvious? It seems to me that one reason why it appears so obvious to so many people has do to with a hidden assumption that is at work here. This hidden assumption is that everyone’s values form a coherent whole, a system of inter-connected ideas, commitments and preferences that each of us uses to make sense of the world we live in and the rules of the social game within which we find ourselves as actors. According to this assumption values are passed on from generation to generation as complete “packages” and not as individual ideas or preferences. If that is the case, and if moral terms only themselves makes sense within the context of different value systems, then it would be expected that people with different value systems would just have to mean different things by terms such as “right and wrong.” And, furthermore, if we are to learn how to get along with each other and tolerate other ways if life, this would also seem to entail tolerating entire value systems that might be very different than our own.</p>
 <p><strong><em>The question is, however</em></strong> whether this assumption about the way things work with values is true. We will see some reasons to doubt it in the next section. For now, all that needs to be pointed out is that this assumption is itself just another way of expressing the fundamental claim made by relativism – that values are essentially rooted in some kind of cultural or personal framework. Thus this last argument really amounts to a restatement of relativism’s basic outlook and shouldn’t really count as an independent argument in its favor. If it were it would be another case of begging the question and that is <em>not</em> really a legitimate way of arguing anything.</p>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

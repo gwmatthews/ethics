@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -392,6 +396,28 @@
 </div>
 <p><strong><em>Even if religion</em></strong> is often <em>a source</em> of moral ideas, does this mean that religion is <em>necessary</em> for morality? Even if we can <em>explain</em> the role of religion in societies in part by its role in providing moral guidance, does that mean that religion is the only possible source of moral ideas or that it <em>can</em> in fact provide an adequate justification of those ideas? Backers of the theories we will be looking at here claim that we <em>need</em> religion, or at least a religiously inspired conception of reality, if there is to be any hope of avoiding the trap of moral relativism. Likewise, they assume that their theoretical attempts to provide a detailed account of how religion might provide a framework on which to build morality are up to the task. We shall see soon how things work out.</p>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

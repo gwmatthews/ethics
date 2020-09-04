@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -397,6 +401,28 @@
 <p><strong><em>Clearly this way of classifying</em></strong> euthanasia is just the beginning of the discussion. Some of these forms, such as passive voluntary euthanasia, are not at all controversial – we have every right legally and morally to refuse medical treatment for ourselves. Implementing this right can be a problem, but the problem is typically one involving figuring out how voluntary a refusal of treatment really is, rather than the problem of whether or not someone should be allowed to refuse treatment. There are no real moral problems here simply because of the presumption that, as far as medical care is concerned, rational adults can decide for themselves about treatment of their illnesses and when enough is enough. On the other side of the scale, what the chart labels “involuntary euthanasia” is also lacking in any significant controversy, since killing someone or refusing treatment to someone against her will is clearly wrong. Nobody who is a serious participant in discussion about the ethical and legal status of euthanasia wants to defend involuntary cases. These must be mentioned, however, for two reasons. First, we need to distinguish non-voluntary cases, in which the patient has not or cannot express their desires in one way or another, from involuntary cases, in which the patient’s wishes are being ignored or overridden. In other words, it is important to see that the opposite of voluntary may be involuntary or it may be non-voluntary. Second, mentioning involuntary euthanasia is important for historical and argumentative reasons – the Nazi “euthanasia” program, the so-called T-4 program, was a program that killed over 100,000 unwilling victims and this specter of involuntary killing for supposedly medical reasons looms over the debate. As we will see, the danger that such a program presents is one of the motivations for the slippery slope argument against legalizing euthanasia.</p>
 <p><strong><em>So the controversy</em></strong> about euthanasia is going to center around assisted suicide and active euthanasia, although as we will be seeing even suicide is subject to debate, as are cases of non-voluntary euthanasia. Assisted suicide has clearly been subject to many legal battles, those involving Jack Kevorkian, for example. It is currently legal in some parts of the United States including Oregon, which passed and implemented a law called the “Death with Dignity Act” in 1995. Active voluntary euthanasia, where, at the patient’s request, a physician administers a lethal dose of a drug, is illegal in the entire country, although it is legal in the Netherlands and Belgium.</p>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

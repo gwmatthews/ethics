@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -406,6 +410,28 @@ So murder is unconditionally wrong and we have a strict duty not to murder.</p>
 <p><strong><em>In all of these cases,</em></strong> the result is the same. Immoral action has ultimately irrational motives, motives that assume and undermine one and the same thing. Thus the only way to act immorally is presume a kind of double standard – “There is one set of standards that I expect everyone else to follow, but another set for me.”</p>
 <p><strong><em>The argument for Kantian ethics</em></strong> is the most abstract of all of the arguments we have considered. And perhaps it seems to be stretching the limits of what reason alone can do as a method for grasping just what is wrong with immoral or unethical actions. Nevertheless, it seems to be at least a plausible argument, or set of arguments, since it seems to capture some important features of morality. First, morality does in fact seem to require consistency. If there is such a thing as morality, it would have to be the same for everyone, otherwise it would be nothing but an arbitrary set of rules lacking any ultimate basis. Second, Kant’s argument makes it clear how morality can be universal, without being the kind of thing that one group can simply impose on other groups. To grasp the content of morality requires only thinking things through carefully enough to see that what I am doing either makes sense or fails to make sense when considered as something practiced universally. We certainly expect that every rational adult can grasp the fact that lying and stealing and murder just should not be done. Kant’s theory shows us why we might be justified in having such expectations and in hold people responsible for seeing that “you just shouldn’t do those kinds of things.” His theory certainly seems to impose some strict demands on us as moral agents, but then again, who said being good was easy?</p>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

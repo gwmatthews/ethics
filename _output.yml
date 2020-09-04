@@ -3,7 +3,7 @@ bookdown::gitbook:
   includes:
      in_header: header.html
      before_body: hypothesis.html
-#     after_body: comments.html
+     after_body: toggle.html
   css: ethics.css
   split_by: section+number
   config:

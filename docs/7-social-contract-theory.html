@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -383,6 +387,28 @@
 <p><strong><em>This is not enough, however,</em></strong> since wherever the demands to conform to any rules come from it is always possible just to ignore them. I can simply ignore my culture, God, human nature, and even the demands of me, myself and I if I want to. The rules of human conduct are not like the laws of nature, since they depend in a crucial way on <em>choice.</em> Even rules that supposedly come from outside of us still depend for their existence as rules on something inside of us, our freely granted consent to follow them. And if this is true, it seems less important to figure out where the rules of society and morality come from than it is to address the question of what it is about those rules that would encourage us to comply with them in the first place. After all, rules that nobody felt any reason to comply with would automatically cease to be rules, as anyone who has had first hand experience of a child in her “terrible twos” knows all too well. A stubborn two year old who has just learned the power of the word “no” doesn’t have to do anything at all, no matter who says so. Likewise with ethical rules, we can and should all ask, “Why should I follow the rules in the first place?”</p>
 <p><strong><em>Social Contract Theory</em></strong>, as our next approach to ethics is called, is an attempt to answer the question of why we should follow the rules of the social game when we have a choice not to. In contrast to all of the other theories we have looked at, it doesn’t just assume that saying where these rules come from is enough to get them to stick. Instead it tries to explicitly ground the rules governing our social lives in our ability to make free choices.</p>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

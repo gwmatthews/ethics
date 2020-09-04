@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -364,6 +368,21 @@
 <h2><span class="header-section-number">3.4</span> Cognitive Biases</h2>
 <p><strong><em>Fallacies</em></strong>, as we have been seeing, are common mistakes that we make in reasoning especially when we are trying to support a conclusion that we have insufficient evidence to support, ways in which we claim more than we really know. In recent years cognitive psychologists have also explored the ways in which not only get our arguments wrong, but also tend to get things wrong in our own thinking, how as Thomas Gilovich puts it in the title of his book <em>How We Know What Isn’t So</em>.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> That is, we have a tendency to fall prey to biases and mistakes in our own reasoning whatever it is that we may end up defending later in our arguments. In this section we’ll look at some of the most important and relevant of these cognitive biases.</p>
 <p><strong><em>In general</em></strong> we might classify these biases into two general types: “hot biases,” or motivated irrationality where our interests, emotional responses or visceral reactions to things influences our thinking process; and “cold biases” or unmotivated irrationality which are a result of certain mental shortcuts and routines we rely on even in situations where they do not really apply. Let’s look at some examples.</p>
+<div class="more">
+<p>Hot biases involve bending our reasoning to fit our wants and desires. Because of this definition I believe that hot biases can be pretty easy to spot throughout our daily lives and interactions with others. That is if we take a step back and evaluate our reasoning and emotions within the situation. However, unlike hot biases, cold biases are not results of our desires, but rather they are more like “bugs” in our mental operating systems. When you get into cold biases, I believe that this is where things could get tricky.</p>
+<div class="pull-right">
+– Ryan Moore
+</div>
+<button class="show-more-text">
+<i class="fa fa-plus-square-o" ></i>
+</button>
+<div class="more-text">
+<p>The reason I believe that cold biases can be very tricky to spot is that they are simply caused by the way our minds are wired as humans. This means that when dealing with these cold biases in any situation, the odds are already stacked against us. Even when attempting to avoid the use of bias in any situation, debate, or reasoning process, cold biases may rear their ugly heads without us even fully understanding that they are present.</p>
+<p>One cold bias strikes me in particular, “The fundamental attribution error.” What this refers to is our tendency to be more generous with ourselves when trying to excuse our actions or get ourselves off the hook than we tend to be regarding others. The reason this bias struck me was because, without even noticing it, I have just recently fallen victim to this cold bias in my own life.</p>
+<p>To make a long story somewhat short, my girlfriend was in a fender-bender about 2 months back. She was at fault, as she rear-ended the person in front of her. Everybody was okay, and there was minimal damage, but there was still enough damage for it to be noticeable. Well, when I got home from work, she told me the story of what had happened and showed me the damage. In this situation, after she showed me the damage and explained it, I was giving her grief about being more careful when driving probably for the rest of the night. At that point in time, I didn’t want to hear any excuses. I was just annoyed that the car was going to need some work. However, not even two weeks after that incident, guess what. I rear-ended someone on my way into work. Honestly though, what are the actual chances? Again, luckily nobody was hurt (besides my ego), and there was very minimal damage. All I had was a cracked headlight and the other car had a small scuff. Well, later that night when I got home from work, I explained to my girlfriend what had happened. However, this time, I was ALL for using every excuse in the book of how it wasn’t my fault (when in reality, if you rear-end someone, it’s almost always your fault). Looking back on this situation, I fell victim to cold bias. While my girlfriend and I basically committed the same fault, I was much more generous with myself when I was the one who messed up.</p>
+<p>Overall, it is my opinion that cold biases can be much more difficult to spot and stop as compared to hot biases.</p>
+</div>
+</div>
 <div id="hot-biases" class="section level3 unnumbered">
 <h3><strong>Hot Biases</strong></h3>
 <p><strong><em>Hot biases</em></strong> are also known as examples of “motivated irrationality” because they involve bending our reasoning to suit our wants and desires. Our motivations may not always be clear even to us, so we may not realize that we are caught up in such biases. Luckily, however, there are steps we can take to avoid falling prey to them.</p>
@@ -430,6 +449,28 @@
 <li id="fn7"><p>For more on anchoring effects see <span class="citation">Daniel Kahneman, <em>Thinking Fast and Slow</em> (New York: Farrar, Straus and Giroux, 2011)</span><a href="3-4-cognitive-biases.html#fnref7" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

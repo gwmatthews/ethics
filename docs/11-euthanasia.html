@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -374,6 +378,28 @@
 </div>
 <p><strong><em>The first three questions aside,</em></strong> for now, it is perhaps the last of these questions that has led to modern controversies about euthanasia. Modern medicine has given doctors enormous power to prolong life through radical surgical procedures and life sustaining technology that can keep some people in desperate medical conditions alive indefinitely. Thus medicine has had to confront a new dilemma: should doctors do whatever they possibly can to preserve life, in keeping with their traditional role, or should they accept moral limitations on this power to keep alive. Formerly doctors faced primarily technical limitations on what they could do, and so the chief moral responsibility they had was not to harm patients. But now that those limitations have been greatly reduced they find themselves face to face with questions about the value of life – is it worthwhile to live whatever the cost in medical resources or individual suffering? Are there some lives that are no longer worth living, even though the technical means of extending them are available?</p>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

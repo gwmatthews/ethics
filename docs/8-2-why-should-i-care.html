@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -388,6 +392,28 @@ insist that the people I am endangering wouldn’t want me to endanger them. Thi
 <p><strong><em>Where is all</em></strong> of this leading? To the claim that we don’t really have any good reason for denying that others count just as much as we do. Once we are convinced of this it is a short step to the basic principle of utilitarian ethics, other wise known as “the principle of utility.” This states that the right thing to do in any situation is to look at all of the available alternatives and choose the one that gets the most benefit for the most people, or that maximizes overall utility. All of morality boils down to this one simple principle: do whatever brings the most benefits and the least costs to the greatest amount of people. On the account of utilitarianism I have been developing here, this principle follows from the fact that none of us really has any good reason for denying that others count just as much as we do.</p>
 <p><strong><em>This is perhaps</em></strong> not a surprising conclusion. After all, isn’t accepting the idea that others’ interests count just as much as ours do a requirement for looking at things from a moral point of view? If we cannot accept this, then we are simply not moral agents. Utilitarianism simply makes this idea explicit and defends it with a clear argument.</p>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

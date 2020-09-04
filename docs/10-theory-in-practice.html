@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -379,6 +383,28 @@
 <p><strong><em>But then if ethics can’t be based</em></strong> on what others want of us, nor on what we ourselves want, what on earth is left for it to be based on? Well, as I have tried to show in the last chapter, ethics might be based on something else, what we have <strong>good reasons</strong> to want in the first place. “Reason” here is not intended as some sort of mysterious force out there that is supposed to magically solve all of our problems, but simply as a shorthand for our ability and need to tell ourselves a truly convincing and coherent story about how we are living our lives. Reason is nothing but the demands that thinking beings make on themselves to live lives that harmonize, where we don’t ignore inner contradictions in our intentions, where we don’t neglect to consider the clash between what we expect for ourselves and require of others. This to my mind is the central insight of Kant’s approach to ethics and also what is expressed in such more contemporary ideas as “Universal Human Rights,” and appeals to the unique dignity of moral agents. Kant agrees with Socrates that the unexamined human life is not worth living since it is not truly a human life failing as it does to live up to our capacity to reflect on and account for ourselves on terms that truly make sense to us ourselves. What Kant adds to Socrates is just some sense of how exactly we might proceed to examine ourselves and what constraints this self-examination imposes on how it is that we go about determining what exactly we should do.</p>
 <p><strong><em>This is still, however,</em></strong> just a bare-bones account of what ethics really looks like because the real lives within which ethical decisions have to be made by us real people are messy and complicated. We still have to be able to put this general approach, as well as our knowledge of the inadequacies of the other various lines of thinking we have encountered into practice and this can be a hard thing to do. But practice requires practice and so the best thing is just start examining different kinds of situations and dilemmas that we may face in the real world and see what sense we can make of them given all we have seen so far, and that is what we will be doing in this part of the book.</p>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

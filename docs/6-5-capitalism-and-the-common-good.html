@@ -24,7 +24,7 @@
 <meta name="author" content="George W. Matthews" />
 
 
-<meta name="date" content="2020-08-29" />
+<meta name="date" content="2020-09-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
 <link rel="manifest" href="/img/site.webmanifest">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+
+// open external links in new tabs  Xi Hui
 
 (function() {
   var links = document.getElementsByTagName('a');
@@ -67,6 +69,8 @@
     }
   }
 })();
+
+
 
 </script>
 
@@ -370,6 +374,28 @@
 <p><strong><em>We have seen</em></strong> in this chapter why it is that, as tempting as it might be, we cannot defend selfishness as a fundamental obstacle in the way of ethics. We saw this in the collapse of two different theories in defense of selfishness, Psychological and Ethical Egoism. Neither of these positions stands up to scrutiny and so we are now in a position to move forward with some attempts to finally say what a rationally defensible ethics might look like. As we will see, there are three main ways of proceeding here which go by the names of Social Contract Theory, Utilitarianism and and Kant’s Ethics of Duty. In spite of their differences, all three are attempts to answer the question of why a rational agent like you or me should sometimes set our own interests aside and act for the sake of other people. Each has been and continues to be enormously influential not just in philosophy but also in our public lives, since each articulates a comprehensive picture of the basis of our social lives. We’ll look at each in a chapter on its own.</p>
 </div>
 </div>
+
+
+<script>
+const toggleButton = document.getElementsByClassName("show-more-text");
+var i;
+//const link = document.createElement('a');
+
+
+for (i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click", function() {
+    this.classList.toggle("more-text-active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      this.innerHTML = '<i class="fa fa-plus-square-o" ></i>';
+     } else {
+      content.style.display = "block";
+      this.innerHTML = '<i class="fa fa-minus-square-o" ></i>';
+    }
+  });
+}
+</script>
             </section>
 
           </div>

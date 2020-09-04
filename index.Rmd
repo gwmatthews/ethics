@@ -1,10 +1,12 @@
 --- 
 title: "Philosophical Ethics"
 author: '**George W. Matthews**'
-date: '`r Sys.Date()`'
-#subtitle: a guidebook for beginners
+date: "`r Sys.Date()`"
 cover-image: img/cover-3.jpg
-description: This book is an introduction to philosophical ethics intended for use in high school or college classes. It includes chapters on logic and argumentation, major philosophical approaches to ethics and a few chapters outlining topics in applied ethics. 
+description: This book is an introduction to philosophical ethics intended for use
+  in high school or college classes. It includes chapters on logic and argumentation,
+  major philosophical approaches to ethics and a few chapters outlining topics in
+  applied ethics.
 github-repo: gwmatthews/ethics
 site: bookdown::bookdown_site
 favicon: favicon.ico
