@@ -56,8 +56,8 @@ div.epigraph {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
   border-left: 5px solid #ccc;
   border-radius: 15px;
   padding: 9px 14px;
@@ -262,8 +262,8 @@ img[alt="Philosophical Ethics book cover"]{
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1em;
-  margin-bottom: 3em;
+  margin-top: 3em;
+  margin-bottom: 4em;
   border-left: 5px solid #ccc;
   border-radius: 15px;
   padding: 20px;
