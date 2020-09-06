@@ -188,7 +188,7 @@ Hence relativism is true and there are no universal values.
 
 ## Questioning Relativism
 
-**_In recent years_** even in the field of anthropology, which was once the field most committed to the truth of relativism, there has been a growing emphasis on the universal values underlying culturally different ways of expressing those values.^[This is especially the case among 'cognitive anthropologists' who have compiled various lists of cultural universals. Of course this view is not without its critics, but at least there is an open possibility here flatly denied by a previous generation of anthropologists who embraced relativism as the only way to give human diversity its due. CITATIONS NEEDED] To take a few examples, we all:
+**_In recent years_** even in the field of anthropology, which was once the field most committed to the truth of relativism, there has been a growing emphasis on the universal values underlying culturally different ways of expressing those values. To take a few examples, we all:
 
 - honor the dead with some sort of funeral rites and find it incredibly offensive to mistreat the dead.
 - act so as to help the group to survive.
@@ -230,19 +230,16 @@ Can a relativist ever lay claim to being correct about anything including the co
 
 If relativism shuts down debate with its assertion that we can never get beyond individual perspectives to any kind of moral common ground, our arguments against relativism put the burden squarely on us. If there is such moral common ground we have to learn to talk to each other about that, since it is only in being articulated as common ground that it actually exists. This project called "A Starting Point" is an attempt to open up dialogue through mutual understanding across the political divides that we find ourselves torn by.
 
+[A Starting Point](https://www.astartingpoint.com/){target="_blank"}
+
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
   <div class="embed">
   <iframe src="https://www.astartingpoint.com/"></iframe>
   </div>
-  <div>
-  <a href="https://www.astartingpoint.com/">A Starting Point</a>
-  </div>
-  
-  
-  
   
 ```
+
 
 
 
