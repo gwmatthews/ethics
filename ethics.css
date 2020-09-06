@@ -12,6 +12,16 @@ div.argument {
   box-shadow: 2px 2px 8px gray;
 }
 
+@media (max-width: 700px){
+ div.argument {
+  padding: 1em;
+  width: 90%;
+  margin-left:auto;
+  margin-right: auto;
+  box-shadow: none;
+}
+}
+
 div.epigraph {
   width: 85%;
   padding: 20px;
@@ -20,7 +30,7 @@ div.epigraph {
 }
 
 .caution, .important, .note, .tip, .question, .slides, .warning, .example {
-  padding: 0.5em 2em 0 4em;
+  padding: 0.5em 2em 0 4.5em;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -31,6 +41,26 @@ div.epigraph {
   margin-right: auto;
   box-shadow: 2px 2px 8px gray;
 }
+
+@media (max-width: 700px){
+.caution, .important, .note, .tip, .question, .slides, .warning, .example {
+  background: #f5f5f5 10px center/2.5rem no-repeat;
+  border: 3px dotted #aaa;
+  box-shadow: none;
+  width: 100%;
+}
+
+.caution ul, .important ul, .note ul, .tip ul, .question ul li, .warning ul, .example ul{
+  margin-top: 0;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal ul {
+    padding: 0 0 0 1em;
+}
+
+
+}
+
 
 .caution {
   background-image: url("./img/caution.png");
@@ -124,7 +154,7 @@ img[alt="Philosophical Ethics book cover"]{
 /*embedded iframes*/
 .embed {
   position: relative;
-  width: 100%;
+  width: 95%;
   height: 0;
   padding-bottom: 100%;
 }
@@ -137,6 +167,17 @@ img[alt="Philosophical Ethics book cover"]{
   left: 0; top: 0;
   box-shadow: 2px 2px 8px gray;
   border-radius: 10px;
+}
+
+@media (max-width: 700px){
+  .embed {
+    width: 90%;
+  }
+
+  .embed iframe {
+      margin: 0;
+      box-shadow: none;
+  }
 }
 
 .slideshow {
@@ -283,4 +324,13 @@ img[alt="Philosophical Ethics book cover"]{
   text-align: right;
   padding: 2em;
   margin-top: -3em;
+}
+
+
+@media (max-width: 700px){
+.book .book-body .page-wrapper .page-inner section.normal p{
+  margin-right: 1.5rem;
+  margin-top: 2em;
+}
+
 }
