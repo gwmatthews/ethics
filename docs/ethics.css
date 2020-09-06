@@ -14,7 +14,6 @@ div.argument {
 
 @media (max-width: 700px){
  div.argument {
-  padding: 1em;
   width: 90%;
   margin-left:auto;
   margin-right: auto;
@@ -330,7 +329,10 @@ img[alt="Philosophical Ethics book cover"]{
 @media (max-width: 700px){
 .book .book-body .page-wrapper .page-inner section.normal p{
   margin-right: 1.5rem;
-  margin-top: 2em;
-}
+  }
 
+.argument p {
+  margin: 0;
+  padding-bottom: 0;
+}
 }
