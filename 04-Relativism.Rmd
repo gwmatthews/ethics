@@ -237,9 +237,9 @@ Respect and avoiding causing harm to others is a good place to start. Its like t
 
 ## A Starting Point
 
-If relativism shuts down debate with its assertion that we can never get beyond individual perspectives to any kind of moral common ground, our arguments against relativism put the burden squarely on us. If there is such moral common ground we have to learn to talk to each other about that, since it is only in being articulated as common ground that it actually exists. This project called "A Starting Point" is an attempt to open up dialogue through mutual understanding across the political divides that we find ourselves torn by.
+If relativism shuts down debate with its assertion that we can never get beyond individual perspectives to any kind of moral common ground, our arguments against relativism put the burden squarely on us. If there is such moral common ground we'll have to be able to find it and articulate it in ways we can all accept. But this proves impossible if we don't understand the basics of our different views on things. Cris Evan's project called "A Starting Point" is an attempt to open up dialogue through mutual understanding across the political divide.
 
-[A Starting Point](https://www.astartingpoint.com/){target="_blank"}
+- Follow this direct link: [A Starting Point](https://www.astartingpoint.com/){target="_blank"}, or view in window below.
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
