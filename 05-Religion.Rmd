@@ -272,20 +272,19 @@ For Aristotle any explanation requires specifying it's "four causes."
 </div>
 </div>
 
-  ```
+```
 
-## Further exploration {-}
 
-A much more comprehensive account of the relationship between religion and morality can be found at the Stanford Encyclopedia of Philosophy's article "[Religion and Morality](https://plato.stanford.edu/entries/religion-morality/){target="_blank"}."
-
+## Religion and Ethics Videos {-}
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
 <div class="video">
-  <iframe src="https://www.youtube.com/embed/wRHBwxC8b8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/wRHBwxC8b8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
   
-> Hank Green looks at the idea that ethics must be rooted in religion in this [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR) video.
+<div class="video-caption">Hank Green looks at the idea that ethics must be rooted in religion in this [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR) video.
+</div>
 
 ```
 
@@ -295,20 +294,26 @@ A much more comprehensive account of the relationship between religion and moral
   <iframe src="https://www.youtube.com/embed/r_UfYY7aWKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
   
-> Hank Green turns to an examination of Natural Law Theory in this [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR) video.
+<div class="video-caption">Hank Green turns to an examination of Natural Law Theory in this [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR) video.</div>
 
 ```
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
+
+
 <div class="video" style="padding-bottom: 50%;">
   <iframe src="https://player.vimeo.com/video/140062188?color=ffffff&amp;byline=0&amp;portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
 </div>
   
-> This video portrait of the inmates of Angola State Penitentiary in Lousiana shows a different angle on the relationship between religion and morality.
+<div class="video-caption">This video portrait of the inmates of Angola State Penitentiary in Lousiana shows a different angle on the relationship between religion and morality.</div>
 
 ```
 
+
+## Further Exploration {-}
+
+A much more comprehensive account of the relationship between religion and morality can be found at the Stanford Encyclopedia of Philosophy's article "[Religion and Morality](https://plato.stanford.edu/entries/religion-morality/){target="_blank"}."
 
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}

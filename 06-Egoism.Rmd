@@ -222,6 +222,22 @@ So defending ethical rules is really defending selfishness.
 
   ```
 
+## On Inequality {-}
+
+
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QPKKQnijnsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
+<div class="video-caption">
+This video does a great job putting wealth inequality as we would like it to be, as we think it is and as it really is into perspective. This video is a few years old and since it was made things have gotten worse.
+</div>
+  
+```
+
 ## Further exploration {-}
 
 - [The Internet Encylcopedia Page on Egoism](https://www.iep.utm.edu/egoism/){target="_blank"} An in-depth account of the varieties of egoism. It takes a different approach to ethical egoism, by distinguishing it from "rational egoism" but the discussion overlaps the one given here.

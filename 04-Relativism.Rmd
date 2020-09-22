@@ -273,7 +273,27 @@ If relativism shuts down debate with its assertion that we can never get beyond 
 </div>
 </div>
 
-  ```
+```
+
+## Crash Course: Metaethics {-}
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+<div class="video">
+  
+<iframe src="https://www.youtube.com/embed/FOoffXFpAlU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+</div>
+  
+<div class="video-caption">
+
+Hank Green explores the question of whether or not our values are just a matter of opinion in this [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR) video.
+
+</div>
+
+```
+
 
 ## Further exploration {-}
 
@@ -283,15 +303,7 @@ For a much more detailed account, see the Internet Encyclopedia of Philosophy's 
 
 [Leaving White Nationalism](https://www.npr.org/2018/09/24/651052970/how-a-rising-star-of-white-nationalism-broke-free-from-the-movement){target="_blank"} is an audio podcast that tells the story of Derek Black, a rising star on the radical right who came to question the views that he was brought up into, but that he also vocally defended on the radio. Once again this story raises the issue of how we can independently assess even views that we are indoctrinated into. 
 
-```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-<div class="video">
-  <iframe src="https://www.youtube.com/embed/FOoffXFpAlU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-  
-> Hank Green explores the question of whether or not our values are just a matter of opinion in this [Crash Course Philosophy](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR) video.
-
-```
 
 
 

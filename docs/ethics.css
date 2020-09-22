@@ -269,6 +269,17 @@ img[alt="Philosophical Ethics book cover"]{
   box-shadow: 2px 2px 5px black;
 }
 
+.video-caption {
+  width: 65%;
+  font-size: 90%;
+  padding: 15px;
+  margin: 20px auto 70px auto;
+  background-color: #eef;
+  border: 2px solid #bbd;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
 .show-more-text {
   padding: 1px;
   cursor: pointer;
