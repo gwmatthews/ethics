@@ -275,9 +275,11 @@ If relativism shuts down debate with its assertion that we can never get beyond 
 
 ```
 
-## Crash Course: Metaethics {-}
-
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+## &#128250; Crash Course: Metaethics {-}
+
+
 
 <div class="video">
   

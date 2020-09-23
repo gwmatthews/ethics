@@ -157,6 +157,19 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
   </div>
 ```
 
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+## &#128250; Socrates on Self-Confidence {-}
+
+<div class="video">
+<iframe src="https://www.youtube.com/embed/_gVyEOefhIQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
+<div class="video-caption">
+What was Socrates up to with all of his question and what can we learn from his example as we navigate our own lives?
+</div>
+  
+```
 
 ## Further exploration {-}
 
@@ -164,20 +177,14 @@ Michael Sandel is a philosophy professor at Harvard who teaches a very popular c
 
 [The Trolley Problem](https://www.theguardian.com/science/head-quarters/2016/dec/12/the-trolley-problem-would-you-kill-one-person-to-save-many-others){target="_blank"}: an account of some recent rearch on the problem.
 
-[Socrates on self-confidence](https://youtu.be/_gVyEOefhIQ){target="_blank"} and questioning others about their values. A great video outlining the motivation for doing philosophy in the first place.
-
 [It is impossible to lead a totally ethical life](https://qz.com/1327804/its-impossible-to-lead-a-totally-ethical-life-but-its-fun-to-try/){target="_blank"}: Ephrat Livni reflects on ethics and everyday life.
 
 [Introduction to Philosophy: Ethics](https://press.rebus.community/intro-to-phil-ethics/){target="_blank"}, ed. George Matthews. A free textbook, part of a series edited by Christina Hendricks.
-
-
-
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
   <br>
   <br>
   <hr>
-
 
 **Editorial comments**
 

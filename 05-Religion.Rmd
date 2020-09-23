@@ -274,10 +274,9 @@ For Aristotle any explanation requires specifying it's "four causes."
 
 ```
 
-
-## Religion and Ethics Videos {-}
-
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+## &#128250; Religion and Ethics {-}
 
 <div class="video">
 <iframe src="https://www.youtube.com/embed/wRHBwxC8b8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -299,8 +298,6 @@ For Aristotle any explanation requires specifying it's "four causes."
 ```
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
-
-
 
 <div class="video" style="padding-bottom: 50%;">
   <iframe src="https://player.vimeo.com/video/140062188?color=ffffff&amp;byline=0&amp;portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>

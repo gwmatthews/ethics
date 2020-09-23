@@ -341,7 +341,22 @@ Even though we have no idea what these peoples' ages are (or even if they exist 
 </div>
 </div>
 
-  ```
+```
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+## &#128250; What is Critical Thinking? {-}
+
+<div class="video">
+
+<iframe src="https://www.youtube.com/embed/Cum3k-Wglfw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+  
+<div class="video-caption">
+  What is critical thinkin anyway? We may not realize it, but criticial thinking is a vital skill we use everyday. This does not mean that we use it well, or that our critical thinking muscles are well toned.
+</div>
+
+```
 
 ## Further exploration {-}
 

@@ -222,14 +222,12 @@ So defending ethical rules is really defending selfishness.
 
   ```
 
-## On Inequality {-}
-
-
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+## &#128250; On Inequality {-}
 
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QPKKQnijnsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/QPKKQnijnsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
   
 <div class="video-caption">

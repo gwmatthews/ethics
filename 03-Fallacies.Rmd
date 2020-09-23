@@ -437,6 +437,21 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 
   ```
 
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+## &#128250; Our Buggy Moral Code {-}
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/Gomg-PrQUTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  </div>
+<div class="video-caption">
+  
+  Dan Ariely explores rationality and irrationality as they intersect with ethics in his talk "Our Buggy Moral Code."
+</div>
+
+```
+
 ## Further exploration {- #further-3}
 
 
@@ -455,18 +470,7 @@ And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fa
 
 ::::
   
-```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-<div class="video">
-  <iframe src="https://www.youtube.com/embed/Gomg-PrQUTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-  </div>
-<div class="video-caption">
-  
-  Dan Ariely explores rationality and irrationality as they intersect with ethics in his talk "Our Buggy Moral Code.
-</div>
-
-```
    
    
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
