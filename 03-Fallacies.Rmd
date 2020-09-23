@@ -461,8 +461,10 @@ And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fa
   <iframe src="https://www.youtube.com/embed/Gomg-PrQUTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   </div>
-> Dan Ariely explores rationality and irrationality in our buggy moral code.
-
+<div class="video-caption">
+  
+  Dan Ariely explores rationality and irrationality as they intersect with ethics in his talk "Our Buggy Moral Code.
+</div>
 
 ```
    
