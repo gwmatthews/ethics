@@ -353,7 +353,7 @@ Even though we have no idea what these peoples' ages are (or even if they exist 
 </div>
   
 <div class="video-caption">
-  What is critical thinkin anyway? We may not realize it, but criticial thinking is a vital skill we use everyday. This does not mean that we use it well, or that our critical thinking muscles are well toned.
+  What is critical thinking anyway? We may not realize it, but criticial thinking is a vital skill we use everyday. This does not mean that we use it well, or that our critical thinking muscles are as toned as they should be. Hopefully this video is a start at changing that!
 </div>
 
 ```
