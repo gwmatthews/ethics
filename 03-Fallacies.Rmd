@@ -464,15 +464,7 @@ The fact that I tripped when walking down the street was because the sidewalk wa
 [*Logically Fallacious*](https://www.logicallyfallacious.com/tools/lp/Bo/LogicalFallacies){target="_blank"} is a site with a huge and comprehensive list of logical fallacies and cognitive biases. A great reference with lots of examples.
    
 And you should of course follow the [Logical Fallacy Ref](https://twitter.com/fallacy_ref){target="_blank"} on Twitter.
-  
-:::: {.centerpic data-latex=""}
-![](img/fallacy-ref.jpg){width=50%}
 
-::::
-  
-
-   
-   
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 <br>
   <br>

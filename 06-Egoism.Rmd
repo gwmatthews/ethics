@@ -4,11 +4,11 @@
 
 :::: {.centerpic data-latex=""}
 
-![](img/hardcore-02.jpg){width="40%" alt="illustration"}
+![](img/graffiti.jpg){width="40%" alt="illustration"}
 
 ::: {.centercap data-latex=""}
 
-[Dread Scott](https://www.dreadscott.net/works/hardcore/){target="_blank"}, Hardcore series, "Devon"
+[Free Photos](https://pixabay.com/users/free-photos-242387/){target="_blank"} at pixabay.com
 
 :::
 ::::
