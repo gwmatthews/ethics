@@ -142,20 +142,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 </div>
 ```
 
-## Ethics Updates {-}
 
-```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
-
-<div class="container">
-<div class="widget">
-<a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/geoslack/lists/ethics?ref_src=twsrc%5Etfw">A Twitter List by geoslack</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-  
-<div class="widget">
-<a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/geoslack/lists/justice?ref_src=twsrc%5Etfw">A Twitter List by geoslack</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-  </div>
-```
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
@@ -166,7 +153,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 </div>
   
 <div class="video-caption">
-What was Socrates up to with all of his question and what can we learn from his example as we navigate our own lives?
+What was Socrates up to with all of his questions and what can we learn from his example as we navigate our own lives?
 </div>
   
 ```
