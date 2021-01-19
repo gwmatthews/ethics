@@ -150,9 +150,28 @@ Hence moral rules are a product of human choices and are grounded in our common 
 </div>
 </div>
 
-  ```
+```
+
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+## &#128250; Crash Course: Contractarianism {-}
+
+<div class="video">
+<iframe src="https://www.youtube.com/embed/2Co6pNvd9mc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
+<div class="video-caption">
+Here is another Crash Course video exploring topics in ethics. This one looks at the age old problem addressed by Social Contract Theory, which is, why should we follow the rules of society anyway? 
+</div>
+  
+```
 
 ## Further exploration {-}
+
+[Investopedia on the Prisoner's Dilemma](https://www.investopedia.com/terms/p/prisoners-dilemma.asp): perhaps this seems like an unlikely source for information about a philosophical theory. However, given that prisoner's dilemma-type situations arise all over the place in social life -- whenever we make agreements with others and then find ourselves tempted to ignore those agreements out of self-interest, it is not in fact unlikely at all.
+
+[The Tragedy of the Commons](https://www.pnas.org/content/114/1/7): the tragedy of the commons is a name given by the philosopher Garrett Hardin to a collective version of the prisoner's dilemma in which all involved are tempted to overuse a commonly held or accessed resource for personal gain. This has clear implications for our fate as a species as is explained in this article from the National Academy of Sciences.
+
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 <br>
