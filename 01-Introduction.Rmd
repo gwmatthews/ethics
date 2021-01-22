@@ -146,7 +146,7 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
 
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
-## &#128250; Socrates on Self-Confidence {-}
+## &#128250; Socrates, Self-confidence, and Justice{-}
 
 <div class="video">
 <iframe src="https://www.youtube.com/embed/_gVyEOefhIQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -154,6 +154,14 @@ Imagine that you are standing on a bridge with a low railing over a railway trac
   
 <div class="video-caption">
 What was Socrates up to with all of his questions and what can we learn from his example as we navigate our own lives?
+</div>
+  
+<div class="video">
+<iframe src="https://www.youtube.com/embed/kBdfcR-8hEY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
+<div class="video-caption">
+This is the first two lectures from Michael Sandel's course called "Justice" which he teaches at Harvard. The first is a great introduction to the philosophical approach to ethical decision making as illustrated by the famous "runaway trolley" scenario.
 </div>
   
 ```
