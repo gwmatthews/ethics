@@ -59,7 +59,7 @@ div.epigraph {
 
 }
 
-.anchor-section {
+a.anchor-section:hover {
   visibility: hidden;
 }
 
