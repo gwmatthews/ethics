@@ -59,6 +59,9 @@ div.epigraph {
 
 }
 
+.anchor-section {
+  visibility: hidden;
+}
 
 .caution {
   background-image: url("./img/caution.png");
