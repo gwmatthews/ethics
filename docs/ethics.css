@@ -59,10 +59,6 @@ div.epigraph {
 
 }
 
-a.anchor-section:hover {
-  visibility: hidden;
-}
-
 .caution {
   background-image: url("./img/caution.png");
 }

@@ -6,6 +6,7 @@ bookdown::gitbook:
      after_body: toggle.html
   css: ethics.css
   split_by: section+number
+  anchor_sections: FALSE
   config:
     toc:
       collapse: section
