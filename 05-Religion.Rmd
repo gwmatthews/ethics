@@ -300,10 +300,10 @@ For Aristotle any explanation requires specifying it's "four causes."
 ```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
 
 <div class="video" style="padding-bottom: 50%;">
-  <iframe src="https://player.vimeo.com/video/140062188?color=ffffff&amp;byline=0&amp;portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+  <iframe src="https://www.youtube.com//embed/7ABpWhY5Xzk" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
 </div>
   
-<div class="video-caption">This video portrait of the inmates of Angola State Penitentiary in Lousiana shows a different angle on the relationship between religion and morality.</div>
+<div class="video-caption">This video portrait of the inmates of Angola State Penitentiary in Lousiana shows a different angle on the relationship between religion and morality.^[As an anonymous reviewer pointed out, things at the Angola Penitentiary may have been more complicated than appears to be the case in the video. See [this article](https://www.themarshallproject.org/2015/12/14/the-final-judgment-of-burl-cain) for more.]</div> 
 
 ```
 
