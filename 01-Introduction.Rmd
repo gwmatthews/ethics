@@ -56,7 +56,7 @@ Then raising the cup to his lips, quite readily and cheerfully he drank off the 
 ### A difficult case {-}
 
 :::{.question data-latex="" .infobox}
-Imagine that you are standing next to a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a switch in front of you, that would divert the trolley to another track. Unfortunately there is also a single worker on this other track, who is himself to far away to hear you.\
+Imagine that you are standing next to a railway track and notice a runaway trolley coming down the tracks. There are five children further down the track who are too far away to hear you. There is also a switch in front of you, that would divert the trolley to another track. Unfortunately there is also a single worker on this other track, who is himself too far away to hear you.\
 \
 *Would you throw the switch and cause the worker to most likely die in order to prevent the runaway trolley from hitting the children?*
 :::
